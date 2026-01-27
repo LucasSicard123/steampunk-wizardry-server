@@ -1,0 +1,507 @@
+{
+	autofocus_id: "25A4E44A0E4167AD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "decor"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "constructionwand:diamond_wand"
+		tag: {
+			Damage: 0
+			wand_options: { }
+		}
+	}
+	id: "20448BAE667A111C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"Each of these quests will teach you about some aspect of decoration and building in the modpack."
+				""
+				"Enjoy the (somewhat) free emeralds along the way!"
+			]
+			hide_until_deps_complete: true
+			id: "25A4E44A0E4167AD"
+			rewards: [{
+				id: "51445203F2326F76"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "It doesn't have to be a snowman..."
+			tasks: [{
+				id: "79B075BB89DEC72E"
+				title: "So You Wanna Build a Snowman?"
+				type: "checkmark"
+			}]
+			title: "Do You Wanna Build a Snowman?"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Construction Wands are incredibly helpful to any builder as it can place blocks in a row, column, or layer."
+				""
+				"Filling a hole with dirt? Just make sure you have dirt in your inventory and right-click with the wand!"
+				""
+				"Building a wall? &mMake others pay for it&r Right-click the top of the wall with the wand and the resources necessary!"
+				""
+				"Building a ceiling? Same as the others!"
+				""
+				"There is an outline of where the blocks will go before right-clicking."
+			]
+			id: "7172D52B2BD9B05A"
+			rewards: [{
+				id: "2954BB3E0E0773D7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D301B9B5BD0E51B"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Constructuon Wands"
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"The Building Gadget is an incredibly useful tool for copying and pasting a structure."
+				""
+				"I encourage you to mess around with it to find its full potential, but its copy-paste feature is spectacular!"
+			]
+			id: "7149EAC2C84540BE"
+			rewards: [{
+				id: "1D2D3F14F758B644"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F81DDE223BA39D0"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Chipped contains blocks..."
+				""
+				"LOTS OF BLOCKS..."
+				""
+				"These tables will allow you to make any of those blocks, just check the JEI for what each table makes."
+			]
+			id: "17332CCD7C5E8F0D"
+			rewards: [{
+				id: "395BA4B3575A0A99"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38C7256219166FD5"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "6D6D8627B04798D9"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "655E78F2374AE07F"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "739627826B65BEFA"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "50429F92E1CB2400"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "08EA2D7C1549485A"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+				{
+					id: "56E021E5F0511BBE"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Fantasy Armor adds in... well... armor!"
+				""
+				"For each armor piece, you need to make a Moon Crystal, Netherite Armor, and the specific item for that set."
+				""
+				"You craft these in the smithing table."
+				""
+				"They also work with Minecolonies guards!"
+			]
+			id: "74CA9DCF4169D8A7"
+			rewards: [{
+				id: "464D91435D8EC41C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A4EA9A9AEE248C5"
+				item: "fantasy_armor:moon_crystal"
+				type: "item"
+			}]
+			title: "Fantasy Armor"
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Fantasy Armor adds in... well... armor!"
+				""
+				"For each armor piece, you need to make a Blazing Stone, Netherite Sword, and the specific item for that set."
+				""
+				"You craft these in the smithing table."
+				""
+				"They also work with Minecolonies guards!"
+			]
+			id: "3D25092BBF66CDB6"
+			rewards: [{
+				id: "75222AB642DFF170"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A8D4B893C12357B"
+				item: "fantasy_weapons:blazing_stone"
+				type: "item"
+			}]
+			title: "Fantasy Weapons"
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Fantasy's Furniture contains a lot of furniture for a fantasy setting!"
+				""
+				"While in your hand, you can see the outline of how it will look when placed."
+				""
+				"The table should allow you to craft any of them. Just select the one you want and then place in the materials needed."
+			]
+			id: "51B1FC781F6A3FD1"
+			rewards: [{
+				id: "7020EAAC6E9D1794"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38F4CEAD7D49342D"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			title: "Fantasy's Furniture"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"[Let's Do] Furniture adds in a lot of furniture!"
+				""
+				"Just check the JEI for what it adds."
+				""
+				"The Pells for this quest is helpful for figuring out your damage output!"
+			]
+			id: "1198CD3F7655C608"
+			rewards: [{
+				id: "2E7980E0729EC30B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71EA1B0F5716FCCA"
+				item: "furniture:pells"
+				type: "item"
+			}]
+			title: "[Let's Do] Furniture"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Macaw's mods add in a lot of furniture."
+				""
+				"There are roofs, paths, bridges, and more!"
+				""
+				"The pliers are just good for making bridges. Everything else you can find in the JEI."
+			]
+			id: "12BA3A9CD976CBFF"
+			rewards: [{
+				id: "4F9D45EB208A48C9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02EA1FBD962236D1"
+				item: "mcwbridges:pliers"
+				type: "item"
+			}]
+			title: "Macaw"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Dawn of Time adds in a bunch of themed blocks for civilizations throughout history!"
+				""
+				"Some of these include French, German, Persian, Roman, and Japanese!"
+			]
+			id: "092CE55F995490EE"
+			rewards: [{
+				id: "40C4D7AC41C64631"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BC6BEB67D3548D8"
+				item: "dawnoftimebuilder:candlestick"
+				type: "item"
+			}]
+			title: "Dawn Of Time"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: ["Supplimentaries is a smaller furniture mod mainly for some extra little decorations you can add to a build."]
+			id: "1A0C39FCB24586CC"
+			rewards: [{
+				id: "05667C5841E0ECC3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FD49352A6B042F8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:sign_posts"
+					}
+				}
+				title: "Any #supplementaries:sign_posts"
+				type: "item"
+			}]
+			title: "Supplementaries"
+			x: -4.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: ["Amendments is just a mod that adds some quality of life features like carpetted stairs and cake stacking."]
+			id: "0F9B1A76CBFEF53D"
+			rewards: [{
+				id: "71AF96C8BB1B6D93"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2728708D287DB939"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool_carpets"
+					}
+				}
+				title: "Any #minecraft:wool_carpets"
+				type: "item"
+			}]
+			title: "Amendments"
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Epic Knights adds in a lot of weapons and armor."
+				""
+				"There are plenty of addons for Slavic, Japanese, Roman, and more."
+				""
+				"These work for Minecolonies guards as well!"
+			]
+			id: "0213663370410E21"
+			rewards: [{
+				id: "3B3511F559F59F8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB429A538D4953B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "Epic Knights"
+			x: -10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: ["These are just simply chimneys that have smoke effects as well."]
+			id: "364BF851601ED29C"
+			rewards: [{
+				id: "0BB7AE050643A5E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FD15F3B4D319865"
+				item: "sootychimneys:brick_chimney"
+				type: "item"
+			}]
+			title: "Sooty Chimneys"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"The Architect's Cutter is mainly for Minecolonies, but you may use it anywhere."
+				""
+				"It allows you to make blocks that combine two different blocks."
+				""
+				"For example, you could make brick roofs with oak planks for support."
+			]
+			id: "0FC93A55690DF333"
+			rewards: [{
+				id: "29FA79952B00DED0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C8FB966A998452F"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"The &lStonecutter&r allows you to craft stone-like (stone, granite, andesite, etc.) blocks into stairs, slabs, and more."
+				""
+				"The &lLoom&r allows you to craft banners. You need a banner, dye, and a pattern if you wish."
+				""
+				"The &lWoodcutter&r (which can be any type, just needed to choose one for the quest) does the same as the stonecutter, but with wood."
+			]
+			id: "19BC2374CD75AF59"
+			rewards: [{
+				id: "3505AD68497EF255"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F38BBC8A7E3E92C"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "5EDC078E49278169"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "0C8A7263E918D312"
+					item: "hexerei:mahogany_woodcutter"
+					type: "item"
+				}
+			]
+			title: "Helpful Blocks"
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"Handcrafted is a another furniture mod!"
+				""
+				"The hammer allows you to change the look of blocks like when making special beds!"
+			]
+			id: "1679DE03624AD8E4"
+			rewards: [{
+				id: "28AB650C64ECD901"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E48591A82DBC2B1"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			title: "Handcrafted"
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["25A4E44A0E4167AD"]
+			description: [
+				"There are quite a few paintings in this modpack."
+				""
+				"Most notably; Medieval Paintings!"
+			]
+			id: "4108E0E14D5509F1"
+			rewards: [{
+				id: "084C0BD78A2506C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CC8F36900DEB514"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			title: "Paintings"
+			x: -1.5d
+			y: -12.0d
+		}
+	]
+	title: "&dDecor"
+}

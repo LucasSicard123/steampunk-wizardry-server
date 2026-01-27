@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "butterflies"
+	group: "4E81BA778C52E150"
+	icon: {
+		Count: 1
+		id: "luminous_butterflies:butterfly_net"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "250A356B86BC7572"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1221C367C4DBDDE8"
+			rewards: [{
+				id: "47102577553F316A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E469E467848857"
+				item: "luminous_butterflies:monarch_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "2D6317E5D4FFD82C"
+			rewards: [{
+				id: "53639E70B58FDABB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CEC619A73127B14"
+				item: "luminous_butterflies:black_swallowtail_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "2686D203157141ED"
+			rewards: [{
+				id: "518A51A2953D3C48"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2237D59B7CDC3340"
+				item: "luminous_butterflies:spring_azure_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "1B43B1D7ACF709C3"
+			rewards: [{
+				id: "5F31DED1BCAC53B5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F97382A20CD96A2"
+				item: "luminous_butterflies:yellow_swallow_tail_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "03AB7DFB2753A2D4"
+			rewards: [{
+				id: "0EFA8F28CBA821EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BAAB371A5E8C716"
+				item: "luminous_butterflies:buckeye_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "6395E49F888B159B"
+			rewards: [{
+				id: "1225F0C4536466FE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F6746088BDA67F4"
+				item: "luminous_butterflies:hairstreak_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "37719AB244FB56F8"
+			rewards: [{
+				id: "1C0837E59308D61E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFE6AA6B86DA03F"
+				item: "luminous_butterflies:white_hairstreak_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "3180EA006D746328"
+			rewards: [{
+				id: "299900062688CEDE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "433A868516B59998"
+				item: "luminous_butterflies:blue_monarch_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "44AA3106C317E27D"
+			rewards: [{
+				id: "0C4EA8F88F686E4C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BF62845D4CB3FD6"
+				item: "luminous_butterflies:emerald_swallowtail_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2812AE3368C8B10C"
+			rewards: [{
+				id: "5B90695E2BDE4110"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED9DE84F5937588"
+				item: "luminous_butterflies:rustypage_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "6DDFCD2A209C9B2A"
+			rewards: [{
+				id: "5F601D9C9E71D1F8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5833D44399D7456B"
+				item: "luminous_butterflies:little_wood_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "7CB68A1B8E9A049E"
+			rewards: [{
+				id: "01861F9F13A532DE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EFA340B8FF3E6AB"
+				item: "luminous_butterflies:zebra_longwing_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "51F61E741E66363E"
+			rewards: [{
+				id: "183F13D9BB8EFE8C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B5329E216729915"
+				item: "luminous_butterflies:orangetip_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "45A172091BA36176"
+			rewards: [{
+				id: "1BDA2B0838CCE605"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2878F5BAB9252A54"
+				item: "luminous_butterflies:mourningcloak_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "613B6DC9DBFF4ABF"
+			rewards: [{
+				id: "423A5B0BDE40F4ED"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A0BABD49B4A9710"
+				item: "luminous_butterflies:charaxes_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "6F6C44F2DE1BA3BA"
+			rewards: [{
+				id: "2BE5A8DB06F27FC5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CD2124E4CDB31C0"
+				item: "luminous_butterflies:ringlet_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "0BA7CFE967514432"
+			rewards: [{
+				id: "02D549D42C8F545E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FDFB87ACA726B68"
+				item: "luminous_butterflies:cherryrose_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "60E3A1020FCBEAE0"
+			rewards: [{
+				id: "650D5C048AA1A96A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "578D601BFBC1B39A"
+				item: "luminous_butterflies:birdwing_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "1C2A30595F4C76B5"
+			rewards: [{
+				id: "264AFDB20CDAD583"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F395B0546DD4944"
+				item: "luminous_butterflies:crimson_monarch_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "6F6FEE6FDA767AB0"
+			rewards: [{
+				id: "5A10DCAEED7C7183"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DDE8B6695511287"
+				item: "luminous_butterflies:soul_monarch_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7746793425E290CB"
+			rewards: [{
+				id: "0FB648EEF8E603AA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C9E5765167C98E0"
+				item: "luminous_butterflies:glowstone_morpho_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "60C687D3E90B9468"
+			rewards: [{
+				id: "6406180E41AAC7F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D89EBD535DD155F"
+				item: "luminous_butterflies:ender_eyespot_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "23EA8B79E1DB9394"
+			rewards: [{
+				id: "0FC5504603AC86BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "102D9D94D0AA433B"
+				item: "luminous_butterflies:chorus_morpho_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Chase These Butterflies"]
+	title: "Butterflies"
+}

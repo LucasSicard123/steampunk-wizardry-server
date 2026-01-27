@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:villager",
+		"minecraft:wandering_trader",
+		"guardvillagers:guard",
+		"minecraft:iron_golem",
+		"takesapillage:clay_golem",
+		"irons_spellbooks:priest",
+		"ribbits:ribbit",
+		"guardribbits:guard_ribbit"
+	]
+}

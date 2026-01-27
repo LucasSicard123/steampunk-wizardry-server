@@ -1,0 +1,829 @@
+{
+	autofocus_id: "64B0772D8FC0D978"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "adventure"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "iceandfire:dragonsteel_fire_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "23A24B1C67983FFF"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"This compass allows you to search for structures."
+				""
+				"Just right-click it in your hand,"
+				"use the search bar to look up the structure,"
+				"and select the structure you want!"
+				""
+				"It will then tell you the distance and direction of the structure (y-coordinate not included in direction)."
+			]
+			hide_until_deps_visible: true
+			id: "6DCB0DF8AFAE59D5"
+			rewards: [{
+				id: "72A4994E469A5782"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The structure finder!"
+			tasks: [{
+				id: "424A48AE4DC3A458"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"This land is filled with monsters, beasts, ancient structures, and more!"
+				""
+				"There are 4 main dimensions about which you need to know."
+				""
+				"The world is a dangerous place, but luckily the challenge will not come and find you..."
+			]
+			hide_until_deps_complete: true
+			id: "64B0772D8FC0D978"
+			rewards: [{
+				id: "075CB0B4CE8831B3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6AE4C472DB9615A6"
+				title: "Welcome Adventurer!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"This compass allows you to search for biomes."
+				""
+				"Just right-click it in your hand,"
+				"use the search bar to look up the biome,"
+				"and select the biome you want!"
+				""
+				"It will then tell you the distance and direction of the biome."
+			]
+			id: "1785EC709359AF76"
+			rewards: [{
+				id: "2C3AFD88A83017A3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The biome finder!"
+			tasks: [{
+				id: "20E165916890A713"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"The Nether is a dangerous hellscape that only the bravest dare enter."
+				""
+				"Here you will find inferium and prosperity shards, glowstone, nether quartz, and more."
+				""
+				"You will also find piglins, demons, ghasts, and other dangerous creatures."
+				""
+				"I leave it up to you to figure out \"why\" you are here. "
+				""
+				"Whether that be because of loot, resources, or a challenge, you are sure to find it difficult and probably only came here because you need to..."
+			]
+			id: "261F69F0045B9AF2"
+			rewards: [{
+				id: "0B29E4631F97B7FB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "You've put it off this long..."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "78A6E7969F3C3F74"
+				title: "Visit The Nether"
+				type: "dimension"
+			}]
+			title: "Visit The Nether"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"The Twilight Forest is a land of eternal twilight."
+				""
+				"To go here, you must make a 2x2 (1 block deep) hole of water. Then surround it in flowers and throw a diamond in."
+				""
+				"Once there, you may find that certain places are locked. This is because it contains a specific progression to beat all of the bosses."
+				""
+				"Follow these quests to learn more..."
+			]
+			id: "24C6E82865472528"
+			rewards: [{
+				id: "47439E780784B776"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "6A34507C1F637FC7"
+				title: "Visit The Twilight Forest"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"The End..."
+				""
+				"A void that will make a name for any adventurer that will be heard in all corners of the world."
+				""
+				"To reach it, you need to find 12 out of 16 of the unique eyes of ender (see magical artifacts)."
+				""
+				"Then, you must go to a stronghold and place the eyes upon the portal frame."
+				""
+				"Once there, you will be met with a fearsome dragon, but that is nowhere near the most dangerous creature lurking here..."
+			]
+			id: "767D7EB21FCD8FDA"
+			rewards: [{
+				id: "18A23FD6784360CD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "It didn't even matter"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1F5932F364978D7F"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"The Overworld is the main dimension for almost all of your adventures."
+				""
+				"There are many things to find, but there is something important you must know."
+				""
+				"The further you get from (0,0), the more dangerous it becomes."
+				""
+				"At about 4,000 blocks away, you will find creatures &4Born in Chaos&r that are far stronger than the ones you may know."
+				""
+				"At about 5,000 blocks away, legend tells of cyclopses, gorgons, and worse... &lDragons&r..."
+			]
+			id: "10EFDD51B2163D04"
+			subtitle: "But I start here!?"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "30D7FC59388909B8"
+				type: "dimension"
+			}]
+			title: "Visit The Overworld"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"The title says it all!"
+				""
+				"Just right click the ground (make sure it is flat with 1x2 of space) and you shall sleep!"
+				""
+				"Don't worry about your respawn point as a sleeping bag does not change it!"
+			]
+			id: "744C3D34D44CFB2F"
+			rewards: [{
+				id: "4C53621121B6452A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Sleep on the go!"
+			tasks: [{
+				id: "7196703B6FB609AA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
+				type: "item"
+			}]
+			title: "Sleeping Bag"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Mermorphs are underwater creatures that will trade with you!"
+				""
+				"Some take fish, others take aquamarine, just right-click them with the item and they'll give you something in return."
+			]
+			id: "74AA68583816283F"
+			rewards: [{
+				id: "15D3561F2FF0BB33"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "seadwellers:aquamarine"
+				id: "7358935005F6C249"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Mermorph"
+				to_observe: "seadwellers:mermorph"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Kobolds (from Kobolds!, not Twilight Forest) are friendly little creatures."
+				""
+				"You may trade with some of them by giving them an emerald."
+				""
+				"You may also breed them with amethyst."
+				""
+				"They usually live under forests and mountains."
+			]
+			id: "3305174A1D72131F"
+			rewards: [{
+				id: "16BB52B77AB5BABF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "kobolds:kobold_iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "42841FE54DE9FB8E"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Kobold"
+				to_observe: "kobolds:kobold"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Ribbits are cute little creatures that live in the swamp!"
+				""
+				"Some of them will trade amethyst for goods, but all of them love hanging out and playing music!"
+			]
+			id: "6C4843EAAE8DBFE5"
+			rewards: [{
+				id: "1733D2F4A6DC4D44"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ribbits:giant_lilypad"
+				id: "7308E16F8E1EC3C8"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Ribbit"
+				to_observe: "ribbits:ribbit"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"Small Ships adds in some fast travelling ships that will help you sail the ocean!"
+				""
+				"Once in a ship, you may press \"E\" to open its inventory and press \"P\" to toggle the sail."
+				""
+				"\"W\" and \"S\" will speed up and slow down the ship respectively once the sail is open."
+				""
+				"You may also add cannons to the ship. Just make sure there are cannonballs in the ship or your inventory. Then look port or starboard and press \"Space\" to fire."
+			]
+			id: "5B8F6D1F64D35A0C"
+			rewards: [{
+				id: "78A9D8890FCE1778"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "466A60642B366653"
+				item: "smallships:sail"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: ["Mythic Mounts contains a handful of mythical creatures that you may tame, but beware, not all are friendly at first..."]
+			id: "3F17EA8ECCCB36E6"
+			rewards: [{
+				id: "2EA545EB8C08E83F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55761979AB41C896"
+				item: "mythicmounts:summoning_staff"
+				type: "item"
+			}]
+			title: "Mythic Mounts"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["261F69F0045B9AF2"]
+			description: [
+				"Well, I'll give you one quest: make a fireproof boat."
+				""
+				"You heard that right; these can go on lava, allowing you to traverse... well... &oeasier."
+			]
+			id: "664BE2DEE3F91D94"
+			rewards: [{
+				id: "4796B18B2FDF16B4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3366FABECEFF4616"
+					item: "fireproofboats:crimson_boat"
+					type: "item"
+				}
+				{
+					id: "43BFAB3A668CACC5"
+					item: "fireproofboats:warped_boat"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64B0772D8FC0D978"]
+			description: [
+				"This backpack may be placed in you \"back\" slot in the curios and subsequently opened with \"B\"."
+				""
+				"It may be upgraded with iron, gold, diamond, and netherite in that order (check the JEI)."
+				""
+				"You may also create upgrades to increase stack size, add a crafting table, and more!"
+				""
+				"Just make sure the upgrades are &l\"Sophisticated Backpacks\"&r and not &l\"Sophisticated Storage\"&r"
+			]
+			id: "511B2223A3547401"
+			rewards: [{
+				id: "0FBADD8CE78FDB46"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "A hoarding adventurer's dream!"
+			tasks: [{
+				id: "3E9835A1005D6014"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["24C6E82865472528"]
+			description: [
+				"This map is extremely helpful for learning all of the structures around you. "
+				""
+				"The dimension is somewhat \"grid-like\" in terms of structure generation."
+				""
+				"Just right-click this item in your hand and then explore the area."
+			]
+			id: "51D85FBA461E0259"
+			optional: true
+			rewards: [{
+				id: "443278DAB0F1ADE3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E6FF7ED895450A2"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24C6E82865472528"]
+			description: ["The first boss is the &2Naga&r; a worm-like creature that lives within a maze destroying any in its path."]
+			id: "200E20A5BA654085"
+			rewards: [{
+				id: "32D285FF794ABB85"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D4416FA4542C142"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Kill The Naga"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["200E20A5BA654085"]
+			description: [
+				"Now you may enter the &5Lich&r's Tower."
+				""
+				"He has 3 phases, only one of which I will tell you:"
+				""
+				"When he has shields floating about him and tries to shoot you, you need to knock the orbs back at him to destroy the shields."
+			]
+			id: "52D96F1A6C952232"
+			rewards: [{
+				id: "3043D9A5EA0B7753"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07DC2ED8D55990CF"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Kill The Lich"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52D96F1A6C952232"]
+			description: [
+				"The &4Minoshroom&r is a mini-boss that lives within the Labyrinth."
+				""
+				"Beat him so that you may hunt down the &9Hydra&r."
+			]
+			id: "419828379D274E00"
+			rewards: [{
+				count: 3
+				id: "3F138F74EB8AF825"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28DA6B7E2B57C364"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Kill The Minoshroom"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["419828379D274E00"]
+			description: ["You need to eat this to survive the fire swamp!"]
+			id: "1E83A30E78C12A62"
+			rewards: [{
+				id: "3E243417A6E1DF05"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01B01F4A0DACB159"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E83A30E78C12A62"]
+			description: [
+				"The &9Hydra&r is a fierce enemy with many heads."
+				""
+				"The Hydra will attempt to attack you by opening its mouth. Shoot into the open mouth to deal significant damage."
+			]
+			id: "1999990ADFFA65A0"
+			rewards: [{
+				id: "7DA8493622DA03C2"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "583471579C36C9B4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Kill The Hydra"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52D96F1A6C952232"]
+			description: ["The &8Knight Phantom&r in the Twilight Knight Stronghold blocks the way to the terrible &dUr-Ghast&r!"]
+			id: "132718634714916B"
+			rewards: [{
+				count: 3
+				id: "10D67B68A455BB2B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B31C37858C529D"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Kill The Knight Phantom"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["132718634714916B"]
+			description: [
+				"The &dUr-Ghast&r flies high above its tower!"
+				""
+				"You can shoot it down or use one of the nearby devices to drag it down to your level!"
+			]
+			id: "336F47932FAD10A8"
+			rewards: [{
+				id: "7C190CF3D702E372"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "077D1F0CEDC0B2D7"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Kill The Ur-Ghast"
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52D96F1A6C952232"]
+			description: ["The frozen lands are bitter cold. You need to kill the &lAlpha Yeti&r in the Yeti Lair to keep warm in your fight against the &bSnow Queen&r."]
+			id: "3E958F243B2C575A"
+			rewards: [{
+				count: 3
+				id: "203F234505D182D2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51EC8C9609C3FF43"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "Kill The Alpha Yeti"
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E958F243B2C575A"]
+			description: [
+				"The &bSnow Queen&r lives inside the Aurora Palace."
+				""
+				"She flies on an \"ice sled\" that is invulnerable on its bottom. Consider bringing ranged weaponry."
+			]
+			id: "51738652239CC773"
+			rewards: [{
+				id: "6992745666CF2AB7"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E7BEED2A8CAA9C1"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Kill The Snow Queen"
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1999990ADFFA65A0"
+				"336F47932FAD10A8"
+				"51738652239CC773"
+			]
+			description: [
+				"Now is time to find some Magic Beans."
+				""
+				"By planting this in the ground, you may go up to the clouds via a giant beanstalk!"
+			]
+			id: "11F7BE38E5230585"
+			rewards: [{
+				id: "73039607B8B98E7A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5961A2ABE36C8EB2"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11F7BE38E5230585"]
+			description: [
+				"Unfortunately, this is the end of the road."
+				""
+				"The Final Palace has not been completed, but hopefully soon it will be."
+			]
+			id: "69E605F7CFADFAD0"
+			rewards: [{
+				id: "72D96C7889E7353C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E233A5EDDCA627"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24C6E82865472528"]
+			description: ["The Questing Ram is a side quest to gather all 16 colors of wool. Just right-click each one on the ram until he gives you the trophy."]
+			id: "6E427515A752AED8"
+			rewards: [{
+				count: 3
+				id: "032D3B9941F2E956"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "630B9D1081160A17"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: [
+				"This book is all the info you need to learn about Ice \\& Fire."
+				""
+				"To upgrade it, place the book in the lectern with some manuscripts. It will give you 3 entry choices to add to the book each time you do."
+				""
+				"As stated before, you must travel 5,000 blocks away from (0,0) to find most of these creatures."
+			]
+			id: "6E03D2EE1209E1B2"
+			rewards: [{
+				id: "1A2390456D8CCFC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E2E1AD2FC249175"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+				{
+					id: "49782445F2F02059"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Luminous Beasts!"]
+			id: "4A4B1D468D495E38"
+			rewards: [{
+				id: "1436DC3C0FFD431A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E5B6524AC694AAA"
+				item: "luminous_beasts:ultimate_bestiary"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Critters n' Crawlers!"]
+			id: "11B55421908B8AB6"
+			rewards: [{
+				id: "2C77938B575A3365"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FFA4D625D1899E6"
+				item: "cnc:field_guide"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Alex's Caves!"]
+			id: "55A513106AE7F691"
+			rewards: [{
+				id: "622C2598D507F8E8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FFF176895AE4890"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10EFDD51B2163D04"]
+			description: ["Here is your ultimate guide to Alex's Mobs!"]
+			id: "339AFFD02662FA27"
+			rewards: [{
+				id: "0622F1248B335B1A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C44A95AC15FC8"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E03D2EE1209E1B2"]
+			description: ["Myrmex are interesting creatures. I recommend learning about them in the bestiary before deciding what to do with them..."]
+			id: "6534A87D7C4B735F"
+			rewards: [{
+				id: "19FE7CA531FFCDB9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "iceandfire:myrmex_desert_egg"
+				id: "5B4142DCBD8EED7F"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Myrmex Nest"
+				to_observe: "iceandfire:myrmex_worker"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+	]
+	title: "&4Adventure"
+}

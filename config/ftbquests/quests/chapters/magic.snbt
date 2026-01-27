@@ -1,0 +1,6488 @@
+{
+	autofocus_id: "3FA9143ADC0A59CB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "magic"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "ars_nouveau:creative_spell_book"
+	id: "3A660CC68E163CD0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"Many magics reside in this circle."
+				""
+				"Plenty of knowledge and power is at your disposal."
+				""
+				"You may have familiars or monsters, level or grow forests, heal or destroy entities... The choice is yours..."
+				""
+				"You will find a book for each of the 12 schools of magic about this wheel that tells you everything you need to know about the mod. The quests are nothing more than a \"track\" with which to follow so that you don't get lost. There will be descriptions of how things work, but you will find that most, if not all, of the information is completely explained in the magical book for said mod."
+				""
+				"If you dare to master more than one magic, consider building a bookshelf for yourself (check the decor quests)."
+			]
+			hide_until_deps_complete: true
+			id: "3FA9143ADC0A59CB"
+			rewards: [{
+				id: "5D62B2CCF8AC1180"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2B046F0520C96F4C"
+				title: "Welcome to the World of Magic!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			id: "6896267BA0CB82B7"
+			subtitle: "How many combinations are there!?"
+			tasks: [{
+				id: "6EE6CA21B0B6B207"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Power of the Glyphs"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			id: "34FAE49954AA0727"
+			subtitle: "Hope you like flowers..."
+			tasks: [{
+				id: "3B5CC606E74AC8AE"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "Power of the Botanical"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			description: [
+				"Embers is a magic that revolves around an energy known as... Ember!"
+				""
+				"There are various \"machines\" that are powered by this energy that can douplicate ores or repair items."
+				""
+				"There are tools that harness this energy to mine quicker or shoot beams of energy!"
+				""
+				"The book does a very good job of explaining things. These quests follow the book exactly and you will find that they are almost exactly the same. Feel free to follow either one, but the better descriptions will be in the book!"
+			]
+			id: "6B235E870FDA21ED"
+			rewards: [{
+				id: "4DBE893D94D5F1CF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "A Dwarven type of magic"
+			tasks: [{
+				id: "5372E81C491F9B4C"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			title: "Power of the Core"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			id: "6BBE40FF1358848C"
+			subtitle: "Duuude, just chill out"
+			tasks: [{
+				id: "57F3BC80D6852D56"
+				item: "rootsclassic:runic_tablet"
+				type: "item"
+			}]
+			title: "Power of Nature"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			id: "0ECB48B872FE259D"
+			subtitle: "Spooky little friends!"
+			tasks: [{
+				id: "287C791CC3F63184"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			title: "Power of the Occult"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			id: "0D577BC17D2EA4DC"
+			subtitle: "Who's the professor this time?"
+			tasks: [
+				{
+					id: "45B23D0675FB8798"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "687C5CCFE1AA53FD"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			title: "Power of the Dark Arts"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			id: "6C561732E587325C"
+			subtitle: "Cause I'm a Hex Girl!"
+			tasks: [{
+				id: "67163B72FDAB015D"
+				item: {
+					Count: 1
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Power of the Hex"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			description: [
+				"This field of magic allows you to do a few rituals that are necromantic in nature."
+				""
+				"First, you need the Ars Ecclesia to do any of the rituals in this magic."
+				""
+				"It is a small field of magic, but you may find it interesting nonetheless..."
+			]
+			id: "162F3766CA352D05"
+			rewards: [{
+				id: "27D175C155448B2E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Cause it's a thriller!"
+			tasks: [{
+				id: "5645AA0FF2980EDC"
+				item: "eidolon:codex"
+				type: "item"
+			}]
+			title: "Power of the Dead"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			id: "36ED97B6D629C841"
+			subtitle: "Thicker than water!"
+			tasks: [
+				{
+					id: "55DAF3C157B40675"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A5ABFB836329A65"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			title: "Power of Blood"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			description: [
+				"Welcome to Iron's Spells and Spellbooks!"
+				""
+				"First thing's first: the guidebook to this mod was removed by the mod author, so start this mod once you find a scroll or two."
+				""
+				"Next: this is a very easy to follow magic mod as it is just a collection of spells and gear."
+				""
+				"The quests for this magic are few and not very descriptive because of this, but I'm sure you'll understand anyway."
+				""
+				"There is also the wiki if you do become confused!"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "721A84A6DC0773D2"
+			rewards: [{
+				id: "3DEC39B817ACC82F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Gotta catch 'em all!"
+			tasks: [{
+				id: "0DB358ABEEADBC3C"
+				title: "I Have A Scroll!"
+				type: "checkmark"
+			}]
+			title: "Power of Those Before You"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:getting_started"
+				}
+			}
+			id: "461C993DF2881524"
+			subtitle: "Don't try in Salem!"
+			tasks: [
+				{
+					id: "2DCED37F224C7953"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0126662AF78D63F6"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			title: "Power of the Witch"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FA9143ADC0A59CB"]
+			description: [
+				"Unfortunately, there is no book."
+				""
+				"Fortunately, I have these quests for you to be able to follow the mod."
+				""
+				"In this mod, you will be able to craft various helpful tools in your journies."
+				""
+				"Some of these include a mob catching tool, repair \"kits\", and auto-smelting on tools."
+				""
+				"It is a fairly simple school of magic, but may still take some time to complete."
+				""
+				"The gavel will be used for later. For now, you may use it to mine some ores to have a 30% chance of duplicating it."
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:reinforced_deorum_blacksmith_gavel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4276F84B11DE9719"
+			rewards: [{
+				id: "7690257C3156BD25"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Where's the book!?"
+			tasks: [{
+				id: "478D86CF4F5BAD2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+				title: "Any #forbidden_arcanus:blacksmith_gavel"
+				type: "item"
+			}]
+			title: "Power of the Forbidden"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["179830AFD3FD3EC9"]
+			description: [
+				"The Hephaestus Forge is the main portion of this mod. After aquiring the above materials, follow the diagram below."
+				""
+				"Now add the Smithing Table to the center and right-click it with the dust. "
+				""
+				"Now you have the forge and follow the quests below this one to understand the resources needed."
+				""
+				"Don't worry about the 4 squares about the center of the forge UI (3 of which are locked) for now."
+				"{image:steampunkwizardry:textures/quests/hephaestusforge.png width:100 height:100 align:center}"
+			]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "628C8682BCBE55BB"
+			rewards: [{
+				id: "1249C63EFD120269"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 48L
+					id: "041B6F172A5873A7"
+					item: { Count: 48, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "39C71915084EF5EF"
+					item: { Count: 9, id: "forbidden_arcanus:arcane_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "467C49C536665CD4"
+					item: { Count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "0766F6F16DBB5B65"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E6EA6BFA45BC3BD"]
+			description: [
+				"Mundabitur Dust is a very useful item for our future endeavors."
+				""
+				""
+				""
+				"It can also be used to charge a creeper if you feel like making a big explosion as well :)"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "38FC6FD3D0786BEB"
+			rewards: [{
+				id: "4FE7D789A0C80207"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "543A05CCB4FDCF7A"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38FC6FD3D0786BEB"]
+			description: ["This ingot is needed for further recipes and finally make a very interesting forge..."]
+			id: "179830AFD3FD3EC9"
+			rewards: [{
+				id: "33F0EC8E0EC21C28"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4482C11FD27DA55E"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"261B4ECE2A4253C4"
+				"2E6EA6BFA45BC3BD"
+			]
+			description: [
+				"A Quantum Catcher allows for the capture and transport of mobs."
+				""
+				"Just simply hold it in your hand and then right-click the mob to capture it."
+				""
+				"When you wish to release it, right-click the ground, and it may be used again."
+			]
+			id: "2080E30C50875C24"
+			rewards: [{
+				id: "41E3690AB35CA9B9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1334C2565B398DB1"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"179830AFD3FD3EC9"
+				"243D89DC92603594"
+			]
+			description: ["Just a pickaxe with silk-touch added."]
+			id: "27BEDD986D989F5B"
+			rewards: [{
+				id: "6369E1D1F0131E32"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66A54AF2CE95A91D"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"The first resource (left-most bar) of the forge is Aureal."
+				""
+				"Place this item in the top-left box of the forge UI."
+			]
+			id: "5D0A20CC2ACEF78F"
+			rewards: [{
+				id: "09560BBEF4CCE72F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "620E67C5CED0BD0C"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"The second resource in the forge are souls."
+				""
+				"You will need the Soul Extractor to right-click soul sand (to make soulless sand) to gain souls."
+				""
+				"You may also catch souls that float around the world with a Soul Extractor."
+				""
+				"Enchanted Souls (pink) are with 10x the number of souls."
+				""
+				"Place them in the bottom-left box of the forge UI."
+			]
+			icon: "forbidden_arcanus:soul"
+			id: "6D661754B776ED4F"
+			rewards: [{
+				id: "04B182B344C31590"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FEBC47C268E2EC8"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:soul_extractor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B333C22E3C8967"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+			]
+			title: "Soul Extraction"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["243D89DC92603594"]
+			description: ["This bucket can hold 4 buckets of water, 3 buckets of lava, or some small entities. To store lava, it needs the permafrost enchantment."]
+			id: "7015425E2AA8174E"
+			rewards: [{
+				id: "6189C6DABC69EAFA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FE13525AF8AF191"
+				item: "forbidden_arcanus:edelwood_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"This item is an enhancer relic that may be placed in one of the 4 squares about the center of the forge UI."
+				""
+				"This relic is required to make elemental prisms in the Hephaesus Forge and can be found in Jungle Temples, Desert Pyramids, and Underwater Ruins."
+			]
+			id: "1940B5A767792966"
+			rewards: [{
+				count: 3
+				id: "5CED576A6166D0AF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "424412CFD6F02EBB"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1940B5A767792966"]
+			description: ["This is an item that adds the fiery modifier to any tool making it auto-smelt all mined blocks if they have a smelting recipe."]
+			id: "72534D341575055F"
+			rewards: [{
+				id: "302479A6830745E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D6F94E3440FE501"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:smelter_prism"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D0A20CC2ACEF78F"]
+			description: [
+				"To make Aureal generation easier, you may place an Arcane Polished Darkstone Block on top of one of the 8 Arcane Chiseled Polished Darkstone blocks."
+				""
+				"Then place 2 Arcane Crystal Blocks on top of it and right-click it with Mundabitur Dust."
+				""
+				"This will slowly generate Aureal in the forge."
+			]
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			id: "257F749F04B81413"
+			rewards: [{
+				id: "4760F08F6ECA9281"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0EE812AE80CF142E"
+					item: { Count: 2, id: "forbidden_arcanus:arcane_crystal_block" }
+					type: "item"
+				}
+				{
+					id: "0AB17B83FF1C3F23"
+					item: "forbidden_arcanus:arcane_polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "Arcane Crystal Obelisk"
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"The third (the heart symbol) resource for the forge is blood."
+				""
+				"To collect it, you need to either hurt entities near the forge or craft the Mystical Dagger and a Test Tube and harm entities with the dagger. Do both to gain more blood :)"
+				""
+				"The Test Tube goes in the top right slot of the forge UI."
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:mystical_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E6E29AC42102A51"
+			rewards: [{
+				id: "3AA3F760EE6A618F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00BCAB965C1F0F10"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70F91406F50F3431"
+					item: "forbidden_arcanus:test_tube"
+					type: "item"
+				}
+			]
+			title: "Blood Collection"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"The fourth (right-most in the forge UI) resource for the forge is EXP. "
+				""
+				"The easiest way to aquire this is to mine Xpetrified Ore. "
+				""
+				"You may also use Bottles o' Enchanting and enchanted items. Enchanted Items will be stripped of their enchantments though."
+				""
+				"Place the resource in the bottom-right slot of the forge."
+			]
+			id: "683FF1894628C925"
+			rewards: [{
+				id: "32AA1EEB6E727763"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06245D9D0AA3007A"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"683FF1894628C925"
+				"66AB488A66897F21"
+			]
+			description: [
+				"If you throw Dark Matter and Corrupti Dust on the ground, you will make a Black Hole."
+				""
+				"It will attract items and small entities like Arrows and Exp Orbs and delete them."
+				""
+				"Once it has absorbed enough EXP it will drop Xpetrified Orbs."
+			]
+			icon: "forbidden_arcanus:dark_matter"
+			id: "1245506EED6050A3"
+			rewards: [{
+				id: "58CDC7EDC7F7B29F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71D07D658DA05BC2"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+				{
+					id: "2F50FC1B657DE6AF"
+					item: "forbidden_arcanus:dark_matter"
+					type: "item"
+				}
+			]
+			title: "Black Hole"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"To start a ritual, you need a gavel and some pedestals (make 8 so you don't need to make it again)."
+				""
+				"Place all the required items for the ritual in the pedestals and the center of the forge UI,"
+				"gain the appropriate amount of essences,"
+				"and then right-click the forge with the gavel."
+				""
+				"Note: Gavels have a limited number of uses."
+			]
+			id: "151DE03A9F69D179"
+			rewards: [{
+				id: "4A8B5648EFC9C426"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "20D2183B4E1FC37E"
+				item: { Count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+				type: "item"
+			}]
+			title: "Forge Rituals"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151DE03A9F69D179"]
+			description: [
+				"To upgrade your forge, follow the JEI (press U on the forge in JEI) and start the ritual. It will unlock another enhancer slot and more recipes."
+				""
+				"It does need 3 levels of exp by the way."
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 2
+					}
+				}
+			}
+			id: "4035C2EB6D77E753"
+			rewards: [{
+				id: "72DCE6BDEBB80CF1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "119F1979DDDF70D5"
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53415BBD5C5EBDB2"
+					item: { Count: 4, id: "forbidden_arcanus:spawner_scrap" }
+					type: "item"
+				}
+				{
+					id: "77C127145CC70C53"
+					item: "forbidden_arcanus:edelwood_planks"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge Tier 2"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4035C2EB6D77E753"
+				"1940B5A767792966"
+			]
+			description: ["This item adds the demolishing modifier to your tools making them break a 3x3 area."]
+			id: "0ACD96787DCF8D8D"
+			rewards: [{
+				id: "32E548EFC6210FCF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25A27B99AEE5C9A9"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4035C2EB6D77E753"]
+			description: [
+				"To upgrade your forge, follow the diagram in JEI and start the ritual. It will unlock another enhancer slot and more recipes."
+				""
+				"It does need 5 levels of exp by the way."
+			]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:hephaestus_forge"
+				tag: {
+					BlockStateTag: {
+						tier: 3
+					}
+				}
+			}
+			id: "6A658677ACA620CD"
+			rewards: [{
+				id: "16EF15798266C630"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "49AC4F2E54C1309C"
+					item: { Count: 4, id: "forbidden_arcanus:arcane_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "59C808452300581B"
+					item: { Count: 4, id: "forbidden_arcanus:deorum_ingot" }
+					type: "item"
+				}
+				{
+					id: "1E2746256A1C795B"
+					item: "forbidden_arcanus:chiseled_polished_darkstone"
+					type: "item"
+				}
+			]
+			title: "Hephaestus Forge Tier 3"
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A658677ACA620CD"]
+			description: ["This item gives any item with a durability the eternal modifier removing durability from it entirely."]
+			id: "6482331E919EDB40"
+			rewards: [{
+				id: "6F6F720C8265E1D2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5E4AB3A3D62AD7"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E6EA6BFA45BC3BD"]
+			description: [
+				"This is used to make magical farmland. Just right-click normal farmland with this bone meal."
+				""
+				"It doubles the output of the crop and is the only way to grow Golden Orchids."
+			]
+			id: "6EA33E76C4CF267E"
+			rewards: [{
+				id: "4F5342283106CCC5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "184E60A67455E7C8"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["243D89DC92603594"]
+			description: ["This ladder allows you to move faster up and down."]
+			id: "0C4BE83DEE0A631A"
+			rewards: [{
+				id: "73BE4CD0CC5F39F9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BD2248208EB243"
+				item: "forbidden_arcanus:edelwood_ladder"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"This item is an enhancer relic that may be placed in one of the 4 squares about the center of the forge UI."
+				""
+				"This relic reduces the required Exp by 25% and can be found in the chests of the Armorer, Toolsmith, or Weaponsmith villager buildings."
+			]
+			id: "4B051EB20A2061BD"
+			rewards: [{
+				count: 3
+				id: "0AED6CD99E05A3E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43833CF523DE1A99"
+				item: "forbidden_arcanus:artisan_relic"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"This item is an enhancer relic that may be placed in one of the 4 squares about the center of the forge UI."
+				""
+				"This relic reduces the cost of souls by half and can be found in Pillager Outposts."
+			]
+			id: "0EC68F1ACE2E40EF"
+			rewards: [{
+				count: 3
+				id: "44CC63EC5ACD629F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "256F1BB2BF4ABE18"
+				item: "forbidden_arcanus:crimson_stone"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"This item is an enhancer relic that may be placed in one of the 4 squares about the center of the forge UI."
+				""
+				"It allows for the creation of cursed items and may be found in Bastions."
+			]
+			id: "23E58CB04C63648F"
+			rewards: [{
+				count: 3
+				id: "55B617B4D5A0E7C4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EE3AA395709A279"
+				item: "forbidden_arcanus:maledictus_pact"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["628C8682BCBE55BB"]
+			description: [
+				"The Ferrognetic Mixture applies the magnetized modifier on boots in the smithing table."
+				""
+				"The modifier increases the player's pickup range by 1.5 blocks."
+			]
+			id: "50D8696E0D9D0F15"
+			rewards: [{
+				id: "508ABB004D80508C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74FDA8285A6CD53D"
+				item: "forbidden_arcanus:ferrognetic_mixture"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4276F84B11DE9719"]
+			description: [
+				"Arcane crystals are used for a great many things in this field of magic."
+				""
+				"You should probably mine quite a bit of it, but no need to go crazy as it is only useful for this field of magic."
+			]
+			id: "2E6EA6BFA45BC3BD"
+			rewards: [{
+				id: "23D91ED3A150338A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679259082EB895F0"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4276F84B11DE9719"]
+			description: ["Spawner scrap is obtained by mining a mob spawner. It will be useful in the next quest."]
+			id: "261B4ECE2A4253C4"
+			rewards: [{
+				id: "15B5321E305EFDC9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62CB77F1EDA63D87"
+				item: "forbidden_arcanus:spawner_scrap"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4276F84B11DE9719"]
+			description: [
+				"Edelwood is found about the overworld in dark forests."
+				""
+				"The stick can be aquired by breaking the branches off the sides of the log."
+				""
+				"To grow more, you may right-click a dead bush or oak sapling with a dark soul to make a growing edelwood."
+			]
+			icon: "forbidden_arcanus:carved_edelwood_log"
+			id: "243D89DC92603594"
+			rewards: [{
+				id: "117047DBC9F6B17A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07F7DAAC837B9EE1"
+					item: "forbidden_arcanus:edelwood_log"
+					type: "item"
+				}
+				{
+					id: "3245AE759ADF2B74"
+					item: "forbidden_arcanus:edelwood_stick"
+					type: "item"
+				}
+			]
+			title: "Edelwood"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["179830AFD3FD3EC9"]
+			description: ["This trinket adds the glowing effect to all entities near you while it is in your inventory."]
+			id: "19DDBD62BF749C03"
+			rewards: [{
+				id: "6288E2FA3FCBD992"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "458EB8775486EA9B"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38FC6FD3D0786BEB"]
+			description: [
+				"The Clibano is a powerful version of the Blast Furnace. It has faster smelting (so not necessary, but could be useful)."
+				""
+				"You will need:"
+				"- 18 Polished Darkstone Bricks"
+				"- 8 Polished Darkstone"
+				"- 1 Clibano Core"
+				"- 1 Mundabitur Dust"
+				""
+				"Place the blocks in the configuration below:"
+				""
+				"Then use the dust on the core."
+				"{image:steampunkwizardry:textures/quests/clibanodiagram.png width:100 height:100 align:center}"
+			]
+			id: "62546E369A9ABC12"
+			rewards: [{
+				id: "17B1BCA18EAAE6BB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39A9ACBA3E466F9E"
+				item: "forbidden_arcanus:clibano_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["179830AFD3FD3EC9"]
+			description: ["Very simple item to make a couple of things."]
+			icon: "forbidden_arcanus:obsidian_ingot"
+			id: "66AB488A66897F21"
+			rewards: [{
+				id: "29B40E3C3EA6C2BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6271DB33D81F3C29"
+					item: "forbidden_arcanus:obsidian_with_iron"
+					type: "item"
+				}
+				{
+					id: "590F60DA2C51A966"
+					item: "forbidden_arcanus:obsidian_ingot"
+					type: "item"
+				}
+			]
+			title: "Obsidian Ingot"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A658677ACA620CD"]
+			description: [
+				"Unfortunately, that is the end of this mod. "
+				""
+				"The rest of the items either have no use or are self-explanitory."
+				""
+				"You may upgrade your forge to Tier 4 as it will unlock the last slot, but there I see no use in going to Tier 5."
+				""
+				"Hope you have enjoyed it nonetheless!"
+				""
+				"Feel free to mess around with whatever is left, just don't make the Arcane Dragon Egg as it is expensive, but useless."
+			]
+			id: "1665106059B5FA29"
+			rewards: [{
+				id: "0FFC939ED944CE5C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "03A59C8375AB0841"
+				title: "End of the Forbidden"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66AB488A66897F21"]
+			description: ["Shoot balls of lightning!!!"]
+			id: "345778ED9507428A"
+			rewards: [{
+				id: "3DBF60C67EFC8CAC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F26A1DDCDF26EDB"
+				item: "forbidden_arcanus:draco_arcanus_scepter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B235E870FDA21ED"]
+			id: "007B7D55F3B8D75D"
+			rewards: [{
+				id: "655C87FCBAFFF8FF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55838E77898E8C96"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B235E870FDA21ED"]
+			id: "6D7586745FD90A44"
+			rewards: [{
+				id: "4D918038DF151A26"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D0C5ECC3269E7E2"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["007B7D55F3B8D75D"]
+			icon: "embers:ember_dial"
+			id: "59C86D8285450AC0"
+			rewards: [{
+				id: "3E868A0095EA45E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "379CD25CDDBDC4EA"
+					item: "embers:ember_dial"
+					type: "item"
+				}
+				{
+					id: "7881A3E50F18B74D"
+					item: "embers:item_dial"
+					type: "item"
+				}
+				{
+					id: "2BFEE50E18429194"
+					item: "embers:fluid_dial"
+					type: "item"
+				}
+			]
+			title: "Dials"
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B235E870FDA21ED"]
+			id: "519F07B06C9A89EF"
+			rewards: [{
+				id: "687B37BD8FD6B189"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA1F9701C06A915"
+				item: "embers:caminite_brick"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"007B7D55F3B8D75D"
+				"519F07B06C9A89EF"
+			]
+			icon: "embers:item_pipe"
+			id: "52683BB98B5CE5D4"
+			rewards: [{
+				id: "3DEFDC5213C11F40"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12E34E5CBA78A990"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "7360B0184CBF18B3"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3D4A541ED190FBC7"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "5D17DE0BB6D62812"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			title: "Ember Pipes"
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"519F07B06C9A89EF"
+				"52683BB98B5CE5D4"
+			]
+			id: "24AC0EDEC8B27F21"
+			rewards: [{
+				id: "4DB476E2C6B94C93"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EFDEF221F5659BB"
+				item: "embers:fluid_vessel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["24AC0EDEC8B27F21"]
+			icon: "embers:reservoir"
+			id: "46921D8FE72C2F33"
+			rewards: [{
+				id: "5000F3DDA8B771AF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DB0EC0FA348BACE"
+					item: "embers:reservoir"
+					type: "item"
+				}
+				{
+					id: "6F48EAC1F80DD79C"
+					item: "embers:caminite_valve"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["52683BB98B5CE5D4"]
+			id: "56F8E4C15BF00A0A"
+			rewards: [{
+				id: "4A29E0D4F63BCE76"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58F8BC35B97A634C"
+				item: "embers:bin"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["52683BB98B5CE5D4"]
+			id: "697DBC7622D82723"
+			rewards: [{
+				id: "6C2929E8B1D02CC5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45BB4EFDD8320F94"
+					item: "embers:item_transfer"
+					type: "item"
+				}
+				{
+					id: "119228BB3BACC31F"
+					item: "embers:fluid_transfer"
+					type: "item"
+				}
+			]
+			title: "Transfers"
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["52683BB98B5CE5D4"]
+			id: "37721C8973EC2E86"
+			rewards: [{
+				id: "0454EDFF91D7A177"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5279B4805F0CB8F9"
+				item: "embers:item_vacuum"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["52683BB98B5CE5D4"]
+			id: "0B47278B51E0C2F8"
+			rewards: [{
+				id: "25D89133F128A95F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59D7E0751C81CCD1"
+				item: "embers:item_dropper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"519F07B06C9A89EF"
+				"007B7D55F3B8D75D"
+			]
+			id: "322E079A7EEE4AF6"
+			rewards: [{
+				id: "2927634B68E675BC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6116A742DD44E177"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["322E079A7EEE4AF6"]
+			id: "7985557587D0FAAF"
+			rewards: [{
+				id: "770A02D56EE960FD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E97898F2B347AB9"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7985557587D0FAAF"]
+			id: "6B0E9E08E247FFBA"
+			rewards: [{
+				id: "7E8AA8DDB4A31943"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F48225165626794"
+				item: "embers:excavation_buckets"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7985557587D0FAAF"]
+			id: "63F07ACD35D10717"
+			rewards: [{
+				id: "6C8D795A5FF0AC34"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24FF20D5EC1449C4"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7985557587D0FAAF"]
+			id: "6B4CDFF4C11F0136"
+			rewards: [{
+				id: "17285F4427B3B460"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1967B9F1D3557C34"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B4CDFF4C11F0136"]
+			id: "7079B19A4F58386D"
+			rewards: [{
+				id: "7F1D9BFFB1226B98"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E098D5FE4E86C0D"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7079B19A4F58386D"]
+			id: "7C83E59BBE4D4902"
+			rewards: [{
+				id: "27B9D876C186F1B5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "371322F2D3AE9737"
+				item: "embers:heat_exchanger"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7079B19A4F58386D"]
+			icon: "embers:ember_ejector"
+			id: "0CC00C67A58A6B14"
+			rewards: [{
+				id: "225F3A793B8DF39A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C43D4C827CE29A8"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "1F05EAB655E332E5"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "Ember Transport"
+			x: 12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7079B19A4F58386D"]
+			id: "36892027D5CCAA99"
+			rewards: [{
+				id: "2AA9F02E8C641FAB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA68943ACFC37B5"
+				item: "embers:clockwork_attenuator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0CC00C67A58A6B14"]
+			id: "6D961DF48151EAD7"
+			rewards: [{
+				id: "27DA9A3A7483954E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C405014A564AE6D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0CC00C67A58A6B14"]
+			icon: "embers:ember_relay"
+			id: "570CE382F294A9C4"
+			rewards: [{
+				id: "26AF77DAA1C7A5EE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00F0899A636EAB95"
+					item: "embers:ember_relay"
+					type: "item"
+				}
+				{
+					id: "18017CF60BE5172F"
+					item: "embers:mirror_relay"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0CC00C67A58A6B14"]
+			id: "3AA464D4D6383EFC"
+			rewards: [{
+				id: "11EC1F7EBF55C5D2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F877F09EE89C27"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D961DF48151EAD7"]
+			id: "16052E6AE2B28307"
+			rewards: [{
+				id: "78F11F6672A1C0A9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "206524D65EB2AF91"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16052E6AE2B28307"]
+			id: "5D44AFC1B747A8F8"
+			rewards: [{
+				id: "6880B31AA9CACAFD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A28BA567F46B53E"
+				item: "embers:heat_insulation"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["16052E6AE2B28307"]
+			id: "34F8C77B6E840DCB"
+			rewards: [{
+				id: "6D7E15FCA7523C92"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761334E538FB5455"
+				item: "embers:char_instiller"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16052E6AE2B28307"]
+			id: "6E39E9EBA81A483F"
+			rewards: [{
+				id: "121BBAD4ADCCA0A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61FCEA93D49E18EA"
+				item: "embers:atmospheric_bellows"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3AA464D4D6383EFC"]
+			id: "18B91785E6B11563"
+			rewards: [{
+				id: "7C052B784FFA2E0F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6804B859187889"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3AA464D4D6383EFC"]
+			icon: "embers:stamper"
+			id: "30A4973ECE554C27"
+			rewards: [{
+				id: "1FB28F48CE5D97DC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "160D11DE1B44C06F"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "62EC9EFBD2527651"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["30A4973ECE554C27"]
+			id: "14F7A5A2CF5DFF47"
+			rewards: [{
+				id: "216672F652C55618"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "727BCD8BA7EA7779"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["14F7A5A2CF5DFF47"]
+			id: "1B22B17A4001E897"
+			rewards: [{
+				id: "0BBC52CC26684A51"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40BFB50697F405B5"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "3784DA53D3570484"
+			rewards: [{
+				id: "5145CB8BDCC1BFD7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7843DB0DE48C8300"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3784DA53D3570484"]
+			id: "097D1E9FF8EDE09A"
+			rewards: [{
+				id: "03F4603D2D1D6342"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6143F8B2FCB7D4FB"
+				item: "embers:mechanical_pump"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["097D1E9FF8EDE09A"]
+			id: "7820225C5E18334D"
+			rewards: [{
+				id: "609DADBCCFA2EB53"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BAC898A8E92DA05"
+				item: "embers:mini_boiler"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "650B324B76EE2A23"
+			rewards: [{
+				id: "42F2DA392C39A966"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "637CA238AA75F68C"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "0FAE4ABFC9EC2D72"
+			rewards: [{
+				id: "11F0075D53383C10"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E173C0D0D94EADE"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "22798246778A2C2B"
+			rewards: [{
+				id: "26A91613AF968A6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A7725DFF614A304"
+				item: "embers:cinder_plinth"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "680270692AA8ED4C"
+			rewards: [{
+				id: "0ACA4F17F4BC9860"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A286D94C345826"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "embers:aspectus"
+					}
+				}
+				title: "Any #embers:aspectus"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1B22B17A4001E897"]
+			id: "71EF710EDEF95C3C"
+			rewards: [{
+				id: "585AF02E72F934BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A6F0CAA0573D20"
+				item: "embers:beam_cannon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["650B324B76EE2A23"]
+			icon: "embers:ember_ejector"
+			id: "5C896AED11E2D244"
+			rewards: [{
+				id: "25FDE76F11F39493"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51A64B24E9DC1FB2"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+				{
+					id: "44844535AEBD11F8"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5C896AED11E2D244"]
+			id: "7C49A199FCA8A956"
+			rewards: [{
+				id: "0D4F3CE103E4B045"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D9BA29BAFF3D297"
+				item: "embers:beam_splitter"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0FAE4ABFC9EC2D72"]
+			id: "3D1087DF73C87BE7"
+			rewards: [{
+				id: "7B3AB8F57460DD9C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1312CA6C398EED12"
+				item: "embers:ember_siphon"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0FAE4ABFC9EC2D72"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						"embers:ember": 0.0d
+						"embers:ember_capacity": 6000.0d
+					}
+				}
+				id: "embers:ember_cartridge"
+				tag: {
+					ForgeCaps: {
+						"embers:ember_capacity": 6000.0d
+					}
+				}
+			}
+			id: "561C007F158EEAFF"
+			rewards: [{
+				id: "0DE04419E259BB39"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "038F319540FE059E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7511D5A3CD1D02E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["561C007F158EEAFF"]
+			icon: "embers:clockwork_axe"
+			id: "6628E0A489CA4DEA"
+			rewards: [{
+				id: "5B9AFCB34264AA10"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14D99D30AB5D706A"
+					item: "embers:clockwork_pickaxe"
+					type: "item"
+				}
+				{
+					id: "1491B0DC6EFDB8F7"
+					item: "embers:clockwork_axe"
+					type: "item"
+				}
+				{
+					id: "5880629E035F7BB6"
+					item: "embers:grandhammer"
+					type: "item"
+				}
+			]
+			title: "Clockwork Tools"
+			x: 20.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["561C007F158EEAFF"]
+			id: "0FDBC7B394A0C5ED"
+			rewards: [{
+				id: "53B7CEE29CF42C53"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2E7BADA6F9E85B"
+				item: "embers:cinder_staff"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["561C007F158EEAFF"]
+			id: "5B72DAB2BF89BA85"
+			rewards: [{
+				id: "59F770D93E907703"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6738434CD7D238A3"
+				item: "embers:blazing_ray"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"71EF710EDEF95C3C"
+				"680270692AA8ED4C"
+			]
+			icon: "embers:alchemy_pedestal"
+			id: "577E2C3C7534CF2F"
+			rewards: [{
+				id: "0C1DEC2E54656FF1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CBCC721E1D20B9A"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "3500F6B70A9A7BF1"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+			]
+			title: "Ember Alchemy"
+			x: 16.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "28616DCB9F53D9AF"
+			rewards: [{
+				id: "0E1AFEC306D1CE60"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61EFFA06A87570DA"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "22F57E50F5B6ADEF"
+			rewards: [{
+				id: "6AB916FC95FB7E8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "622BCE62B2AA2B5A"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "4A339F1588E0B559"
+			rewards: [{
+				id: "69EFAF7D633F4F21"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BAA7AC84C8194F4"
+				item: {
+					Count: 1
+					id: "embers:tyrfing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			icon: {
+				Count: 1
+				id: "embers:ashen_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B0E8DA369907AE3"
+			rewards: [{
+				id: "0992FCB5A6A1094C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F01A3356B9F8460"
+					item: {
+						Count: 1
+						id: "embers:ashen_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "187C8E70C6F51772"
+					item: {
+						Count: 1
+						id: "embers:ashen_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FDEBB9F622A5617"
+					item: {
+						Count: 1
+						id: "embers:ashen_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3607EF7576EC7329"
+					item: {
+						Count: 1
+						id: "embers:ashen_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ashen Armor"
+			x: 14.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "67CCF7459DE35FAC"
+			rewards: [{
+				id: "74B2B6E662D05396"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1443B9355DE842AE"
+				item: "embers:catalytic_plug"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "6C7B3BFC016781D5"
+			rewards: [{
+				id: "056D6B1880C43F05"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E9D06C8BBE7111A"
+				item: {
+					Count: 1
+					id: "embers:glimmer_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "1029B9CAA2759412"
+			rewards: [{
+				id: "10D215C6FEB3C498"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E5E479EC3BADDDE"
+				item: "embers:dwarven_oil_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["577E2C3C7534CF2F"]
+			id: "732D55084DEA19C8"
+			rewards: [{
+				id: "7B3CD56F5BA89864"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "028684ECD2F283F8"
+				item: "embers:archaic_brick"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["732D55084DEA19C8"]
+			id: "76D7746596E16DB6"
+			rewards: [{
+				id: "08EB6DDA93EE3584"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07782701AEC01843"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"28616DCB9F53D9AF"
+				"732D55084DEA19C8"
+			]
+			id: "4C6C95B942648448"
+			rewards: [{
+				id: "4FF22534787799DD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B5E152CA111AC16"
+				item: "embers:field_chart"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["2B0E8DA369907AE3"]
+			id: "0FBAB107099EB37B"
+			rewards: [{
+				id: "0FFEA860032B8C72"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D4B7C84DBCE024F"
+				item: {
+					Count: 1
+					id: "embers:inflictor_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"28616DCB9F53D9AF"
+				"732D55084DEA19C8"
+			]
+			id: "4C2C2B86EFCBA3CC"
+			rewards: [{
+				id: "5D45CCEB283553EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "192BFB5896B5DCD1"
+				item: "embers:nonbeliever_amulet"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"28616DCB9F53D9AF"
+				"732D55084DEA19C8"
+			]
+			id: "5921424ED658EFDC"
+			rewards: [{
+				id: "68509E58A11383EE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05B140EF8017C548"
+				item: "embers:ashen_amulet"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["28616DCB9F53D9AF"]
+			icon: "embers:ember_amulet"
+			id: "22E67054BAD74ABE"
+			rewards: [{
+				id: "72E2732D336DF623"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A88A42633FCDB71"
+					item: "embers:ember_ring"
+					type: "item"
+				}
+				{
+					id: "2B7FAA7158CBC7C2"
+					item: "embers:ember_belt"
+					type: "item"
+				}
+				{
+					id: "3445C2A25AB16F2E"
+					item: "embers:ember_amulet"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["28616DCB9F53D9AF"]
+			id: "43B7445B6AE95577"
+			rewards: [{
+				id: "61009CEFD4816D87"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "719B98D4A3075468"
+				item: "embers:dawnstone_mail"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["28616DCB9F53D9AF"]
+			id: "3532AB1BB7EF4FE1"
+			rewards: [{
+				id: "046B1D79118F5335"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E58BC2273876BDE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 1000.0d
+						}
+					}
+					id: "embers:ember_bulb"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 1000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"28616DCB9F53D9AF"
+				"732D55084DEA19C8"
+			]
+			id: "4A7D9246C55FAB08"
+			rewards: [{
+				id: "2676C74282E1671B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35F4309E1FFC1DBF"
+				item: "embers:explosion_charm"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["4A7D9246C55FAB08"]
+			id: "27E138F9B371BA3D"
+			rewards: [{
+				id: "415DAEB4B893687E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4D2697A62F2B07"
+				item: "embers:explosion_pedestal"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"28616DCB9F53D9AF"
+				"76D7746596E16DB6"
+			]
+			id: "139982938536A02A"
+			rewards: [{
+				id: "59CD60CF41AC7BF5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076BBDD5EBED206F"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["139982938536A02A"]
+			id: "19D95F3346A933A1"
+			rewards: [{
+				id: "498E998503D46586"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B6315ABB5F3B953"
+				item: "embers:wildfire_stirling"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["139982938536A02A"]
+			icon: "embers:ember_injector"
+			id: "52D4400C5F4C1ADF"
+			rewards: [{
+				id: "045E54C59681399F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2967556C3B1649D7"
+					item: "embers:ember_injector"
+					type: "item"
+				}
+				{
+					id: "25D612EA65D3F127"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "embers:crystal_seeds"
+						}
+					}
+					title: "Any #embers:crystal_seeds"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["139982938536A02A"]
+			id: "4C8DE0B7FD7C0658"
+			rewards: [{
+				id: "0DC53555D19A0CE3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36B502DA71A9EB3A"
+				item: "embers:catalysis_chamber"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["139982938536A02A"]
+			id: "16BB066C6A792D48"
+			rewards: [{
+				id: "30FFE51960308C89"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CA4094460C3924B"
+				item: "embers:combustion_chamber"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"4C8DE0B7FD7C0658"
+				"16BB066C6A792D48"
+			]
+			id: "42F7DD892CB8E622"
+			rewards: [{
+				id: "557331C60B7D352E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75CB8CF1EDB27A53"
+				item: "embers:ignem_reactor"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["139982938536A02A"]
+			id: "19137E829644AA84"
+			rewards: [{
+				id: "7AF6920DD25A68E3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5664F1BA39682884"
+				item: "embers:dawnstone_anvil"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["19137E829644AA84"]
+			id: "10C49DD1D5892C1D"
+			rewards: [{
+				id: "03E09A3C7FCEAB1E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B494A664167652"
+				item: "embers:automatic_hammer"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["19137E829644AA84"]
+			id: "77533064BCED4618"
+			rewards: [{
+				id: "48C31F389DE82861"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "217C9E61FA4B5286"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["77533064BCED4618"]
+			id: "1F0029FFFFC8CFEB"
+			rewards: [{
+				id: "7E5ABB1121DE9632"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "44905F6708272B56"
+				title: "End of Embers"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["28B50B4FC17044C2"]
+			description: [
+				"Now you have a spell in your book."
+				""
+				"Hold the book in your hand and press \"V\", it will cast the selected spell."
+				""
+				"To switch, hold \"R\" and select the spell."
+				""
+				"To unequip, return to the Inscription Table and remove the book."
+			]
+			id: "71D8E268B80D8F4C"
+			rewards: [{
+				id: "498A549D2614665C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F81D32D251AC1DC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["721A84A6DC0773D2"]
+			description: [
+				"An Inscription Table allows you to place scrolls into a spell book so that you may use the spell more than once."
+				""
+				"In the table UI, you need to place a spell book in the top-left slot and a scroll in the bottom-left."
+				""
+				"Then click the little scribe symbol to add it to the book."
+				""
+				"You may click which slot on the right you wish to apply the spell scroll to."
+			]
+			id: "28B50B4FC17044C2"
+			rewards: [{
+				id: "3D192345A3473AD6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10E057806DA42F09"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71D8E268B80D8F4C"]
+			description: [
+				"The Scroll Forge simply allows you to make scrolls!"
+				""
+				"You need to find ink, but then you may craft spell scrolls depending on the resources you place in."
+				""
+				"&oPress \"U\" on the Scroll Forge for recipes"
+			]
+			id: "4FBBF50407AFBC97"
+			rewards: [{
+				id: "04F82B1B8F1FCC02"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD1C40413C0D34D"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4FBBF50407AFBC97"]
+			id: "38DC28DE8184E494"
+			rewards: [{
+				id: "1D652CBA0260E34F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC73171EB168C09"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["38DC28DE8184E494"]
+			description: [
+				"The Arcane Anvil allows you to place upgrades upon you equipment and scrolls."
+				""
+				"I would recommend against pressing \"U\" on this one..."
+			]
+			id: "0AF121977E029BBA"
+			rewards: [{
+				id: "2ACE975EFBADFE87"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FA05E0C5712FFB2"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0AF121977E029BBA"]
+			description: ["This is for making upgrade orbs... Obviously..."]
+			id: "0A47F5059E553B14"
+			rewards: [{
+				id: "028F5E60A61C9BB7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA9499E68CAC7B5"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0A47F5059E553B14"]
+			description: [
+				"That is basically it..."
+				""
+				"Just find spell scrolls, search and/or craft magic gear, and get stronger through adventure!"
+				""
+				"Enjoy!"
+			]
+			id: "37831CBE7EAA0D47"
+			rewards: [{
+				id: "21C93E488D266FCA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3402652611F9BA3B"
+				title: "End of Iron's Spells"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["71D8E268B80D8F4C"]
+			description: ["Arcane Cloth is used for a great many things in the mod."]
+			id: "225125AA0D57E0F7"
+			rewards: [{
+				id: "5A551E898432BF04"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1257D9C8C971CCD6"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"225125AA0D57E0F7"
+				"0A47F5059E553B14"
+			]
+			description: [
+				"These are cute little familiars all found on the Origin Island and around the world!"
+				""
+				"To tame, use arcane essence!"
+				""
+				"To make sit, right-click with a stick!"
+				""
+				"Press \"L\" to summon/unsummon familiars!"
+			]
+			icon: "alshanex_familiars:familiar_tome"
+			id: "631DDFD575990104"
+			rewards: [{
+				id: "5587C4D319E969CE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1561979586EFF3F2"
+				item: "alshanex_familiars:pet_bed"
+				type: "item"
+			}]
+			title: "Alshanex's Familiars"
+			x: 10.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["6896267BA0CB82B7"]
+			icon: "ars_nouveau:green_archwood_sapling"
+			id: "69DD114E19C74ECA"
+			tasks: [{
+				id: "7BE4385F83F2E1D0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Any #forge:logs/archwood"
+				type: "item"
+			}]
+			title: "Archwood"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["69DD114E19C74ECA"]
+			id: "4014787D66DA9134"
+			tasks: [{
+				id: "36A2C0D2E54C1926"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["69DD114E19C74ECA"]
+			id: "4C4B31F7FAEAFCC4"
+			tasks: [{
+				id: "4F4B20CC0C69A123"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4014787D66DA9134"]
+			id: "040201C007E89ED4"
+			tasks: [{
+				id: "54D116D936D1134D"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["69DD114E19C74ECA"]
+			id: "0C7244CFBF88D5CA"
+			tasks: [{
+				id: "019AA7FF7FCCE03C"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["040201C007E89ED4"]
+			icon: "ars_nouveau:source_jar"
+			id: "09430FE591AD3402"
+			tasks: [
+				{
+					id: "761CB9A71A5D69E5"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "64D672BB37D185D4"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Intro to Source Generation"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["09430FE591AD3402"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "4F8E340C304E7C9B"
+			tasks: [
+				{
+					id: "3FD5D458AB499470"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "76EF427E76EFFF74"
+					item: { Count: 8, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+				{
+					id: "6E7BC7FD0A383F3C"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "Ars Enchanting"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5DB31E58A0495D54"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "717F97024DFEE5B4"
+			tasks: [
+				{
+					id: "49F64F8426FB6D12"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4180345A0EBBB505"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67D6C6760F827C7B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53F9FDA61B2AA62E"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanist's Robes"
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["04A436A5B1DE397C"]
+			id: "7249D14BF2EDD445"
+			tasks: [{
+				id: "0A9EF31B3420BECB"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "04A436A5B1DE397C"
+			tasks: [{
+				id: "167B2592D1AE1658"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7249D14BF2EDD445"]
+			icon: "ars_nouveau:relay_collector"
+			id: "4E4BDC2AB28A4301"
+			tasks: [
+				{
+					id: "3FCDDF91A61960C0"
+					item: "ars_nouveau:relay_collector"
+					type: "item"
+				}
+				{
+					id: "540E3B6A62B74B61"
+					item: "ars_nouveau:relay_warp"
+					type: "item"
+				}
+				{
+					id: "712155ED881B2727"
+					item: "ars_nouveau:relay_deposit"
+					type: "item"
+				}
+				{
+					id: "0ECA9DB965A35BFC"
+					item: "ars_nouveau:relay_splitter"
+					type: "item"
+				}
+			]
+			title: "Special Relays"
+			x: 4.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "2F5DB231360DBB36"
+			tasks: [
+				{
+					id: "3E72DFC7C6D61326"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "6FC3B0546D9F0F14"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "245320A94C77F5EF"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "63BA08E42473E4DD"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "25828BE4BE56995B"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "3B836C0E2467B4A4"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "097C554E417E351B"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "Magical Essences"
+			x: -1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2F5DB231360DBB36"]
+			icon: "ars_nouveau:potion_jar"
+			id: "6F10F9CCD67B8B7C"
+			tasks: [
+				{
+					id: "15DFAA743F064367"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+				{
+					id: "280FC00C19759F44"
+					item: "ars_nouveau:alchemical_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Alchemical Source"
+			x: -1.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["09430FE591AD3402"]
+			id: "50C20C11FE71AC8C"
+			tasks: [{
+				id: "6DFEC16B0606481B"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["09430FE591AD3402"]
+			id: "6275A7B201252FED"
+			tasks: [{
+				id: "7A27DBBC864162EE"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["09430FE591AD3402"]
+			id: "4B507E29A4779F73"
+			tasks: [{
+				id: "056FCDE77087A822"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5DB31E58A0495D54"]
+			id: "6EF54ABECD7B5588"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "7BF611D3743B9AA1"
+					item: "ars_nouveau:falseweave"
+					type: "item"
+				}
+				{
+					id: "4564C8764499A984"
+					item: "ars_nouveau:mirrorweave"
+					type: "item"
+				}
+				{
+					id: "0B0B02BA3892F4CD"
+					item: "ars_nouveau:ghostweave"
+					type: "item"
+				}
+				{
+					id: "2ACDA8F73B16A640"
+					item: "ars_nouveau:sky_block"
+					type: "item"
+				}
+			]
+			title: "Decorative Magic"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "5DB31E58A0495D54"
+			tasks: [{
+				id: "772FC0D44DC7FE93"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "79412497A40E7332"
+			tasks: [{
+				id: "47E1F20952AB3FD9"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["09430FE591AD3402"]
+			id: "6B56886F9B78C037"
+			tasks: [{
+				id: "15CB32649168AEE2"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["04A436A5B1DE397C"]
+			id: "0C5683F2D53DC505"
+			tasks: [{
+				id: "2B058D3E91127498"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["0C5683F2D53DC505"]
+			id: "0D3B2301ADEC279D"
+			tasks: [{
+				id: "5C85BE9C03D67F14"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["0C5683F2D53DC505"]
+			id: "0D7209BA5AC1AABA"
+			tasks: [{
+				id: "3483D8AC7DBB4A6D"
+				item: "ars_additions:warp_index"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["0D7209BA5AC1AABA"]
+			id: "1340C08F7DB329FE"
+			tasks: [{
+				id: "288F24362BB18378"
+				item: "ars_additions:stabilized_warp_index"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["6B56886F9B78C037"]
+			id: "7CAB194930F6BEC6"
+			tasks: [{
+				id: "08C82A00CC2279B5"
+				item: "ars_nouveau:mob_jar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "44502ABBBACC902D"
+			tasks: [{
+				id: "5C59C7F255E8DDB7"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "0136C4CD1EDCE3E0"
+			tasks: [{
+				id: "2D7D47F98B92F223"
+				item: "ars_additions:ender_source_jar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "377729E2459F54F8"
+			tasks: [{
+				id: "14E5C392EDD2B5ED"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "56F019C95E1685C0"
+			tasks: [{
+				id: "418E79058B13B5C1"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "6C5E4CEA2004CF8A"
+			tasks: [{
+				id: "1729ACEE598F2774"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "2E181BFCA96EAA26"
+			tasks: [{
+				id: "644AA677C686BA1B"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["04A436A5B1DE397C"]
+			id: "719EF7E7ADC909CB"
+			tasks: [{
+				id: "3BB05736A588478B"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["6B56886F9B78C037"]
+			id: "757D31445E9D48EF"
+			tasks: [{
+				id: "46348F34255F533C"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4F8E340C304E7C9B"]
+			id: "2AAD0BE5E6E505B2"
+			tasks: [{
+				id: "31FDB5ACFC95F1F2"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Ars Artillery"
+			x: -1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["719EF7E7ADC909CB"]
+			description: [
+				"There are a lot of spells, automation, rituals, magical artifacts, and more to Ars Nouveau."
+				""
+				"I did not wish to make a quest for all of them as you may not want to craft all of them. This way, you may decide what interests you within the mod."
+				""
+				"Hopefully these quests have helped you to understand the majority of the mod, but the rest is up to you."
+				""
+				"I encourage you to continue reading the guidebook and continue from there!"
+			]
+			id: "0D3BE11F445CE84D"
+			shape: "circle"
+			tasks: [{
+				id: "717392E9B2958F20"
+				title: "End of Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["49B5F0B759CCD10E"]
+			id: "69598B08C07C9642"
+			tasks: [{
+				id: "40EB91850BEFC25F"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34FAE49954AA0727"]
+			id: "49B5F0B759CCD10E"
+			tasks: [{
+				id: "785FE1A7ADECDAEF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69598B08C07C9642"]
+			id: "76D93A0F04F2FECA"
+			tasks: [{
+				id: "5EB8EC4C9577027C"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34FAE49954AA0727"]
+			id: "26DFF55472A519EA"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "71AE54A77527C382"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49B5F0B759CCD10E"]
+			id: "7453864AF221F668"
+			tasks: [{
+				id: "62E53C701A8C0F5A"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["76D93A0F04F2FECA"]
+			id: "3C533A981CE4BD97"
+			tasks: [{
+				id: "4656BF425B1C3BCE"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["76D93A0F04F2FECA"]
+			id: "1EA975801FB4BE3F"
+			tasks: [{
+				id: "6A9190AA4C850FE0"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1EA975801FB4BE3F"]
+			id: "43FE6F6DFDF9C172"
+			tasks: [{
+				id: "7BD36479A2CB8376"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3C533A981CE4BD97"]
+			id: "41F61ECA31383F4C"
+			tasks: [{
+				id: "0BEBA4A76A6AA5DE"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3C533A981CE4BD97"]
+			id: "28744B53007191BB"
+			tasks: [{
+				id: "6663135EDEBCF875"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["69598B08C07C9642"]
+			id: "5869CB345B767841"
+			tasks: [{
+				id: "0D9746F96318501D"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["69598B08C07C9642"]
+			id: "06A56A771CB06DD2"
+			tasks: [{
+				id: "701A7CEF0A0F4455"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1BDD3175CD40E9A1"]
+			id: "12D3F9206B76C811"
+			tasks: [{
+				id: "009C625D48E98EC3"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0F58DBC9F41E845A"]
+			id: "5EB7047D1746A794"
+			tasks: [{
+				id: "7C3C9423DA5AA29A"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["12D3F9206B76C811"]
+			id: "0F58DBC9F41E845A"
+			tasks: [{
+				id: "2984208997CB1BD7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:runes"
+					}
+				}
+				title: "Any #botania:runes"
+				type: "item"
+			}]
+			title: "Botanical Runes"
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0F58DBC9F41E845A"]
+			id: "6356383C14C1D345"
+			tasks: [{
+				id: "0E76C6D28190F3B4"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6356383C14C1D345"]
+			id: "2679A9E05D2C185C"
+			tasks: [{
+				id: "4005B082056F0152"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["43FE6F6DFDF9C172"]
+			id: "3B8D3F4EFA0042BF"
+			tasks: [{
+				id: "622B35E9759A742C"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43FE6F6DFDF9C172"]
+			id: "16F14232A5EB897D"
+			tasks: [{
+				id: "057ADF9531A4C591"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2679A9E05D2C185C"]
+			description: [
+				"Please read the entry on the portal to Alfheim in the Lexica."
+				""
+				"If you don't have it unlocked, try doing advancements for Botania."
+			]
+			id: "5FBC80625E8FDF1A"
+			tasks: [{
+				id: "6E0AC1CF65AA7AC8"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5FBC80625E8FDF1A"]
+			id: "05DDA5D4D12D2240"
+			tasks: [{
+				id: "55CA97D001FE1637"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["05DDA5D4D12D2240"]
+			id: "2550E5C7B488BE35"
+			tasks: [{
+				id: "097C4F816E78AA6C"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2550E5C7B488BE35"]
+			id: "0685B57726B7856C"
+			tasks: [{
+				id: "77A8AD21F851C737"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0685B57726B7856C"]
+			id: "2A51F819E2BED78A"
+			tasks: [{
+				id: "18EFBDA90D6900D6"
+				item: "mythicbotany:kvasir_blood"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2A51F819E2BED78A"]
+			description: [
+				"Botania is an automation mod. What you may find useful in it entirely depends on what you are doing."
+				""
+				"There are also LOTS of trinkets that use mana for various tasks. I did not want to force you to make all of them."
+				""
+				"If there is more you wish to do in Botania, try completing the challenges!"
+			]
+			id: "096911E8E391A142"
+			shape: "circle"
+			subtitle: "Why so few quests?"
+			tasks: [{
+				id: "58756A0EFF067055"
+				title: "End of Botania"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"28744B53007191BB"
+				"41F61ECA31383F4C"
+				"43FE6F6DFDF9C172"
+			]
+			id: "1BDD3175CD40E9A1"
+			tasks: [{
+				id: "4052FD25A0BA7D0E"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1BDD3175CD40E9A1"]
+			id: "7889B03E5C8D513E"
+			tasks: [{
+				id: "03EACD4DD04EDA87"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["05DDA5D4D12D2240"]
+			id: "095E013A2362416E"
+			tasks: [{
+				id: "1570CDBB1570FBC6"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["1BDD3175CD40E9A1"]
+			description: [
+				"Mana pylons are useful for multiple things in Botania."
+				""
+				"I'm actually going to tell you about the Mana Enchanter here instead of the pylon."
+				""
+				"The reason there isn't a quest for the enchanter is that it is expensive. It allows you to place enchantments on equipment without consuming the book, which is great! On the other hand, there are also multiple other magic mods that add in some form of enchanting."
+				""
+				"It is up to you whether or not you want to make it, but you will need a mana pylon for later."
+			]
+			id: "6B0DA55CDF5651A7"
+			tasks: [{
+				id: "59966F101C483463"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["090F1019A94E3DE4"]
+			icon: "rootsclassic:mortar"
+			id: "2B6540BD04DB341F"
+			tasks: [
+				{
+					id: "1ED08784BB4CD3F9"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "0E65968142C0D67B"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			title: "Pestle and Mortar"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B6540BD04DB341F"]
+			id: "5A5A26DC7496D477"
+			tasks: [{
+				id: "254898667A03237F"
+				item: "rootsclassic:imbuer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1CE4CE034121053B"]
+			id: "090F1019A94E3DE4"
+			tasks: [{
+				id: "3341D8D0F34EB831"
+				item: {
+					Count: 1
+					id: "rootsclassic:bark_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["090F1019A94E3DE4"]
+			icon: "rootsclassic:altar"
+			id: "66BAC1C0E71D0603"
+			tasks: [
+				{
+					id: "68FAE09A12C7C5B9"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+				{
+					id: "19356D7C243AC31E"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+			]
+			title: "Roots Rituals"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6BBE40FF1358848C"]
+			id: "1CE4CE034121053B"
+			tasks: [{
+				id: "0D8E717518A93060"
+				item: "rootsclassic:old_root"
+				type: "item"
+			}]
+			title: "Plant Ingredients"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["66BAC1C0E71D0603"]
+			id: "0109784A14FC2780"
+			tasks: [{
+				id: "64F2308BC77E17D6"
+				item: "rootsclassic:mundane_standing_stone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3279D3EF76C4E187"]
+			id: "1CAA03459EB90423"
+			tasks: [{
+				id: "61A44320C7C75A99"
+				item: "rootsclassic:crystal_staff"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0109784A14FC2780"]
+			id: "3279D3EF76C4E187"
+			tasks: [{
+				id: "09961D62CFAC38A3"
+				item: "rootsclassic:attuned_standing_stone"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CAA03459EB90423"]
+			id: "64509E4EF93649EA"
+			tasks: [{
+				id: "4F7C3F6592E1FA27"
+				item: "rootsclassic:runic_focus"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["64509E4EF93649EA"]
+			id: "41F35F3F550D609D"
+			shape: "circle"
+			subtitle: "A very small adventure"
+			tasks: [{
+				id: "0EA9561A32B021C9"
+				title: "End of Roots"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6C561732E587325C"]
+			id: "4D28834177DDE3E9"
+			tasks: [{
+				id: "2A3219CE19CE0507"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D28834177DDE3E9"]
+			id: "33853F38078BF900"
+			tasks: [{
+				id: "70D63D9EEF203277"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "08D10649B0D005B8"
+			tasks: [{
+				id: "0E582C68FF66F8C1"
+				item: "hexerei:coffer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "4584B63D28041327"
+			tasks: [{
+				id: "5EAB570676340DE4"
+				item: {
+					Count: 1
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "1EDD728907E2E934"
+			tasks: [{
+				id: "39FC8BA5CBCF036A"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D28834177DDE3E9"]
+			id: "73861347E85A907E"
+			tasks: [{
+				id: "754D922489348F88"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "45166F5449094F18"
+			tasks: [{
+				id: "55A5EFACD0226E75"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "2D02BECE6F9C9A1F"
+			tasks: [{
+				id: "0F7E7B1C0A43DD1E"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D02BECE6F9C9A1F"]
+			id: "7C622A38BBED7343"
+			tasks: [{
+				id: "68E529B3DB84A767"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexerei:candles"
+					}
+				}
+				title: "Any #hexerei:candles"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "30E329A127E728EA"
+			tasks: [{
+				id: "007AF9962F2966FB"
+				item: "hexerei:crystal_ball"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D28834177DDE3E9"]
+			id: "672E4D8FFCB66D88"
+			tasks: [{
+				id: "2FA487FEB4C962D4"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "69619DCEE821B650"
+			tasks: [{
+				id: "322BB0B99914A477"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69619DCEE821B650"]
+			id: "327F3A3146ADE78E"
+			tasks: [{
+				id: "7F36B76EE3B0AFA5"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["327F3A3146ADE78E"]
+			id: "67EDF162BA8BBA55"
+			tasks: [{
+				id: "7F0C6D5A000408FD"
+				item: {
+					Count: 1
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67EDF162BA8BBA55"]
+			id: "25D4931124DA60A5"
+			tasks: [{
+				id: "0C48EC353194986F"
+				item: {
+					Count: 1
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67EDF162BA8BBA55"]
+			id: "12CF0250393EC5E1"
+			tasks: [{
+				id: "068ED9D9061DA769"
+				item: {
+					Count: 1
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67EDF162BA8BBA55"]
+			id: "4A578157A1732CA8"
+			tasks: [{
+				id: "2493BE8A02115508"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A578157A1732CA8"]
+			id: "35B02378B563F813"
+			tasks: [{
+				id: "44A4B78E5403DD48"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67EDF162BA8BBA55"]
+			id: "1398D6796D8C0FE6"
+			tasks: [{
+				id: "17B0ECC5B4445F25"
+				item: {
+					Count: 1
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67EDF162BA8BBA55"]
+			id: "3681A2DEA28F5642"
+			tasks: [{
+				id: "6A87DE0846D86093"
+				item: {
+					Count: 1
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3681A2DEA28F5642"]
+			id: "137EC75BCAFA99D1"
+			tasks: [{
+				id: "7BB0B005CC53362E"
+				item: {
+					Count: 1
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["137EC75BCAFA99D1"]
+			id: "66EE054EBED84DA5"
+			tasks: [{
+				id: "0675DC6E92118268"
+				item: {
+					Count: 1
+					id: "hexerei:moon_dust_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D28834177DDE3E9"]
+			icon: {
+				Count: 1
+				id: "hexerei:crow_flute"
+				tag: { }
+			}
+			id: "44881E1213023B78"
+			tasks: [
+				{
+					id: "24234563F57430AC"
+					item: {
+						Count: 1
+						id: "hexerei:crow_flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DFB65696155EB50"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44881E1213023B78"]
+			id: "042DCDB19569C703"
+			tasks: [{
+				id: "3DABD7B202932B8A"
+				item: {
+					Count: 1
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"73861347E85A907E"
+				"1EDD728907E2E934"
+			]
+			id: "49D8D30B417E7C31"
+			tasks: [{
+				id: "2CA9532DCBEFE8E9"
+				item: {
+					Count: 1
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33853F38078BF900"]
+			id: "7FF18BB1C0397C63"
+			tasks: [{
+				id: "2CBA74810EBFD220"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FF18BB1C0397C63"]
+			icon: {
+				Count: 1
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F8F9C0280E0E108"
+			tasks: [
+				{
+					id: "3F76AF39A4918E92"
+					item: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D31378C27DD2D13"
+					item: {
+						Count: 1
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "480E10EDCCD47899"
+					item: {
+						Count: 1
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D28834177DDE3E9"]
+			icon: "hexerei:courier_letter"
+			id: "2BBC62462A7984E1"
+			tasks: [
+				{
+					id: "569572F9D70F77AC"
+					item: "hexerei:willow_courier_depot"
+					type: "item"
+				}
+				{
+					id: "75C19AE861EBDA55"
+					item: "hexerei:courier_letter"
+					type: "item"
+				}
+			]
+			title: "Courier Owls"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1398D6796D8C0FE6"]
+			id: "263EE0E18EF2740C"
+			shape: "circle"
+			tasks: [{
+				id: "5194659329AD8F66"
+				title: "End of Hexerei"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["461C993DF2881524"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:extraction"
+				}
+			}
+			id: "525303A09F6C7227"
+			tasks: [
+				{
+					id: "1B3E086C5D6D0272"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:extraction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0070E677F8F79039"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["461C993DF2881524"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:herbology"
+				}
+			}
+			id: "72DFDAAE8C36C041"
+			tasks: [
+				{
+					id: "5DBBCBB504E08170"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:herbology"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "315BC267A316C5AE"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["525303A09F6C7227"]
+			icon: "enchanted:witch_oven"
+			id: "5ECBCA1ED0C92342"
+			tasks: [
+				{
+					id: "3AF2F3D7368DDC58"
+					item: "enchanted:witch_oven"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "60E2BD22C2A7FEDB"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5ECBCA1ED0C92342"]
+			id: "1EE55C616C4DEA2C"
+			tasks: [{
+				count: 2L
+				id: "716AB9D4A3088F21"
+				item: { Count: 2, id: "enchanted:fume_funnel" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72DFDAAE8C36C041"]
+			icon: "enchanted:witch_cauldron"
+			id: "79E83404F702A89E"
+			tasks: [{
+				id: "71F741754221D5B1"
+				item: "enchanted:anointing_paste"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5ECBCA1ED0C92342"
+				"79E83404F702A89E"
+			]
+			id: "602A662093215FBC"
+			tasks: [{
+				id: "47160E9EE448A1EB"
+				item: "enchanted:mutandis"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["602A662093215FBC"]
+			id: "3EEE5733228A8A0A"
+			tasks: [
+				{
+					id: "3D04B385141DEB73"
+					item: "enchanted:rowan_sapling"
+					type: "item"
+				}
+				{
+					id: "7A75ECA9E218D081"
+					item: "enchanted:alder_sapling"
+					type: "item"
+				}
+				{
+					id: "579394597DC76B73"
+					item: "enchanted:hawthorn_sapling"
+					type: "item"
+				}
+				{
+					id: "515B4D9A54D81898"
+					item: "enchanted:ember_moss"
+					type: "item"
+				}
+				{
+					id: "2B30EA21F579DDA6"
+					item: "enchanted:spanish_moss"
+					type: "item"
+				}
+				{
+					id: "1D79C58D80A7D538"
+					item: "enchanted:glint_weed"
+					type: "item"
+				}
+			]
+			title: "Mutated Plants"
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["355B4746E06C32A6"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:brewing"
+				}
+			}
+			id: "384C5C40BE5F070F"
+			tasks: [
+				{
+					id: "7C11AAFA170BD381"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:brewing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D46F3BA898AEB76"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["355B4746E06C32A6"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:poppetry"
+				}
+			}
+			id: "2B4FE2BACE98C4B3"
+			tasks: [
+				{
+					id: "6EDBAE6697043122"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:poppetry"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63D96C94A3BB5467"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["355B4746E06C32A6"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "enchanted:circle_magic"
+				}
+			}
+			id: "51FE8426613EBDF5"
+			tasks: [
+				{
+					id: "0456E4944B45A3CB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:circle_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BACA5A441A9C3B0"
+					title: "I Have This Book!"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["51FE8426613EBDF5"]
+			id: "7632AABD4F8A00BE"
+			tasks: [{
+				count: 6L
+				id: "419755C35F07146B"
+				item: { Count: 6, id: "enchanted:altar" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EEE5733228A8A0A"]
+			id: "355B4746E06C32A6"
+			tasks: [{
+				id: "04D87B5E123C3638"
+				item: "enchanted:attuned_stone"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1EE55C616C4DEA2C"
+				"355B4746E06C32A6"
+			]
+			id: "04B5BCBEC1C1FD58"
+			tasks: [{
+				count: 2L
+				id: "38DDA6EAC1996219"
+				item: { Count: 2, id: "enchanted:fume_funnel_filtered" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"384C5C40BE5F070F"
+				"7632AABD4F8A00BE"
+			]
+			id: "02EECE42A82CADC4"
+			tasks: [{
+				id: "0971B224FD1E056D"
+				item: "enchanted:kettle"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7632AABD4F8A00BE"]
+			id: "2A7DAA85A9805BA5"
+			tasks: [{
+				id: "304CA6D44213D8E6"
+				item: "enchanted:distillery"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7632AABD4F8A00BE"
+				"2A7DAA85A9805BA5"
+			]
+			icon: {
+				Count: 1
+				id: "enchanted:ritual_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CA24C77DDE59679"
+			tasks: [
+				{
+					id: "4993B10D84315269"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D56DC6DF593F3BC"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2B4FE2BACE98C4B3"
+				"7632AABD4F8A00BE"
+			]
+			id: "0C5B1A004E314E07"
+			tasks: [{
+				id: "56A0F08C087D3567"
+				item: "enchanted:spinning_wheel"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0C5B1A004E314E07"]
+			id: "082019E9FF7365F6"
+			tasks: [{
+				id: "2B9F62FEE2AF9048"
+				item: "enchanted:poppet_shelf"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["72DFDAAE8C36C041"]
+			id: "368C27280649898B"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "189D26ED7B04AEAF"
+				item: {
+					Count: 1
+					id: "enchanted:earmuffs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["082019E9FF7365F6"]
+			id: "4DC74B8E75699B95"
+			tasks: [{
+				id: "2C31891C54EB5586"
+				item: "enchanted:poppet"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7632AABD4F8A00BE"]
+			id: "5DD1FFAD1D4F3E98"
+			tasks: [{
+				id: "544D2DB9668A0A2F"
+				item: "enchanted:candelabra"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7632AABD4F8A00BE"]
+			id: "282681AB903A7C0A"
+			tasks: [{
+				id: "361550166C456A2C"
+				item: "enchanted:chalice"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"282681AB903A7C0A"
+				"2A7DAA85A9805BA5"
+			]
+			id: "3DE4C058C770365D"
+			tasks: [{
+				id: "32A3EEB90C570702"
+				item: "enchanted:chalice_filled"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["461C993DF2881524"]
+			id: "606EF098D27AD781"
+			tasks: [{
+				id: "31C14582EFC7F6AF"
+				item: {
+					Count: 1
+					id: "enchanted:arthana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A7DAA85A9805BA5"]
+			id: "6C9963C420B2BAF5"
+			tasks: [{
+				id: "071849236B648CE9"
+				item: "enchanted:enchanted_broomstick"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3CA24C77DDE59679"]
+			id: "3246DCC33C4EC730"
+			tasks: [{
+				id: "0394DF45A45488B6"
+				item: "enchanted:circle_talisman"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3CA24C77DDE59679"]
+			id: "33062D2955D31845"
+			tasks: [
+				{
+					id: "2DC9818B205AE0D6"
+					item: {
+						Count: 1
+						id: "enchanted:nether_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0170D9D9A9C438CE"
+					item: {
+						Count: 1
+						id: "enchanted:otherwhere_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Ritual Chalk"
+			x: -16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"33062D2955D31845"
+				"4DC74B8E75699B95"
+				"6C9963C420B2BAF5"
+			]
+			id: "1CA5F56CAF2D3569"
+			shape: "circle"
+			tasks: [{
+				id: "55330835918871A6"
+				title: "End of Enchanted"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0ECB48B872FE259D"]
+			icon: "occultism:datura"
+			id: "78C93EAAEF6B8565"
+			tasks: [
+				{
+					id: "7720624042793139"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					id: "023B3B09B2326B9A"
+					item: "occultism:demons_dream_essence"
+					type: "item"
+				}
+				{
+					id: "5036ADDD6664FC4C"
+					item: "occultism:otherworld_essence"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E165CA1C25B1C56"]
+			description: [
+				"Occultism has an incredibly good guide to the mod (which I hope you have been reading)."
+				""
+				"Most of the mod is based around familiars, demons, and rituals. Therefore, there aren't a lot of items for quests."
+				""
+				"Whilst this is not technically \"the end\" of the mod, it is the end of the quests. Please read the guide for what to do next!"
+			]
+			id: "77ECBE01BD3920F5"
+			shape: "circle"
+			tasks: [{
+				id: "46C7C463B3882FFF"
+				title: "End of Occultism"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["78C93EAAEF6B8565"]
+			id: "7344635798D17251"
+			tasks: [{
+				id: "315C97513A5D5344"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7344635798D17251"]
+			id: "7EF081EF8C1B24A4"
+			tasks: [{
+				id: "1DA3E190A9E2DE0E"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EF081EF8C1B24A4"]
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "1DCD35D5C8AAE894"
+			tasks: [
+				{
+					id: "2F4EA12152BD9818"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "7E57FC8234E96E86"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["36ED97B6D629C841"]
+			icon: "bloodmagic:altar"
+			id: "3CA890B8C0688EA5"
+			tasks: [
+				{
+					id: "5B57D9346D8427EF"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "535CD73967A4903F"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CA890B8C0688EA5"]
+			id: "7D3AFB77EEF756E6"
+			tasks: [{
+				id: "4C762B7AD7C2D1C8"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CA890B8C0688EA5"]
+			id: "42CB19963E5227A6"
+			tasks: [{
+				id: "41AD2B05664E5F80"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7D3AFB77EEF756E6"
+				"42CB19963E5227A6"
+			]
+			id: "72C03CB901ACE97E"
+			tasks: [{
+				id: "3779F7EE6C18CE24"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7D3AFB77EEF756E6"
+				"42CB19963E5227A6"
+			]
+			id: "599ECDCCEBCFD3BD"
+			tasks: [{
+				id: "627DF5981CAC23F2"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CA890B8C0688EA5"]
+			id: "037B6C384C76F8E6"
+			tasks: [{
+				id: "6F8A4742529E219B"
+				item: "bloodmagic:soulsnare"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["037B6C384C76F8E6"]
+			id: "267FFE719281C4F6"
+			tasks: [{
+				id: "7915339A99B0E606"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["599ECDCCEBCFD3BD"]
+			id: "3719B81BEDAFE6DC"
+			tasks: [{
+				id: "27F8C3E3827E9D31"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42CB19963E5227A6"]
+			id: "43374E3DC44A2B84"
+			tasks: [{
+				id: "1674BFB378097D0D"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"43374E3DC44A2B84"
+				"267FFE719281C4F6"
+			]
+			id: "783925C8C326DBE2"
+			tasks: [{
+				id: "79DF3F48602F0EA9"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: {
+						souls: 64.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["783925C8C326DBE2"]
+			id: "3ADFE4B4C83BD187"
+			tasks: [{
+				id: "47D7AB50A5BCDA4C"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 256.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C03CB901ACE97E"]
+			id: "40C3F269B9FAF755"
+			tasks: [{
+				id: "2737F769DC10E755"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3719B81BEDAFE6DC"]
+			icon: {
+				Count: 1
+				id: "bloodmagic:livinghelmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59BCD97F63CE4926"
+			tasks: [
+				{
+					id: "6299BDE96820980D"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4570CDE2A509C59E"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								evolved: 0b
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6301EF76BDACC52E"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39D82415D5111044"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43005C2B71F29DB5"
+					item: "bloodmagic:upgradetrainer"
+					type: "item"
+				}
+			]
+			title: "Living Armor"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40C3F269B9FAF755"]
+			id: "6B1CF870BD03AAAB"
+			tasks: [{
+				id: "3579447DD3C79023"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6A8822E483F8BE94"]
+			id: "326BDC5F410C6FDF"
+			tasks: [{
+				id: "3F5182B38D3C34CE"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["11F38A43FC74F901"]
+			id: "3A98157FB85C88E0"
+			tasks: [{
+				id: "3A1204F0898BA238"
+				item: "bloodmagic:archmagebloodorb"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3ADFE4B4C83BD187"
+				"6B1CF870BD03AAAB"
+			]
+			id: "6DB88FF4593B2B27"
+			tasks: [{
+				id: "707678083F2BD09B"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 1024.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05277A13B3CD9230"]
+			id: "72C86DE13FD33680"
+			tasks: [{
+				id: "2E5ADADEB0F685ED"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 4096.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["783925C8C326DBE2"]
+			id: "57E54B861828A1A2"
+			tasks: [{
+				id: "165A0ED4D5548A0A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B1CF870BD03AAAB"]
+			icon: "bloodmagic:activationcrystalweak"
+			id: "7C5A8E2740D20354"
+			tasks: [
+				{
+					id: "179748E98E0A9FEC"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+				{
+					id: "1A0C47CD2C12B3B0"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					id: "08B27DB84AC262C3"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+			]
+			title: "Blood Rituals"
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C5A8E2740D20354"]
+			id: "74C9D19F07A9D50F"
+			tasks: [{
+				id: "53F2580C5565F1C8"
+				item: "bloodmagic:ritualdiviner"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B1CF870BD03AAAB"]
+			id: "7B8497DDB94F47A6"
+			tasks: [{
+				id: "59CA8319660AD118"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C5A8E2740D20354"]
+			id: "12D1A599EE3D0239"
+			tasks: [
+				{
+					count: 6L
+					id: "27F02878B22519B2"
+					item: { Count: 6, id: "bloodmagic:waterritualstone" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "208F6651DA4031F4"
+					item: { Count: 10, id: "bloodmagic:fireritualstone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "13D15F97B3F9CC1E"
+					item: { Count: 16, id: "bloodmagic:earthritualstone" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "34CFB2A7A306AB28"
+					item: { Count: 6, id: "bloodmagic:airritualstone" }
+					type: "item"
+				}
+			]
+			title: "Edge of the Hidden Realm"
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12D1A599EE3D0239"]
+			id: "697C48BB9E29987A"
+			tasks: [{
+				id: "1A08C1711B627DA1"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7B8497DDB94F47A6"
+				"697C48BB9E29987A"
+			]
+			id: "6A8822E483F8BE94"
+			tasks: [{
+				id: "36F9D51E3886F2C9"
+				item: "bloodmagic:weakbloodshard"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6DB88FF4593B2B27"]
+			icon: "bloodmagic:demoncrystallizer"
+			id: "661CE2265E1A19B4"
+			tasks: [
+				{
+					id: "0735CDAE85858A70"
+					item: "bloodmagic:demoncrystallizer"
+					type: "item"
+				}
+				{
+					id: "651B296A404DAEB5"
+					item: "bloodmagic:demoncrucible"
+					type: "item"
+				}
+			]
+			title: "Demonic Will Crystallization"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["661CE2265E1A19B4"]
+			id: "05277A13B3CD9230"
+			tasks: [{
+				id: "082BBE79BC0EEA47"
+				item: "bloodmagic:defaultcrystal"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D3AFB77EEF756E6"]
+			id: "7CD8590230BD7982"
+			tasks: [{
+				id: "4D25A95DE2536658"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["326BDC5F410C6FDF"]
+			id: "11F38A43FC74F901"
+			tasks: [{
+				id: "2E36D1BF36000AD0"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3A98157FB85C88E0"]
+			description: [
+				"You have successfully obtained the highest tier blood altar and the Archmage's Blood Orb!"
+				""
+				"With that, you should be able to aquire anything within the world of Blood Magic."
+				""
+				"There are a lot of upgrades, rituals, sigils, and more in Blood Magic. "
+				""
+				"I encourage you to continue with Blood Magic to see what interesting powers you may aquire!"
+			]
+			id: "3C12B9E5A28A9825"
+			shape: "circle"
+			tasks: [{
+				id: "641E54FA986B33CC"
+				title: "End of Blood Magic"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["326BDC5F410C6FDF"]
+			id: "29197D9160A3F5B6"
+			tasks: [{
+				id: "59AFD31EEEC953FB"
+				item: "bloodmagic:ritualtinkerer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["661CE2265E1A19B4"]
+			icon: "bloodmagic:demonwillgauge"
+			id: "60A1B5603F70F931"
+			tasks: [
+				{
+					id: "0A88CFC659EF1A69"
+					item: "bloodmagic:demonpylon"
+					type: "item"
+				}
+				{
+					id: "1A5758AEF82CED76"
+					item: "bloodmagic:demonwillgauge"
+					type: "item"
+				}
+			]
+			title: "Demonic Aura"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["019206227A14F892"]
+			id: "0F25F26ABA8B6BC6"
+			tasks: [{
+				id: "386E878413C78F9D"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7344635798D17251"]
+			id: "0AE236712F21F3C8"
+			tasks: [{
+				id: "323E31EBC9F69B3E"
+				item: "occultism:taboo_book"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7EF081EF8C1B24A4"]
+			id: "76A09BBC34EE4636"
+			tasks: [{
+				id: "556CA904CB4F0D9D"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DCD35D5C8AAE894"]
+			id: "019206227A14F892"
+			tasks: [{
+				id: "00EF08F8A382703C"
+				item: {
+					Count: 1
+					id: "occultism:chalk_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1DCD35D5C8AAE894"]
+			id: "43326BEE3820CC7A"
+			tasks: [{
+				id: "0DED000A9D970A62"
+				item: {
+					Count: 1
+					id: "occultism:chalk_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1DCD35D5C8AAE894"]
+			id: "5F5816DA40A1A9CF"
+			tasks: [{
+				id: "50E2FDD36FA7FD7F"
+				item: {
+					Count: 1
+					id: "occultism:chalk_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"019206227A14F892"
+				"43326BEE3820CC7A"
+			]
+			id: "2BF5707D9BFC9D79"
+			tasks: [{
+				id: "202565A1FF415596"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Zurjyrsyrn"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2BF5707D9BFC9D79"]
+			id: "2E165CA1C25B1C56"
+			tasks: [{
+				id: "335D0A35F63B1DCD"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E165CA1C25B1C56"]
+			id: "63EED666DEF0E491"
+			tasks: [{
+				id: "18367B61775CC21D"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E165CA1C25B1C56"]
+			id: "7D38589D8E4CEE1A"
+			tasks: [{
+				id: "3AF84CAF8A7C59E4"
+				item: "occultism:magic_lamp_empty"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"019206227A14F892"
+				"43326BEE3820CC7A"
+			]
+			id: "7CCCFCC3A61B44FA"
+			tasks: [
+				{
+					id: "262D49CBDFA18A26"
+					item: "occultism:storage_controller_base"
+					type: "item"
+				}
+				{
+					id: "5FBC0850B7227BE4"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+			]
+			title: "Storage Actuator"
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7CCCFCC3A61B44FA"]
+			id: "691FF7DBEFB3D012"
+			tasks: [{
+				id: "6C2F48EBF10C2741"
+				item: {
+					Count: 1
+					id: "occultism:stable_wormhole"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["691FF7DBEFB3D012"]
+			id: "320FE2BF03A6C335"
+			tasks: [{
+				id: "713CCDF1F1835FE5"
+				item: {
+					Count: 1
+					id: "occultism:storage_remote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7CCCFCC3A61B44FA"]
+			id: "41512819CA262757"
+			tasks: [{
+				id: "306665927A1EA99E"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0D577BC17D2EA4DC"]
+			id: "0118EA51C028CABE"
+			tasks: [{
+				id: "651CBDC0A5405AF1"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0118EA51C028CABE"]
+			id: "28986B8078720982"
+			tasks: [{
+				id: "2CE5D7C56A08C145"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D561C047BC0F32C"]
+			id: "30E645A9DDD09E2A"
+			tasks: [{
+				id: "305DA9AC05D3CEBB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+							slot: 0
+						}
+					}
+					id: "goety:dark_wand"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0118EA51C028CABE"]
+			id: "5D561C047BC0F32C"
+			tasks: [{
+				id: "03DC0CCE838E1253"
+				item: "goety:haunted_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0118EA51C028CABE"]
+			id: "48EAB221A44E36F4"
+			tasks: [{
+				id: "4466ACF6F3976AE6"
+				item: "goety:cursed_cage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0D577BC17D2EA4DC"]
+			id: "63B342C3AA9680D9"
+			tasks: [{
+				id: "1B28F6D4CFAC7E9B"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["48EAB221A44E36F4"]
+			id: "491FD9A1144B92AC"
+			tasks: [
+				{
+					id: "788E7D9D6CE3FD19"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "goety:dark_altars"
+						}
+					}
+					title: "Any #goety:dark_altars"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E90E51E0E69F4D9"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "goety:pedestals"
+						}
+					}
+					title: "Any #goety:pedestals"
+					type: "item"
+				}
+			]
+			title: "Dark Rituals"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30E645A9DDD09E2A"]
+			id: "2F1BAEA98A073322"
+			tasks: [{
+				id: "60C3E6F7A435B2D4"
+				item: "goety:empty_focus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["491FD9A1144B92AC"]
+			id: "3E6A5C8368ACBAE9"
+			tasks: [{
+				id: "6E545B77D20E3946"
+				item: "goety:mystic_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["48EAB221A44E36F4"]
+			id: "18F068D71388A8E2"
+			tasks: [{
+				id: "2A12C461B75965F8"
+				item: "goety:flame_capture"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["491FD9A1144B92AC"]
+			id: "028DC26EF6386D74"
+			tasks: [{
+				id: "028E804750D39F26"
+				item: "goety:arca"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2F1BAEA98A073322"]
+			id: "3EDC0F3CD9A6EF47"
+			tasks: [{
+				id: "3EDD79FF1F96989F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+							slot: 0
+						}
+					}
+					id: "goety:focus_bag"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["028DC26EF6386D74"]
+			description: [
+				"Goety contains a lot of foci and rituals!"
+				""
+				"You may also gain various servants. I will warn you though: if you enslave villagers, the village will attack you."
+				""
+				"Everything else in this mod is up to you to discover!"
+			]
+			id: "1947E319823C821A"
+			shape: "circle"
+			tasks: [{
+				id: "138FF6D5FF274758"
+				title: "End of Goety"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["162F3766CA352D05"]
+			description: [
+				"Pewter is an important material in this magic that blends iron and lead together."
+				""
+				"Simply just an iron and lead ingot in a crafting grid to make the blend."
+			]
+			id: "647DCF09A3BFDC82"
+			rewards: [{
+				id: "7AEA7B5157938331"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBAFF63A59A191C"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["647DCF09A3BFDC82"]
+			description: [
+				"A Magic Workbench is used for crafting many things."
+				""
+				"It has 4 extra slots for items in addition to a crafting grid."
+			]
+			id: "0239FF414458AD76"
+			rewards: [{
+				id: "0CFD9577A055567C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D58E91FF7A9164D"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0239FF414458AD76"]
+			description: [
+				"The Athame is mainly for aquiring the magical plants (check the book)."
+				""
+				"Just right-click the plant and you may get the magical flora in question."
+				""
+				"Note: if you are harvesting a lilypad, try shift-right-clicking instead."
+			]
+			id: "73CD1FA465DBA602"
+			rewards: [{
+				id: "799ABF6DA82886B5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A9F15388333CA38"
+				item: {
+					Count: 1
+					id: "eidolon:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["73CD1FA465DBA602"]
+			description: [
+				"To be clear:"
+				"-Lilypads"
+				"-Nether Fungi"
+				"-Jungle Leaves"
+				"-White (vanilla) flowers"
+				"-Ferns"
+			]
+			id: "16BD10E01C6E2BAA"
+			rewards: [{
+				count: 3
+				id: "4D8E08D21E4B3EA8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "665A09D34460DD68"
+					item: "eidolon:merammer_root"
+					type: "item"
+				}
+				{
+					id: "754ED2D21282399C"
+					item: "eidolon:oanna_bloom"
+					type: "item"
+				}
+				{
+					id: "22E552B048D6234B"
+					item: "eidolon:avennian_sprig"
+					type: "item"
+				}
+				{
+					id: "4907CAA0CDFD7436"
+					item: "eidolon:sildrian_seed"
+					type: "item"
+				}
+				{
+					id: "52A37482857C39A7"
+					item: "eidolon:mirecap"
+					type: "item"
+				}
+			]
+			title: "Strange Flora"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16BD10E01C6E2BAA"]
+			description: ["Now you may grow them in your backyard!"]
+			id: "76C6D9E966B4DFE2"
+			rewards: [{
+				id: "0819DA00B90B30E8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "390F676D8B7ED8AD"
+				item: "eidolon:planter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["647DCF09A3BFDC82"]
+			icon: "eidolon:brazier"
+			id: "3D11E87DE51E4499"
+			rewards: [{
+				id: "7E50C071B3824B0C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61E23DE6A18C6EBA"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					id: "2079DA575C4B734C"
+					item: "eidolon:necrotic_focus"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "1817924E8E330DC8"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+			]
+			title: "Eidolon Rituals"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["647DCF09A3BFDC82"]
+			description: [
+				"The apothecary stand is mainly used for potion brewing like the brewing stand."
+				""
+				"The main difference is that a heated crucible (with water) under the apothecary will allow you to brew potions without the need of blaze powder."
+			]
+			id: "4680AE2CC8B6516C"
+			rewards: [{
+				id: "194723102A6A3D5A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3230B28B012F4F22"
+				item: "eidolon:wooden_brewing_stand"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["647DCF09A3BFDC82"]
+			description: [
+				"To use the crucible, you need a source of heat below it i.e. netherrack that is on fire."
+				""
+				"Then you need to fill it with water."
+				""
+				"The recipes may be confusing at first, but all you need to understand is the stirer symbol with the circular arrow; it means to right-click it before moving on to the next step. If you see it twice, stir twice, and so on."
+				""
+				"Otherwise, you need to just toss the items in as the recipe suggests and in that order."
+			]
+			id: "7F720FAE96AF2A4E"
+			rewards: [{
+				id: "03DAE1E7C9EB8C21"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "158C960DA087BE8A"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7F720FAE96AF2A4E"
+				"3D11E87DE51E4499"
+			]
+			id: "3DE9B0DBDE0E0199"
+			rewards: [{
+				id: "1574956149F24F07"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7836164A94F03EFB"
+				item: "eidolon:lesser_soul_gem"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"3D11E87DE51E4499"
+				"7F720FAE96AF2A4E"
+			]
+			description: ["Another useful metal in the world of magic..."]
+			id: "6A3B69F336592579"
+			rewards: [{
+				id: "5CD8F6F7EC353819"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B3A5291B86C4006"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"3DE9B0DBDE0E0199"
+				"6A3B69F336592579"
+			]
+			description: [
+				"The Soul Enchanter allows for any alternative resource for enchanting in the form of souls."
+				""
+				"It is much like an Enchantment Table, but instead requires Lesser Soul Shards to work."
+			]
+			id: "13CF3FF5E67DF3EA"
+			rewards: [{
+				id: "1F729CC06B11FFC0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A972A7528286EA"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3D11E87DE51E4499"]
+			id: "3937D4BD240F4641"
+			rewards: [{
+				id: "358F2253C9DA9902"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40CB32A56412097E"
+				item: "eidolon:stone_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3937D4BD240F4641"]
+			description: [
+				"Find alchemist in village to hand him the book."
+				""
+				"Then use sign on effigy"
+				""
+				"Same with Witch"
+			]
+			id: "4EB145FCEAB3CE1C"
+			rewards: [{
+				id: "4B03DEBFC1F30788"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "506C9EA6949F050D"
+				item: "eidolon:straw_effigy"
+				type: "item"
+			}]
+			title: "Altar Upgrades"
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7F720FAE96AF2A4E"]
+			id: "74C5939CCD8BB8CB"
+			rewards: [{
+				id: "6E62C8E1D15D9DC2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19995A3BE955CCFC"
+				item: "eidolon:scriptorium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4EB145FCEAB3CE1C"]
+			id: "1C9DF4199BF91B37"
+			rewards: [{
+				id: "44FA01D1907DE321"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71B75039E610CC90"
+					item: "eidolon:unholy_symbol"
+					type: "item"
+				}
+				{
+					id: "1D2793FB0943FE7F"
+					item: "eidolon:holy_symbol"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4EB145FCEAB3CE1C"]
+			icon: "eidolon:research_table"
+			id: "0EE09894B68B1991"
+			rewards: [{
+				id: "2D5E3726966AB763"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A0B64DD6AE2E123"
+					item: "eidolon:research_table"
+					type: "item"
+				}
+				{
+					id: "3EB241717E8D1D2B"
+					item: "eidolon:arcane_seal"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1C9DF4199BF91B37"]
+			id: "017702A232DAB447"
+			rewards: [{
+				id: "3FDA4CCF62944809"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "304B87F6B63CEF5A"
+				item: {
+					Count: 1
+					id: "eidolon:reaper_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["017702A232DAB447"]
+			id: "1B8700F02A087FDA"
+			rewards: [{
+				id: "06E75396AE03163F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6E089C7F0ED7EC49"
+				title: "End of Eidolon"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+	]
+	title: "&9Magic"
+}

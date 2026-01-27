@@ -1,0 +1,880 @@
+{
+	autofocus_id: "7415A139F22AD17C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "lordship"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "goety:blazing_horn"
+	id: "2FFAFAD2E1B6506C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			hide_until_deps_complete: true
+			id: "7415A139F22AD17C"
+			rewards: [{
+				id: "2FDF8EBE644238B6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "06737E40A31BBF27"
+				title: "Welcome My Liege!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7415A139F22AD17C"]
+			description: [
+				"You may right-click the ground to create the outline."
+				""
+				"Then move it around until you are satisfied."
+				""
+				"Press the green checkmark once done!"
+			]
+			id: "0B5195BF97AA8E3D"
+			optional: true
+			rewards: [{
+				id: "1700733EB5446F4B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "062B35580D78D31C"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7415A139F22AD17C"]
+			description: [
+				"You may right-click the ground to create the outline."
+				""
+				"Then move it around until you are satisfied."
+				""
+				"Press the green checkmark once done!"
+			]
+			id: "08B6AB7E5BFDF3D4"
+			optional: true
+			rewards: [{
+				id: "248FA0A39C3B31D4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3259EE3558D6EC31"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7415A139F22AD17C"]
+			description: [
+				"The first tool you'll need to start a colony is a build tool!"
+				""
+				"Instead of crafting it, consider making the &lSupply Camp&r or &lSupply Ship&r."
+				""
+				"To use, just right-click and make sure the right building is in your inventory (unless it is a decoration)."
+				""
+				"It has infinite uses, even in crafting."
+			]
+			id: "260850C303607C1C"
+			rewards: [{
+				id: "1238F92859784A9D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "A Kingly Tool"
+			tasks: [{
+				id: "2A84A3928AD16D7B"
+				item: "structurize:sceptergold"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["260850C303607C1C"]
+			description: [
+				"The centerpiece of the colony!"
+				""
+				"Make sure to choose the style that you wish to have for your colony beforehand."
+				""
+				"You will gain 4 colonists to start. One of which may give you a \"quest\" to learn more about colony management."
+				""
+				"Check out the Minecolonies Wiki for more information."
+			]
+			id: "3D7F58B9FF67A1DD"
+			rewards: [{
+				id: "029E3BCA4E8097C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "674D44609B74C086"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7F58B9FF67A1DD"]
+			id: "5D29216518E41C6F"
+			rewards: [{
+				id: "184033CFEA614013"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "454C52910EE18C4A"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "31EA4364001A5A39"
+			tasks: [{
+				id: "6DDB8E733A1E20D5"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"58CCF686D78F90DF"
+				"65725BEC97B41D36"
+			]
+			id: "76A2DB23180CE23B"
+			tasks: [{
+				id: "086F8F20878DA324"
+				item: "minecolonies:blockhutstonemason"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"65725BEC97B41D36"
+				"58CCF686D78F90DF"
+			]
+			id: "2C81B374A70A14B8"
+			tasks: [{
+				id: "3052B628535927C1"
+				item: "minecolonies:blockhutblacksmith"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "14D68BECD47559BB"
+			tasks: [{
+				id: "565AA377E6B8E986"
+				item: "minecolonies:blockhutchickenherder"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5EF41822F562524D"
+				"58CCF686D78F90DF"
+			]
+			id: "49AE4AE78566B4E3"
+			tasks: [{
+				id: "477D99BD55A1D140"
+				item: "minecolonies:blockhutcomposter"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "1AFF3FB2DCCB473F"
+			tasks: [{
+				id: "4DF51B606BDB868C"
+				item: "minecolonies:blockhutcowboy"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "30013DBF6F7DB38E"
+			tasks: [{
+				id: "56A1C5EB83387C0B"
+				item: "minecolonies:blockhutdeliveryman"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "251DCCCC98D0108A"
+			tasks: [{
+				id: "06A0DA9F960622B1"
+				item: "minecolonies:blockhutfisherman"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "59FAB502DA4D2DD6"
+			tasks: [{
+				id: "62FBD188C4A4B702"
+				item: "minecolonies:blockhutshepherd"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "42B476B85E575A5B"
+			tasks: [{
+				id: "3E977AE2FD5E0A2A"
+				item: "minecolonies:blockhutswineherder"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09241FF6BD1648FB"]
+			id: "35D27E389551CEB0"
+			tasks: [{
+				id: "16C3F5687EF817D0"
+				item: "minecolonies:blockhutglassblower"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49AE4AE78566B4E3"]
+			id: "28AB306EF96212F6"
+			tasks: [{
+				id: "422B9AD6DEAAAE93"
+				item: "minecolonies:blockhutdyer"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6A8D194BEB13994B"]
+			id: "537E24EE465A7A58"
+			tasks: [{
+				id: "130AF689CE843932"
+				item: "minecolonies:blockhutfletcher"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C81B374A70A14B8"]
+			id: "38C7009A96FC2274"
+			tasks: [{
+				id: "6DCE251599E8621B"
+				item: "minecolonies:blockhutmechanic"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "25E2A74A9ED52BA9"
+			tasks: [{
+				id: "4460205CE9E2D4C1"
+				item: "minecolonies:blockhutrabbithutch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["565A7271793490A9"]
+			id: "08F8065159902D05"
+			tasks: [{
+				id: "26204AB46AF85C6A"
+				item: "minecolonies:blockhutconcretemixer"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30013DBF6F7DB38E"]
+			id: "05AA7E2110F72AED"
+			tasks: [{
+				id: "048FC51D794177E8"
+				item: "minecolonies:blockhutwarehouse"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "65725BEC97B41D36"
+			tasks: [{
+				id: "2D5A12ECDDABD5A3"
+				item: "minecolonies:blockhutminer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "3E52CB4D9883998C"
+			tasks: [{
+				id: "606ED286E6EEDB70"
+				item: "minecolonies:blockhutnetherworker"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "41F096E33C1F1708"
+			tasks: [{
+				id: "08C9A011A4B8E6A5"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "730574568914FB5A"
+			tasks: [{
+				id: "2CCE8B11FBEEBAEE"
+				item: "minecolonies:blockhutenchanter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E52CB4D9883998C"]
+			id: "1D57F26394E7B78C"
+			tasks: [{
+				id: "2845C25721728A60"
+				item: "minecolonies:blockhutalchemist"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "5EF41822F562524D"
+			tasks: [{
+				id: "0DF465EAB3351532"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EF41822F562524D"]
+			id: "63D7352201A255A4"
+			tasks: [{
+				id: "26C7AFAC3F4CB3A5"
+				item: "minecolonies:blockhutfield"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "1ABD1B8692D022A5"
+			tasks: [{
+				id: "13D5338A2624C550"
+				item: "minecolonies:blockhutgraveyard"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76F8CD9DD9017DA0"]
+			id: "58CCF686D78F90DF"
+			tasks: [{
+				id: "526B0F856FFF472F"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "706217844BFEBC8D"
+			tasks: [{
+				id: "1A10048E2F689108"
+				item: "minecolonies:blockhutlibrary"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"58CCF686D78F90DF"
+				"41F096E33C1F1708"
+			]
+			id: "791C7F99E9194F0D"
+			tasks: [{
+				id: "67A6D334E3888CF6"
+				item: "minecolonies:blockhutbarracks"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D29216518E41C6F"]
+			id: "108077EA2004A313"
+			tasks: [{
+				id: "4BF6B3E52117375C"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "76F8CD9DD9017DA0"
+			tasks: [{
+				id: "700744EA0678442D"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "4A74BF82966C80B0"
+			tasks: [{
+				id: "0E660D8D12DFB4F7"
+				item: "minecolonies:blockhutkitchen"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76A2DB23180CE23B"]
+			id: "7C65962E584585E6"
+			tasks: [{
+				id: "6B5C02F68A026692"
+				item: "minecolonies:blockhutstonesmeltery"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["791C7F99E9194F0D"]
+			id: "0463F204C72865D8"
+			tasks: [{
+				id: "32221BC44D065E9F"
+				item: "minecolonies:blockhutarchery"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "3DCABA165A4AA075"
+			tasks: [{
+				id: "158CD4CBFADA0549"
+				item: "minecolonies:blockhutbaker"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["791C7F99E9194F0D"]
+			id: "3531A78AAB36CE8E"
+			tasks: [{
+				id: "2F746684A6C7AB00"
+				item: "minecolonies:blockhutcombatacademy"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "0244637007B39872"
+			tasks: [{
+				id: "77C58EDD476F2785"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76A2DB23180CE23B"]
+			id: "565A7271793490A9"
+			tasks: [{
+				id: "4DE25AF8613AFA1B"
+				item: "minecolonies:blockhutcrusher"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"31EA4364001A5A39"
+				"58CCF686D78F90DF"
+			]
+			id: "6A8D194BEB13994B"
+			tasks: [{
+				id: "7D00E6A8F27A0A96"
+				item: "minecolonies:blockhutsawmill"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"251DCCCC98D0108A"
+				"6A8D194BEB13994B"
+			]
+			id: "34724C918AD7D68C"
+			tasks: [{
+				id: "72A495C47A212859"
+				item: "minecolonies:blockhutsifter"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"65725BEC97B41D36"
+				"58CCF686D78F90DF"
+			]
+			id: "09241FF6BD1648FB"
+			tasks: [{
+				id: "52EDC659E6C37E8B"
+				item: "minecolonies:blockhutsmeltery"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49AE4AE78566B4E3"]
+			id: "795725B9D7C13564"
+			tasks: [{
+				id: "305A3C2D55ADBAC4"
+				item: "minecolonies:blockhutplantation"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "6A19647B05E80D8B"
+			tasks: [{
+				id: "4B0CFB7E354E5FDE"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "2BFFA1BC093B8EFB"
+			tasks: [{
+				id: "75A5088C8820103F"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "451B581B3A51828D"
+			tasks: [{
+				id: "653E522FF9CF3703"
+				item: "minecolonies:blockhutbeekeeper"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58CCF686D78F90DF"]
+			id: "5700554CB14968BA"
+			tasks: [{
+				id: "0A8FC97A3878AE10"
+				item: "minecolonies:blockhutmysticalsite"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49AE4AE78566B4E3"]
+			id: "39EB4425FA43E15E"
+			tasks: [{
+				id: "284D6FD95EE6E803"
+				item: "minecolonies:blockhutflorist"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["108077EA2004A313"]
+			id: "36D5E499EDF547D8"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "23B7AAEE9DC04CDB"
+				item: "minecolonies:blockhutgatehouse"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["795725B9D7C13564"]
+			id: "2B97A40CDCE9F70C"
+			tasks: [{
+				id: "43F185D07270CA98"
+				item: "minecolonies:blockhutplantationfield"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7415A139F22AD17C"]
+			description: ["Villagers are a very important part of the modpack along with Emeralds as you already know."]
+			id: "268F09317152A12A"
+			rewards: [{
+				id: "5874BBE3988CAFDD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B1315BFFDD94E8F"
+				structure: "#minecraft:village"
+				type: "structure"
+			}]
+			title: "Request the Villager's Aid"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7F58B9FF67A1DD"]
+			description: [
+				"A clipboard can inform you of requests about the colony!"
+				""
+				"Just right-click the town hall after the colony is created."
+			]
+			id: "0B67449FD0B4E146"
+			rewards: [{
+				id: "389B731D7B1A07BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52051DF70291FB58"
+				item: "minecolonies:clipboard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05AA7E2110F72AED"]
+			id: "011160BFBC2D51BF"
+			tasks: [
+				{
+					id: "7F6AC607FC4E2C2C"
+					item: "minecolonies:blockstash"
+					type: "item"
+				}
+				{
+					id: "15AA897821EB5A62"
+					item: "minecolonies:blockpostbox"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5D29216518E41C6F"]
+			id: "0215083D732D8E18"
+			rewards: [{
+				id: "05F3DA36C09CE891"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AAC273CF5A0DEC4"
+				item: {
+					Count: 1
+					id: "minecolonies:resourcescroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "79F82D1EA97E5C51"
+			rewards: [{
+				id: "4EB7417C415F3D9E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71CA6B4B19BF1C90"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "7B6AF7CD34BACC56"
+			rewards: [{
+				id: "13CC75A70E52EA3C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3C70C4FA137874D7"
+				title: "Dynamic Villager Trades"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			description: [
+				"Villager Workers are a great way to do some simple task for you."
+				""
+				"All you need to do is trade with a villager enough to get to the work table you wish to get."
+				""
+				"Then place it down and wait for a worker to become the profession you wish."
+				""
+				"Now you may hold COMMA to get a command screen."
+				""
+				"You only need to worry about 3 things:"
+				"1) Where they sleep."
+				"2) Where they work."
+				"3) Protecting them from hostile mobs."
+				"4) Where their chest is for picking up and dropping off items."
+				"5) Feeding them (place in a chest)."
+				""
+				"Farmers can only grow Minecraft vanilla crops unfortunately."
+			]
+			id: "6598182DF150294F"
+			rewards: [{
+				id: "5E5AFD7563A9EA00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "77787FD5338EB4CA"
+				title: "Villager Workers"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "4AA31431A8A018E9"
+			rewards: [{
+				id: "60884F784E71D543"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "03537F174AC75A67"
+				title: "Villager Recruits"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["268F09317152A12A"]
+			id: "2A5B815190FE6248"
+			rewards: [{
+				id: "14662234C80C619A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7CA10235989E3D1D"
+				title: "Customers"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "&bLordship"
+}

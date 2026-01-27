@@ -1,0 +1,879 @@
+{
+	autofocus_id: "399F7E91ACC3971F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "supplementaries:sign_post_oak"
+	id: "0BAB02EBF408167C"
+	images: [{
+		height: 2.0d
+		image: "supplementaries:block/cannon_arrow"
+		rotation: 0.0d
+		width: 2.0d
+		x: -3.0d
+		y: -5.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to Steampunk Wizardry; a modpack filled with powerful magic, steam-powered engines, dangerous monsters, food galore, and much much more!"
+				""
+				"In these first few quests, I will be guiding you through the basic \"need-to-knows\" about the modpack. You are welcome to ignore these at your own peril. This modpack is built upon the idea of \"A challenge won't find you. You need to find the challenge.\", but you will find a very different challenge if I hear \"LUCAS!!! HOW DO I DO (insert issue here)?\" and the issue is clearly discussed in this introduction..."
+			]
+			id: "399F7E91ACC3971F"
+			rewards: [{
+				id: "33D6F2CD84744045"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "A world of magic \\& steam!"
+			tasks: [{
+				id: "57F365979D388E4D"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"First off, stop panicking..."
+				""
+				"Secondly, the chapters are sorted in such a way so you can easily find and track any quests you wish to follow."
+				""
+				"There are as follows:"
+				""
+				"&lIntroduction:&r That's this chapter! Just some info to help you get started and understand what is going on."
+				""
+				"&l&6Steampunk:&r&r All about the Steampunk part of the modpack (mostly create)."
+				""
+				"&l&9Magic:&r&r How to get started with each and every magic mod in the pack plus how they work."
+				""
+				"&l&bLordship:&r&r How to run a colony and info on villagers."
+				""
+				"&l&dDecor:&r&r Everything you need to know to decorate your surroundings."
+				""
+				"&l&4Adventure:&r&r A guide on what is out there and anything that you might need to know for exploration/adventure."
+				""
+				"&l&aFarming:&r&r A guide for all your farming (and cooking) needs."
+				""
+				"&l&2Magic Shop:&r&r A shop to buy goods in exchange for your hard earned emeralds!"
+				""
+				"Lastly, there is the &l&5Completionist's Corner&r&r! There you will find &mmostly&r everything, and I mean &mmostly&r &lEVERYTHING&r, to collect, see, fight, etc. in this modpack!"
+			]
+			hide_until_deps_complete: true
+			id: "5149D540F65A9819"
+			rewards: [{
+				id: "1DE8B9983B1A7580"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Where do I start!?"
+			tasks: [{
+				id: "77553EC45C2DD934"
+				title: "So Many Chapters!!!!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6425ABF249D9E0D0"]
+			description: [
+				"Luminous: Butterflies adds in a number of... well... butterflies to the game."
+				""
+				"In the &5Completionist's Corner&r there is a chapter for these butterflies."
+				""
+				"To complete the quest, right-click the butterfly with the net, right-click the jar (when it is placed down) with the butterfly in the net, and then break the jar with a &lsilk touch&r tool."
+			]
+			icon: "luminous_butterflies:butterfly_encyclopedia"
+			id: "4E8FBB39C392CD76"
+			rewards: [{
+				count: 4
+				id: "0175EDA0F498CA38"
+				item: "luminous_butterflies:jar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A8F1FFBF0507B39"
+					item: "luminous_butterflies:butterfly_encyclopedia"
+					type: "item"
+				}
+				{
+					id: "2A1B53B9C7D67920"
+					item: {
+						Count: 1
+						id: "luminous_butterflies:butterfly_net"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FFA4D7D20DF8EA6"
+					item: "luminous_butterflies:jar"
+					type: "item"
+				}
+			]
+			title: "Butterfly Catching"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"Notice how the quest objective icon keeps changing."
+				""
+				"This means that it can be a number of items."
+				""
+				"Try clicking on it to see what it accepts."
+				""
+				"You don't need to read the whole list, just understand it can be &lany&r log."
+				""
+				"Therefore, just go punch any tree until the log breaks to pick it up and complete the quest."
+			]
+			id: "7C66CA404F9F4AB6"
+			rewards: [{
+				id: "72438F2D0241EA75"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Here we go again..."
+			tasks: [{
+				id: "744D61666321FBBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Punch a Tree"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C66CA404F9F4AB6"]
+			description: [
+				"Just a simple crafting table."
+				""
+				"Nothing special here."
+			]
+			id: "5A7E3EF29D365C4D"
+			rewards: [{
+				id: "1F5902F12D570DF8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "The basics of crafting"
+			tasks: [{
+				id: "1A2C4B0E6E7A7263"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A7E3EF29D365C4D"]
+			description: ["Also nothing special..."]
+			id: "6425ABF249D9E0D0"
+			rewards: [{
+				count: 8
+				id: "70819861B70E5744"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "The... basics of smelting?"
+			tasks: [{
+				id: "53928D85331BB14A"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6425ABF249D9E0D0"]
+			id: "224B4283D57B9C84"
+			rewards: [{
+				id: "3031D2BC6DE929BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BD6BFB74EC26387"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6425ABF249D9E0D0"]
+			description: [
+				"In this modpack, there are 3 different lead ingots and 4 different silver ingots."
+				""
+				"This may be annoying, but you may use the polymorph feature to choose which ingot you craft."
+			]
+			id: "24E5DF3F36C4C986"
+			subtitle: "Minecraft should really add these ores"
+			tasks: [
+				{
+					id: "3A125886C1D7068F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "Any #forge:ingots/silver"
+					type: "item"
+				}
+				{
+					id: "4A24861BD7F1D1D5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
+					title: "Any #forge:ingots/lead"
+					type: "item"
+				}
+			]
+			title: "Silver \\& Lead"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A7E3EF29D365C4D"]
+			description: [
+				"Are there too many items across too many chests in your base?"
+				""
+				"Do you have someone who just dumps resources wherever there is an open spot?"
+				""
+				"Do you wish there were some better ways to sort your items?"
+				""
+				"Well look no further! Sophisticated Storage will fullfill all your storage needs!"
+				""
+				"Just upgrade a chest or barrel today and you'll get a second one absolutely &lFREE&r!"
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				""
+				"&mTerms and conditions may apply&r"
+			]
+			id: "43E7BD00784016DF"
+			rewards: [{
+				id: "414AD556D4EEADDF"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "When a large chest isn't large enough"
+			tasks: [{
+				id: "42DF575BAB1C0C3F"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A7E3EF29D365C4D"]
+			description: [
+				"Tinker's Construct is a mod that allows you to make custom armor, tools, weapons, and more!"
+				""
+				"Start by making this book and following some of its instructions."
+			]
+			id: "1919BB5ED77CC0EA"
+			rewards: [{
+				id: "315889F69E7B6CCD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Gear Customization"
+			tasks: [{
+				id: "53471A860BD754A3"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["43E7BD00784016DF"]
+			description: [
+				"Sophisticated Storage offers a wide array of storage upgrades."
+				""
+				"You can upgrade a storage to iron, gold, diamond, or even netherite for more storage slots and upgrades."
+				""
+				"You can also stick things like a furnace or crafting table upgrade for ease of access."
+				""
+				"You can also add stack upgrades to make it so that one slot can hold more stacks of one item like 4 stacks of cobblestone (256) in one slot!"
+			]
+			id: "4FAEE8D32C0F1784"
+			rewards: [{
+				id: "7BB4EC28B5441494"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "Upgrades!!!!"
+			tasks: [{
+				id: "08F383D5D4181091"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			title: "Sophisticated Upgrades"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4FAEE8D32C0F1784"]
+			description: [
+				"Now you may also manage your storage containers!"
+				""
+				"If you place the Storage Controller next to other Sophisticated Storage containers, you may send items into the Controller to auto-sort items."
+				""
+				"You can further connect the containers (by wrench or just simply having them touch) to add more containers to the system."
+				""
+				"To be clear about the sorting: you need that item already in a container. "
+				""
+				"For instance if Box A has iron and Box B has dirt, dirt will enter Box B and iron will enter Box A through the controller. Gold, in this instance, will just go into the closest Box to the controller since neither Box A or B have gold."
+			]
+			icon: "sophisticatedstorage:storage_tool"
+			id: "49568F4A251D09FD"
+			rewards: [{
+				id: "029E6B3720A48BFE"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2BF0B48D80BBEB04"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+				{
+					id: "1F49EF24FD5BBFEF"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Management"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4FAEE8D32C0F1784"]
+			description: [
+				"Now Tom's Simple Storage is simple..."
+				""
+				"Just connect inventories with the cables to a terminal, and voila, you may now access all connected inventories via the terminal!"
+				""
+				"Very handy once you have a bunch of sorted inventories!"
+			]
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "43E552D61A2999CC"
+			rewards: [{
+				id: "1E14B426FB142D8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19F192E1EE3FA71D"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "65E6A98532D54B43"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			title: "Tom's Simple Storage"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1919BB5ED77CC0EA"]
+			description: [
+				"Here is the first book for smelting."
+				""
+				"There are 3 different ones."
+				""
+				"The melter is the first (and next quest) which you will probably only use to get the Smeltery."
+			]
+			id: "3AE9F97C4BC8BEFC"
+			rewards: [{
+				id: "7DB86AEFA371E350"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "168B5AE6BA82DBC5"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1919BB5ED77CC0EA"]
+			description: [
+				"These are helpful for the initial creation of custom gear."
+				""
+				"Place these next to each other to access all of them from one of the tables."
+			]
+			icon: "tconstruct:tinker_station"
+			id: "688C29ABCF63712E"
+			rewards: [{
+				id: "23B41CF77D0344E5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "132FFBBFB3716E5F"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "07F250022407275A"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+				{
+					id: "5A44256EAD24A33A"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "6E09DE3F3A70C1C0"
+					item: "tconstruct:tinkers_chest"
+					type: "item"
+				}
+			]
+			title: "Tool Stations"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AE9F97C4BC8BEFC"]
+			description: [
+				"This is everything to get started with the Melter."
+				""
+				"Just follow the Puny Smelting book on how it works."
+			]
+			icon: "tconstruct:seared_melter"
+			id: "165477194D70B28A"
+			rewards: [{
+				id: "0D3376D0288FDEE1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2607F5FA14B869F3"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "47AD91E247DE5876"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "16E3B390FEC34F09"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "7ED4F5A50F100BDC"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "638C2AFE808B9612"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AE9F97C4BC8BEFC"]
+			description: ["The modifier worktable is useful for adding modifiers (like enchantments) to your gear!"]
+			id: "2909852E1F4153F0"
+			rewards: [{
+				id: "2CDD741CC3011311"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BB2DD6C10F1CDAA"
+				item: "tconstruct:modifier_worktable"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			description: ["Now you may move on to the Smeltery which will allow you to do more with this mod and give you more ingots per ore!"]
+			id: "0B28B1872FC65714"
+			rewards: [{
+				id: "3BB121B95D347064"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69937BE2461C1A3D"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			id: "005643EA5E25B1F0"
+			rewards: [{
+				id: "39963B60D9ADDEEB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Helpful guide to tinkering!"
+			tasks: [{
+				id: "51C0231AAC998FDB"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			id: "28FFDB8E58EC3ADC"
+			rewards: [{
+				id: "172F95FCC06A5468"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "I think I just got slimed..."
+			tasks: [{
+				id: "4CF01E1CE0BEB56B"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B28B1872FC65714"]
+			description: [
+				"You will also need plenty of Seared Bricks for the Smeltery, but I'll leave that up to you to decide how big it will be."
+				""
+				"Don't forget to collect some lava!"
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "0F6473B2ABBC3F7B"
+			rewards: [{
+				id: "015F04D2CFC94BBF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21BE447561DF8A16"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "255CD3AA4B5D2DB3"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "6292C7F9E851B2E7"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			title: "The Smeltery"
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F6473B2ABBC3F7B"]
+			description: [
+				"The final forge is the Foundry."
+				""
+				"This one you don't unlock until you have reached the Nether."
+				""
+				"It will allow you to create even stronger gear and even duplicate your ores to ingots!"
+			]
+			id: "6B30C6DF9915B2DB"
+			rewards: [{
+				id: "37D7D4013EA94623"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4604AE585BE2E26A"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B30C6DF9915B2DB"]
+			description: ["It is the same setup as the Smeltery :)"]
+			icon: "tconstruct:foundry_controller"
+			id: "5B556855A5DA1F65"
+			rewards: [{
+				id: "2921B38E409812A5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CA752F6870BFBFB"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "366CECEDF3DF95A3"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "5D871924D2F953A9"
+					item: "tconstruct:scorched_faucet"
+					type: "item"
+				}
+				{
+					id: "10F46F0EAEB3C272"
+					item: "tconstruct:scorched_table"
+					type: "item"
+				}
+				{
+					id: "01B43A3367176758"
+					item: "tconstruct:scorched_basin"
+					type: "item"
+				}
+			]
+			title: "The Foundry"
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F6473B2ABBC3F7B"]
+			id: "271BA9FD36AE3592"
+			rewards: [{
+				id: "4BBDA0515C0168AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Useful for storage!"
+			tasks: [{
+				id: "49CA2F1EF96341A3"
+				item: "tconstruct:cast_chest"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["224B4283D57B9C84"]
+			id: "2527E4A7EDB740D3"
+			rewards: [{
+				id: "01D3E264328B4DC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60CB280E7FB8ED3E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2527E4A7EDB740D3"]
+			id: "54E4EB34F4B2CA71"
+			rewards: [{
+				id: "21D5D8E18F76045E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3277DB9C186220D2"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5A7E3EF29D365C4D"]
+			description: [
+				"This book lists all of the foods that you have or have not tasted."
+				""
+				"If you eat enough foods, you will gain more hearts up to a max of 60 total hp (you start with 20)."
+			]
+			id: "3AFE2EC5F77F108B"
+			rewards: [{
+				count: 8
+				id: "4B34B7F1C103D8EE"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Free health!"
+			tasks: [{
+				id: "688E835567970152"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F6473B2ABBC3F7B"]
+			id: "39F27AE78D0F6BC6"
+			rewards: [{
+				id: "2D85C2B7E75AF593"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Another useful guide!"
+			tasks: [{
+				id: "4CE22D732DBDE9B2"
+				item: "tinkersjewelry:book"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["224B4283D57B9C84"]
+			id: "7D7B61A021F6B9B4"
+			rewards: [{
+				id: "692CC5CF5255341A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "It belongs in a museum!"
+			tasks: [{
+				id: "26966FFBB5AD5815"
+				item: {
+					Count: 1
+					id: "betterarcheology:iron_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D7B61A021F6B9B4"]
+			id: "117C8208EABF11AC"
+			rewards: [{
+				id: "7799B2C530899B31"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C2FF95CA737BBAD"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A7E3EF29D365C4D"]
+			description: [
+				"Dommestication Innovation adds multiple helpful features to pets."
+				""
+				"The &lPet Bed&r makes it so that any pet made to sit on the bed becomes bound to it. If that pet were to die, it will respawn in the bed the next morning."
+				""
+				"Not in this quest is also the &lWayward Lantern&r which makes it so that a following pet will return to this lantern if you were to die or unload the chunk the pet is in."
+				""
+				"The &lFeather on a Stick&r makes it so your pet will chase the feather and move out of the way."
+				""
+				"&lRotten Apples&r are to make a zombie horse, and a &lSinister Carrot&r is to turn it further into a skeleton horse or a rabbit into a murder rabbit. Drop an apple on the ground and leave it to turn rotten."
+				""
+				"A &lDeed of Ownership&r allows the transferrence of ownership of a pet."
+				""
+				"The &lCommand Drum&r is for redstone automation of pet commands."
+				""
+				"Lastly, a &lCollar Tag&r is to add enchantments on your pet."
+			]
+			id: "0F89EA67FF00B6AD"
+			rewards: [{
+				id: "68CB94E6D34B817E"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79441092925E2AA0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Any #domesticationinnovation:pet_beds"
+				type: "item"
+			}]
+			title: "Dommestication Innovation"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			id: "23C7713FE11A81B7"
+			rewards: [{
+				id: "26BB338E5DE352ED"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "The catalogue of items"
+			tasks: [{
+				id: "2E583D493606F5A5"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+	]
+	title: "Introduction"
+}

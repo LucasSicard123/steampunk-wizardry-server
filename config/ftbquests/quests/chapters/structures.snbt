@@ -1,0 +1,2882 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "structures"
+	group: "4E81BA778C52E150"
+	icon: "born_in_chaos_v1:spawn_structures_farm"
+	id: "0B4ADD9447F2346F"
+	images: [
+		{
+			height: 4.0d
+			image: "steampunkwizardry:textures/quests/whendungeonsariselogo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/twilightforestlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/arsnouveaulogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 20.0d
+			y: -7.5d
+		}
+		{
+			height: 6.0d
+			image: "steampunkwizardry:textures/quests/mowzielogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -16.5d
+			y: -9.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/minecraftlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/bossesofmassdestructionlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/goetylogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/ironslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/alexscaveslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "steampunkwizardry:textures/quests/dntlogo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/eidolonlogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/cataclysmlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/illagerslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "dawnoftimebuilder:item/logo_general"
+			rotation: 0.0d
+			width: 4.0d
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/mooglogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.5d
+			y: 8.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "246B793586E0E365"
+			rewards: [{
+				id: "58B7B1FAA7AD1B9B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "590EA43BA29F9132"
+				structure: "betterdeserttemples:desert_temple"
+				title: "Better Desert Temple"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "366CDCD0EDE1C586"
+			rewards: [{
+				id: "07D5D1EDC2D1FA98"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30119B571E33AB04"
+				structure: "betterfortresses:fortress"
+				title: "Better Fortress"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "162BB44CA0E7B4B9"
+			rewards: [{
+				id: "47F0F02ABDA18339"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BB7048335033FF8"
+				structure: "betterjungletemples:jungle_temple"
+				title: "Better Jungle Temple"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0C7F63F5F37B87B3"
+			rewards: [{
+				id: "716604CB796C58DD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08BFBAD1D7F292F1"
+				structure: "betteroceanmonuments:ocean_monument"
+				title: "Better Ocean Monument"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5ABFC539B2360040"
+			rewards: [{
+				id: "3852B9EC7EFAE63F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "234791572DF85E47"
+				structure: "betterstrongholds:stronghold"
+				title: "Better Stronghold"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "20FA21E13F872814"
+			rewards: [{
+				id: "5BE388FE2995C635"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C2CE232CD44133D"
+				structure: "#betterdungeons:better_dungeons"
+				title: "Better Dungeon"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6BDC3732BD708C65"
+			rewards: [{
+				id: "6C1C5F0483F41E02"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "083F7E9F1BC27317"
+				structure: "#bettermineshafts:better_mineshafts"
+				title: "Better Mineshaft"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "06EF4A23EE9CC137"
+			rewards: [{
+				id: "2FBF36ED1147B454"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "022F1D41F5828951"
+				structure: "betterwitchhuts:witch_hut"
+				title: "Better Witch Hut"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "5B6453AA655C339F"
+			rewards: [{
+				id: "7E8E1ED78EFD71B3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F66D5E8C7620134"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Gauntlet Arena"
+				type: "structure"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			id: "76F5251D3744D733"
+			rewards: [{
+				id: "72C931AD50FC678A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "361E6FF426DE5192"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Lich Tower"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "0960D5C24A20B0E0"
+			rewards: [{
+				id: "4C489081FAC3059D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77E9CB2691767170"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				title: "Obsidilith Arena"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "11DF7163E80B0926"
+			rewards: [{
+				id: "54584AFF0568FD36"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C4E32FF5CF51AB4"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				title: "Void Blossom"
+				type: "structure"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "1C91ECBEDDB6BCEB"
+			rewards: [{
+				id: "38CB28D619E1614D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "124A8F0FD2DA1A3A"
+				structure: "illagerinvasion:firecaller_hut"
+				title: "Firecaller Hut"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "15253AAB83E9AD45"
+			rewards: [{
+				id: "1D8E81D1820BB9EB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22635445488EDEF5"
+				structure: "illagerinvasion:illager_fort"
+				title: "Illager Fort"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "746BCDE54BD10BA0"
+			rewards: [{
+				id: "7E715D699EE63406"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15E4C6003474E031"
+				structure: "illagerinvasion:illusioner_tower"
+				title: "Illusioner Tower"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "75469CD06AA70133"
+			rewards: [{
+				id: "3AD921A337AE03E9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A8CF58B77A8DF9F"
+				structure: "illagerinvasion:labyrinth"
+				title: "Labyrinth"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "433D1788DD7E50AD"
+			rewards: [{
+				id: "4EAEB417CD4A1A57"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3FB412BC783897"
+				structure: "illagerinvasion:sorcerer_hut"
+				title: "Sorcerer Hut"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "759343E785ECFBD8"
+			rewards: [{
+				id: "15034EFEAC59DEEC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "048E5513F95B3ECE"
+				structure: "cataclysm:acropolis"
+				title: "Acropolis"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "6C0065982021B6C1"
+			rewards: [{
+				id: "5456D433C2B9B99C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B93EA6572209E5"
+				structure: "cataclysm:ancient_factory"
+				title: "Ancient Factory"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "40216969D8E09A5B"
+			rewards: [{
+				id: "495550E80A2C33EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23B00B2F4C2CBE57"
+				structure: "cataclysm:burning_arena"
+				title: "Burning Arena"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			id: "661C5DF93B734D24"
+			rewards: [{
+				id: "516772B10E6D86DF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26592763E2C4F2CC"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Cursed Pyramid"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			id: "7C7594F9F87B80EF"
+			rewards: [{
+				id: "231FCBB2C5202BDF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C4D47143F2BD0A2"
+				structure: "cataclysm:frosted_prison"
+				title: "Frosted Prison"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			id: "31F637D582FA4537"
+			rewards: [{
+				id: "35DC9F517828E007"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EBCE3BC76C41DC0"
+				structure: "cataclysm:ruined_citadel"
+				title: "Ruined Citadel"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			id: "42102CB94EF9E07D"
+			rewards: [{
+				id: "69C477A04B278BBA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F6A76D0562DEFD4"
+				structure: "cataclysm:soul_black_smith"
+				title: "Soul Blacksmith"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			id: "3E80DA0BCCAD8AEE"
+			rewards: [{
+				id: "38A2F866A33CD109"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75F4A31238C374F2"
+				structure: "cataclysm:sunken_city"
+				title: "Sunken City"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "684B4F88CD3B3568"
+			rewards: [{
+				id: "09F03893A0B64434"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				id: "641AB8B06E4CC2F6"
+				title: "Abyssal Chasm"
+				type: "biome"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			id: "4A9A73A8DCCCCE6C"
+			rewards: [{
+				id: "769EEF83B152B95B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				id: "2D1CFA6A50104463"
+				title: "Candy Cavity"
+				type: "biome"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			id: "26A20ABE1627FA99"
+			rewards: [{
+				id: "0BE79BE8E629EC57"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				id: "1D30E3582F011325"
+				title: "Forlorn Hollows"
+				type: "biome"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			id: "0D8355F26CD18EC8"
+			rewards: [{
+				id: "6F82FB6621BB4215"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "7525A4B5A3AFF087"
+				title: "Magnetic Caves"
+				type: "biome"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			id: "520B9E0ED713275F"
+			rewards: [{
+				id: "411EC1FA2E3CD68D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				id: "4AC83402A5C207AC"
+				title: "Primordial Caves"
+				type: "biome"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "66722D1025A8EBB3"
+			rewards: [{
+				id: "5BB64A72E5202300"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Biome"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				id: "2B4F92B869FFAE02"
+				title: "Toxic Caves"
+				type: "biome"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "6CBA0ACE4F52988D"
+			rewards: [{
+				id: "0F202A1F4A1803F4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "205262C34FD1C367"
+				structure: "eeeabsmobs:guling"
+				title: "Guling"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			id: "16512B57771EF461"
+			rewards: [{
+				id: "0A54E418BB5E1802"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC655C248C14170"
+				structure: "eeeabsmobs:bloody_altar"
+				title: "Bloody Altar"
+				type: "structure"
+			}]
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			id: "120CEAAA6A4FF675"
+			rewards: [{
+				id: "1F733126C5075996"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ED9A9AFEB7C18C4"
+				structure: "mowziesmobs:monastery"
+				title: "Monastery"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			id: "38D31AF312331638"
+			rewards: [{
+				id: "7B75A9B045497637"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3648480EFFF38BCA"
+				structure: "mowziesmobs:umvuthana_grove"
+				title: "Umvuthana Grove"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			id: "731C82FCDE1EC9F2"
+			rewards: [{
+				id: "3FBF12ACD5D9F862"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7829FF25F10CF85A"
+				structure: "mowziesmobs:wrought_chamber"
+				title: "Wrought Chamber"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: -5.5d
+		}
+		{
+			id: "76E502900F2DBC6A"
+			rewards: [{
+				id: "7ADA51F8426C5CF5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC9CC497824245A"
+				structure: "ars_additions:arcane_library"
+				title: "Arcane Library"
+				type: "structure"
+			}]
+			x: 24.0d
+			y: -5.5d
+		}
+		{
+			id: "6FC64463A6D0DD04"
+			rewards: [{
+				id: "44F5C96C96669A48"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "539E477D55E50ACE"
+				structure: "ars_additions:nexus_tower"
+				title: "Nexus Tower"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: -5.5d
+		}
+		{
+			id: "5C85DE54910A9D2C"
+			rewards: [{
+				id: "48B57B5A0869C1E4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7AA541774AD032"
+				structure: "ars_elemental:starbuncle_shrine"
+				title: "Starbuncle Shrine"
+				type: "structure"
+			}]
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			id: "47D4535D5B5FD5E5"
+			rewards: [{
+				id: "677D2FA6063A0B55"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "474E67CF1D2716AB"
+				structure: "ars_nouveau:guardian_wilden_den"
+				title: "Guardian Wilden Den"
+				type: "structure"
+			}]
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			id: "11553174C6EDF9D5"
+			rewards: [{
+				id: "1878930B720F47AD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E09D640F9413BB"
+				structure: "ars_nouveau:hunter_wilden_den"
+				title: "Hunter Wilden Den"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -5.5d
+		}
+		{
+			id: "689E80806C306E77"
+			rewards: [{
+				id: "7E8D34F5D0F50D1A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42D1B58B4FC11D05"
+				structure: "ars_nouveau:stalker_wilden_den"
+				title: "Stalker Wilden Den"
+				type: "structure"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			id: "5966510710D792E0"
+			rewards: [{
+				id: "4B893CBAE8D81EDF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC1E52754B056CB"
+				structure: "nova_structures:badlands_miner_outpost"
+				title: "Badlands Miner Outpost"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "4F20627D236694C7"
+			rewards: [{
+				id: "38F72775A3375BCB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A3CF44E67A1DA65"
+				structure: "nova_structures:bunker"
+				title: "Bunker"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "5DCF53EC878FC6EE"
+			rewards: [{
+				id: "78D743E5351A75DD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F2D6CC033CAE87D"
+				structure: "nova_structures:conduit_ruin"
+				title: "Conduit Ruin"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "119F88FC31E7124A"
+			rewards: [{
+				id: "45CF8E213294ED25"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3643CB07671F4E15"
+				structure: "nova_structures:creeping_crypt"
+				title: "Creeping Crypt"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "5A4A4C5DE2C96BA4"
+			rewards: [{
+				id: "08DB17175BBC0E43"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E5E7C53B99DDB95"
+				structure: "nova_structures:donjon"
+				title: "Donjon"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "103F3622A053AEF4"
+			rewards: [{
+				id: "5CEEFC2666D53170"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A8D5012E4CF6BE"
+				structure: "#nova_structures:firewatch_tower"
+				title: "Firewatch Tower"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "64B619A54068D957"
+			rewards: [{
+				id: "2E0D1E546807029B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "654871C4C3AEB212"
+				structure: "#nova_structures:ruin_town"
+				title: "Ruin Town"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "3B6E5AFCC5C4F5B8"
+			rewards: [{
+				id: "25A8898BEE8FC026"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38C9037496868F72"
+				structure: "nova_structures:witch_villa"
+				title: "Witch Villa"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "629A4009FFDD8EF8"
+			rewards: [{
+				id: "5D6B12F2EEA81827"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EC68DCFCD865581"
+				structure: "nova_structures:piglin_camp"
+				title: "Piglin Camp"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "07A7620EBEF03254"
+			rewards: [{
+				id: "5A091A584F54953D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03D691A081682418"
+				structure: "nova_structures:jungle_ruins"
+				title: "Jungle Ruins"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "045875CB29677C9F"
+			rewards: [{
+				id: "7B27B26B511AB91D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E9D956CBBA04574"
+				structure: "nova_structures:village_swamp"
+				title: "Swamp Village"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "26E5BE4B9BAC8EFA"
+			rewards: [{
+				id: "707F9CE96D6CDB69"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B37A6477C9712CE"
+				structure: "nova_structures:nether_port"
+				title: "Nether Port"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			id: "1737C73591FB2EF7"
+			rewards: [{
+				id: "63855A508A64DA10"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1053FE6E4DAD04EC"
+				structure: "nova_structures:illager_camp"
+				title: "Illager Camp"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "7E59B3421ABB6EA1"
+			rewards: [{
+				id: "6508507C56708397"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "127571AF4B05CF1D"
+				structure: "nova_structures:stray_fort"
+				title: "Stray Fort"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "506CC35BC1E829E5"
+			rewards: [{
+				id: "58F4DE58C6BC7B98"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "064BF66F402C208E"
+				structure: "nova_structures:hamlet"
+				title: "Hamlet"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "2C6EF3DAC4F30AAD"
+			rewards: [{
+				id: "46E137C036EB1CF3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02F31095BC84CD9B"
+				structure: "nova_structures:illager_hideout"
+				title: "Illager Hideout"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			id: "0B56F59F95716B43"
+			rewards: [{
+				id: "3D6695B4A31B14EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59C036EDA68E0262"
+				structure: "nova_structures:illager_manor"
+				title: "Illager Manor"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			id: "7D1BAF645AACC2B7"
+			rewards: [{
+				id: "10745311965863E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B81900853CE25A7"
+				structure: "nova_structures:nether_keep"
+				title: "Nether Keep"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "08C5300EDE94CBBE"
+			rewards: [{
+				id: "6CC1C0E4D6883360"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5863CF42E076120B"
+				structure: "nova_structures:piglin_outstation"
+				title: "Piglin Outstation"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "5E795ADB69B5F6AD"
+			rewards: [{
+				id: "186595CCCCEDC558"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20354D4B23C5EE35"
+				structure: "nova_structures:undead_crypt"
+				title: "Undead Crypt"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "0D00038F80E1780D"
+			rewards: [{
+				id: "134F8F7ED5F3840E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13BA55973B68E8D2"
+				structure: "eidolon:catacomb"
+				title: "Catacomb (Eidolon)"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "60E804FEBED17D75"
+			rewards: [{
+				id: "6AA53382C899528B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A25BCCD84FE18BD"
+				structure: "eidolon:lab"
+				title: "Lab"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "557191525C05C5AE"
+			rewards: [{
+				id: "5C8BC5BDA3E95CD3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E55BE7868B8553B"
+				structure: "eidolon:stray_tower"
+				title: "Stray Tower"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "069979D6C7F2561C"
+			rewards: [{
+				id: "6F55A95B71C4E189"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AD1F30AEBD42197"
+				structure: "goblins_tyranny:goblinscamp"
+				title: "Goblin Camp"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			id: "58845CA7E2BC1A18"
+			rewards: [{
+				id: "72F7FB7B75B3B245"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A1E60BBE62CBC83"
+				structure: "goety:black_assembly"
+				title: "Black Assembly"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "653429395E69AC62"
+			rewards: [{
+				id: "4AC9DC38D81347AE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "535F5D59DA2DDA99"
+				structure: "goety:blighted_shack"
+				title: "Blighted Shack"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "1C12EA143B9F2311"
+			rewards: [{
+				id: "32E477283E035BD4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BAA42BA376A9882"
+				structure: "goety:buried_ritual"
+				title: "Buried Ritual"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "660BF7D5685FEABE"
+			rewards: [{
+				id: "03B41436DCCDAD0D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A1C1158DE3CF7EF"
+				structure: "goety:crypt"
+				title: "Crypt (Goety)"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			id: "7272DDBB00908248"
+			rewards: [{
+				id: "39ED13F32A910BBA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FB7F28EA4024987"
+				structure: "goety:dark_manor"
+				title: "Dark Manor"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "1C77BE4C785F1310"
+			rewards: [{
+				id: "40E2C4B0D21BFC4C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04A8C18A4AC9BB47"
+				structure: "goety:final_terminal"
+				title: "Final Terminal"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "71BDBE57ADC4510A"
+			rewards: [{
+				id: "049D240603A0FFA9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3819C5676C2D0F30"
+				structure: "goety:graveyard"
+				title: "Graveyard (Goety)"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "688A9358C6197C0A"
+			rewards: [{
+				id: "73F7720B8BDF3B27"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3773ECCE561A5B1A"
+				structure: "goety:mangrove_tower"
+				title: "Mangrove Tower"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			id: "0FBB43D5DF7D968F"
+			rewards: [{
+				id: "5C80E08CD2149D5F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DFDE5FBF1FE1B12"
+				structure: "goety:ominous_blacksmith"
+				title: "Omnious Blacksmith"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			id: "3CCA295703AE7427"
+			rewards: [{
+				id: "6D6C6EC9AA26C767"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "092EE9D654F3A44D"
+				structure: "goety:secluded_igloo"
+				title: "Secluded Igloo"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			id: "384289C6C2E7E475"
+			rewards: [{
+				id: "249DCFBCEE4D0D67"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77FF951D69B63AF7"
+				structure: "goety:sorcerous_keep"
+				title: "Sorcerous Keep"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "1938494FA4E05AEB"
+			rewards: [{
+				id: "781127C23037195B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69BBB12E5A356A0E"
+				structure: "goety:spider_den"
+				title: "Spider Den"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			id: "1CAF56B4BCD88DBE"
+			rewards: [{
+				id: "0C32758D49E26323"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B67A228AF71F39B"
+				structure: "goety:wind_shrine"
+				title: "Wind Shrine"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "438EF18917EE5EB1"
+			rewards: [{
+				id: "7D81EA56738AA3A1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F08533C17F77D9B"
+				structure: "hexerei:baba_yaga_hut"
+				title: "Baba Yaga Hut"
+				type: "structure"
+			}]
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			id: "7F25532C586891F2"
+			rewards: [{
+				id: "5943A8E170F4F8C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009E49E881BB092A"
+				structure: "hexerei:dark_coven"
+				title: "Dark Coven"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			id: "654741DA9EBE687A"
+			rewards: [{
+				id: "423B1C6D648F3E9C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB45CD7048FD758"
+				structure: "hexerei:nature_coven"
+				title: "Nature Coven"
+				type: "structure"
+			}]
+			x: 18.5d
+			y: 10.5d
+		}
+		{
+			id: "40DE697E4479786C"
+			rewards: [{
+				id: "3973F26E57C6E1E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A41D673314AB221"
+				structure: "hexerei:owl_post_office"
+				title: "Owl Post Office"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: 11.5d
+		}
+		{
+			id: "5230E4B22075D4C9"
+			rewards: [{
+				id: "5FEAEA5572E597FA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CED6FC281F048C4"
+				structure: "hexerei:witch_hut"
+				title: "Witch Hut"
+				type: "structure"
+			}]
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			id: "0A0B7B2EF2386410"
+			rewards: [{
+				id: "1228F41C4AA8919B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E4F43296E8D3DAA"
+				structure: "irons_spellbooks:ancient_battleground"
+				title: "Ancient Battleground"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			id: "38E15DEEA604B975"
+			rewards: [{
+				id: "447E269385E31AB0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14C0A4590C3C05AD"
+				structure: "irons_spellbooks:catacombs"
+				title: "Catacombs (Iron's Spells)"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			id: "001263FF2A4F4528"
+			rewards: [{
+				id: "0C0CA1D280503333"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7691359BD1C93EE1"
+				structure: "irons_spellbooks:evoker_fort"
+				title: "Evoker Fort"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "43D4704EA1BC1486"
+			rewards: [{
+				id: "01304A609829CD67"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF0CB19855AD5F3"
+				structure: "irons_spellbooks:impaled_icebreaker"
+				title: "Impaled Icebreaker"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			description: ["You may trade with the Alchemist"]
+			id: "0D1D08C6263F9E7E"
+			rewards: [{
+				id: "5F41818DACD9B30D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Don't steal his stuff..."
+			tasks: [{
+				id: "2631239B8ABB886F"
+				structure: "irons_spellbooks:mangrove_hut"
+				title: "Mangrove Hut"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			id: "502A410C50007CDD"
+			rewards: [{
+				id: "0F3090F616A3FA00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38D51BDF2DDC707A"
+				structure: "irons_spellbooks:mountain_tower"
+				title: "Mountain Tower"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			description: ["You may trade with the Pyromancer"]
+			id: "2F85D0C3D465A795"
+			rewards: [{
+				id: "655EF2311F1BF5D7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Don't steal his stuff..."
+			tasks: [{
+				id: "2924A9C16FC704EC"
+				structure: "irons_spellbooks:pyromancer_tower"
+				title: "Pyromancer Tower"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			id: "731433B700D04DF1"
+			rewards: [{
+				id: "6FD17C004A42F695"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A64E16BB8DECAED"
+				structure: "mes:astral_hideaway"
+				title: "Astral Hideaway"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			id: "58DBEE99662242A0"
+			rewards: [{
+				id: "1E390C621AE91507"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EAFDD6EBA36AA57"
+				structure: "mes:astral_meteorite"
+				title: "Astral Meteorite"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			id: "79C1A05E17FD6A6B"
+			rewards: [{
+				id: "3E213A36FEA6172F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1549BDB7E6022557"
+				structure: "mes:ender_spire"
+				title: "Ender Spire"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			id: "2B3BCB8E8766C20E"
+			rewards: [{
+				id: "3E14D2EABB01A949"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A8B14633870816"
+				structure: "mes:enderbloom_grove"
+				title: "Enderbloom Grove"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			id: "29BD88BEA69C2A96"
+			rewards: [{
+				id: "078D417316C8FB54"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12283AAA3DA1A651"
+				structure: "mes:enderkeep_courtyard"
+				title: "Enderkeep Courtyard"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			id: "513A50B0BB825006"
+			rewards: [{
+				id: "0CC9C5174CE928C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39AE7F6140444D7B"
+				structure: "mes:enderpin_spikes"
+				title: "Enderpin Spikes"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			id: "63295CB1B3948709"
+			rewards: [{
+				id: "3A774AD50A325ABE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BE9B0F44CDC2DB1"
+				structure: "mes:enderskog"
+				title: "Enderskog"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			id: "10A6CEAF24E5224A"
+			rewards: [{
+				id: "7A0DB74B365CA02E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42356BD1F4046561"
+				structure: "mes:enderwatch_tower"
+				title: "Enderwatch Tower"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 13.0d
+		}
+		{
+			id: "53BB65B2D74B9019"
+			rewards: [{
+				id: "790D01C6A7563B7E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D2658180EB16446"
+				structure: "mes:endscraps"
+				title: "Endscraps"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			id: "733EB31280BFB848"
+			rewards: [{
+				id: "5B77E3ADE528B6E4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAD68FA3C8CAA2E"
+				structure: "mes:manuscript_shrine"
+				title: "Manuscript Shrine"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			id: "0D4E269F40954DA1"
+			rewards: [{
+				id: "6C18754AE7AB1776"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "746A8CF0CEB2F29A"
+				structure: "mes:mega_ship"
+				title: "Mega Ship"
+				type: "structure"
+			}]
+			x: -10.5d
+			y: 11.5d
+		}
+		{
+			id: "4C4D1C955D278AEC"
+			rewards: [{
+				id: "3DB2BE788FC91B93"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32E4CD46A352F982"
+				structure: "mes:monolith"
+				title: "Monolith"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			id: "7EFE3906BB16F1D3"
+			rewards: [{
+				id: "6EC809D8BD60B51F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F624E95A4DD814"
+				structure: "mes:mythic_garden"
+				title: "Mythic Garden"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			id: "7C5AA8DE2C099190"
+			rewards: [{
+				id: "784D6246F193DFD9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41AC59C3D4D796AE"
+				structure: "mes:phantom_citadel"
+				title: "Phantom Citadel"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			id: "2EADEF1FD69C84E7"
+			rewards: [{
+				id: "0767F3FAE39854BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "557E4D83627159CA"
+				structure: "mes:placid_prairie"
+				title: "Placid Prairie"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			id: "054AC274CD1ADB57"
+			rewards: [{
+				id: "3A3DDA378AEF1F07"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C431465819D15CC"
+				structure: "mes:starlight_voyager"
+				title: "Starlight Voyager"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			id: "59DCA16619E196B1"
+			rewards: [{
+				id: "1E47D83D2B4E23E3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36C20BB8D2CB4074"
+				structure: "takesapillage:bastille"
+				title: "Bastille"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "3DFBF3F1CD81A318"
+			rewards: [{
+				id: "20F2B70EAFC45740"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "254AD67A9DEA6B47"
+				structure: "takesapillage:pillager_camp"
+				title: "Pillager Camp"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "0BAAABB8D073284D"
+			rewards: [{
+				id: "504DD5D98A38B45F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F825CFAC0E5488E"
+				structure: "twilightforest:aurora_palace"
+				title: "Aurora Palace"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			id: "460451878E6BBD12"
+			rewards: [{
+				id: "544E57DFEA2EA17E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C58C62E90D874B3"
+				structure: "twilightforest:dark_tower"
+				title: "Dark Tower"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			id: "36A441091F3BA506"
+			rewards: [{
+				id: "5CA0066C4BD07877"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22CFDBB345039980"
+				structure: "twilightforest:final_castle"
+				title: "Final Castle"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			id: "4C1EC9702FA87E94"
+			rewards: [{
+				id: "6AD24D8826DE0C01"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40B62180A01FDB60"
+				structure: "twilightforest:hedge_maze"
+				title: "Hedge Maze"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			id: "19C7CFE0B6591F39"
+			rewards: [{
+				id: "6E9034F791D30AB2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "174D9EE4B60FA251"
+				structure: "twilightforest:hydra_lair"
+				title: "Hydra Lair"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			id: "0617FD208BA285BB"
+			rewards: [{
+				id: "214BBACBA95754B5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DA801798BB997A5"
+				structure: "twilightforest:knight_stronghold"
+				title: "Knight Stronghold"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			id: "0F37359345395485"
+			rewards: [{
+				id: "77AE5700A01CBC0B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5943E572BD3DDC61"
+				structure: "twilightforest:labyrinth"
+				title: "Labyrinth"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			id: "028E1EC73E6AEFE7"
+			rewards: [{
+				id: "53FACA55D9C3CDF9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A98B6D55CB7D687"
+				structure: "twilightforest:large_hollow_hill"
+				title: "Large Hollow Hill"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			id: "11D172691652ABC1"
+			rewards: [{
+				id: "2618AA074E1F703D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F0D12BED8A76201"
+				structure: "twilightforest:lich_tower"
+				title: "Lich Tower"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			id: "5178E5235CF9ADFA"
+			rewards: [{
+				id: "1795B4A38410D2D4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DFB0A3BEFD392A6"
+				structure: "twilightforest:medium_hollow_hill"
+				title: "Medium Hollow Hill"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			id: "102E380C21C1016A"
+			rewards: [{
+				id: "52822B1F9625B27A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F28FEBC968D2ECF"
+				structure: "twilightforest:mushroom_tower"
+				title: "Mushroom Tower"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			id: "3EC6EEF48639E5BC"
+			rewards: [{
+				id: "1F7BE98004E28B59"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A746EE72BFF9E1D"
+				structure: "twilightforest:naga_courtyard"
+				title: "Naga Courtyard"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			id: "460A855119E0B7FE"
+			rewards: [{
+				id: "26407EDABAB7115B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64BB8A05F2C974B8"
+				structure: "twilightforest:quest_grove"
+				title: "Quest Grove"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			id: "58B52262997B71B9"
+			rewards: [{
+				id: "28AB27C5CF8997C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03C031BEDC890BCE"
+				structure: "twilightforest:small_hollow_hill"
+				title: "Small Hollow Hill"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			id: "2DB725444A9FF6C8"
+			rewards: [{
+				id: "1F33697485A26DAF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341D132E2587AB37"
+				structure: "twilightforest:troll_cave"
+				title: "Troll Cave"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			id: "6585C1B087595F37"
+			rewards: [{
+				id: "6BDC34C03C7A0A32"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "723281C21BF019C8"
+				structure: "twilightforest:yeti_cave"
+				title: "Yeti Cave"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "7C00616A131BA9AD"
+			rewards: [{
+				id: "40DE49CCEF990761"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "735B8312BF6E55E2"
+				structure: "dungeons_arise:abandoned_temple"
+				title: "Abandoned Temple"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 10.0d
+		}
+		{
+			id: "2AECB96731CFDAC6"
+			rewards: [{
+				id: "33C0F57684CC1062"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E99D4F766569053"
+				structure: "dungeons_arise:aviary"
+				title: "Aviary"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 10.0d
+		}
+		{
+			id: "0160F675F2137FC4"
+			rewards: [{
+				id: "504B7949886399E4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22A3E8E14C2279EB"
+				structure: "dungeons_arise:bandit_towers"
+				title: "Bandit Towers"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			id: "2871D1AA37CE7E86"
+			rewards: [{
+				id: "554D3315A3769AC6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56DDDDF6711590A4"
+				structure: "dungeons_arise:bandit_village"
+				title: "Bandit Village"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			id: "3C12F38BAA8D389B"
+			rewards: [{
+				id: "5627C2DA27C89544"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33FC055627B26F87"
+				structure: "dungeons_arise:bathhouse"
+				title: "Bathhouse"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 10.0d
+		}
+		{
+			id: "3650AE6C066FB9AB"
+			rewards: [{
+				id: "07CA8FE48F1E6FB9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6654DF7E8B7B8A3B"
+				structure: "dungeons_arise:ceryneian_hind"
+				title: "Ceryneian Hind"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 11.5d
+		}
+		{
+			id: "1DD1DB511312DB46"
+			rewards: [{
+				id: "3CF99EFAFBE2B6C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B8B0BF1F2CB8DDE"
+				structure: "dungeons_arise:coliseum"
+				title: "Coliseum"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 19.0d
+		}
+		{
+			id: "4FEC854DD58FD7B8"
+			rewards: [{
+				id: "3CFBC40268F385AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76F40F16FA927B17"
+				structure: "dungeons_arise:fishing_hut"
+				title: "Fishing Hut"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 19.0d
+		}
+		{
+			id: "20C57F7E4514FA51"
+			rewards: [{
+				id: "6465E59D6BBDB28B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F0B125D4201CD6B"
+				structure: "dungeons_arise:foundry"
+				title: "Foundry"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 17.5d
+		}
+		{
+			id: "103CB4B2787097A0"
+			rewards: [{
+				id: "10DE7466F7F27345"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2672FD5B6DFCBC30"
+				structure: "dungeons_arise:giant_mushroom"
+				title: "Giant Mushroom"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 17.5d
+		}
+		{
+			id: "6FDA798F3EE0E5DA"
+			rewards: [{
+				id: "1E324B378EF3D519"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DCDB0DFD5FB1E7F"
+				structure: "dungeons_arise:greenwood_pub"
+				title: "Greenwood Pub"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 20.5d
+		}
+		{
+			id: "49F7983E88E0A64D"
+			rewards: [{
+				id: "5E7C9048D55D8EB5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0454270A1DF019F2"
+				structure: "dungeons_arise:heavenly_challenger"
+				title: "Heavenly Challenger"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 20.5d
+		}
+		{
+			id: "195574DDD58F7668"
+			rewards: [{
+				id: "33E81627FEDE0C57"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "447BCD173BC0F043"
+				structure: "dungeons_arise:heavenly_conqueror"
+				title: "Heavenly Conqueror"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 19.0d
+		}
+		{
+			id: "75936D60B0E7E91A"
+			rewards: [{
+				id: "027B3D781234DDB8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE1F23A1A27130F"
+				structure: "dungeons_arise:heavenly_rider"
+				title: "Heavenly Rider"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 19.0d
+		}
+		{
+			id: "40BD1D70EC079CD4"
+			rewards: [{
+				id: "6D2115AFE9449037"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CAD578B42E4C49C"
+				structure: "dungeons_arise:illager_campsite"
+				title: "Illager Campsite"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 17.5d
+		}
+		{
+			id: "0C30B8388F3D67A7"
+			rewards: [{
+				id: "251A4F59EFB4717B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C7F3884FBEB0A25"
+				structure: "dungeons_arise:illager_corsair"
+				title: "Illager Corsair"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 20.5d
+		}
+		{
+			id: "6719A7C79D283063"
+			rewards: [{
+				id: "02432BAE59C0B1C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42355E04E966C417"
+				structure: "dungeons_arise:illager_fort"
+				title: "Illager Fort"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 20.5d
+		}
+		{
+			id: "7849EA1D11CAD631"
+			rewards: [{
+				id: "42ECD3203926C67E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "110407B0E43A38CA"
+				structure: "dungeons_arise:illager_galley"
+				title: "Illager Galley"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 19.0d
+		}
+		{
+			id: "5574FAA304FA185A"
+			rewards: [{
+				id: "3A0821EC2206282B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F40C5EBA84819BE"
+				structure: "dungeons_arise:illager_windmill"
+				title: "Illager Windmill"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 17.5d
+		}
+		{
+			id: "174DB56D31830B33"
+			rewards: [{
+				id: "51DE009964FF6096"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F6AB70A8A9B7EC5"
+				structure: "dungeons_arise:infested_temple"
+				title: "Infested Temple"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 17.5d
+		}
+		{
+			id: "03F2F7D91AAC8A06"
+			rewards: [{
+				id: "38B370EDBC2C923A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FA5CD4606F8C9B"
+				structure: "dungeons_arise:jungle_tree_house"
+				title: "Jungle Tree House"
+				type: "structure"
+			}]
+			x: -17.5d
+			y: 22.0d
+		}
+		{
+			id: "499BE81F4C6DD34E"
+			rewards: [{
+				id: "160D585CDB606E78"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5321FACAF44B873F"
+				structure: "dungeons_arise:keep_kayra"
+				title: "Keep Kayra"
+				type: "structure"
+			}]
+			x: -19.0d
+			y: 22.0d
+		}
+		{
+			id: "7EB389E6E56026F8"
+			rewards: [{
+				id: "6FB072EA41ED0A0E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46B0A322C4D27943"
+				structure: "dungeons_arise:lighthouse"
+				title: "Lighthouse"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 20.5d
+		}
+		{
+			id: "3B2C76FC48055B6E"
+			rewards: [{
+				id: "326CD15914C9B572"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B9AC4A1AC4E995"
+				structure: "dungeons_arise:mechanical_nest"
+				title: "Mechanical Nest"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 11.5d
+		}
+		{
+			id: "2644F35F28FF29B9"
+			rewards: [{
+				id: "40BB011E673D19AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B62CD0B2A36BE3E"
+				structure: "dungeons_arise:merchant_campsite"
+				title: "Merchant Campsite"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			id: "209E99433D576BFA"
+			rewards: [{
+				id: "2D93ECEDB478DDCF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46DBBF7E36E3596D"
+				structure: "dungeons_arise:mining_system"
+				title: "Mining System"
+				type: "structure"
+			}]
+			x: -15.5d
+			y: 22.0d
+		}
+		{
+			id: "75D0742BCF7FA878"
+			rewards: [{
+				id: "41E418A95DCE61E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CA79E85932A169B"
+				structure: "dungeons_arise:monastery"
+				title: "Monastery"
+				type: "structure"
+			}]
+			x: -14.0d
+			y: 22.0d
+		}
+		{
+			id: "46CA267C044134E0"
+			rewards: [{
+				id: "474E747FC703C8C7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05C3E079F89A9613"
+				structure: "dungeons_arise:mushroom_house"
+				title: "Mushroom House"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			id: "20D9DC6151A222D9"
+			rewards: [{
+				id: "637FB8B6DCCD140D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C3D61E9261708A"
+				structure: "dungeons_arise:mushroom_mines"
+				title: "Mushroom Mines"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 11.5d
+		}
+		{
+			id: "35900C31CEF4591B"
+			rewards: [{
+				id: "5DA503B80E9AB5DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ECC6C068FA97BC8"
+				structure: "dungeons_arise:mushroom_village"
+				title: "Mushroom Village"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 11.5d
+		}
+		{
+			id: "4823CC229EF79DD1"
+			rewards: [{
+				id: "44EFF0906760B92E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "083AC7F1277343A8"
+				structure: "dungeons_arise:plague_asylum"
+				title: "Plague Asylum"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 16.0d
+		}
+		{
+			id: "1D8C0DCAA00B1D63"
+			rewards: [{
+				id: "07103E44B47316BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1B3ACE86A16231"
+				structure: "dungeons_arise:scorched_mines"
+				title: "Scorched Mines"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 16.0d
+		}
+		{
+			id: "577523458D4EC334"
+			rewards: [{
+				id: "47E7B1E6659F951C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "157D15AE70B92CA0"
+				structure: "dungeons_arise:shiraz_palace"
+				title: "Shiraz Palace"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			id: "618840E850645336"
+			rewards: [{
+				id: "55892413F16A9A8C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24B33A46910D32A2"
+				structure: "dungeons_arise:small_blimp"
+				title: "Small Blimp"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 13.0d
+		}
+		{
+			id: "4316893460349728"
+			rewards: [{
+				id: "7F3F1BD04BCDDC1A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51B39C3CDD79C8F2"
+				structure: "dungeons_arise:small_prairie_house"
+				title: "Small Prairie House"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 13.0d
+		}
+		{
+			id: "42CCD34DD9746105"
+			rewards: [{
+				id: "688F10B221DA9E76"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25EAC9F355569382"
+				structure: "dungeons_arise:thornborn_towers"
+				title: "Thornborn Towers"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 16.0d
+		}
+		{
+			id: "4EDCB97D9D731DC9"
+			rewards: [{
+				id: "227ED4D220997117"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "632BEA2F7FF0660F"
+				structure: "dungeons_arise:typhon"
+				title: "Typhon"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 16.0d
+		}
+		{
+			id: "45669363155C4903"
+			rewards: [{
+				id: "2479386638283C78"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F6681F187E16DA4"
+				structure: "dungeons_arise:undead_pirate_ship"
+				title: "Undead Pirate Ship"
+				type: "structure"
+			}]
+			x: -13.5d
+			y: 16.0d
+		}
+		{
+			id: "0250A8099C7EF2E1"
+			rewards: [{
+				id: "13C5F03801CE978E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E7E8CE7A373EC5"
+				structure: "dungeons_arise:wishing_well"
+				title: "Wishing Well"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 13.0d
+		}
+		{
+			id: "211EDCBA2337E38F"
+			rewards: [{
+				id: "31C3BF82A9A19313"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A6AD57F38CEB23B"
+				structure: "dungeons_arise_seven_seas:corsair_corvette"
+				title: "Corsair Corvette"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 13.0d
+		}
+		{
+			id: "4B3B2412834970FF"
+			rewards: [{
+				id: "59B18C3605194667"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E24EEE55B5EC6D6"
+				structure: "dungeons_arise_seven_seas:pirate_junk"
+				title: "Pirate Junk"
+				type: "structure"
+			}]
+			x: -19.5d
+			y: 14.5d
+		}
+		{
+			id: "3630CBAB289AAEE8"
+			rewards: [{
+				id: "2F7FBB12DE26C67E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09E32376CBC97610"
+				structure: "dungeons_arise_seven_seas:small_yacht"
+				title: "Small Yacht"
+				type: "structure"
+			}]
+			x: -18.0d
+			y: 14.5d
+		}
+		{
+			id: "703CFC53AD1C9171"
+			rewards: [{
+				id: "5727E6BF6893B107"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D506ABE28E01550"
+				structure: "dungeons_arise_seven_seas:unicorn_galleon"
+				title: "Unicorn Galleon"
+				type: "structure"
+			}]
+			x: -16.5d
+			y: 14.5d
+		}
+		{
+			id: "7F314D584A41B92E"
+			rewards: [{
+				id: "6F26BE4EC9DA9961"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36DCC43839926065"
+				structure: "dungeons_arise_seven_seas:victory_frigate"
+				title: "Victory Frigate"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 14.5d
+		}
+		{
+			id: "4A65C10ACE2D2F3B"
+			rewards: [{
+				id: "7E253EC3B3441CBC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "242E8D1219BC475F"
+				structure: "alshanex_familiars:origin_island"
+				title: "Origin Island"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "29C8A4D58E1A6618"
+			rewards: [{
+				id: "392DB929558FB483"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "707E88F47A66287F"
+				structure: "irons_spellbooks:ice_spider_den"
+				title: "Ice Spider Den"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["Visit These Structures"]
+	title: "Structures"
+}

@@ -1,0 +1,6027 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "monsters"
+	group: "4E81BA778C52E150"
+	icon: "minecraft:piglin_head"
+	id: "75C0372EB329437D"
+	images: [
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/goetylogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/luminousbeastslogo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/alexsmobslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/borninchaoslogo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			height: 5.0d
+			image: "iceandfire:textures/logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -23.5d
+			y: -5.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/minecraftlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			height: 6.0d
+			image: "steampunkwizardry:textures/quests/mowzielogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: -15.0d
+		}
+		{
+			height: 4.0d
+			image: "steampunkwizardry:textures/quests/crittersncrawlerslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -23.5d
+			y: -14.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/ironslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/alexscaveslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/twilightforestlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -23.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/cataclysmlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/arsnouveaulogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/impsanddemonslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -14.5d
+			y: -14.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/eeeablogo.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -14.5d
+			y: -23.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/illagerslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 12.5d
+			y: -13.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/eidolonlogo.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 3.5d
+			y: -23.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "540311598B5F9393"
+			rewards: [{
+				count: 3
+				id: "6EC133B799922508"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:squonk"
+				icon: "cnc:squonk_head"
+				id: "4BE227D24502CA98"
+				title: "Squonk"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: -11.5d
+		}
+		{
+			id: "32622178AE615477"
+			rewards: [{
+				count: 3
+				id: "00A724043784E86E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:chupacabra"
+				icon: "cnc:chupacabra_head"
+				id: "5206C253C391CD20"
+				title: "Chupacabra"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: -11.5d
+		}
+		{
+			id: "2F54261EEF4D87E6"
+			rewards: [{
+				count: 3
+				id: "337B9517D7A4B6E3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:howler"
+				icon: "cnc:howler_head"
+				id: "65BD9EF7F4B5DF3F"
+				title: "Howler"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: -11.5d
+		}
+		{
+			id: "73AC427DF75FD2D0"
+			tasks: [{
+				entity: "embers:ancient_golem"
+				icon: "embers:ancient_motive_core"
+				id: "5B7A90D6BA4F8CF7"
+				title: "Ancient Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			id: "50637CC338AC52CC"
+			rewards: [{
+				count: 3
+				id: "7DB4527CDCC6A5B8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "739DBCF651B9A3DB"
+				title: "Ancient Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			id: "5A99931987A673D9"
+			rewards: [{
+				count: 3
+				id: "3E403D2F3AF6EF76"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "285EE0E1C9769433"
+				title: "Archevoker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			id: "655ACBA625B48013"
+			rewards: [{
+				id: "38B06AB3801CD375"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:provoker"
+				icon: {
+					Count: 1
+					id: "fantasy_weapons:weapon_dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C5A5994E8173E43"
+				title: "Provoker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -10.0d
+		}
+		{
+			id: "648264261FF058B8"
+			rewards: [{
+				id: "31218730045A8CAD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:basher"
+				icon: "minecraft:iron_nugget"
+				id: "2B5731302857B052"
+				title: "Basher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			id: "69E699D25CB413EC"
+			rewards: [{
+				id: "3189819F25194CFF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:sorcerer"
+				icon: "goety:magic_emerald"
+				id: "14787CD3CD2D2339"
+				title: "Sorcerer (Goety)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			id: "37EF0FFE3FC9680D"
+			rewards: [{
+				id: "6F5DFB3AB3644C72"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:sorcerer"
+				icon: "illagerinvasion:unusual_dust"
+				id: "5F6B61FECBE93C93"
+				title: "Sorcerer (Illager Invasion)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+		{
+			id: "0699834598F6D8E0"
+			rewards: [{
+				id: "13DBE6C255857314"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:archivist"
+				icon: "goety:targeting_monocle"
+				id: "352D9CFBE728A545"
+				title: "Archivist"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			id: "05BAB056260F0A05"
+			tasks: [{
+				entity: "illagerinvasion:inquisitor"
+				icon: "illagerinvasion:platinum_sheet"
+				id: "3202B5AFA2B3D324"
+				title: "Inquisitor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -11.5d
+		}
+		{
+			id: "52B711288E827AEC"
+			rewards: [{
+				id: "59E83B6DC6DD84D6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:marauder"
+				icon: {
+					Count: 1
+					id: "illagerinvasion:platinum_infused_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "65E03268A57FBB56"
+				title: "Marauder"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -11.5d
+		}
+		{
+			id: "67E6562F55EEBF81"
+			rewards: [{
+				id: "6A6ACADCE800AC3A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Not the villager..."
+			tasks: [{
+				entity: "illagerinvasion:alchemist"
+				icon: "minecraft:brewing_stand"
+				id: "6680881795C3B6D6"
+				title: "Alchemist"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			id: "705ABA851B6AC1AE"
+			rewards: [{
+				id: "4C55DF18B475D1D5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:firecaller"
+				icon: "supplementaries:fire_pit"
+				id: "5F3A409E15CCADC4"
+				title: "Firecaller"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			id: "603C319DA3C7FE82"
+			rewards: [{
+				id: "5B2569C80720E739"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "illagerinvasion:illusionary_dust"
+				id: "5D2EF050E008B188"
+				title: "Illusioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			id: "2189B2DF094DAEB9"
+			rewards: [{
+				id: "2CB8ACD267D2AB03"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eidolon:necromancer"
+				icon: "eidolon:withered_heart"
+				id: "521BC3F44D3DA47E"
+				title: "Necromancer (Eidolon)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -21.0d
+		}
+		{
+			id: "4C1F048E9DF1D58A"
+			rewards: [{
+				id: "2E31D30A94BE6443"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:necromancer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:necro_staff"
+				}
+				id: "15E3555FDF248E49"
+				title: "Necromancer (Goety)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			id: "44464FDC181480A4"
+			rewards: [{
+				id: "1CF585EC4579880A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:necromancer"
+				icon: "minecraft:soul_sand"
+				id: "769510362F24FEDB"
+				title: "Necromancer (Illager Invasion)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -11.5d
+		}
+		{
+			id: "47109EF04E6D0F11"
+			rewards: [{
+				id: "0A52F9FD027B2065"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				icon: "irons_spellbooks:blood_rune"
+				id: "64AA1C7EBAE0DFC8"
+				title: "Necromancer (Iron's Spells n' Spellbooks)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			id: "29ED68A35D5EB4D1"
+			rewards: [{
+				id: "686382BF81CADEF0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_berserker"
+				icon: "cataclysm:dying_ember"
+				id: "001941D6CA0046BE"
+				title: "Ignited Berserker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "2D258E7F0E5ED61D"
+			rewards: [{
+				id: "493CA62B38E29187"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "2B38EF5FAEAEDC8D"
+				title: "Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "56CA248C56372C15"
+			rewards: [{
+				id: "3CB93A2F4E18688A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_ministrosity"
+				icon: "cataclysm:netherite_effigy"
+				id: "2408B72A0CCDE510"
+				title: "Netherite Ministrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "5C4510BF9159C286"
+			rewards: [{
+				id: "562E2B311DE9255F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				icon: "cataclysm:enderite_block"
+				id: "3DC0EBF1F3772D9D"
+				title: "Endermaptera"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "4BA12A6F9853A363"
+			rewards: [{
+				id: "54F7F80A658EAA82"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "219BDD82E9E454EC"
+				title: "Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "4CBA131DC7484280"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "66B21E0DF4BF2FA2"
+				title: "The Prowler"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "15F36C65F1D14162"
+			rewards: [{
+				id: "0C8EA5FC24B6E8A7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: "cataclysm:void_eye"
+				id: "17494ABFC59A0736"
+				title: "The Watcher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "11A77EB20FCFC2AA"
+			rewards: [{
+				id: "6693A77EF297288B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_baby_leviathan"
+				icon: "cataclysm:the_baby_leviathan_bucket"
+				id: "59E42355D1508C0A"
+				title: "The Baby Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "5521F77F5190339B"
+			rewards: [{
+				id: "67B5618762D5EC00"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "57D9AC7411C3FBF1"
+				title: "Coralssus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "5EB91C8F5312CF7E"
+			rewards: [{
+				id: "1D07F621BC7D1A5B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				icon: "cataclysm:crystallized_coral_fragments"
+				id: "4BBE60C4404154EC"
+				title: "Coral Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "5A0FBA4AFFD4BF3A"
+			rewards: [{
+				id: "640154E9BBD5577C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_brute"
+				icon: "cataclysm:deepling_brute_spawn_egg"
+				id: "38EB0EB06EAD4DE2"
+				title: "Deepling Brute"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "4CC7B98F86CD6446"
+			rewards: [{
+				id: "125E0E6F1E6B0F11"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				icon: "goety:warlock_sash"
+				id: "19BF952CEB5F8FFD"
+				title: "Deepling Warlock"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "6307146FDD63DCAE"
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				icon: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00D8145F73285965"
+				title: "Deepling Priest"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "1BE4D258EAC59573"
+			rewards: [{
+				id: "30A0CF6576549AC0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				icon: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F6158E59F18CE0D"
+				title: "Deepling Angler"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "31F842C60FFC7E10"
+			rewards: [{
+				id: "0BACA40C192C1B42"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:deepling"
+				icon: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1DE4B7830A0F4D07"
+				title: "Deepling"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "610D514EEDB3F8DF"
+			rewards: [{
+				id: "68261BA054E74D7F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "cataclysm:amethyst_crab_shell"
+				id: "6F28B229E66A918B"
+				title: "Amethyst Crab"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "5FA08EA85D3870C1"
+			rewards: [{
+				id: "3FD8BC330A9A20DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:modern_remnant"
+				icon: "cataclysm:modern_remnant_bucket"
+				id: "1D2C6606FA07488B"
+				title: "Modern Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "05484C58FFE8DCA3"
+			rewards: [{
+				id: "7AB765441FBF4EFC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_skull"
+				id: "15263C5C3A297C89"
+				title: "Kobolediator"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "6D40AC0D1869E46D"
+			rewards: [{
+				id: "1AE0546547746FC5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: "cataclysm:ancient_metal_ingot"
+				id: "292F53102081ED10"
+				title: "Wadjet"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "3798594E20517DAD"
+			rewards: [{
+				id: "058D3851A8EB5006"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				icon: "cataclysm:koboleton_bone"
+				id: "5D3CBE4173746F29"
+				title: "Koboleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "4EA88354D22AE1E6"
+			rewards: [{
+				id: "1AA0594ED16BF130"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				icon: "cataclysm:strange_key"
+				id: "70D6C2659E032778"
+				title: "Aptrgangert"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "460F1588B5908492"
+			rewards: [{
+				id: "1B84F6133A6796EC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:elite_draugr"
+				icon: "cataclysm:black_steel_nugget"
+				id: "24E3790FEB1746C0"
+				title: "Elite Draugr"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "6A04AB8ADB03C09C"
+			rewards: [{
+				id: "76F1A1D631DFD5F7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:royal_draugr"
+				icon: "cataclysm:black_steel_ingot"
+				id: "097E33737D70D912"
+				title: "Royal Draugr"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "2D78A305BE8C2DB2"
+			rewards: [{
+				id: "6F707D75BA249519"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:draugr"
+				icon: "minecraft:rotten_flesh"
+				id: "63185AE7BA40AE25"
+				title: "Draugr"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "78599B33DC244257"
+			rewards: [{
+				id: "03128A7D33F7DE4A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:clawdian"
+				icon: "cataclysm:chitin_claw"
+				id: "0F0E2B53AB3D5A98"
+				title: "Clawdian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "2F1C4CC0D52B99F3"
+			rewards: [{
+				id: "7005D238CE5D2C1A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:hippocamtus"
+				icon: "iceandfire:tide_trident_inventory"
+				id: "691A41BC522B85C1"
+				title: "Hippocamtus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "2E8B1C33FE011FBC"
+			rewards: [{
+				id: "57A632A2BE142FA0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:cindaria"
+				icon: "cataclysm:lacrima"
+				id: "53A1F1BA14FAB1EA"
+				title: "Cindaria"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "61FF48B4AF215E0E"
+			rewards: [{
+				id: "66E79B3887200394"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:urchinkin"
+				icon: "goblins_tyranny:hut_spike"
+				id: "7021572A86FFA095"
+				title: "Urchinkin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "730CCB3E8045228E"
+			rewards: [{
+				id: "701F51789962375F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:symbiocto"
+				icon: "minecraft:ink_sac"
+				id: "3C384CE4EED20D95"
+				title: "Symbiocto"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "0F97E0F0A77196C3"
+			rewards: [{
+				count: 2
+				id: "4E9CCF0478A2D27A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:tree_ent"
+				icon: "luminous_beasts:tree_ent_trophy"
+				id: "4CEFEB7B6DF03D72"
+				title: "Tree Ent"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "1C90BD24248AFF16"
+			rewards: [{
+				count: 2
+				id: "5CA054AFEDFABAE8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:hermit_king"
+				icon: "luminous_beasts:hermit_king_trophy"
+				id: "0E321166763B6BD2"
+				title: "Hermit King"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "63DEAD7A8A6BB50E"
+			rewards: [{
+				id: "57C0F638EB869951"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:sand_crab"
+				icon: "minecraft:sand"
+				id: "59DCF497A3512C31"
+				title: "Sand Hermit"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "52BB940A9D216C20"
+			rewards: [{
+				count: 2
+				id: "22889FECFA4F619B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:mummy"
+				icon: "luminous_beasts:mummy_trophy"
+				id: "536E29C6C5AA9ABC"
+				title: "Mummy (Luminous Beasts)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "5FA42F1A5E5BAAD2"
+			rewards: [{
+				count: 2
+				id: "7D740CE10ADAD8B8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:sea_viper"
+				icon: "luminous_beasts:viper_trophy"
+				id: "7E7C43DB0504F91F"
+				title: "Sea Viper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "5629C8280D1F338B"
+			rewards: [{
+				count: 2
+				id: "36826052C5FA70B1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:yeti"
+				icon: "luminous_beasts:yeti_trophy"
+				id: "1EEE4C7DA61529BF"
+				title: "Yeti"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			id: "44E122B87EEDF482"
+			rewards: [{
+				count: 2
+				id: "0DE9B74C6C7CC2DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:vile_gator"
+				icon: {
+					Count: 1
+					id: "luminous_beasts:gator_tooth"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "657DA438D7E5A9F0"
+				title: "Vile Gator"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			id: "56259472CA5AADD9"
+			rewards: [{
+				count: 2
+				id: "212ABEEFAA4CF36E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:phoenixbird"
+				icon: "luminous_beasts:phoenix_feather"
+				id: "6BA698ECE9F8D14C"
+				title: "Phoenix"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			id: "1E8B63443C1751F2"
+			rewards: [{
+				count: 2
+				id: "1C3E8CA19662D2B7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:bone_stalker"
+				icon: "luminous_beasts:bone_stalker_trophy"
+				id: "2CCDF77726C555C7"
+				title: "Bone Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			id: "2D9546CD174FFC8B"
+			rewards: [{
+				count: 2
+				id: "7006922DDD7D56F6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:stalker"
+				icon: "handcrafted:phantom_trophy"
+				id: "353B5D35FF0CF269"
+				title: "Phantom Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			id: "753698DDA9DF4DA4"
+			rewards: [{
+				count: 2
+				id: "2DDAF09422E37378"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:witch_doctor"
+				icon: "luminous_beasts:witch_doctor_trophy"
+				id: "0BB52178F9AD52DF"
+				title: "Witch Doctor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			id: "5B3B9584939938E8"
+			rewards: [{
+				count: 2
+				id: "6135691AF854858A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:crimson_spitter"
+				icon: "luminous_beasts:spitter_trophy"
+				id: "07B5505EE8280323"
+				title: "Crimson Spitter"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "40EF2AE39D3D5451"
+			rewards: [{
+				count: 2
+				id: "02B6D77C6D86370C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:piglin_executioner"
+				icon: "luminous_beasts:executioner_trophy"
+				id: "64CCC4D3A003B45D"
+				title: "Piglin Executioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			id: "64A26834EB28A1C4"
+			rewards: [{
+				count: 2
+				id: "5355F38E5B8E8841"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:the_furnace"
+				icon: "luminous_beasts:furnace_trophy"
+				id: "39C830319D14BA65"
+				title: "The Furnace"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "3CAED95B71911EA1"
+			rewards: [{
+				count: 2
+				id: "00CB291F3BBD5DF2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:ember"
+				icon: "cataclysm:dying_ember"
+				id: "404A2FC6D25C7761"
+				title: "Ember"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			id: "78D025B1E171E1CF"
+			rewards: [{
+				count: 2
+				id: "66E0FACA7DFF82DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:horseless_headsman"
+				icon: "luminous_beasts:horseless_headsman_trophy"
+				id: "6B62826A10BB3228"
+				title: "Horseless Headsman"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			id: "3060CB3960A921F9"
+			rewards: [{
+				count: 2
+				id: "0809B692E45AA173"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkinhead"
+				icon: {
+					Count: 1
+					id: "luminous_beasts:pumpkin_helmet_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6EF3E92CD4DC7DA8"
+				title: "Pumpkinhead"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			id: "00EECD372B2DAB49"
+			rewards: [{
+				count: 3
+				id: "76BF26DB87A5C0DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_tree_ent"
+				icon: "luminous_beasts:rare_tree_ent_trophy"
+				id: "1FD92BF0E5500CA2"
+				title: "Cherry Tree Ent"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			id: "32B8F91971E4A4AE"
+			rewards: [{
+				count: 3
+				id: "355ED85CA5D82D7A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_hermit_king"
+				icon: "luminous_beasts:rare_hermit_king_trophy"
+				id: "2ABAEA69485CDBF4"
+				title: "Golden Hermit King"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			id: "2B96BE65F8986EAA"
+			rewards: [{
+				count: 3
+				id: "491D622A653D855D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_mummy"
+				icon: "luminous_beasts:rare_mummy_trophy"
+				id: "4B3ECAEF9B3015DE"
+				title: "Red Mummy"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			id: "4D89515E097F7C5A"
+			rewards: [{
+				count: 3
+				id: "46175A9EFC38A89A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_sea_viper"
+				icon: "luminous_beasts:rare_viper_trophy"
+				id: "46C01BBC0FB4D28A"
+				title: "Coral Sea Viper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			id: "6F8838D37C2EE727"
+			rewards: [{
+				count: 3
+				id: "20FCA23D3ADE954E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_yeti"
+				icon: "luminous_beasts:rare_yeti_trophy"
+				id: "070D5934A03F094B"
+				title: "Arid Yeti"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			id: "7DB8E6C062772BC0"
+			rewards: [{
+				count: 3
+				id: "0CF8893F87DCBA38"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:frigid_gator"
+				icon: "luminous_beasts:frigid_gator_spawn_egg"
+				id: "5DA1DA9C192504DC"
+				title: "Frozen Vile Gator"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			id: "0867817B6BF75F47"
+			rewards: [{
+				count: 3
+				id: "1036A78F21831961"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_phoenix_bird"
+				icon: "luminous_beasts:wind_phoenix_egg"
+				id: "2EC4388CE5E8C269"
+				title: "Wind Phoenix"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			id: "730E3CA21693FECB"
+			rewards: [{
+				count: 2
+				id: "6A11415ED8FB046A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:bogged_bone_stalker"
+				icon: "luminous_beasts:bogged_bone_stalker_spawn_egg"
+				id: "5589CCF4B12D839A"
+				title: "Bogged Bone Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			id: "234FAC1F761FD03C"
+			rewards: [{
+				count: 3
+				id: "60CA0BA183837920"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:bogged_shadow"
+				icon: "luminous_beasts:bogged_shadow_spawn_egg"
+				id: "73B48D00D4F1CA31"
+				title: "Bogged Shadow"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 17.5d
+		}
+		{
+			id: "5DA9F73995D6A90C"
+			rewards: [{
+				count: 3
+				id: "63BD59659591A9FD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:woodland_witch_doctor"
+				icon: "luminous_beasts:rare_witch_doctor_trophy"
+				id: "331B364EF580A2DE"
+				title: "Woodland Witch Doctor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			id: "37AB517864E82DF2"
+			rewards: [{
+				count: 3
+				id: "6376212E1A8765E4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_crimson_spitter"
+				icon: "luminous_beasts:rare_spitter_trophy"
+				id: "11250C4C2A11ED6C"
+				title: "Warped Spitter"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			id: "549EE94062258F44"
+			rewards: [{
+				count: 3
+				id: "1E670F764A2CCCC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:rare_executioner"
+				icon: "luminous_beasts:rare_executioner_trophy"
+				id: "1D168F4E05C77BAD"
+				title: "Basalt Executioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			id: "15475085D59B3D3A"
+			rewards: [{
+				count: 3
+				id: "7D0EE280241BF4C8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:soul_furnace"
+				icon: "luminous_beasts:soul_furnace_trophy"
+				id: "7012F68FDC7A4CDA"
+				title: "The Soul Furnace"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			id: "60707CAFF2617608"
+			rewards: [{
+				count: 3
+				id: "7E0948E87B6532A3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:soul_ember"
+				icon: "luminous_beasts:soul_ember_spawn_egg"
+				id: "2AF772CF6F1AE285"
+				title: "Soul Ember"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			id: "7F627F3B9858CBBD"
+			rewards: [{
+				count: 2
+				id: "16359880959C174C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:the_scarecrow"
+				icon: "luminous_beasts:scarecrow_trophy"
+				id: "79C1C1CA93651399"
+				title: "The Scarecrow"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			id: "1797AD3940BF49F1"
+			rewards: [{
+				id: "7AAD7B60665FB823"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:scarecrow_minion"
+				icon: "farm_and_charm:scarecrow"
+				id: "6EFD66AB9221905B"
+				title: "Scarecrow Minion"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			id: "6D32AB092E116EF0"
+			rewards: [{
+				count: 5
+				id: "35D5AC5497A545E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "luminous_beasts:gilded_ent"
+				icon: {
+					Count: 1
+					id: "luminous_beasts:magic_root"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4CCECC9755B7F1A7"
+				title: "Gilded Tree Ent"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 19.0d
+		}
+		{
+			id: "271A824F05229868"
+			rewards: [{
+				id: "23A58D35A115AC7D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: "alexscaves:tremorsaurus_egg"
+				id: "0BC2FBFACB0196AA"
+				title: "Tremorsaurus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "7A50EB4C370C44B2"
+			rewards: [{
+				id: "7DCAE85C54815E64"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				icon: "alexscaves:vallumraptor_egg"
+				id: "3B1CB7786FF2387F"
+				title: "Vallumraptor"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			id: "74768673BCE31149"
+			rewards: [{
+				id: "3F2AF6AEB6F526E7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: "alexscaves:nuclear_bomb"
+				id: "2C26D86EA98CF321"
+				title: "Nucleeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "0E02D3D25A7194B5"
+			rewards: [{
+				id: "6E42A688AEAFD491"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: "minecraft:brain_coral"
+				id: "13A7B93A9ED8D0ED"
+				title: "Brainiac"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			id: "049500F58F85891B"
+			rewards: [{
+				id: "18CD652670537930"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gammaroach"
+				icon: "alexsmobs:cockroach_wing"
+				id: "5FD60C1B500BED15"
+				title: "Gammaroach"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			id: "2CA079EF6015D949"
+			rewards: [{
+				id: "62EB6C61E35E3655"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:spawn_egg_hullbreaker"
+				id: "0D6890071723A5C7"
+				title: "Hullbreaker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			id: "2713C2948C3A2A4D"
+			rewards: [{
+				id: "57225DD283ABA91C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: "alexscaves:underweed"
+				id: "20DD171D371829A2"
+				title: "Underzealot"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "73338853DF8688BD"
+			rewards: [{
+				id: "57A0095B895A76A6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: "chipped:watching_lodestone"
+				id: "71048D68BF48B67A"
+				title: "Watcher"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			id: "6C1236CC043B2A83"
+			rewards: [{
+				id: "1312455A8874A58F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				icon: "alexscaves:corrodent_teeth"
+				id: "075CF3431DBE4E3A"
+				title: "Corrodent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			id: "48E347CD6744582B"
+			rewards: [{
+				id: "6A366469AA536A9A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:vesper"
+				icon: "alexscaves:vesper_wing"
+				id: "23637867F5AE990B"
+				title: "Vesper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			id: "67752A3C4A88633B"
+			rewards: [{
+				id: "26B520AC5170587C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:forsaken_idol"
+				id: "1E2802256103CDC0"
+				title: "Forsaken"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			id: "4F3A9509358DDF8A"
+			rewards: [{
+				id: "224C1304646123C7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: "alexscaves:spawn_egg_caniac"
+				id: "52A63B5D017CED18"
+				title: "Caniac"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			id: "0DA305CE0E18A51C"
+			rewards: [{
+				id: "48FEA39341872AD7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				icon: "alexscaves:gummy_ring_red"
+				id: "0053AF245A2DA530"
+				title: "Gumbeeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			id: "580AD039A2AC8B75"
+			rewards: [{
+				id: "213095272F6DCEBA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:caramel_cube"
+				icon: "alexscaves:caramel"
+				id: "6C71A3997B3C275C"
+				title: "Caramel Cube"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			id: "1B3911EA91EC9145"
+			rewards: [{
+				id: "0AFBA43EFDE590BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: "alexscaves:licoroot_vine"
+				id: "019551E2C5E92C26"
+				title: "Licowitch"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			id: "1F9633A06D8D32BF"
+			rewards: [{
+				id: "60816D6855DAC186"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gingerbread_man"
+				icon: {
+					Count: 1
+					id: "alexscaves:gingerbread_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4E450CA17DC7232F"
+				title: "Gingerbread Man (Alex's Caves)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			id: "72EE01A0606BB048"
+			rewards: [{
+				id: "3B0F8CECED7ECA40"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: "alexscaves:gumball_pile"
+				id: "0C8355903190633B"
+				title: "Gum Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "0DE36B45F3A23CE3"
+			rewards: [{
+				id: "257396D19CA55A98"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: "alexscaves:telecore"
+				id: "4240352E42F8FE2B"
+				title: "Teletor"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			id: "1A141F25BEADC865"
+			rewards: [{
+				id: "71D3ADCD07C4D36B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:scarlet_magnet"
+				id: "6C9D1230E98596A2"
+				title: "Magnetron"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			id: "045763D9D19F0D1B"
+			rewards: [{
+				id: "0C3DB2C2390DDD5E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: "alexscaves:spawn_egg_boundroid"
+				id: "340D9112DA2B6BF7"
+				title: "Boundroid"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			id: "19EA0EA7CD53C662"
+			rewards: [{
+				id: "3DAFCD0747A9ABCA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				icon: "alexscaves:ferrouslime_ball"
+				id: "2983EF1B98B33DDD"
+				title: "Ferrouslime"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			id: "7DE7F4407E90AA48"
+			rewards: [{
+				id: "3257E14C116E325A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:corpse"
+				icon: "bloodmagic:weakbloodshard"
+				id: "27E6808BA93769E9"
+				title: "Corpse"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -21.0d
+		}
+		{
+			id: "0C39786EDFB9C287"
+			rewards: [{
+				id: "5FA1DE5576C0D5F9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:corpse_villager"
+				icon: "hexerei:blood_bottle"
+				id: "1BFB60563D69E569"
+				title: "Corpse Villager"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -21.0d
+		}
+		{
+			id: "0621E791740E8703"
+			rewards: [{
+				id: "5CB8B7D5799D1CE5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:corpse_warlock"
+				icon: "eeeabsmobs:bloody_altar_eye"
+				id: "45D1ADFB895F409E"
+				title: "Corpse Warlock"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: -21.0d
+		}
+		{
+			id: "45956A07403B69C3"
+			rewards: [{
+				id: "123DB40FA6523645"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:guling_sentinel"
+				icon: "eeeabsmobs:guling_eye"
+				id: "4D2969DCB74BEA04"
+				title: "Guling Sentinel"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -21.0d
+		}
+		{
+			id: "4799650FFBCA4DAB"
+			rewards: [{
+				id: "6B0A05AC1A6C034C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:guling_sentinel_heavy"
+				icon: "minecraft:soul_lantern"
+				id: "4BCF265E5FD8D2AE"
+				title: "Heavy Guling Sentinel"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: -21.0d
+		}
+		{
+			id: "25C1612753E6D980"
+			rewards: [{
+				id: "48A47984E7795290"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "mowziesmobs:naga_fang"
+				id: "059CD86F11B9D796"
+				title: "Naga (Mowzie's Mobs)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			id: "05E7D47F0FB2109F"
+			rewards: [{
+				id: "7FE30AAEA02482D9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_fury"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "15C30F88693D6268"
+				title: "Umvuthana"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			id: "60DA5F6B2DB82AB8"
+			rewards: [{
+				id: "38E2EE1CD94E582A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_raptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_misery"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6C00A1D2FC9EA433"
+				title: "Umvuthana Raptor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			id: "12CF11CCA607DDF3"
+			rewards: [{
+				id: "6F3F40475E121057"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_crane"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:umvuthana_mask_faith"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0A810391CD4E90FD"
+				title: "Umvuthana Crane"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			id: "234EAC3F965024BD"
+			rewards: [{
+				id: "43EEBA06C9729776"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				icon: "mowziesmobs:captured_grottol"
+				id: "7C14A74AB32BBEDA"
+				title: "Grottol"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			id: "6F6F8386DDC6840E"
+			rewards: [{
+				id: "6E2EC50061D5817D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				icon: "mowziesmobs:bluff_rod"
+				id: "1EAD0D7EAE24FA39"
+				title: "Bluff"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			id: "0FDD1B5EC89C39CD"
+			rewards: [{
+				id: "10470AFC5B90DE34"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				icon: "mowziesmobs:foliaath_seed"
+				id: "76210927ED2F2D0A"
+				title: "Foliaath"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			id: "1236FA7DDD1F485E"
+			rewards: [{
+				id: "6806DB57B5DA8F99"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:bone_serpent"
+				icon: "alexsmobs:bone_serpent_tooth"
+				id: "4E1ACA517B05E3AF"
+				title: "Bone Serpent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "50551501E089C3F8"
+			rewards: [{
+				id: "179CAD213F9EE4BC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:fly"
+				icon: "alexsmobs:maggot"
+				id: "31D378B2FA42A8FA"
+				title: "Fly"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "223E991940B3A3F0"
+			rewards: [{
+				id: "3B6E13D43E45A681"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "alexsmobs:mosquito_proboscis"
+				id: "7AD370DD0786F409"
+				title: "Crimson Mosquito"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "7EF452840D942589"
+			rewards: [{
+				id: "0182AF67F7CC14C7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:centipede_head"
+				icon: "alexsmobs:centipede_leg"
+				id: "50DD58B2A0C58831"
+				title: "Cave Centipede"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "491BD6867C7795C2"
+			rewards: [{
+				id: "5D7F63C1623F18F8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				icon: "alexsmobs:mimicream"
+				id: "13E7D161C43A1A4A"
+				title: "Mimicube"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "4F014CA6C6AAF501"
+			rewards: [{
+				id: "1012E26215BF8AB6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:soul_vulture"
+				icon: "alexsmobs:soul_heart"
+				id: "0E051BD501024B7D"
+				title: "Soul Vulture"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			id: "1045C5AFD9917B41"
+			rewards: [{
+				id: "543B5BBED980BD7A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:guster"
+				icon: "alexsmobs:guster_eye"
+				id: "5058FF0A0A0E01B9"
+				title: "Guster"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "5DBE543FC6ABA0F1"
+			rewards: [{
+				id: "1F540CA863E9A631"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:hemolymph_sac"
+				id: "52F6A2C41F7DF75C"
+				title: "Warped Mosco"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "128F0AD16B217AA8"
+			rewards: [{
+				id: "69E6A574A16040A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				icon: "alexsmobs:straddlite"
+				id: "7D1167D447BF0DDE"
+				title: "Straddler"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "4069B98AEB8E0DE9"
+			rewards: [{
+				id: "2AEF8B15B079EDBD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:dropbear"
+				icon: "alexsmobs:dropbear_claw"
+				id: "1393BC55ACF83FD8"
+				title: "Dropbear"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "7813B4C928534A71"
+			rewards: [{
+				id: "1AD88CCDDF4D37A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:froststalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "6E23C31EB69F989D"
+				title: "Froststalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "089A64AFCAE1A18F"
+			rewards: [{
+				id: "43FE1BCAC46764E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:tusklin"
+				icon: "alexsmobs:spawn_egg_tusklin"
+				id: "2726EBCAEE6C13BF"
+				title: "Tusklin"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "602AD111A1E3946B"
+			rewards: [{
+				id: "396E40808C3D0BD5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:rocky_roller"
+				icon: "alexsmobs:rocky_shell"
+				id: "6A45845AED57F57B"
+				title: "Rocky Roller"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "0F9C8A99F2130926"
+			rewards: [{
+				id: "3C1D6EDDED3DCFD7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:skelewag"
+				icon: {
+					Count: 1
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E971D09DDB58BA4"
+				title: "Skelewag"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "6145C7195FA4AF8E"
+			rewards: [{
+				count: 4
+				id: "573F4C2A2E270518"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "alexsmobs:farseer_arm"
+				id: "23A4935B42027F71"
+				title: "Farseer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "4513B893DF664A72"
+			rewards: [{
+				count: 2
+				id: "5C8765567C106B93"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:skreecher"
+				icon: "alexsmobs:skreecher_soul"
+				id: "43D77D6534B26CB3"
+				title: "Skreecher"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "07A221B079AE5E5D"
+			rewards: [{
+				id: "11A92EC477D1DAF0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:murmur"
+				icon: "alexsmobs:spawn_egg_murmur"
+				id: "096443F40D6DB57C"
+				title: "Murmur"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "4C61063740E3FDBC"
+			rewards: [{
+				id: "7CF795B261C610AA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				icon: "ars_nouveau:wilden_wing"
+				id: "206003FF60626E83"
+				title: "Wilden Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			id: "628F51FF99A53DB8"
+			rewards: [{
+				id: "6F023B19636C8809"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				icon: "ars_nouveau:wilden_horn"
+				id: "7019697D6850DF4F"
+				title: "Wilden Hunter"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			id: "0FAC58A152B4F6D4"
+			rewards: [{
+				id: "6CF0E078B82E3739"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				icon: "ars_nouveau:wilden_spike"
+				id: "554435266DCF6ECB"
+				title: "Wilden Defender"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			id: "465DA22633E7A219"
+			rewards: [{
+				id: "24238CB4ADAB3489"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eidolon:giant_skeleton"
+				icon: "iceandfire:dragonbone"
+				id: "52E84A01BD497C57"
+				title: "Giant Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -21.0d
+		}
+		{
+			id: "7F72B856066559C5"
+			rewards: [{
+				id: "7F78E2A467659DA2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eidolon:zombie_brute"
+				icon: "eidolon:zombie_heart"
+				id: "5364E61E01AEE957"
+				title: "Zombie Brute"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -21.0d
+		}
+		{
+			id: "7B79DF0A9D5098F7"
+			rewards: [{
+				id: "09295C6C1E7CF6E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eidolon:wraith"
+				icon: "eidolon:wraith_heart"
+				id: "76C35FACB36CA76F"
+				title: "Wraith (Eidolon)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -21.0d
+		}
+		{
+			id: "3EBC5F2C495ABEFA"
+			rewards: [{
+				id: "21F5088C1DCB76AE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:wraith"
+				icon: "goety:ectoplasm"
+				id: "1638FCF7D356269C"
+				title: "Wraith (Goety)"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			id: "3DAA31311B861D4C"
+			rewards: [{
+				id: "6463AAB66E57D1B0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				icon: "twilightforest:wraith_spawn_egg"
+				id: "46417FC27182B608"
+				title: "Wraith (Twilight)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 10.0d
+		}
+		{
+			id: "560EC1A184966D62"
+			rewards: [{
+				id: "76220EDB722A930B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:warlock"
+				icon: "goety:warlock_robe_dark"
+				id: "0657557DCF56E329"
+				title: "Warlock"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "5F242C4417789579"
+			rewards: [{
+				id: "31B7D8D49937A1DB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:obsidian_monolith"
+				icon: "nethervinery:obsidian_stem"
+				id: "317369E97D819DB3"
+				title: "Obsidian Monolith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			id: "411059E4484A23CA"
+			rewards: [{
+				id: "4E960A223328B18E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:heretic"
+				icon: "embers:nonbeliever_amulet"
+				id: "751B1C87C5C03B95"
+				title: "Heretic"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			id: "3A6F5BD702678245"
+			rewards: [{
+				id: "2B14C48D99C02CF3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:maverick"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "364902E1DC078DDA"
+				title: "Maverick"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			id: "00F66DEF934B934E"
+			rewards: [{
+				id: "17109C796B27A0C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:envioker"
+				icon: "alexscaves:occult_gem"
+				id: "3434AC1EC94626A3"
+				title: "Envioker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 11.5d
+		}
+		{
+			id: "006AF7604E898847"
+			rewards: [{
+				id: "16FCC87AAA5C2BD8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:tormentor"
+				icon: "goety:tormentor_spawn_egg"
+				id: "29BC1AA10FC559A1"
+				title: "Tormentor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 11.5d
+		}
+		{
+			id: "17DA0D03D5F3D56F"
+			tasks: [{
+				entity: "goety:inquillager"
+				icon: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				id: "63559184315A3FA1"
+				title: "Inquillager"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			id: "1E2D944F25912607"
+			rewards: [{
+				id: "15B3EA00011B8E9E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:conquillager"
+				icon: "minecraft:feather"
+				id: "0FD3656A4C3BF388"
+				title: "Conquillager"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			id: "08CA99151183E67C"
+			rewards: [{
+				id: "2758DC8865587792"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:piker"
+				icon: {
+					Count: 1
+					id: "magistuarmory:iron_pike"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3F28465B316713F2"
+				title: "Piker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			id: "5046906343FBABA9"
+			rewards: [{
+				id: "39637FC803DB5F1D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:ripper"
+				icon: "goety:ripper_spawn_egg"
+				id: "4D4E5B13680D2C86"
+				title: "Ripper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			id: "1C006AE906A77717"
+			rewards: [{
+				id: "4A191EC2EB2138C0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "It looks... weird..."
+			tasks: [{
+				entity: "goety:trampler"
+				icon: "minecraft:saddle"
+				id: "6B3A8C3F0E38EA83"
+				title: "Trampler"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			id: "607F502796953A55"
+			rewards: [{
+				id: "76C4D2F1D1EC1BFC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:crusher"
+				icon: {
+					Count: 1
+					id: "goety:great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E5326633994DA88"
+				title: "Crusher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 16.0d
+		}
+		{
+			id: "2439AF7A35E45800"
+			rewards: [{
+				id: "56AF3A75161380F0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:storm_caster"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:storm_staff"
+				}
+				id: "7D49CCF1950890C8"
+				title: "Storm Caster"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 13.0d
+		}
+		{
+			id: "5ECBC60CBB430224"
+			rewards: [{
+				id: "7662FF1EF4F20DA6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:cryologer"
+				icon: "minecraft:blue_ice"
+				id: "3906591756CB962E"
+				title: "Cryologer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			id: "224ED7E1DFBDBEEA"
+			rewards: [{
+				id: "3F193BA1F344D9A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:preacher"
+				icon: "minecraft:book"
+				id: "201102D7F6C6D7D1"
+				title: "Preacher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			id: "368CE76E94BB7911"
+			rewards: [{
+				count: 5
+				id: "038EF8A0C5572984"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:wight"
+				icon: "goety:shadow_essence"
+				id: "47142438FBF60E5E"
+				title: "Wight"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			id: "77ED7579E8DB48CA"
+			rewards: [{
+				id: "08943A61746398AF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:inferno"
+				icon: {
+					Count: 1
+					id: "goety:infernal_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3FA13483C713D061"
+				title: "Inferno"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			id: "1106D468CE5F9B65"
+			rewards: [{
+				id: "204CC00090F16A2A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:hostile_black_wolf"
+				icon: "goety:hostile_black_wolf_spawn_egg"
+				id: "3059CF2881663B50"
+				title: "Black Wolf"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 17.5d
+		}
+		{
+			id: "19113A3C30A8E111"
+			rewards: [{
+				id: "3AE208B7C8AB35C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:reaper"
+				icon: {
+					Count: 1
+					id: "goety:dark_metal_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0629EF33A72858A7"
+				title: "Reaper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			id: "169F4FE7733DAD07"
+			rewards: [{
+				id: "117590A6CE385976"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:border_wraith"
+				icon: "goety:border_wraith_spawn_egg"
+				id: "46DF9B7A6A8A6D28"
+				title: "Border Wraith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 14.5d
+		}
+		{
+			id: "027583B2BC482B0A"
+			rewards: [{
+				id: "0D73A649699BA38E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:muck_wraith"
+				icon: "alexscaves:muck"
+				id: "40DE075020ADB059"
+				title: "Muck Wraith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			id: "382AB51B91A5F0C0"
+			rewards: [{
+				id: "586465C9656F8E89"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:crypt_slime"
+				icon: "minecraft:slime_ball"
+				id: "5C94134F73E5DBD9"
+				title: "Crypt Slime"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 14.5d
+		}
+		{
+			id: "146E4032394E8CC7"
+			rewards: [{
+				id: "0EF801F3BEF7EB18"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:web_spider"
+				icon: "minecraft:cobweb"
+				id: "512993AF8B51978F"
+				title: "Web Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 17.5d
+		}
+		{
+			id: "04D06D29EFB11243"
+			rewards: [{
+				id: "18EC65224F9CC9A5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:icy_spider"
+				icon: "minecraft:ice"
+				id: "3F50D90A540BDAE8"
+				title: "Icy Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 17.5d
+		}
+		{
+			id: "049189CB598F8743"
+			rewards: [{
+				id: "458899B88044871B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:bone_spider"
+				icon: "minecraft:bone"
+				id: "135B59BA9EDEF35C"
+				title: "Bone Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			id: "4FF3841FCDF60282"
+			rewards: [{
+				id: "4936C9AAF5057734"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:cairn_necromancer"
+				icon: "goety:necro_cape"
+				id: "3F2E35679C0E1942"
+				title: "Cairn Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 17.5d
+		}
+		{
+			id: "78A3EB0341904052"
+			rewards: [{
+				id: "5857A342D2BCD327"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:haunted_armor"
+				icon: {
+					Count: 1
+					id: "goety:cursed_knight_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5AFA01A16A520C46"
+				title: "Haunted Armor"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 14.5d
+		}
+		{
+			id: "70AADEA8043C3360"
+			rewards: [{
+				count: 4
+				id: "3EB6DCEF4BF6CF76"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0B7C6A6265343C65"
+				title: "Gorgon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: -2.5d
+		}
+		{
+			id: "4C80AB30923D3C30"
+			rewards: [{
+				count: 4
+				id: "192F2D851C63E623"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3A62ACFBC412D452"
+				title: "Cyclops"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: -2.5d
+		}
+		{
+			id: "6C76117D70A9F0A2"
+			rewards: [{
+				count: 2
+				id: "5EEEE7071F6F0645"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: {
+					Count: 1
+					id: "iceandfire:deathworm_gauntlet_yellow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5D4E6E02CAE6E3B4"
+				title: "Death Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			id: "13BC391042DB3561"
+			rewards: [{
+				count: 2
+				id: "748AD365FEB11363"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				icon: "iceandfire:cockatrice_skull"
+				id: "76140400103FEFF6"
+				title: "Cockatrice"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: -2.5d
+		}
+		{
+			id: "347C0D2339D97994"
+			rewards: [{
+				id: "23419B90A229C578"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:stymphalian_bird_feather"
+				id: "7EA26984082E0099"
+				title: "Stymphalian Bird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: -2.5d
+		}
+		{
+			id: "61E0E2879F8C275B"
+			rewards: [{
+				id: "38145EABCB6B92C6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				icon: {
+					Count: 1
+					id: "iceandfire:troll_weapon_column"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4974584B4174D8E7"
+				title: "Troll (Ice and Fire)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: -1.0d
+		}
+		{
+			id: "266DE1C664F3B4A4"
+			rewards: [{
+				id: "012F95AF6D5D4A5F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:troll"
+				icon: "iceandfire:troll_skull"
+				id: "05BCE17E9D0F0D90"
+				title: "Troll (Twilight)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 10.0d
+		}
+		{
+			id: "468320E0E55C1898"
+			rewards: [{
+				count: 2
+				id: "6B447093E73377D0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:sea_serpent_fang"
+				id: "5FD36973AB080561"
+				title: "Sea Serpent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: -1.0d
+		}
+		{
+			id: "4AE7BF6B0317FF3A"
+			rewards: [{
+				count: 2
+				id: "4C984CFF0F57695C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_heart"
+				id: "19216DF2DC30AA8D"
+				title: "Hydra (Ice and Fire)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: -1.0d
+		}
+		{
+			id: "5113A4F05E81834F"
+			rewards: [{
+				id: "1BBE30A7FAA163D2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:ghost"
+				icon: "iceandfire:ectoplasm"
+				id: "65F13C7B4D1417BB"
+				title: "Ghost"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: -1.0d
+		}
+		{
+			id: "31EE6D07F0928751"
+			rewards: [{
+				id: "5AC5C5F427869A64"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_beast"
+				icon: "dreadsteel:dreadsteel_shield"
+				id: "78D17189E16432BF"
+				title: "Dread Beast"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: -1.0d
+		}
+		{
+			id: "2A88C6AC10AE5B90"
+			rewards: [{
+				id: "2BD09D105B02E511"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_thrall"
+				icon: {
+					Count: 1
+					id: "iceandfire:dread_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "130FE5140F840A4D"
+				title: "Dread Thrall"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 0.5d
+		}
+		{
+			id: "77D24A144CE1BE52"
+			rewards: [{
+				id: "44955F5BD8F957C6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_knight"
+				icon: {
+					Count: 1
+					id: "iceandfire:dread_knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "524711EDF374E456"
+				title: "Dread Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 0.5d
+		}
+		{
+			id: "3072AF2244310766"
+			rewards: [{
+				id: "48B98FB50386C0CB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_scuttler"
+				icon: "iceandfire:dread_shard"
+				id: "0884154FF49B6E69"
+				title: "Dread Scuttler"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 0.5d
+		}
+		{
+			id: "78C78C613B9805BA"
+			rewards: [{
+				id: "605DF044E16585B6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				icon: {
+					Count: 1
+					id: "iceandfire:lich_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C0DC4FE7E186BA6"
+				title: "Dread Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			id: "5E5530982AAC609C"
+			rewards: [{
+				id: "4EBEF872F381F437"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_ghoul"
+				icon: "dreadsteel:dreadsteel_helmet"
+				id: "3A0DA6CF2FFAEE54"
+				title: "Dread Ghoul"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			id: "640C7EFE402F5A4E"
+			rewards: [{
+				id: "5C65D97EBBD62E5B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				icon: "irons_spellbooks:ice_rune"
+				id: "1D2687E32CDA805D"
+				title: "Cryomancer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			id: "4B705ADC22DDEDBF"
+			rewards: [{
+				id: "1292B9721D354527"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:decrepit_skeleton"
+				icon: "born_in_chaos_v1:decrepit_skeleton_spawn_egg"
+				id: "30713D6550259170"
+				title: "Decrepit Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			id: "0D0BBA8A98D78465"
+			rewards: [{
+				id: "2E3883F314FE9A8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				icon: "born_in_chaos_v1:skeleton_demoman_spawn_egg"
+				id: "057E2AB5CD75D888"
+				title: "Skeleton Demoman"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			id: "0DE1518933F5FDDE"
+			rewards: [{
+				id: "7D73485CAC71D7DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_skeleton"
+				icon: "born_in_chaos_v1:baby_skeleton_spawn_egg"
+				id: "7C9A0484C5C00C1C"
+				title: "Baby Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 10.0d
+		}
+		{
+			id: "24D685F3FE39EFAD"
+			rewards: [{
+				id: "456CDFD12B29C75E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bone_imp"
+				icon: "born_in_chaos_v1:bone_imp_spawn_egg"
+				id: "2CF81FB23CE21EE3"
+				title: "Bone Imp"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			id: "398A60C64DA924A3"
+			rewards: [{
+				id: "40A46F4FB656B87F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:siamese_skeletons"
+				icon: "born_in_chaos_v1:siamese_skeletons_spawn_egg"
+				id: "00394D00E7E83EB9"
+				title: "Siamese Skeletons"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 10.0d
+		}
+		{
+			id: "3DA7FD7A003667D2"
+			rewards: [{
+				id: "2201CDA69040EE56"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				icon: "born_in_chaos_v1:skeleton_thrasher_not_despawn_spawn_egg"
+				id: "13B460EA56AAA24E"
+				title: "Skeleton Thrasher"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			id: "046B052F63335F7F"
+			rewards: [{
+				id: "1404286EF8511E8D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				icon: "born_in_chaos_v1:bonescaller_not_despawn_spawn_egg"
+				id: "55B7B840778314AD"
+				title: "Bonescaller"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			id: "28A3893B96E87843"
+			rewards: [{
+				count: 2
+				id: "660D4F3A73CD6FCC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				icon: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+				id: "66CE174EBE76F32D"
+				title: "Supreme Bonescaller"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 20.5d
+		}
+		{
+			id: "6244DFCE11C445FE"
+			rewards: [{
+				id: "46AB506BF15C12E8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide"
+				icon: "born_in_chaos_v1:spirit_guide_spawn_egg"
+				id: "2DF3BA7B4ECEFF37"
+				title: "Spirit Guide"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 11.5d
+		}
+		{
+			id: "675835CB05F1E60A"
+			rewards: [{
+				count: 7
+				id: "7C919B81DE4B12EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "42D16DFD863A75DA"
+				title: "Lifestealer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 22.0d
+		}
+		{
+			id: "0275FA3098D77B8E"
+			rewards: [{
+				id: "721B17550FCE5F68"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				icon: "born_in_chaos_v1:decaying_zombie_not_despawn_spawn_egg"
+				id: "688A1F5E9D5B699C"
+				title: "Decaying Zombie"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			id: "15D391AB95D769A7"
+			rewards: [{
+				id: "1A14CA371667EA9E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: "minecraft:barrel"
+				id: "5C51754D568492FF"
+				title: "Barrel Zombie"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			id: "78B14808856965E7"
+			rewards: [{
+				id: "6E8030C018188E18"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:door_knight"
+				icon: "born_in_chaos_v1:mesh_door"
+				id: "38FB0069D71B2624"
+				title: "Door Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 13.0d
+		}
+		{
+			id: "604467B6F62C076B"
+			rewards: [{
+				id: "1020E7DB7DE48B3E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				icon: "born_in_chaos_v1:zombie_clown_spawn_egg"
+				id: "11C90617F4AA3EA8"
+				title: "Zombie Clown"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 13.0d
+		}
+		{
+			id: "07FDFCD1DE548753"
+			rewards: [{
+				id: "1BE11AEDA4655069"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_fisherman"
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4CA9F5B84139AF3B"
+				title: "Zombie Fisherman"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 13.0d
+		}
+		{
+			id: "2FB7139BA3CF1952"
+			rewards: [{
+				id: "53A9363EEF714B4F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_lumberjack"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "57BAB5AE30F2C8DC"
+				title: "Zombie Lumberjack"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 14.5d
+		}
+		{
+			id: "330442E778DBF5E7"
+			rewards: [{
+				id: "38B87C6E326EBFAC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				icon: "born_in_chaos_v1:zombie_bruiser_spawn_egg"
+				id: "672C589809895771"
+				title: "Zombie Bruiser"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			id: "0973BE96CE77277C"
+			rewards: [{
+				id: "2A7DBF85AC3641D0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+				id: "3713679F325F2C4E"
+				title: "Fallen Chaos Knight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 14.5d
+		}
+		{
+			id: "1A8E6416BC15CA79"
+			rewards: [{
+				id: "61AFECE77F6EA806"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:maggot"
+				icon: "born_in_chaos_v1:corpse_maggot"
+				id: "5DE13123045A3CC4"
+				title: "Corpse Maggot"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 14.5d
+		}
+		{
+			id: "05C7E2F6C2E1692A"
+			rewards: [{
+				id: "3DD43082117E2EF1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fly"
+				icon: "born_in_chaos_v1:corpse_fly_spawn_egg"
+				id: "3FBE09C2755572E0"
+				title: "Corpse Fly"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 14.5d
+		}
+		{
+			id: "124B32144EC037A9"
+			rewards: [{
+				id: "33C8291BA85895EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bloody_gadfly"
+				icon: "born_in_chaos_v1:bloody_gadfly_eye"
+				id: "2D1644798D497D10"
+				title: "Bloody Gadfly"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			id: "0F180E3D99DB57B7"
+			rewards: [{
+				id: "212BC57AFCF373AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:swarmer"
+				icon: "born_in_chaos_v1:swarmer_spawn_egg"
+				id: "1A0DC7223712736C"
+				title: "Swarmer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			id: "27273F1BD02505CF"
+			rewards: [{
+				id: "20232A46BBF67193"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:diamond_termite"
+				icon: "born_in_chaos_v1:diamond_termite_shard"
+				id: "1E7BA3D6F76B7CF2"
+				title: "Diamon Termite"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 16.0d
+		}
+		{
+			id: "4093C64C416C0378"
+			rewards: [{
+				id: "68AB102CE8BA68F2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:firelight"
+				icon: "born_in_chaos_v1:firelight_spawn_egg"
+				id: "5804905AF5042A41"
+				title: "Firelight"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			id: "6D055CCE3B8AD2DB"
+			rewards: [{
+				id: "63AC36EBED493A94"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_spider"
+				icon: "born_in_chaos_v1:baby_spider_spawn_egg"
+				id: "09D2AE2972BB1C14"
+				title: "Baby Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 16.0d
+		}
+		{
+			id: "11851D5EE7E9686C"
+			rewards: [{
+				count: 3
+				id: "711D0B82B3CE8811"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "born_in_chaos_v1:mother_spider_spawn_egg"
+				id: "3A0E96980AC10C68"
+				title: "Spiders Mother"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 20.5d
+		}
+		{
+			id: "1459A4AE3ADAB0CC"
+			rewards: [{
+				id: "231847244BC76185"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dread_hound"
+				icon: "born_in_chaos_v1:dread_hound_not_despawn_spawn_egg"
+				id: "4BBAC5F4CBC31294"
+				title: "Dread Hound"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 17.5d
+		}
+		{
+			id: "6C6F631B62549F79"
+			rewards: [{
+				count: 3
+				id: "26A653EC140BE2D8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "born_in_chaos_v1:fangofthe_hound_leader"
+				id: "24F12932DFDC0012"
+				title: "Dire Hound Leader"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 20.5d
+		}
+		{
+			id: "37ED10A513EB143A"
+			rewards: [{
+				id: "5B6315E7D96C4764"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:thornshell_crab"
+				icon: "born_in_chaos_v1:thornshell_crab_spawn_egg"
+				id: "5A15B60749D14759"
+				title: "Thornshell Crab"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 17.5d
+		}
+		{
+			id: "394FCE9F7E3CDD60"
+			rewards: [{
+				id: "411DF9D438EA5B17"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fish"
+				icon: "born_in_chaos_v1:rotten_fish"
+				id: "11E6577C235A9BA7"
+				title: "Corpse Fish"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 17.5d
+		}
+		{
+			id: "694BA37FC1CA12CD"
+			rewards: [{
+				id: "7F9503F9AC817728"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				icon: "born_in_chaos_v1:sea_terror_eye"
+				id: "3DAF0324C9BCA70B"
+				title: "Glutton Fish"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 19.0d
+		}
+		{
+			id: "1ADAF07CE3213F7E"
+			rewards: [{
+				id: "517771EDC6AAE3DC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit"
+				icon: "born_in_chaos_v1:restless_spirit_spawn_egg"
+				id: "27711320A189DFDE"
+				title: "Restless Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 19.0d
+		}
+		{
+			id: "6F60DE94235F0E3D"
+			rewards: [{
+				id: "1A5F50B611434E8A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:scarlet_persecutor"
+				icon: "born_in_chaos_v1:scarlet_persecutor_spawn_egg"
+				id: "1BB9C86862C13DFA"
+				title: "Scarlet Persecutor"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 19.0d
+		}
+		{
+			id: "50A89A5E466531A7"
+			rewards: [{
+				id: "59EFD0D7AFD4BD24"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "born_in_chaos_v1:phantom_bomb"
+				id: "673CEEA519B8B9AE"
+				title: "Phantom Creeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 19.0d
+		}
+		{
+			id: "3507A78013F4FB92"
+			rewards: [{
+				id: "003C5198D8252055"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dark_vortex"
+				icon: "born_in_chaos_v1:dark_vortex_spawn_egg"
+				id: "0DC749B33E335094"
+				title: "Dark Vortex"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 19.0d
+		}
+		{
+			id: "5A277926C6F9C8D8"
+			rewards: [{
+				count: 2
+				id: "55B7AA86E4CB10E2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:spiritof_chaos"
+				icon: "born_in_chaos_v1:spiritof_chaos_spawn_egg"
+				id: "0FAAF0BCC5C8ADF0"
+				title: "Spirit of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 17.5d
+		}
+		{
+			id: "6FB706CC5F06254C"
+			rewards: [{
+				count: 7
+				id: "1BABAC49D783381C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "7A99BA51798FFDF1"
+				title: "Nightmare Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 22.0d
+		}
+		{
+			id: "34B077B95BE4CAB6"
+			rewards: [{
+				count: 3
+				id: "1E5F188236304E1F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "36D48F91D25FB4FE"
+				title: "Missionary"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 20.5d
+		}
+		{
+			id: "69D108EDA277ABCB"
+			rewards: [{
+				id: "11E81DC76CF1D9D9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:seared_spirit_not_despawn"
+				icon: "born_in_chaos_v1:seared_spirit_spawn_egg"
+				id: "311F385DCED0F752"
+				title: "Seared Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: 11.5d
+		}
+		{
+			id: "65FAA84C22218789"
+			rewards: [{
+				id: "763F5AFC0F886927"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus_henchman"
+				icon: "born_in_chaos_v1:krampus_horn"
+				id: "761BB08A8B39F9FA"
+				title: "Krampus Henchman"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 17.5d
+		}
+		{
+			id: "022D122C5FE46EE5"
+			rewards: [{
+				count: 7
+				id: "2E02EB0066F8C745"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: "born_in_chaos_v1:krampuss_bag"
+				id: "78F06D61C169B3C9"
+				title: "Krampus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: 20.5d
+		}
+		{
+			id: "6FFC00151174AF48"
+			rewards: [{
+				id: "5BA0793B9C3BC500"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mr_pumpkin"
+				icon: "born_in_chaos_v1:mr_pumpkin_spawn_egg"
+				id: "41089E22CD71829C"
+				title: "Mr. Pumpkin"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: 11.5d
+		}
+		{
+			id: "0DB7873AECD9BD7A"
+			rewards: [{
+				count: 7
+				id: "19C235987266BB8C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				icon: "born_in_chaos_v1:evil_carved_pumpkin"
+				id: "16630AB9C3B93601"
+				title: "Sir Pumpkinhead"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 22.0d
+		}
+		{
+			id: "499B777FB69F0D6D"
+			rewards: [{
+				id: "1EF158385162D6C6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:chort"
+				icon: {
+					Count: 1
+					id: "goety:dark_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7929428DD61B71EC"
+				title: "Chort"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.5d
+			y: -11.5d
+		}
+		{
+			id: "67CB17931F76737B"
+			rewards: [{
+				id: "22E46968DBE64C47"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:imp"
+				icon: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "32B0EA4C49D0196B"
+				title: "Imp"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -11.5d
+		}
+		{
+			id: "28020AB72ABEEFAD"
+			rewards: [{
+				id: "2E015523225DDCC0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:imp_guard"
+				icon: {
+					Count: 1
+					id: "magistuarmory:steel_ellipticalshield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2DED01A93D7B6B4A"
+				title: "Imp Guard"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			id: "03769233F9A3DAB5"
+			rewards: [{
+				id: "7220AD71A39D886F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				icon: "eidolon:sulfur"
+				id: "5D522DC50007BE2F"
+				title: "Demon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -11.5d
+		}
+		{
+			id: "718EBE3D7FF7FB3B"
+			rewards: [{
+				count: 2
+				id: "775D7A10709C41DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:demon_lord"
+				icon: "goety:nether_crown"
+				id: "7A1567D2347AA2D6"
+				title: "Demon Lord"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -11.5d
+		}
+		{
+			id: "2F6BF2A069C02A96"
+			rewards: [{
+				count: 3
+				id: "6D6FD8333792FDAF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "realmrpg_demons:ancient_demon_lord"
+				icon: "minecraft:ancient_debris"
+				id: "134C2B91842AF807"
+				title: "Ancient Demon Lord"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			id: "039392D65227EA86"
+			tasks: [{
+				entity: "savage_and_ravage:executioner"
+				icon: {
+					Count: 1
+					id: "fantasy_weapons:weapon_golden_execution_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D027C7A077F3383"
+				title: "Executioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			id: "27B2EA0C0997B11B"
+			tasks: [{
+				entity: "savage_and_ravage:griefer"
+				icon: {
+					Count: 1
+					id: "savage_and_ravage:griefer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2D4083A40600ACB6"
+				title: "Griefer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			id: "01B5D3DC26C377B1"
+			rewards: [{
+				id: "04D99D04E6364FBE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "savage_and_ravage:iceologer"
+				icon: "goety:ice_cube"
+				id: "0C0F4DBD0E445030"
+				title: "Iceologer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			id: "5D799C78595EB382"
+			rewards: [{
+				id: "3F8F67CFCDE5A91A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "savage_and_ravage:trickster"
+				icon: "bloodmagic:hellforgedparts"
+				id: "67232650D91ACAA0"
+				title: "Trickster"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -8.5d
+		}
+		{
+			id: "23E6985A225E11F5"
+			tasks: [{
+				entity: "takesapillage:archer"
+				icon: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1032E6AD8EA220A8"
+				title: "Archer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			id: "3A7516C21030DCA2"
+			rewards: [{
+				id: "2CA01B89A58FF0A6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "takesapillage:skirmisher"
+				icon: {
+					Count: 1
+					id: "fantasy_weapons:weapon_savage_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "025A27930D300811"
+				title: "Skirmisher"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			id: "349E8540341D7C94"
+			rewards: [{
+				id: "0D1E0926A42B3FA6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "takesapillage:legioner"
+				icon: {
+					Count: 1
+					id: "antiquelegacy:eagle_standard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4DF082E8AC126108"
+				title: "Legioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			id: "0118A0B6873890C5"
+			rewards: [{
+				id: "2884A4DF6BE7FCB7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				icon: "twilightforest:adherent_spawn_egg"
+				id: "393BC6E1773CAB8C"
+				title: "Adherent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 10.0d
+		}
+		{
+			id: "17C200EA4A367C4F"
+			rewards: [{
+				id: "4EF6BD69EFAC23FB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				icon: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "19057CA75B0E02C4"
+				title: "Armored Giant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 10.0d
+		}
+		{
+			id: "237B2574B793D48E"
+			rewards: [{
+				id: "099D2E87ED1990A9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				icon: {
+					Count: 1
+					id: "twilightforest:block_and_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3767532CADD3214E"
+				title: "Block and Chain Goblin"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 10.0d
+		}
+		{
+			id: "4658A4A4C5DA4047"
+			rewards: [{
+				id: "6BB508B419D62847"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				icon: "twilightforest:carminite"
+				id: "3693A47FA6CB35E8"
+				title: "Carminite Broodling"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 11.5d
+		}
+		{
+			id: "283359B039BA393A"
+			rewards: [{
+				id: "009E068F71A11A68"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				icon: "twilightforest:carminite_block"
+				id: "271BC4DA13926046"
+				title: "Carminite Ghastguard"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 11.5d
+		}
+		{
+			id: "735373EA64F57333"
+			rewards: [{
+				id: "6103D5258DFA45BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				icon: "mysticalagriculture:ghast_essence"
+				id: "52146707560A0AEE"
+				title: "Carminite Ghastling"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 11.5d
+		}
+		{
+			id: "3F4DA617E6FB1337"
+			rewards: [{
+				id: "394CAA638DB75EBF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				icon: "twilightforest:carminite_golem_spawn_egg"
+				id: "06D530C0C3F75B1F"
+				title: "Carminite Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 11.5d
+		}
+		{
+			id: "4F725D31CDA9A1B9"
+			rewards: [{
+				id: "01762BA8B45C1410"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "fantasyfurniture:decorations/floating_tomes"
+				id: "73E5FB7985D0CCBD"
+				title: "Death Tome"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 11.5d
+		}
+		{
+			id: "6A8FFDE3B8A4E0A5"
+			rewards: [{
+				id: "3F1CC8BB97C98151"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				icon: "tinkersjewelry:fire_opal"
+				id: "6051AE551800B15D"
+				title: "Fire Beetle"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 13.0d
+		}
+		{
+			id: "3DC2B85B312622F4"
+			rewards: [{
+				id: "03772675CD848720"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				icon: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7CD27E86287FBA4F"
+				title: "Giant Miner"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 13.0d
+		}
+		{
+			id: "2737CC9571674C63"
+			rewards: [{
+				id: "63803CFFC7BCCF34"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				icon: "twilightforest:harbinger_cube_spawn_egg"
+				id: "0BC3E8C3C82ACBB2"
+				title: "Harbinger Cube"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 13.0d
+		}
+		{
+			id: "39F80EC98B8B9816"
+			rewards: [{
+				id: "63701B02F62FAACC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "chipped:broken_cobweb"
+				id: "7C066D3DD474DD9B"
+				title: "Hedge Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 13.0d
+		}
+		{
+			id: "6D041454F590DF59"
+			rewards: [{
+				id: "5140A1B76D826D8E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				icon: {
+					Count: 1
+					id: "fantasy_armor:old_knight_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "353B474B8AA580E3"
+				title: "Helmet Crab"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 13.0d
+		}
+		{
+			id: "44BEE26029C56EA0"
+			rewards: [{
+				id: "62A2BF29DA63E2FD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "alexsmobs:bison_fur"
+				id: "30E4A2DE3F31DA5D"
+				title: "Hostile Wolf"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 14.5d
+		}
+		{
+			id: "12E51BA9994D7112"
+			rewards: [{
+				id: "5F8A652728405C60"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:ice_crystal"
+				icon: "tconstruct:large_sky_slime_crystal_bud"
+				id: "5B954BA4E3D88C84"
+				title: "Ice Crystal"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 14.5d
+		}
+		{
+			id: "1903EEC599FA1C65"
+			rewards: [{
+				id: "5B70171730228539"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: {
+					Count: 1
+					id: "magistuarmory:crown_decoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72E30DC2C4BC163E"
+				title: "King Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 14.5d
+		}
+		{
+			id: "0D57341F87D6E450"
+			rewards: [{
+				id: "105EE0C66A8281E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "minecraft:phantom_membrane"
+				id: "2488339779CF5713"
+				title: "Knight Phantom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 14.5d
+		}
+		{
+			id: "2466B0B02E4A2DA1"
+			subtitle: "TWILIGHT FOREST KOBOLD!!!"
+			tasks: [{
+				entity: "twilightforest:kobold"
+				icon: "kobolds:kobold_skull"
+				id: "79A0FD4F38209BE0"
+				title: "Kobold (Twilight)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 14.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "goblins_tyranny:fake_goblin_ears_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2B4C8B6950C1747B"
+			tasks: [
+				{
+					entity: "twilightforest:upper_goblin_knight"
+					icon: {
+						Count: 1
+						id: "fantasy_armor:golden_horns_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B4DE4EEF0A77920"
+					title: "Upper Goblin Knight"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:lower_goblin_knight"
+					icon: {
+						Count: 1
+						id: "fantasy_armor:chess_board_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "40887D50426C5C1C"
+					title: "Lower Goblin Knight"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Goblin Knight"
+			x: -26.5d
+			y: 16.0d
+		}
+		{
+			id: "012AECD039E706B0"
+			rewards: [{
+				id: "237DB613D068BD13"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:charm_of_keeping_1"
+				id: "0150311826C8F5F6"
+				title: "Maze Slime"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 16.0d
+		}
+		{
+			id: "1CADE8F599AF8D3B"
+			rewards: [{
+				id: "35FC404B8098D0FA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				icon: "twilightforest:raw_meef"
+				id: "7E5E094139CFA832"
+				title: "Minotaur"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 16.0d
+		}
+		{
+			id: "10E69A814B1B18FF"
+			rewards: [{
+				id: "0334725560925872"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "twilightforest:mist_wolf_spawn_egg"
+				id: "75F5B87B2D1FE8F8"
+				title: "Mist Wolf"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 16.0d
+		}
+		{
+			id: "2F84139004F17545"
+			rewards: [{
+				id: "48C61284B0385550"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				icon: "twilightforest:mosquito_swarm_spawn_egg"
+				id: "50CF2825C2BF0643"
+				title: "Mosquito Swarm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 16.0d
+		}
+		{
+			id: "61DF07BF05F4D28B"
+			rewards: [{
+				id: "2EDD5053F9E9D480"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				icon: "twilightforest:pinch_beetle_spawn_egg"
+				id: "4485D11E9575DDD0"
+				title: "Pinch Beetle"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 17.5d
+		}
+		{
+			id: "797FC46BB15A950E"
+			rewards: [{
+				id: "7D99CA3E4F446BD5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				icon: "minecraft:red_mushroom"
+				id: "37D6747E8A87C209"
+				title: "Redcap"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 17.5d
+		}
+		{
+			id: "5C3A3DC4E53C231A"
+			rewards: [{
+				id: "61888803FE5DD484"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				icon: "alexscaves:pewen_sap"
+				id: "5ED1E6D90957D8DA"
+				title: "Redcap Sapper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 17.5d
+		}
+		{
+			id: "757CCD6FAF66A54F"
+			rewards: [{
+				id: "23785E037C890A30"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "1FBE542F3A7D580D"
+				title: "Skeleton Druid"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 17.5d
+		}
+		{
+			id: "7460F66AB51F044E"
+			rewards: [{
+				id: "29B5E3E3929A5945"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				icon: "minecraft:slime_ball"
+				id: "47C29C54D39D13C3"
+				title: "Slime Beetle"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 17.5d
+		}
+		{
+			id: "0B2246E05273E67D"
+			rewards: [{
+				id: "398ECEBEB5260FE8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				icon: "minecraft:snow_block"
+				id: "6C698B269B77E7A4"
+				title: "Snow Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -26.5d
+			y: 19.0d
+		}
+		{
+			id: "79F8EA4F31EEA5E6"
+			rewards: [{
+				id: "75D0B7B81266E359"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				icon: "tconstruct:sky_slime_crystal_cluster"
+				id: "764034DC3D5F592D"
+				title: "Stable Ice Core"
+				type: "kill"
+				value: 1L
+			}]
+			x: -25.0d
+			y: 19.0d
+		}
+		{
+			id: "11786A4182BE19E2"
+			rewards: [{
+				id: "6E25F5B8002039C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:unstable_ice_core"
+				icon: "tconstruct:sky_slime_crystal"
+				id: "6458BB8D66ACC672"
+				title: "Unstable Ice Core"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 19.0d
+		}
+		{
+			id: "67927537D42DF746"
+			rewards: [{
+				id: "1E93EDCAA7100169"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				icon: "chipped:stretched_cobweb"
+				id: "1347C1AD79B4DF88"
+				title: "Swarm Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.0d
+			y: 19.0d
+		}
+		{
+			id: "353645A45ED8777E"
+			rewards: [{
+				id: "10C79164DA2BF1FB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				icon: "twilightforest:borer_essence"
+				id: "79CC316C5CFADE18"
+				title: "Towerwood Borer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 19.0d
+		}
+		{
+			id: "249E74C50B0E23EE"
+			rewards: [{
+				id: "26430410A02680EE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "botania:rune_winter"
+				id: "7DEFFB654C282845"
+				title: "Winter Wolf"
+				type: "kill"
+				value: 1L
+			}]
+			x: -24.5d
+			y: 20.5d
+		}
+		{
+			id: "6C2066C9D740436C"
+			rewards: [{
+				id: "2F20FC5BDFA47630"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "twilightforest:alpha_yeti_fur"
+				id: "37F44AD1EDE2C244"
+				title: "Yeti (Twilight)"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.5d
+			y: 20.5d
+		}
+		{
+			id: "0E629BC2CE47CA3C"
+			rewards: [{
+				id: "5BE423E331863EDC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "What's in your head?"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "1F53E2A78CD8D8D1"
+				title: "Zombie"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "568167F1EDC8804C"
+			rewards: [{
+				id: "3DBA37607F842BC2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Spooky scary skeleton!"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "5CA11CF4F3E49346"
+				title: "Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "33AF26EF514EA2B2"
+			rewards: [{
+				id: "0C8B39897294D22F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "76FA65A0A9F5A7C2"
+				title: "Creeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			id: "705C61A98C25CA07"
+			rewards: [{
+				id: "0C08330639B9ED19"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "0DD1A46634746278"
+				title: "Enderman"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			id: "2442B9987E37CE51"
+			rewards: [{
+				id: "779D7C7AA0E89A68"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "tconstruct:spider_head"
+				id: "769BA8E6B68503C9"
+				title: "Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			id: "6922281CFBB8D0CC"
+			rewards: [{
+				id: "140DFE5F16613DA4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "tconstruct:cave_spider_head"
+				id: "0722A96891549E4E"
+				title: "Cave Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "56A765D9A06858AA"
+			rewards: [{
+				id: "1BEF2FBE29646607"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: "minecraft:piglin_head"
+				id: "31A78EAEB255B65B"
+				title: "Piglin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "5ED0A9BC64884066"
+			rewards: [{
+				id: "5FA6F558594D6538"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: "tconstruct:piglin_brute_head"
+				id: "7ADB7B618F7535FC"
+				title: "Piglin Brute"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "7F2C5EF6CDC81A2D"
+			rewards: [{
+				id: "463B37FE7062543B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: "nethersdelight:hoglin_trophy"
+				id: "74D9F3B26B8CEC5F"
+				title: "Hoglin"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			id: "13D6100A04C78EFB"
+			rewards: [{
+				id: "45AA8C97453200B0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "iceandfire:witherbone"
+				id: "4F315D70D261C7C1"
+				title: "Wither Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			id: "681D762C760D7497"
+			rewards: [{
+				id: "77948BD624DB560D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:silverfish"
+				icon: "minecraft:silverfish_spawn_egg"
+				id: "16A6A7A77B4F8D35"
+				title: "Silverfish"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			id: "41D10D79439D1DCC"
+			rewards: [{
+				id: "50E500B7FA91EDD2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "tconstruct:blaze_head"
+				id: "6493C1F4622BF668"
+				title: "Blaze"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			id: "5603CBAF5B6BE0ED"
+			rewards: [{
+				id: "2F04447798202673"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "tconstruct:husk_head"
+				id: "1D3BD16EADC15AF3"
+				title: "Husk"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "50D6B030DA421CB4"
+			rewards: [{
+				id: "50D674556E11E2EC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "tconstruct:stray_head"
+				id: "17F47604153AEEC9"
+				title: "Stray"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "3CCCB15791B1E7B8"
+			rewards: [{
+				id: "1737C72FEB3362A2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				icon: "tconstruct:drowned_head"
+				id: "47542FDFB2A615F0"
+				title: "Drowned"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "1BFF1FA419F54468"
+			rewards: [{
+				id: "6BA59D5C1B62BF9F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "5566430B1C89E2B9"
+				title: "Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "6DAA242C85ADDAF8"
+			rewards: [{
+				id: "00259FF4707B2821"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "7A6DB4C9C04DD50E"
+				title: "Slime"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			id: "5A453EB3D9805F29"
+			rewards: [{
+				id: "32C4F0550F34E05F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: {
+					Count: 1
+					id: "herbalbrews:witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6337A4271EFEECAF"
+				title: "Witch"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			id: "45ACCF932202288F"
+			rewards: [{
+				id: "66761F9C65B3DD12"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_cream"
+				id: "773D4A32E6CC1CF3"
+				title: "Magma Cube"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			id: "45055AC2857D845A"
+			rewards: [{
+				id: "480DABCCE94DBE65"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "245394FBEF7E9CE3"
+				title: "Pillager"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			id: "0CAA1E931DC98533"
+			rewards: [{
+				id: "113869864498EC0A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "625CBE9C399D97A2"
+				title: "Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			id: "64D36E3950C987E3"
+			rewards: [{
+				count: 2
+				id: "103D9040E8EE9DA4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "7E2E7E4659BBAE1F"
+				title: "Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			id: "3852A583D59B4033"
+			rewards: [{
+				id: "2DC73449A92C3F83"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "536EC65EAD0D9048"
+				title: "Vindicator"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "6F6055308A7D5A1A"
+			rewards: [{
+				count: 2
+				id: "32882E46EAFC8F1C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "1A025F25FCB33FB8"
+				title: "Evoker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "393533FB3AA7BB2C"
+			rewards: [{
+				id: "2DE44BD5E783E240"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: {
+					Count: 1
+					id: "takesapillage:ravager_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1197531BEEE6E7B2"
+				title: "Ravager"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "53D0374B06628BF3"
+			rewards: [{
+				id: "5F2B2C9B0AE9332E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "minecraft:phantom_membrane"
+				id: "64CD59CC9C6097A1"
+				title: "Phantom"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			id: "27258604436D6C04"
+			rewards: [{
+				id: "66CE7C4C8FDA5F96"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: "minecraft:shulker_shell"
+				id: "775C9134E623EB41"
+				title: "Shulker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			id: "10C7676640409295"
+			rewards: [{
+				count: 3
+				id: "34362E72CCE5AE17"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:echo_shard"
+				id: "1E33276894531F6A"
+				title: "Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			id: "0AF2BCFA20C1BB7A"
+			rewards: [{
+				id: "1CCF52C6978CF6DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety_cataclysm:draugr_necromancer"
+				icon: "cataclysm:black_steel_block"
+				id: "06300332EE28B24C"
+				title: "Draugr Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "74A33A123DF4E6E5"
+			rewards: [{
+				id: "5BFC11DD52835CCB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:ice_spider"
+				icon: "chipped:packed_ice_pointed_dripstone"
+				id: "1BE6FF38FAAD6656"
+				title: "Ice Spider"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Hunt These Monsters"]
+	title: "Monsters"
+}

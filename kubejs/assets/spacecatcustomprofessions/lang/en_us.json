@@ -1,0 +1,14 @@
+{
+  "entity.minecraft.villager.spacecatcustomprofessions.bar_customer": "Bar Customer",
+  "entity.minecraft.villager.bar_customer": "Bar Customer",
+  "entity.minecraft.villager.spacecatcustomprofessions.cafe_customer": "Cafe Customer",
+  "entity.minecraft.villager.cafe_customer": "Cafe Customer",
+  "entity.minecraft.villager.spacecatcustomprofessions.dessert_customer": "Dessert Customer",
+  "entity.minecraft.villager.dessert_customer": "Dessert Customer",
+  "entity.minecraft.villager.spacecatcustomprofessions.dinner_customer": "Dinner Customer",
+  "entity.minecraft.villager.dinner_customer": "Dinner Customer",
+  "entity.minecraft.villager.spacecatcustomprofessions.exotic_customer": "Exotic Customer",
+  "entity.minecraft.villager.exotic_customer": "Exotic Customer",
+  "entity.minecraft.villager.spacecatcustomprofessions.seafood_customer": "Seafood Customer",
+  "entity.minecraft.villager.seafood_customer": "Seafood Customer"
+}

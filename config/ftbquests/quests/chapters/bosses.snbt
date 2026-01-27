@@ -1,0 +1,1000 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "bosses"
+	group: "4E81BA778C52E150"
+	icon: {
+		Count: 1
+		id: "iceandfire:gorgon_head"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "55CF5F12F91A93B2"
+	images: [
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/bossesofmassdestructionlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -18.0d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "steampunkwizardry:textures/quests/crittersncrawlerslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/cataclysmlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "iceandfire:textures/logo.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/goetylogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			height: 6.0d
+			image: "steampunkwizardry:textures/quests/mowzielogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/minecraftlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: 8.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A8DD4938E8768BA"
+			rewards: [{
+				id: "7171E750D78D917B"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "00193B9B98B915B1"
+				title: "&9Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			id: "6B72E727C5B14737"
+			rewards: [{
+				id: "2417C47BB9DFF04F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "18B85CA310B534A0"
+				title: "&dVoid Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			id: "32D6ED70E649256B"
+			rewards: [{
+				id: "17ECBEEB28BA2018"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "098255A1129617EC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Nether Gauntlet"
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			id: "72A0890DD6A7CE63"
+			rewards: [{
+				id: "6C5F6B60506F4BF9"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "163AC790C8C994AB"
+				title: "&5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			id: "52846AAC27421363"
+			rewards: [{
+				id: "6B300E9313C8DAB8"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:wechuge"
+				icon: "cnc:wechuge_head"
+				id: "6D7363146AB7BD0F"
+				title: "&bWechuge"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			id: "36474FC5005FD079"
+			rewards: [{
+				id: "366CA8177591FACB"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:wendigo"
+				icon: "cnc:wendigo_head"
+				id: "48F7715B1DBCED22"
+				title: "&bWendigo"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			id: "14E9A85F67AF0A5D"
+			rewards: [{
+				id: "154B1693D2CD1435"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cnc:skinwalker"
+				icon: "cnc:skinwalker_head"
+				id: "3F70B4245AEB7E65"
+				title: "&bSkinwalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "0A0D8B7D978E7845"
+			rewards: [{
+				id: "2B6D22B8B7ADA6CC"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "7F4B36850A672F27"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Guardian of Gaia"
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "295D19D4C708C932"
+			rewards: [{
+				id: "200CA0707B540C84"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "41B2B919A4B0A671"
+				title: "&6The Dead King"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			id: "687B70724802ECF9"
+			rewards: [{
+				id: "7E7BD8A269EE332F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: "illagerinvasion:primal_essence"
+				id: "4049F26BF8AD5E7A"
+				title: "&bInvoker"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			id: "7E07C3375247B57A"
+			rewards: [{
+				id: "4FAE9F0EB60B07F9"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "02E35BAA207EBC0A"
+				title: "&6Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "713C2773FDAFB82B"
+			rewards: [{
+				id: "3307968B69B3C6EA"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5ECEB803F694FA18"
+				title: "&4Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "28DEE96519961299"
+			rewards: [{
+				id: "02382349BB491D58"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "3482DB2571F3E53C"
+				title: "&dEnder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "7602C5B3BBD06654"
+			rewards: [{
+				id: "183CE832B73516AD"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "21787F3EFFD00F9E"
+				title: "&cThe Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "3A2030429B1486E0"
+			rewards: [{
+				id: "1A9C990F3D195CB1"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "goety_cataclysm:abyss_essence"
+				id: "1AD846ADDC687150"
+				title: "&5The Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "498063202F060DF1"
+			rewards: [{
+				id: "5EBDE7EA4C880FBB"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "0E30D96D4357DAB8"
+				title: "&eAncient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "3FD8AEAAA1342C1F"
+			rewards: [{
+				id: "6304C9F594DDB2F0"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "4830395DEADC277B"
+				title: "&bMaledictus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "22AFB0B194728DF1"
+			rewards: [{
+				id: "7F8C4CC701DC60AE"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:essence_of_the_storm"
+				id: "41ACCB537F56C347"
+				title: "&9Scylla"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "3C2B5C43250B0354"
+			rewards: [{
+				id: "6A5E430F6972A8A9"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Alex's Caves"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "32D96DCA25E17559"
+				title: "&4Luxtructosaurus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "30FB8BF82D6A754B"
+			rewards: [{
+				id: "0B15D5117F9F3BC5"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:tremorzilla"
+				icon: "alexscaves:uranium"
+				id: "717F40CE37C136EE"
+				title: "&aTremorzilla"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "33A5E9C65060A763"
+			rewards: [{
+				id: "26615DB28650E8DE"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				id: "56FBF2E940595691"
+				title: "&7Nameless Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "21F521B0FED4D486"
+			rewards: [{
+				id: "07485FBE9C82C211"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "308D58B9AAC1BE7B"
+				title: "&7Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 22.0d
+		}
+		{
+			id: "2AC6AA68B5BB2A9C"
+			rewards: [{
+				id: "031B0027FB455B18"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:grant_suns_blessing"
+				id: "53FB3E0561D07AB4"
+				title: "&eUmvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 20.5d
+		}
+		{
+			id: "441571CDB9B3E00E"
+			rewards: [{
+				id: "744C1715DAAA8479"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3CA0A08B0BCBE6EE"
+				title: "&3Tongbi, the Sculptor"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 20.5d
+		}
+		{
+			id: "2F59022D90A06D3C"
+			rewards: [{
+				id: "218644E3931A2911"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4545DC295B2D8CF8"
+				title: "&bFrostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 22.0d
+		}
+		{
+			id: "09C60C286B89DB7D"
+			rewards: [{
+				id: "5E62C12638AE1090"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "019472771C8180ED"
+				title: "&5Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			id: "68F3F0004DE43461"
+			rewards: [{
+				id: "7D0380E864D4A5C4"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "arsdelight:chimera_horn"
+				id: "0AFD812984A47040"
+				title: "&dWilden Chimera"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			id: "150D887EF03FC2C0"
+			rewards: [{
+				id: "0861A08B9FEB7271"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "goety:goety/kill_a_apostle"
+				criterion: ""
+				id: "6CE9288C7F106014"
+				title: "&4Apostle"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			id: "6B834667125FD0BC"
+			rewards: [{
+				id: "52D914277BAF57FE"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:crone"
+				icon: "goety:crone_hat"
+				id: "79F02EACB958B7B9"
+				title: "&2Crone"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			id: "35B2930298710815"
+			rewards: [{
+				id: "7374E8DB2637D865"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:minister"
+				icon: "fantasyfurniture:decorations/coin_stack_gold"
+				id: "7F5499803C985762"
+				title: "&6Minister"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			id: "658E72ACE596D5E8"
+			rewards: [{
+				id: "5BB0900081659D6F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:vizier"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:storm_staff"
+				}
+				id: "67AB140BBA16F7CC"
+				title: "&6Vizier"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			id: "286640C3045C8D56"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "553154886BB7144E"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:hostile_redstone_golem"
+				icon: "minecraft:redstone"
+				id: "0E8792CA7CFEA111"
+				title: "&cRedstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			id: "372045EEF7ACC50E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1D842F9229030D3C"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:hostile_redstone_monstrosity"
+				icon: "minecraft:redstone_block"
+				id: "6BE1246BEBF3EB51"
+				title: "&4Redstone Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			id: "39F127FA73EE2529"
+			rewards: [{
+				id: "4DC0A384ACB2D367"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:skull_lord"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "4E44A5D58DB2CE44"
+				title: "Skull Lord"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			id: "09CEE62004348B8E"
+			rewards: [{
+				id: "4E0243C35CB2B263"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:brood_mother"
+				icon: {
+					Count: 1
+					id: "fantasy_weapons:weapon_spider_fang"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "28157A33E276954F"
+				title: "&4Brood Mother"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			id: "50D1FF0776157BD8"
+			rewards: [{
+				id: "212AD43DCBCC4820"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:wither_necromancer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:necro_staff"
+				}
+				id: "48159B819D23F5A9"
+				title: "&8Wither Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			id: "3EC0359966057868"
+			rewards: [{
+				id: "27DE1B6AC41E2C71"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "goety:goety/kill_an_endersent"
+				criterion: ""
+				id: "43A86475E92CB7E9"
+				title: "&5Endersent"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			id: "686207B2C33DEA46"
+			rewards: [{
+				id: "495E5A1DAC14EFFB"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "goety:ender_keeper"
+				icon: "goety:void_echo"
+				id: "48BE3FB7CBC198E8"
+				title: "&5Ender Keeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			id: "34CD9D194625909A"
+			rewards: [{
+				id: "4F46899DFCAF652F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "13A32EF745D9D352"
+				title: "&4Fire Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -19.5d
+			y: 10.5d
+		}
+		{
+			id: "6D7BBC8E70605EF2"
+			rewards: [{
+				id: "53C73D49553802E9"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_blue_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "322997EC754BBFCE"
+				title: "&bIce Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -18.0d
+			y: 10.5d
+		}
+		{
+			id: "4D890A8AB2EA65E4"
+			rewards: [{
+				id: "4F3323F4EA733F5A"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_amythest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6F3A5C81928A2F25"
+				title: "&5Lightning Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.5d
+			y: 10.5d
+		}
+		{
+			id: "025B706416863670"
+			rewards: [{
+				id: "4A06C84C3118367E"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "13DF04B106896A9D"
+				title: "&aLord Pumpkinhead"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			description: [
+				"The Twilight Forest Bosses are in the &4Adventure&r chapter."
+				""
+				"There is a specific order to fighting the bosses that the quests follow."
+			]
+			id: "5DCEE53C0E648BFE"
+			shape: "circle"
+			tasks: [{
+				id: "6F6BC9223828C7C3"
+				title: "Twilight Bosses"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			id: "5260AA441A810AA0"
+			rewards: [{
+				id: "49A45155D530EB9B"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "543737A1DD538306"
+				title: "&5Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			id: "04BC3B3DD32A123C"
+			rewards: [{
+				id: "1290E8FD84C13730"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "6D196BEC2295CB11"
+				title: "&8Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+	]
+	subtitle: ["Conquer These Bosses"]
+	title: "Bosses"
+}

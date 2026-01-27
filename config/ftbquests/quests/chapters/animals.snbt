@@ -1,0 +1,3568 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "animals"
+	group: "4E81BA778C52E150"
+	icon: "cnc:white_tailed_deer_head"
+	id: "458B2DF1FF14EF9B"
+	images: [
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/alexsmobslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -15.5d
+			y: -17.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/alshanexsfamiliarslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			height: 5.0d
+			image: "iceandfire:textures/logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/twilightforestlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			height: 4.0d
+			image: "steampunkwizardry:textures/quests/crittersncrawlerslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/alexscaveslogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/minecraftlogo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/mythicmountslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "dawnoftimebuilder:item/logo_general"
+			rotation: 0.0d
+			width: 4.0d
+			x: -15.0d
+			y: 9.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6F48BE90941D63A7"
+			rewards: [{
+				id: "122E9B90E0C0CBEA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "cnc:elk_head"
+				id: "2832B9FB816E229D"
+				observe_type: 5
+				timer: 0L
+				title: "Elk"
+				to_observe: "cnc:elk"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "61A94383980CD020"
+			rewards: [{
+				id: "46335215F5222FD9"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:sheep_spawn_egg"
+				id: "260737E8DF115402"
+				observe_type: 5
+				timer: 0L
+				title: "Sheep"
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			id: "0DFAB31B35FAF3C2"
+			rewards: [{
+				id: "621DDB9F31E82DF1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:pig_spawn_egg"
+				id: "1EB25073E3543901"
+				observe_type: 0
+				timer: 0L
+				title: "Pig"
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			id: "1EBD81AC34DEDB99"
+			rewards: [{
+				id: "714385AF19131075"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:coyote_head"
+				id: "014BD7B7B35C001B"
+				observe_type: 5
+				timer: 0L
+				title: "Coyote"
+				to_observe: "cnc:coyote"
+				type: "observation"
+			}]
+			title: "Coyote"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "32BFD23383F1979B"
+			rewards: [{
+				id: "40502F19C39323A8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:timber_wolf_head"
+				id: "2349D9652CF15591"
+				observe_type: 5
+				timer: 0L
+				title: "Timber Wolf"
+				to_observe: "cnc:timber_wolf"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "5FE423C8109E08B4"
+			rewards: [{
+				id: "78392034715AE9B7"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:white_tailed_deer_head"
+				id: "65A27605A918099D"
+				observe_type: 5
+				timer: 0L
+				title: "White-Tailed Deer"
+				to_observe: "cnc:white_tailed_deer"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "33C188E8B97E0909"
+			rewards: [{
+				id: "2BC7577AFB370542"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:cougar_head"
+				id: "1AFFABCCFD5826F6"
+				observe_type: 5
+				timer: 0L
+				title: "Cougar"
+				to_observe: "cnc:cougar"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "4948A93CD0E8C555"
+			rewards: [{
+				id: "06464873D72A6619"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:wolverine_head"
+				id: "760E66832CB5CABC"
+				observe_type: 5
+				timer: 0L
+				title: "Wolverine"
+				to_observe: "cnc:wolverine"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "1E9868BCDA2AEEB9"
+			rewards: [{
+				id: "18007400F6633631"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:ringtail_head"
+				id: "58984128236DBB19"
+				observe_type: 5
+				timer: 0L
+				title: "Ringtail"
+				to_observe: "cnc:ringtail"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "2391471D0480B105"
+			rewards: [{
+				id: "3CE51CE3E78DF400"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:giant_boar_head"
+				id: "75CE83B0EEBD4342"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Boar"
+				to_observe: "cnc:giant_boar"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			id: "005E4246BBA2BAF4"
+			rewards: [{
+				id: "6E38DCFC7E53306B"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:goose_spawn_egg"
+				id: "1CB1FAB7C725D99C"
+				observe_type: 5
+				timer: 0L
+				title: "Goose"
+				to_observe: "cnc:goose"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "33F8ADE45E6FFB78"
+			rewards: [{
+				id: "6F3D88CDB9D2A5E2"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:black_bear_head"
+				id: "0D5EC1A53AF9863B"
+				observe_type: 5
+				timer: 0L
+				title: "Black Bear"
+				to_observe: "cnc:black_bear"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "731868E4AD2698C9"
+			rewards: [{
+				id: "08DF9A45E0189DC5"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:beaver_head"
+				id: "184AF397564FD445"
+				observe_type: 5
+				timer: 0L
+				title: "Beaver"
+				to_observe: "cnc:beaver"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "00089E3A48D7A6AB"
+			rewards: [{
+				id: "511E1D40FDC2397E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:potofmouse"
+				id: "1DD1E465215BBA7B"
+				observe_type: 5
+				timer: 0L
+				title: "Mouse"
+				to_observe: "cnc:mouse"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "64129B16FDE827F5"
+			rewards: [{
+				id: "450F765EA1282705"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:snake_spawn_egg"
+				id: "390B026FB92822B7"
+				observe_type: 5
+				timer: 0L
+				title: "Snake"
+				to_observe: "cnc:snake"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "76A78BC93050D8A0"
+			rewards: [{
+				id: "5DCA47A06FDC48FE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:rattlesnake_spawn_egg"
+				id: "314431A86751B581"
+				observe_type: 5
+				timer: 0L
+				title: "Rattlesnake"
+				to_observe: "cnc:rattlesnake"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "30EC3A61B4DB08E4"
+			rewards: [{
+				id: "13AE9661873E82AA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:pit_viper_spawn_egg"
+				id: "5C15E5C84890D508"
+				observe_type: 5
+				timer: 0L
+				title: "Pit Viper"
+				to_observe: "cnc:pit_viper"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "31A345EE661E9A52"
+			rewards: [{
+				id: "02F7D9621E80233E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:cooked_turkey"
+				id: "4C1AD628698CAC2A"
+				observe_type: 5
+				timer: 0L
+				title: "Turkey"
+				to_observe: "cnc:turkey"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "501FD82F129740C7"
+			rewards: [{
+				id: "15CD77878FEB1D88"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:caribou_head"
+				id: "212EFBBDB76C9C72"
+				observe_type: 5
+				timer: 0L
+				title: "Caribou"
+				to_observe: "cnc:caribou"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "57B4AB658CA54957"
+			rewards: [{
+				id: "3CF970056405DF66"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:skunk_head"
+				id: "03C20123C26B16F4"
+				observe_type: 5
+				timer: 0L
+				title: "Skunk"
+				to_observe: "cnc:skunk"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			id: "417BB06FC0CE644C"
+			rewards: [{
+				id: "7BBD94A52215D35C"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:marmot_head"
+				id: "10C33B5A20D6C215"
+				observe_type: 5
+				timer: 0L
+				title: "Marmot"
+				to_observe: "cnc:marmot"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "7357DEA1E403776F"
+			rewards: [{
+				id: "0B0D22D2D3DC8D0D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:mule_deer_head"
+				id: "02FF4D66817333C9"
+				observe_type: 5
+				timer: 0L
+				title: "Mule Deer"
+				to_observe: "cnc:mule_deer"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			description: [""]
+			id: "649689CFD98E29A7"
+			rewards: [{
+				id: "4D98CF98AADFBBC1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "cnc:sasquatch_head"
+				id: "5D6F674ABF893480"
+				observe_type: 5
+				timer: 0L
+				title: "&5Sasquatch"
+				to_observe: "cnc:sasquatch"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "1A47B56EDA230B15"
+			rewards: [{
+				count: 2
+				id: "0FFB56E5143C9BE8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:relicheirus_egg"
+				id: "05DDD7434F17015C"
+				observe_type: 5
+				timer: 0L
+				title: "Relicheirus"
+				to_observe: "alexscaves:relicheirus"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "4284341B3A5A631B"
+			rewards: [{
+				count: 2
+				id: "249CBA019BE4A9E1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:trilocaris_tail"
+				id: "46AA7EAB3F41AEF6"
+				observe_type: 5
+				timer: 0L
+				title: "Trilocaris"
+				to_observe: "alexscaves:trilocaris"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "4BE83A02D83CD957"
+			rewards: [{
+				count: 2
+				id: "27CDFE22FB83A41A"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:grottoceratops_egg"
+				id: "490D01929FD8D070"
+				observe_type: 5
+				timer: 0L
+				title: "Grottoceratops"
+				to_observe: "alexscaves:grottoceratops"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "7A4E8939B92CD574"
+			rewards: [{
+				count: 2
+				id: "136CA78F4939BDBB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:subterranodon_egg"
+				id: "5904150600B2C5D0"
+				observe_type: 5
+				timer: 0L
+				title: "Subterranodon"
+				to_observe: "alexscaves:subterranodon"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "4424D19AF173516F"
+			rewards: [{
+				count: 2
+				id: "465B7984EBE116C7"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:atlatitan_egg"
+				id: "2D92FEAAD977FC74"
+				observe_type: 5
+				timer: 0L
+				title: "Atlatitan"
+				to_observe: "alexscaves:atlatitan"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "1712DF7AF4FEC747"
+			rewards: [{
+				count: 2
+				id: "27308747E0D3B666"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spawn_egg_raycat"
+				id: "5B54EEBB3B51D973"
+				observe_type: 5
+				timer: 0L
+				title: "Raycat"
+				to_observe: "alexscaves:raycat"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "28EF90EFF29BA9D6"
+			rewards: [{
+				count: 2
+				id: "028C9E51D043E622"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:tremorzilla_egg"
+				id: "103F46DBA9B0B4C8"
+				observe_type: 5
+				timer: 0L
+				title: "Tremorzilla"
+				to_observe: "alexscaves:tremorzilla"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "6D2D34D7055588F0"
+			rewards: [{
+				count: 2
+				id: "59599AACD0A5ADEE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spawn_egg_gossamer_worm"
+				id: "18D73102AC5F23B2"
+				observe_type: 5
+				timer: 0L
+				title: "Gossamer Worm"
+				to_observe: "alexscaves:gossamer_worm"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "3C404770D4959FE0"
+			rewards: [{
+				count: 2
+				id: "6D3BD45C36B336B7"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spawn_egg_gloomoth"
+				id: "3DB2225D3002912E"
+				observe_type: 5
+				timer: 0L
+				title: "Gloomoth"
+				to_observe: "alexscaves:gloomoth"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "68D70DEF2E4575A9"
+			rewards: [{
+				count: 2
+				id: "5D32C7A13D9EE276"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spawn_egg_candicorn"
+				id: "4CF4585E92BF7807"
+				observe_type: 5
+				timer: 0L
+				title: "Candicorn"
+				to_observe: "alexscaves:candicorn"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "1F11A6B3759B06D0"
+			rewards: [{
+				count: 2
+				id: "152EED7FCBD547F3"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:spawn_egg_gummy_bear"
+				id: "765139ADC1B41F88"
+				observe_type: 5
+				timer: 0L
+				title: "Gummy Bear"
+				to_observe: "alexscaves:gummy_bear"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "515F5151A62D3B19"
+			rewards: [{
+				count: 2
+				id: "0C43D8FE7EF9DD02"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexscaves:notor_gizmo"
+				id: "4D71E42BD249292A"
+				observe_type: 5
+				timer: 0L
+				title: "Notor"
+				to_observe: "alexscaves:notor"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "13B5925FCD684D71"
+			rewards: [{
+				id: "68A24D072ED63CB2"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mowziesmobs:lantern_spawn_egg"
+				id: "616A652C442DB9A9"
+				observe_type: 5
+				timer: 0L
+				title: "Lantern"
+				to_observe: "mowziesmobs:lantern"
+				type: "observation"
+			}]
+			x: -16.5d
+			y: 9.0d
+		}
+		{
+			id: "17503915CF07A5EE"
+			rewards: [{
+				id: "217863CCCC5E9BA6"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:roadrunner_feather"
+				id: "36BBA397AC7C3355"
+				observe_type: 5
+				timer: 0L
+				title: "Roadrunner"
+				to_observe: "alexsmobs:roadrunner"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			id: "0F17F7DDE82F3E6C"
+			rewards: [{
+				id: "1C87F8881E340FE8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:bear_fur"
+				id: "75C8E1A0D3605222"
+				observe_type: 5
+				timer: 0L
+				title: "Grizzly Bear"
+				to_observe: "alexsmobs:grizzly_bear"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -11.0d
+		}
+		{
+			id: "4453D302C2A04559"
+			rewards: [{
+				id: "56F7BC4E6D610DBF"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:gazelle_horn"
+				id: "20E7306DAE27E2B4"
+				observe_type: 5
+				timer: 0L
+				title: "Gazelle"
+				to_observe: "alexsmobs:gazelle"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -11.0d
+		}
+		{
+			id: "6869F9048D327C73"
+			rewards: [{
+				id: "19EFE42DC6DAD5BA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:crocodile_scute"
+				id: "4557AC7FA1C7DBD6"
+				observe_type: 5
+				timer: 0L
+				title: "Crocodile"
+				to_observe: "alexsmobs:crocodile"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			id: "2A4067528B3D20E8"
+			rewards: [{
+				id: "5BE653765232A4AF"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_hummingbird"
+				id: "21CC1D49ABC1BD4A"
+				observe_type: 5
+				timer: 0L
+				title: "Hummingbird"
+				to_observe: "alexsmobs:hummingbird"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			id: "3B460152382696A7"
+			rewards: [{
+				id: "2632CED34F511165"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_orca"
+				id: "23EA3981E36FD26C"
+				observe_type: 5
+				timer: 0L
+				title: "Orca"
+				to_observe: "alexsmobs:orca"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -12.5d
+		}
+		{
+			id: "2AAEAC7EAD573A3F"
+			rewards: [{
+				count: 2
+				id: "056D225CD59C8529"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_sunbird"
+				id: "15D7174209B22833"
+				observe_type: 5
+				timer: 0L
+				title: "Sunbird"
+				to_observe: "alexsmobs:sunbird"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -12.5d
+		}
+		{
+			id: "304AB4C1642526DE"
+			rewards: [{
+				id: "53DB6FF2C59C00B8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_gorilla"
+				id: "1BB216B7CC590274"
+				observe_type: 5
+				timer: 0L
+				title: "Gorilla"
+				to_observe: "alexsmobs:gorilla"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -12.5d
+		}
+		{
+			id: "2CEA672E96BDD5F2"
+			rewards: [{
+				id: "502EA7283FA83B98"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:rattlesnake_rattle"
+				id: "27CCE27193DE5950"
+				observe_type: 5
+				timer: 0L
+				title: "Rattlesnake"
+				to_observe: "alexsmobs:rattlesnake"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -12.5d
+		}
+		{
+			id: "23F5631EFD01BD51"
+			rewards: [{
+				count: 3
+				id: "1EA34EE8C27560B8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_endergrade"
+				id: "3CC26C58378BF2B8"
+				observe_type: 5
+				timer: 0L
+				title: "Endergrade"
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			id: "10A160E44097B469"
+			rewards: [{
+				id: "590952A1BFFC60A1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:shark_tooth"
+				id: "084588CA0A3180F8"
+				observe_type: 5
+				timer: 0L
+				title: "Hammerhead Shark"
+				to_observe: "alexsmobs:hammerhead_shark"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -14.0d
+		}
+		{
+			id: "2E3CD536C8C14205"
+			rewards: [{
+				id: "220A2AABC39245C0"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:lobster_bucket"
+				id: "24A413D02483B4DF"
+				observe_type: 5
+				timer: 0L
+				title: "Lobster"
+				to_observe: "alexsmobs:lobster"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -14.0d
+		}
+		{
+			id: "6BC980DCEBDF3096"
+			rewards: [{
+				id: "742B4B38D7111729"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_komodo_dragon"
+				id: "5C4B6C5D9F891B33"
+				observe_type: 5
+				timer: 0L
+				title: "Komodo Dragon"
+				to_observe: "alexsmobs:komodo_dragon"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -14.0d
+		}
+		{
+			id: "0D919DA34FCF9ACC"
+			rewards: [{
+				id: "5ADA07CCE5A1EFC3"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_capuchin_monkey"
+				id: "4BBF4856348B5C68"
+				observe_type: 5
+				timer: 0L
+				title: "Capuchin Monkey"
+				to_observe: "alexsmobs:capuchin_monkey"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -14.0d
+		}
+		{
+			id: "74944FB186F6164B"
+			rewards: [{
+				count: 2
+				id: "0955D35457178922"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_warped_toad"
+				id: "3280CF4C48101C67"
+				observe_type: 5
+				timer: 0L
+				title: "Warped Toad"
+				to_observe: "alexsmobs:warped_toad"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -14.0d
+		}
+		{
+			id: "08E354856055A74E"
+			rewards: [{
+				id: "68103DAC9EBC61B4"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:moose_antler"
+				id: "7DEB71A7109FD230"
+				observe_type: 5
+				timer: 0L
+				title: "Moose"
+				to_observe: "alexsmobs:moose"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -15.5d
+		}
+		{
+			id: "04F562EE9FDB6580"
+			rewards: [{
+				id: "65349CBE8252E692"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:raccoon_tail"
+				id: "44E42974B089DC29"
+				observe_type: 5
+				timer: 0L
+				title: "Raccoon"
+				to_observe: "alexsmobs:raccoon"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -15.5d
+		}
+		{
+			id: "22C1D6C1B011B934"
+			rewards: [{
+				id: "35AFC592818E44D6"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:blobfish"
+				id: "2F3E918605811F0E"
+				observe_type: 5
+				timer: 0L
+				title: "Blobfish"
+				to_observe: "alexsmobs:blobfish"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -15.5d
+		}
+		{
+			id: "68B88048A2F1F62E"
+			rewards: [{
+				id: "5FDF9C78EA2FB18B"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_seal"
+				id: "4546D3A5D7180922"
+				observe_type: 5
+				timer: 0L
+				title: "Seal"
+				to_observe: "alexsmobs:seal"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -15.5d
+		}
+		{
+			id: "5DB11E757A3E5402"
+			rewards: [{
+				id: "71C61F733F943CDE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:cockroach_ootheca"
+				id: "5707EDE790E4FD82"
+				observe_type: 5
+				timer: 0L
+				title: "Cockroach"
+				to_observe: "alexsmobs:cockroach"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -15.5d
+		}
+		{
+			id: "53F62B35A05CE68A"
+			rewards: [{
+				id: "292E7DAEC3BE982F"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_shoebill"
+				id: "7103887A3A70C215"
+				observe_type: 5
+				timer: 0L
+				title: "Shoebill"
+				to_observe: "alexsmobs:shoebill"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -15.5d
+		}
+		{
+			id: "67D8B9285E359258"
+			rewards: [{
+				id: "4DB0BDEAF73DA2F7"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_elephant"
+				id: "49D13DBCDA667EEB"
+				observe_type: 5
+				timer: 0L
+				title: "Elephant"
+				to_observe: "alexsmobs:elephant"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			id: "7621250D5C53B4D3"
+			rewards: [{
+				id: "368A7AB3D1813859"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_snow_leopard"
+				id: "0CFB2DE5DDF90B36"
+				observe_type: 5
+				timer: 0L
+				title: "Snow Leopard"
+				to_observe: "alexsmobs:snow_leopard"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -12.5d
+		}
+		{
+			id: "2F6B55558992DBDC"
+			rewards: [{
+				count: 2
+				id: "47877B4D4B3AB4D8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_spectre"
+				id: "0BFF60A9FE7C2533"
+				observe_type: 5
+				timer: 0L
+				title: "Spectre"
+				to_observe: "alexsmobs:spectre"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -11.0d
+		}
+		{
+			id: "0464636E2ECB62A5"
+			rewards: [{
+				id: "7D0A9B6E507D766D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_crow"
+				id: "071CF77078BFA465"
+				observe_type: 5
+				timer: 0L
+				title: "Crow"
+				to_observe: "alexsmobs:crow"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			id: "7FB6F3C3E3D3F6F6"
+			rewards: [{
+				id: "2011C83BE943C718"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_alligator_snapping_turtle"
+				id: "3F90D06FCE153BEF"
+				observe_type: 5
+				timer: 0L
+				title: "Alligator Snapping Turtle"
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			id: "3333713E9D10A63C"
+			rewards: [{
+				count: 2
+				id: "715051EC48F7A7DF"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_mungus"
+				id: "7C792E4473696899"
+				observe_type: 5
+				timer: 0L
+				title: "Mungus"
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			id: "53A156DCDC1A730C"
+			rewards: [{
+				id: "249C4B9FEFEA8CEE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_mantis_shrimp"
+				id: "608AFD962EBF9184"
+				observe_type: 5
+				timer: 0L
+				title: "Mantis Shrimp"
+				to_observe: "alexsmobs:mantis_shrimp"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			id: "30A92B9E7155D13E"
+			rewards: [{
+				id: "69473F6DE38C28DC"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:emu_feather"
+				id: "2053EA0B17380B00"
+				observe_type: 5
+				timer: 0L
+				title: "Emu"
+				to_observe: "alexsmobs:emu"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "27C7D83151BA6308"
+			rewards: [{
+				id: "147E2B8F7ECD518F"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Perry the Platypus!?"
+			tasks: [{
+				icon: "alexsmobs:platypus_bucket"
+				id: "7C1DE1A5973F50DC"
+				observe_type: 5
+				timer: 0L
+				title: "Platypus"
+				to_observe: "alexsmobs:platypus"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "10E569C5DDEC15EE"
+			rewards: [{
+				id: "1C65AA192D4C36EA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_tasmanian_devil"
+				id: "38D8B106B0FE8B85"
+				observe_type: 5
+				timer: 0L
+				title: "Tasmanian Devil"
+				to_observe: "alexsmobs:tasmanian_devil"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "3323BAFFAAEFB5F7"
+			rewards: [{
+				id: "456D8BFFB24DBC7D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:kangaroo_hide"
+				id: "4B837B68D8A64F45"
+				observe_type: 5
+				timer: 0L
+				title: "Kangaroo"
+				to_observe: "alexsmobs:kangaroo"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			id: "404C8BECA47B55D8"
+			rewards: [{
+				id: "484E87303987228D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:cachalot_whale_tooth"
+				id: "28D88116B3368E04"
+				observe_type: 5
+				timer: 0L
+				title: "Cachalot Whale"
+				to_observe: "alexsmobs:cachalot_whale"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -9.5d
+		}
+		{
+			id: "7C397FA95DBFBA9F"
+			rewards: [{
+				id: "0589485C290308F5"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:leafcutter_anthill"
+				id: "54B6B3C43A68C408"
+				observe_type: 5
+				timer: 0L
+				title: "Leafcutter Ant"
+				to_observe: "alexsmobs:leafcutter_ant"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -9.5d
+		}
+		{
+			id: "61D99442A259BAAB"
+			rewards: [{
+				count: 3
+				id: "799E3D5809EC1529"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:enderiophage_rocket"
+				id: "5BDB1584725A9049"
+				observe_type: 5
+				timer: 0L
+				title: "Enderiophage"
+				to_observe: "alexsmobs:enderiophage"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			id: "7CBAC2AD45971E4C"
+			rewards: [{
+				id: "383C398BFF226882"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_bald_eagle"
+				id: "3E0F712E668E7599"
+				observe_type: 5
+				timer: 0L
+				title: "Bald Eagle"
+				to_observe: "alexsmobs:bald_eagle"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			id: "5633419602562ED2"
+			rewards: [{
+				id: "5A6A6E10BB3055FD"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_tiger"
+				id: "143641806765F12A"
+				observe_type: 5
+				timer: 0L
+				title: "Tiger"
+				to_observe: "alexsmobs:tiger"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			id: "7CC291952BA27893"
+			rewards: [{
+				id: "60ACF222FA3449E1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:tarantula_hawk_wing"
+				id: "7351CDD1C549C3B1"
+				observe_type: 5
+				timer: 0L
+				title: "Tarantula Hawk"
+				to_observe: "alexsmobs:tarantula_hawk"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			id: "5C8B5ED8B468D1CD"
+			rewards: [{
+				id: "429E6BC643BB7CC8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:serrated_shark_tooth"
+				id: "5CC685440D67E780"
+				observe_type: 0
+				timer: 0L
+				title: "Frilled Shark"
+				to_observe: "alexsmobs:frilled_shark"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -9.5d
+		}
+		{
+			id: "580265E7C64DA786"
+			rewards: [{
+				id: "7758DCF168FA9A39"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_mimic_octopus"
+				id: "141F80D85DDD667A"
+				observe_type: 5
+				timer: 0L
+				title: "Mimic Octopus"
+				to_observe: "alexsmobs:mimic_octopus"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -9.5d
+		}
+		{
+			id: "72C3BCF65BD31BDE"
+			rewards: [{
+				id: "21A95A4C0C4BFAAE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_seagull"
+				id: "223B1DFB75F74C88"
+				observe_type: 5
+				timer: 0L
+				title: "Seagull"
+				to_observe: "alexsmobs:seagull"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			id: "2B1DECB8DCE15152"
+			rewards: [{
+				count: 3
+				id: "230AA2943F04F2E1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_laviathan"
+				id: "7D3C08D607FC3ADE"
+				observe_type: 5
+				timer: 0L
+				title: "Laviathan"
+				to_observe: "alexsmobs:laviathan"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			id: "3188DF961A658B23"
+			rewards: [{
+				count: 3
+				id: "04B7C30D47886034"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_cosmaw"
+				id: "4B2F3AADB990BAB1"
+				observe_type: 5
+				timer: 0L
+				title: "Cosmaw"
+				to_observe: "alexsmobs:cosmaw"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			id: "3A53BD6F09E02B50"
+			rewards: [{
+				id: "6CE74AB13B29B834"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_toucan"
+				id: "0689CD2285062886"
+				observe_type: 5
+				timer: 0L
+				title: "Toucan"
+				to_observe: "alexsmobs:toucan"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			id: "7A29492387431157"
+			rewards: [{
+				id: "507FEF02F3DE1059"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_maned_wolf"
+				id: "19CD7854FCE5BE5C"
+				observe_type: 5
+				timer: 0L
+				title: "Maned Wolf"
+				to_observe: "alexsmobs:maned_wolf"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			id: "169A51A79759C9B3"
+			rewards: [{
+				id: "2B5445A42A97F019"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_anaconda"
+				id: "24A57EF0E80ACC01"
+				observe_type: 5
+				timer: 0L
+				title: "Anaconda"
+				to_observe: "alexsmobs:anaconda"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -8.0d
+		}
+		{
+			id: "6F41382229816A6E"
+			rewards: [{
+				id: "15823580B89717E0"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_anteater"
+				id: "4F01B1E73BED2C03"
+				observe_type: 5
+				timer: 0L
+				title: "Anteater"
+				to_observe: "alexsmobs:anteater"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			id: "1A0C9AE2CF931BA6"
+			rewards: [{
+				id: "72146A225680F75D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:potted_flutter"
+				id: "5F343B6C8357C564"
+				observe_type: 5
+				timer: 0L
+				title: "Flutter"
+				to_observe: "alexsmobs:flutter"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -8.0d
+		}
+		{
+			id: "6706B66CB11EB8E1"
+			rewards: [{
+				id: "529BC6DEB6FB891D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_gelada_monkey"
+				id: "0CEA2B9FCB5FC7B1"
+				observe_type: 5
+				timer: 0L
+				title: "Gelada Monkey"
+				to_observe: "alexsmobs:gelada_monkey"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			id: "7CD1EE90383C54AE"
+			rewards: [{
+				id: "5238DE37F4D913D2"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_jerboa"
+				id: "6DEBDA0865674D52"
+				observe_type: 5
+				timer: 0L
+				title: "Jerboa"
+				to_observe: "alexsmobs:jerboa"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			id: "4973F95EB7A07231"
+			rewards: [{
+				id: "7E1CFB972A70307D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:terrapin_bucket"
+				id: "3DD576824DE391D4"
+				observe_type: 5
+				timer: 0L
+				title: "Terrapin"
+				to_observe: "alexsmobs:terrapin"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			id: "76A5F25ABAA761C0"
+			rewards: [{
+				id: "26257216AACC5809"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:rainbow_jelly"
+				id: "5085F4FD22A7C603"
+				observe_type: 5
+				timer: 0L
+				title: "Comb Jelly"
+				to_observe: "alexsmobs:comb_jelly"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -2.0d
+		}
+		{
+			id: "10A700DC1CC1C9A7"
+			rewards: [{
+				count: 2
+				id: "6A1D5F769925D81C"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_bunfungus"
+				id: "5494AB85C18F7D05"
+				observe_type: 5
+				timer: 0L
+				title: "Bunfungus"
+				to_observe: "alexsmobs:bunfungus"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			description: ["Bye son! :)"]
+			id: "2C39E1BCF25C5BA7"
+			rewards: [{
+				id: "213FDF6A169E36DA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "What did the bison say to his son before school?"
+			tasks: [{
+				icon: "alexsmobs:bison_fur"
+				id: "7A79C1B37658F6AA"
+				observe_type: 5
+				timer: 0L
+				title: "Bison"
+				to_observe: "alexsmobs:bison"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -0.5d
+		}
+		{
+			id: "0046241B3F0DB8D3"
+			rewards: [{
+				count: 2
+				id: "2E2DE948D11740B8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_giant_squid"
+				id: "1071032B2BC4002B"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Squid"
+				to_observe: "alexsmobs:giant_squid"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -6.5d
+		}
+		{
+			description: [""]
+			id: "030B976DF85A8212"
+			rewards: [{
+				id: "6342392DF30D9B82"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:devils_hole_pupfish_bucket"
+				id: "788580592A28A846"
+				observe_type: 5
+				timer: 0L
+				title: "Pupfish"
+				to_observe: "alexsmobs:pupfish"
+				type: "observation"
+			}]
+			x: -17.5d
+			y: -6.5d
+		}
+		{
+			id: "73B26B3A6E53209E"
+			rewards: [{
+				id: "39308CA8B845E6E1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:medium_catfish_bucket"
+				id: "4B367A547586D95D"
+				observe_type: 5
+				timer: 0L
+				title: "Catfish"
+				to_observe: "alexsmobs:catfish"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			id: "648BB846C2EEF369"
+			rewards: [{
+				id: "1426CCFBF24347C7"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_rain_frog"
+				id: "526134E8D3A8A323"
+				observe_type: 5
+				timer: 0L
+				title: "Rain Frog"
+				to_observe: "alexsmobs:rain_frog"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			id: "43E4D99D84FC1BAC"
+			rewards: [{
+				id: "78A69BB10896D2DD"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_potoo"
+				id: "7350E23DD9314E3D"
+				observe_type: 5
+				timer: 0L
+				title: "Potoo"
+				to_observe: "alexsmobs:potoo"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			id: "635A51B5A3BB9CAB"
+			rewards: [{
+				id: "731DDE78CB36797E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:mudskipper_bucket"
+				id: "3C5F9FC2FA535317"
+				observe_type: 5
+				timer: 0L
+				title: "Mudskipper"
+				to_observe: "alexsmobs:mudskipper"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			id: "698D5BB5B22984FC"
+			rewards: [{
+				id: "35E010D20F8363B4"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_rhinoceros"
+				id: "076596EEABFBB3C8"
+				observe_type: 5
+				timer: 0L
+				title: "Rhinoceros"
+				to_observe: "alexsmobs:rhinoceros"
+				type: "observation"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			id: "44E7210A059B957A"
+			rewards: [{
+				id: "118F0EB57906A45C"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_sugar_glider"
+				id: "15EB8352C313EA12"
+				observe_type: 5
+				timer: 0L
+				title: "Sugar Glider"
+				to_observe: "alexsmobs:sugar_glider"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			id: "2E4CF824DE0102C3"
+			rewards: [{
+				count: 2
+				id: "5E4BEE595B445A12"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2282667AD708AA6E"
+				observe_type: 5
+				timer: 0L
+				title: "Underminer"
+				to_observe: "alexsmobs:underminer"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			id: "5F43819FB08D5B1F"
+			rewards: [{
+				id: "18312FB14E6A9F1A"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_skunk"
+				id: "4EEA7182A19A9984"
+				observe_type: 5
+				timer: 0L
+				title: "Skunk"
+				to_observe: "alexsmobs:skunk"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			id: "474C60B8EADD7A36"
+			rewards: [{
+				id: "47E7477F9C443016"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_banana_slug"
+				id: "3E4BCC44727760FB"
+				observe_type: 5
+				timer: 0L
+				title: "Banana Slug"
+				to_observe: "alexsmobs:banana_slug"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			id: "6C47B1E92F1671B6"
+			rewards: [{
+				id: "7DAC20C7913029E3"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_blue_jay"
+				id: "66587364C5438281"
+				observe_type: 5
+				timer: 0L
+				title: "Blue Jay"
+				to_observe: "alexsmobs:blue_jay"
+				type: "observation"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			id: "532B79BAF46D57A3"
+			rewards: [{
+				id: "6913486AC3C9ADAE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:caiman_egg"
+				id: "05813F2C7EDCB77F"
+				observe_type: 5
+				timer: 0L
+				title: "Caiman"
+				to_observe: "alexsmobs:caiman"
+				type: "observation"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "256717F527599A9A"
+			rewards: [{
+				id: "5719EFE17C51A680"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alexsmobs:triops_eggs"
+				id: "1AB7FBB31F05FE40"
+				observe_type: 5
+				timer: 0L
+				title: "Triops"
+				to_observe: "alexsmobs:triops"
+				type: "observation"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			id: "0371170143C3B82D"
+			rewards: [{
+				id: "7C55563FEC7A3A59"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "knightsnmages:elite_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "204114AB2EABD0BA"
+				observe_type: 5
+				timer: 0L
+				title: "Archmage Familiar"
+				to_observe: "alshanex_familiars:archmage_pet"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "2F2AC17D66D09595"
+			rewards: [{
+				id: "247D5A8FFDF47E41"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "4915E8B7335642B3"
+				observe_type: 5
+				timer: 0L
+				title: "Necromancer Familiar"
+				to_observe: "alshanex_familiars:necromancer_pet"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			id: "07105C1B38D1BFAA"
+			rewards: [{
+				id: "0DAF0FB196D2BCE9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ars_elemental:thread_summon"
+				id: "4E0A262400A35CC9"
+				observe_type: 5
+				timer: 0L
+				title: "Summoner Familiar"
+				to_observe: "alshanex_familiars:summoner_pet"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "49D72FD0D5F55844"
+			rewards: [{
+				id: "437B3A8F5C4C2C18"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "goety:hunters_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0860CDBBE34E27D3"
+				observe_type: 5
+				timer: 0L
+				title: "Hunter Familiar"
+				to_observe: "alshanex_familiars:hunter_pet"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "3A1F5D78B758A1D2"
+			rewards: [{
+				id: "66C6C9C30CC6A620"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				id: "5F7E7F589DEC3338"
+				observe_type: 5
+				timer: 0L
+				title: "Druid Familiar"
+				to_observe: "alshanex_familiars:druid_pet"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "4AB26DF55D6AF4D0"
+			rewards: [{
+				id: "010C369180AE3C23"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "herbalbrews:top_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B3CB487443CE4C6"
+				observe_type: 5
+				timer: 0L
+				title: "Illusionist Familiar"
+				to_observe: "alshanex_familiars:illusionist_pet"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "22533C93311A2520"
+			rewards: [{
+				id: "69CA6D12B26B592C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:plagued_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "719C7E9781828E3F"
+				observe_type: 5
+				timer: 0L
+				title: "Plague Doctor Familiar"
+				to_observe: "alshanex_familiars:plague_pet"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "670F71DF886F0628"
+			rewards: [{
+				id: "13C9DC170154A5A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:blaze_powder"
+				id: "7A83FFD846DAD53F"
+				observe_type: 5
+				timer: 0L
+				title: "Scorcher Familiar"
+				to_observe: "alshanex_familiars:scorcher_pet"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "4EE5E6A44524EA7E"
+			rewards: [{
+				id: "3483F297B1A9B8DF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:priest_chestplate"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "656BC8D02ADC57B3"
+				observe_type: 5
+				timer: 0L
+				title: "Cleric Familiar"
+				to_observe: "alshanex_familiars:cleric_pet"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "6F59A17B605497BB"
+			rewards: [{
+				id: "556716637E82CD95"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "46F3DFF0BAC9843A"
+				observe_type: 5
+				timer: 0L
+				title: "Bard Familiar"
+				to_observe: "alshanex_familiars:bard_pet"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			id: "455EA9E69726599B"
+			rewards: [{
+				id: "475D1AC0ADF19925"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "autumnity:snail_spawn_egg"
+				id: "2A205926C0CE928A"
+				observe_type: 5
+				timer: 0L
+				title: "Snail"
+				to_observe: "autumnity:snail"
+				type: "observation"
+			}]
+			x: -16.5d
+			y: 8.0d
+		}
+		{
+			id: "7BBF2F4AA78B884F"
+			rewards: [{
+				id: "04C3C90C9C788F32"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "autumnity:turkey"
+				id: "52B0148520D41550"
+				observe_type: 5
+				timer: 0L
+				title: "Turkey"
+				to_observe: "autumnity:turkey"
+				type: "observation"
+			}]
+			x: -15.5d
+			y: 7.5d
+		}
+		{
+			id: "33C17F42E349EDE7"
+			rewards: [{
+				id: "43DCB9991AF89FAC"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "eidolon:raven_feather"
+				id: "498310F5150B104B"
+				observe_type: 5
+				timer: 0L
+				title: "Raven (Eidolon)"
+				to_observe: "eidolon:raven"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: 7.5d
+		}
+		{
+			id: "6DBF92D1E595682C"
+			rewards: [{
+				id: "7FF89C72EEEE01A9"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "eidolon:spawn_slimy_slug"
+				id: "51220D863728D580"
+				observe_type: 5
+				timer: 0L
+				title: "Slug"
+				to_observe: "eidolon:slug"
+				type: "observation"
+			}]
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			id: "4BA0E12F8C30AE36"
+			rewards: [{
+				id: "5C66A30DF273CD21"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				id: "58CC271741721B61"
+				observe_type: 5
+				timer: 0L
+				title: "Crow (Hexerei)"
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			id: "4FB2F601CF4D08EF"
+			rewards: [{
+				id: "2D26E27E467A9996"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "hexerei:owl_spawn_egg"
+				id: "2D448AD38F17E8D2"
+				observe_type: 5
+				timer: 0L
+				title: "Owl"
+				to_observe: "hexerei:owl"
+				type: "observation"
+			}]
+			x: -16.5d
+			y: 10.0d
+		}
+		{
+			id: "6D1E176DAF176FF2"
+			rewards: [{
+				id: "123CB399540BC350"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "iceandfire:hippogryph_skull"
+				id: "4A0AAC4CF0EE388F"
+				observe_type: 5
+				timer: 0L
+				title: "Hippogryph"
+				to_observe: "iceandfire:hippogryph"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 21.0d
+		}
+		{
+			id: "5AB5EAB495692595"
+			rewards: [{
+				id: "356B6491F93B85F8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "iceandfire:pixie_wings"
+				id: "32DEB311D4769B6B"
+				observe_type: 5
+				timer: 0L
+				title: "Pixie"
+				to_observe: "iceandfire:pixie"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			id: "5F6CFA3525D83D03"
+			rewards: [{
+				id: "50DC9C0C80E1DDBB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "iceandfire:hippocampus_fin"
+				id: "27357909807FC548"
+				observe_type: 5
+				timer: 0L
+				title: "Hippocampus"
+				to_observe: "iceandfire:hippocampus"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			id: "65893E4B9CEA4527"
+			rewards: [{
+				id: "206F3766C0BA5515"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "iceandfire:amphithere_feather"
+				id: "1FF0106F38632117"
+				observe_type: 5
+				timer: 0L
+				title: "Amphithere"
+				to_observe: "iceandfire:amphithere"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 21.0d
+		}
+		{
+			id: "13D03E4F45046EB0"
+			rewards: [{
+				id: "2D787E53F2E0EF81"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "meadow:wooly_sheep_spawn_egg"
+				id: "150829FBD428D1AB"
+				observe_type: 5
+				timer: 0L
+				title: "Wooly Sheep"
+				to_observe: "meadow:wooly_sheep"
+				type: "observation"
+			}]
+			x: -15.5d
+			y: 10.5d
+		}
+		{
+			id: "10B09D2D3A60AC18"
+			rewards: [{
+				id: "2CBE9A540B395B62"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "meadow:wooly_cow_spawn_egg"
+				id: "740E02625EF39311"
+				observe_type: 5
+				timer: 0L
+				title: "Wooly Cow"
+				to_observe: "meadow:wooly_cow"
+				type: "observation"
+			}]
+			x: -14.5d
+			y: 10.5d
+		}
+		{
+			id: "42DD1044F1ABDFE2"
+			rewards: [{
+				id: "36B75032AA23900E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "meadow:water_buffalo_spawn_egg"
+				id: "1CD029B0E709C5E7"
+				observe_type: 5
+				timer: 0L
+				title: "Water Buffalo"
+				to_observe: "meadow:water_buffalo"
+				type: "observation"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			id: "0E71BEE6311D618C"
+			rewards: [{
+				id: "531D54D2D82F4D0A"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:acencia_spawn_egg"
+				id: "20DA201C1EF28196"
+				observe_type: 5
+				timer: 0L
+				title: "Acencia"
+				to_observe: "mythicmounts:acencia"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "0AB51017C38602E9"
+			rewards: [{
+				id: "09B42D701E8D80AB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:archelon_spawn_egg"
+				id: "3AA69B5CACA66F55"
+				observe_type: 5
+				timer: 0L
+				title: "Archelon"
+				to_observe: "mythicmounts:archelon"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "0E5F76991B208F60"
+			rewards: [{
+				id: "6D4BEBE0B580CC2A"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:colelytra_spawn_egg"
+				id: "1FCA542855C44966"
+				observe_type: 5
+				timer: 0L
+				title: "Colelytra"
+				to_observe: "mythicmounts:colelytra"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "7FEF2FB837116C26"
+			rewards: [{
+				id: "19FEC544962EE1FA"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:direwolf_spawn_egg"
+				id: "050A5252D81FF9AE"
+				observe_type: 5
+				timer: 0L
+				title: "Dire Wolf"
+				to_observe: "mythicmounts:direwolf"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "4FA07EC54E9E1287"
+			rewards: [{
+				id: "2B5448872C44DF5B"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:firebird_spawn_egg"
+				id: "43BEF4404C4E468A"
+				observe_type: 5
+				timer: 0L
+				title: "Zar-ptak"
+				to_observe: "mythicmounts:firebird"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "41D4D8551F59689F"
+			rewards: [{
+				id: "78865551F96DF079"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				id: "0B8B5065ED5398AE"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Geckotoa"
+				to_observe: "mythicmounts:geckotoalizard"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "76323B1365022CDF"
+			rewards: [{
+				id: "678ACCC97FE3D471"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:griffon_spawn_egg"
+				id: "5BDD663FD9C6DBCF"
+				observe_type: 5
+				timer: 0L
+				title: "Griffon"
+				to_observe: "mythicmounts:griffon"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "0448045687A48364"
+			rewards: [{
+				id: "644ECFC5CB6E748B"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:moth_spawn_egg"
+				id: "769DDCA4FE5FBE19"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Moth"
+				to_observe: "mythicmounts:moth"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "161B562C0ACB9B0F"
+			rewards: [{
+				id: "5937A035CF6665D8"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:nightmare_spawn_egg"
+				id: "013AEDD7EAC70A14"
+				observe_type: 5
+				timer: 0L
+				title: "Nightmare"
+				to_observe: "mythicmounts:nightmare"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "67EE40201BF6D7CD"
+			rewards: [{
+				id: "5D0612B179B3C898"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:nudibranch_spawn_egg"
+				id: "3FB47A3EC4804B7A"
+				observe_type: 5
+				timer: 0L
+				title: "Nudibranch"
+				to_observe: "mythicmounts:nudibranch"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "411AB129AEAA4386"
+			rewards: [{
+				id: "731D3E85A2741022"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:courierbird_spawn_egg"
+				id: "52458ED384A48BD3"
+				observe_type: 5
+				timer: 0L
+				title: "Courierbird"
+				to_observe: "mythicmounts:courierbird"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "58459270F3A0B100"
+			rewards: [{
+				id: "5E7EE7DD8883B587"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:netherbat_spawn_egg"
+				id: "2AF10D6F5C099A1E"
+				observe_type: 5
+				timer: 0L
+				title: "Nether Bat"
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "582EF023ED11B703"
+			rewards: [{
+				id: "058BD0ACD770FA9E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "7EBEC0E3BCC017F9"
+				observe_type: 5
+				timer: 0L
+				title: "Riding Lizard"
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "23759BCFF7E86F86"
+			rewards: [{
+				count: 2
+				id: "1DF0D9283BEB6726"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:bighorn_sheep_spawn_egg"
+				id: "366924CE4F37E7C6"
+				observe_type: 5
+				timer: 0L
+				title: "Bighorn Sheep"
+				to_observe: "twilightforest:bighorn_sheep"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			id: "67C9B5D62A400081"
+			rewards: [{
+				count: 2
+				id: "4B946EAD5D0E9E03"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:boar_spawn_egg"
+				id: "4D64B238BDF31125"
+				observe_type: 5
+				timer: 0L
+				title: "Boar"
+				to_observe: "twilightforest:boar"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			id: "43691467FB457776"
+			rewards: [{
+				count: 2
+				id: "0B09D2B721D270BC"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:deer_spawn_egg"
+				id: "1B7F77FADFE32BBA"
+				observe_type: 5
+				timer: 0L
+				title: "Deer"
+				to_observe: "twilightforest:deer"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			id: "52EC8550A2920163"
+			rewards: [{
+				count: 2
+				id: "3633F686D42BFC55"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:dwarf_rabbit_spawn_egg"
+				id: "02C75A0F4A3B7CF8"
+				observe_type: 5
+				timer: 0L
+				title: "Dwarf Rabbit"
+				to_observe: "twilightforest:dwarf_rabbit"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "0C6B991F52F3C79B"
+			rewards: [{
+				count: 2
+				id: "7787D81DA1A27AB1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:penguin_spawn_egg"
+				id: "449F89489E179022"
+				observe_type: 5
+				timer: 0L
+				title: "Penguin"
+				to_observe: "twilightforest:penguin"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			id: "5C0554691FCA16C3"
+			rewards: [{
+				count: 2
+				id: "0B11AC91631EF3DF"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:raven_feather"
+				id: "4FFDBA3F267215C0"
+				observe_type: 5
+				timer: 0L
+				title: "Raven"
+				to_observe: "twilightforest:raven"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			id: "1014E407FF1807BB"
+			rewards: [{
+				count: 2
+				id: "744F3F4EA00C3FCC"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:squirrel_spawn_egg"
+				id: "170B94C4AD8631EA"
+				observe_type: 5
+				timer: 0L
+				title: "Squirrel"
+				to_observe: "twilightforest:squirrel"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			id: "311E94131AE435F5"
+			rewards: [{
+				count: 2
+				id: "0123CDD674C93D82"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "twilightforest:tiny_bird_spawn_egg"
+				id: "1C33865E32E0C169"
+				observe_type: 5
+				timer: 0L
+				title: "Tiny Bird"
+				to_observe: "twilightforest:tiny_bird"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			id: "4239D53A9110DE20"
+			rewards: [{
+				id: "31A7449C390A606D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:panda_spawn_egg"
+				id: "4559E8D843A060F1"
+				observe_type: 5
+				timer: 0L
+				title: "Panda"
+				to_observe: "minecraft:panda"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -15.5d
+		}
+		{
+			id: "75A24C198F8CE5A6"
+			rewards: [{
+				id: "75FBEA82128569A6"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:parrot_spawn_egg"
+				id: "020A8776737B73BC"
+				observe_type: 5
+				timer: 0L
+				title: "Parrot"
+				to_observe: "minecraft:parrot"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			id: "4864A3FF64A1EFF8"
+			rewards: [{
+				id: "3B4DADD519BE5033"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:cow_spawn_egg"
+				id: "7B6F5028FDA6EACC"
+				observe_type: 5
+				timer: 0L
+				title: "Cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -15.5d
+		}
+		{
+			id: "31A09CA7A79E7559"
+			rewards: [{
+				id: "09FE1D836B5D2F20"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:chicken_spawn_egg"
+				id: "46E7F261F714A814"
+				observe_type: 5
+				timer: 0L
+				title: "Chicken"
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -15.5d
+		}
+		{
+			id: "396F812FA411835D"
+			rewards: [{
+				id: "683F88750030F750"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:rabbit_spawn_egg"
+				id: "6ACC445926F23EC6"
+				observe_type: 5
+				timer: 0L
+				title: "Rabbit"
+				to_observe: "minecraft:rabbit"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -15.5d
+		}
+		{
+			id: "212C3C06E7B0DE3E"
+			rewards: [{
+				id: "72E1249AA483C789"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:horse_spawn_egg"
+				id: "21114E7DE70F1023"
+				observe_type: 5
+				timer: 0L
+				title: "Horse"
+				to_observe: "minecraft:horse"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -15.5d
+		}
+		{
+			id: "5CAA099537F0709A"
+			rewards: [{
+				id: "075C7A8B512A2CCB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:llama_spawn_egg"
+				id: "3C4C98CE2DE1C020"
+				observe_type: 5
+				timer: 0L
+				title: "Llama"
+				to_observe: "minecraft:llama"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -15.5d
+		}
+		{
+			id: "6A8AF284CC04A00C"
+			rewards: [{
+				id: "7EEA1033791AE896"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:dolphin_spawn_egg"
+				id: "0817AC0AB7CFFE29"
+				observe_type: 5
+				timer: 0L
+				title: "Dolphin"
+				to_observe: "minecraft:dolphin"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -15.5d
+		}
+		{
+			id: "438535EFD62A6643"
+			rewards: [{
+				id: "58592274FA358BD1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:turtle_spawn_egg"
+				id: "3E39EAA83BB991F3"
+				observe_type: 5
+				timer: 0L
+				title: "Turtle"
+				to_observe: "minecraft:turtle"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -14.0d
+		}
+		{
+			id: "094F289CBBF5458F"
+			rewards: [{
+				id: "55CEAC23B685320E"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:axolotl_spawn_egg"
+				id: "511F9F723EA58175"
+				observe_type: 5
+				timer: 0L
+				title: "Axolotl"
+				to_observe: "minecraft:axolotl"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			id: "6E704BFADD4C7A2B"
+			rewards: [{
+				id: "20942B18825FC61D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:goat_spawn_egg"
+				id: "2CEC979AB3515753"
+				observe_type: 5
+				timer: 0L
+				title: "Goat"
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -14.0d
+		}
+		{
+			id: "49FB58D98D96744D"
+			rewards: [{
+				id: "0D62BD9F345A1375"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:donkey_spawn_egg"
+				id: "0EE4F0D1D8A74B7C"
+				observe_type: 5
+				timer: 0L
+				title: "Donkey"
+				to_observe: "minecraft:donkey"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			id: "52CB4612B0099912"
+			rewards: [{
+				id: "0A18376B6CEA6A57"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:polar_bear_spawn_egg"
+				id: "0A64F8E987FAC08C"
+				observe_type: 5
+				timer: 0L
+				title: "Polar Bear"
+				to_observe: "minecraft:polar_bear"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -14.0d
+		}
+		{
+			id: "339B4DFFF18F88A7"
+			rewards: [{
+				id: "7990D4FBCC88E584"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:bee_spawn_egg"
+				id: "67CFC0AB1F3BCF8A"
+				observe_type: 5
+				timer: 0L
+				title: "Bee"
+				to_observe: "minecraft:bee"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			id: "18B3D6068EFA268B"
+			rewards: [{
+				id: "3C9F5A2CED2A43E0"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:fox_spawn_egg"
+				id: "20C3DA31BE66D718"
+				observe_type: 5
+				timer: 0L
+				title: "Fox"
+				to_observe: "minecraft:fox"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -14.0d
+		}
+		{
+			id: "63591D6FB9DD1B2D"
+			rewards: [{
+				id: "663F1821B4AF6C60"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wolf_spawn_egg"
+				id: "41E073625ACD4101"
+				observe_type: 5
+				timer: 0L
+				title: "Wolf"
+				to_observe: "minecraft:wolf"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			id: "496A7A3182321189"
+			rewards: [{
+				id: "65EFA3FAB335CD89"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:ocelot_spawn_egg"
+				id: "27541713F7B088E6"
+				observe_type: 5
+				timer: 0L
+				title: "Ocelot"
+				to_observe: "minecraft:ocelot"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -14.0d
+		}
+		{
+			id: "408A2BB982598C99"
+			rewards: [{
+				id: "168E15FDBAEA60F0"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:bat_spawn_egg"
+				id: "33D6C9BDE67201D7"
+				observe_type: 5
+				timer: 0L
+				title: "Bat"
+				to_observe: "minecraft:bat"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: -14.0d
+		}
+		{
+			id: "38A915EA364F200C"
+			rewards: [{
+				id: "50C2BC5B24BB327D"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:camel_spawn_egg"
+				id: "7D9193F0274678E3"
+				observe_type: 5
+				timer: 0L
+				title: "Camel"
+				to_observe: "minecraft:camel"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			id: "5A64A863921C0035"
+			rewards: [{
+				id: "3A2DE5096886E3EB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:squid_spawn_egg"
+				id: "120C7692E23B9EEA"
+				observe_type: 5
+				timer: 0L
+				title: "Squid"
+				to_observe: "minecraft:squid"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			id: "203A89F95331E2BA"
+			rewards: [{
+				id: "1E8F6ADC0F18FCA0"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:glow_squid_spawn_egg"
+				id: "0AA8A5122C4F7591"
+				observe_type: 5
+				timer: 0L
+				title: "Glow Squid"
+				to_observe: "minecraft:glow_squid"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			id: "662EBF475916C243"
+			rewards: [{
+				id: "3F5988FAA2F7F008"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:frog_spawn_egg"
+				id: "22E94A82F27C56A4"
+				observe_type: 5
+				timer: 0L
+				title: "Frog"
+				to_observe: "minecraft:frog"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			id: "234B7D6768AACC1D"
+			rewards: [{
+				count: 2
+				id: "3770FCB160A8EF65"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:mooshroom_spawn_egg"
+				id: "7E548DF53FB1B8E6"
+				observe_type: 5
+				timer: 0L
+				title: "Mooshroom"
+				to_observe: "minecraft:mooshroom"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			id: "3D2B944974D04BE1"
+			rewards: [{
+				count: 2
+				id: "2A30AF7FE5D50B03"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:strider_spawn_egg"
+				id: "5EC3A91D272780A7"
+				observe_type: 5
+				timer: 0L
+				title: "Strider"
+				to_observe: "minecraft:strider"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			id: "088F46833B023C02"
+			rewards: [{
+				id: "1D3A8A9B1B13D21C"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "crabbersdelight:crab"
+				id: "5920B7B0F22E927C"
+				observe_type: 5
+				timer: 0L
+				title: "Crab"
+				to_observe: "crabbersdelight:crab"
+				type: "observation"
+			}]
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			id: "5D81824CFAA9E949"
+			rewards: [{
+				id: "486F97027CD1500F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "irons_spellbooks:dragonskin"
+				id: "23861C76237CB89A"
+				observe_type: 5
+				timer: 0L
+				title: "Dragon Warrior Familiar"
+				to_observe: "alshanex_familiars:dragon_warrior_pet"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			id: "040CC8BDFCD8286E"
+			rewards: [{
+				id: "742032C5158E66E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:frostling_shard"
+				id: "1FC458144BFAE702"
+				observe_type: 5
+				timer: 0L
+				title: "Frostling Familiar"
+				to_observe: "alshanex_familiars:frostling_pet"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "5F281AB416CC4358"
+			rewards: [{
+				id: "64BFF670A88DCA8B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "alshanex_familiars:lightning_mage_shard"
+				id: "2D578AE53E56F11E"
+				observe_type: 5
+				timer: 0L
+				title: "Lightning Mage Familiar"
+				to_observe: "alshanex_familiars:mage_pet"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+	]
+	subtitle: ["Observe These Animals"]
+	title: "Animals"
+}

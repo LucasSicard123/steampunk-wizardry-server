@@ -1,0 +1,10 @@
+{
+    "music.golden": {
+        "sounds": [
+            {
+                "name": "kubejs:golden",
+                "stream": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,1514 @@
+{
+	autofocus_id: "48E3A493546125B4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "farming"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "farm_and_charm:fertilizer"
+	id: "43A1288236056357"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"Here you will learn about the various crops you may farm and foods you can craft."
+				""
+				"There are two main sets of mods:"
+				"- Farmer's Delight"
+				"- Let's Do"
+				""
+				"The Delight mods are fairly straight forward; just check the JEI for how to craft foods."
+				""
+				"Let's Do is more interactive. Make sure to read the quests and check the JEI. There is also a wiki if you need it."
+				""
+				"Other mods are also in here like Aquaculture (don't worry, fishing is just right-clicking when the bobber goes down) and also something quite interesting if you reach the Nether..."
+			]
+			hide_until_deps_complete: true
+			id: "48E3A493546125B4"
+			rewards: [{
+				id: "656E2FCB8A8B5533"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1288236262B98C53"
+				title: "Welcome to Farming"
+				type: "checkmark"
+			}]
+			title: "Welcome to Farming!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E3A493546125B4"]
+			description: [
+				"Aquaculture 2 adds in upgradable fishing rods and many fish!"
+				""
+				"Whist you do not need to make these fishing rods to find Aquaculture fish, they do make it easier to find fish."
+			]
+			id: "4A48B6ACAAD982C5"
+			rewards: [{
+				id: "129F3716EEF2077A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The start to Aquaculture"
+			tasks: [{
+				id: "0CF5D16E70BE0E54"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Fishing Upgrades!"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A48B6ACAAD982C5"]
+			description: ["Worms are used for bait (as are minnows and leeches) which increase bite chance."]
+			icon: {
+				Count: 1
+				id: "aquaculture:worm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6116ADC175B62608"
+			rewards: [{
+				id: "215E92A29C94429E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Would you still love me?"
+			tasks: [
+				{
+					id: "2D5C98CFA13A0F2F"
+					item: "aquaculture:worm_farm"
+					type: "item"
+				}
+				{
+					id: "72E0E1DE159A2C7F"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Worms!"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A48B6ACAAD982C5"]
+			description: ["There are multiple fishing hooks and iron is used to make all of them. Feel free to make any hook you wish for your fishing rod, but iron is a good start."]
+			id: "4600DB516CF5C9CD"
+			rewards: [{
+				id: "114C4143BFF66DEC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Hooked on a feeling!"
+			tasks: [{
+				id: "6B12CD6E0C80F719"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			title: "Hooks"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A48B6ACAAD982C5"]
+			description: ["This is to equip your fishing rod. Place the box down and right-click it. Place the rod and upgrades on the right, and place anything you wish to store on the left. Once you break it, all its contents will remain in the box."]
+			id: "3FA9987A33A4B2EC"
+			rewards: [{
+				id: "5D44ED8C05B60709"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22793CD5FE6987C3"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A48B6ACAAD982C5"]
+			description: [
+				"You may dye your fishing line \\& bobber!"
+				""
+				"They don't do anything mechanically, just make it look nice."
+			]
+			icon: "aquaculture:fishing_line"
+			id: "41ED4455A99E1C97"
+			rewards: [{
+				id: "7EB43372F687C70D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "679B986E5E2F3734"
+					item: "aquaculture:bobber"
+					type: "item"
+				}
+				{
+					id: "52B1B0DE7242CC33"
+					item: "aquaculture:fishing_line"
+					type: "item"
+				}
+			]
+			title: "Fishing Cosmetics"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"41ED4455A99E1C97"
+				"6116ADC175B62608"
+				"3FA9987A33A4B2EC"
+				"4600DB516CF5C9CD"
+			]
+			description: ["This is an excellent material to use for tools \\& gear. I definitely recommend making a new fishing rod with this metal."]
+			id: "4DB5EA5B198896E4"
+			rewards: [{
+				id: "5BDFA89FCAF26C50"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Quite the bounty!"
+			tasks: [{
+				id: "3B023C513880E9CA"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			title: "Neptunium"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48E3A493546125B4"]
+			description: [
+				"Place the compost on the ground and wait for it to turn into rich soil. "
+				""
+				"The process can be sped up with mushrooms, sunlight, and water."
+				""
+				"Once complete, you may till the soil and crops will grow faster on the soil!"
+			]
+			id: "5798E637AA98F3B2"
+			rewards: [{
+				id: "5C292510C6498C06"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Compost King!"
+			tasks: [{
+				id: "0812BFB7F1CB3919"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Composting"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48E3A493546125B4"]
+			description: [
+				"To cook most things in Farmer's Delight, you need these 5 things."
+				""
+				"The knife can be any Delight knife, but I recommend a basic iron or flint knife to start."
+				""
+				"You may want 2 stoves, but you may also switch between the pot and skillet. To use, place pot or skillet on top of the stove and right-click the pot/skillet. Please note it is a Farmer's Delight stove, not any other stove."
+				""
+				"Lastly, the cutting board must also be placed to use. Then right-click an item you wish to cut on the board and proceed to right-click with the knife on the board."
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:skillet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08036597B9C0BE23"
+			rewards: [{
+				id: "47CA5951F979E717"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Rat not included"
+			tasks: [
+				{
+					id: "2B5CC684DEBA5F33"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "Any #farmersdelight:tools/knives"
+					type: "item"
+				}
+				{
+					id: "791D0837A64C4611"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "5713AF3B33637C70"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "2D06FF864DF32670"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "733184AC631FE48E"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight Cooking"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E3A493546125B4"]
+			description: [
+				"To make Crabber's Delight recipes, you need one of 4 seafood from a trap."
+				""
+				"-Crabs"
+				"-Clawsters"
+				"-Clams"
+				"-Shrimp"
+				""
+				"Each one has a specific bait. If you place a trap in water (needs to be surrounded by water on all sides except top and bottom) and put a bucket of chum (or other bait) in it, you will get a bunch of that creature in the trap over time."
+			]
+			id: "5C1753458EC661C8"
+			rewards: [{
+				id: "6EE8E9D6C03FFAA2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Just don't be too crabby..."
+			tasks: [
+				{
+					id: "3B4F404B44B62A50"
+					item: "crabbersdelight:crab_trap"
+					type: "item"
+				}
+				{
+					id: "426AFFDEE8D548D0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "crabbersdelight:creature_chums"
+						}
+					}
+					title: "Any #crabbersdelight:creature_chums"
+					type: "item"
+				}
+			]
+			title: "Crabbing"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48E3A493546125B4"]
+			description: [
+				"Farm \\& Charm is the base mod for most of the Let's Do mods."
+				""
+				"The items/blocks for this quest are quite simple to use:"
+				""
+				"First, place down the stove. It will take fuel and cook some meals."
+				""
+				"Second, place the cooking pot or roaster on top of it. Both make various recipes and you do not need to fuel the stove for these two blocks to work... It's magic."
+				""
+				"Next, you have the mincer. Just place it down, right-click it with an item you intend to mince (i.e. raw beef) and then right-click with an empty hand a couple of times to complete the mincing."
+				""
+				"Lastly, the crafting bowl is very similar. Place it down, right-click items in, and then right-click with an empty hand until complete."
+				""
+				"Shift-right-click to remove items from the mincer or crafting bowl."
+			]
+			icon: "farm_and_charm:cooking_pot"
+			id: "6C9265CC4FED2FB3"
+			rewards: [{
+				id: "57784A2EC2330DEB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "130B902D4C1B4D5A"
+					item: "farm_and_charm:stove"
+					type: "item"
+				}
+				{
+					id: "2A284D7BB4DBE7F2"
+					item: "farm_and_charm:crafting_bowl"
+					type: "item"
+				}
+				{
+					id: "2FCBB989F31FA1F0"
+					item: "farm_and_charm:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "18389518F7D0D06E"
+					item: "farm_and_charm:roaster"
+					type: "item"
+				}
+				{
+					id: "4B63CB39DA875FE2"
+					item: "farm_and_charm:mincer"
+					type: "item"
+				}
+			]
+			title: "Let's Do Cooking"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"The feeding trough takes seeds to periodically feed animals so they can breed. Yes, this also includes animals other than chickens."
+				""
+				"The chicken coop and nest are for chickens to stay and lay eggs for collection later."
+			]
+			icon: "farm_and_charm:chicken_coop"
+			id: "1D958FBE9351D89B"
+			rewards: [{
+				id: "3EF5003F78128369"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5220301FC72692D6"
+					item: "farm_and_charm:feeding_trough"
+					type: "item"
+				}
+				{
+					id: "4ACD8F8B0881D337"
+					item: "farm_and_charm:chicken_coop"
+					type: "item"
+				}
+				{
+					id: "24984DEC9B204450"
+					item: "farm_and_charm:chicken_nest"
+					type: "item"
+				}
+			]
+			title: "Auto Livestock"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"Brewery adds various beers and foods around it!"
+				""
+				"To start, you need a silo. Place it down, right-click with empty hand to open, right-click with item to dry, and then right-click with empty hand again to close. Just wait for a bit and then you will have the item dried."
+				""
+				"The contents of the silo will still dry when the door is open, but will empty automatically if it is open."
+				""
+				"Then you have the brewing station. This is a mini-game that takes about 45 seconds."
+				""
+				"1) Place the items and water in the kettle (the open part)."
+				"2) Place coal in the oven (left of the open part)."
+				"3) Then one of 4 events may occur:"
+				"- The Whistle goes off. Add more water to the kettle."
+				"- The Kettle overboils as the bubbles rise. Empty water with an empty bucket."
+				"- The Timer (on the side) ticks and has red particles coming off of it. Just press the button."
+				"- Smoke particles arise from the Oven. Add more coal."
+				""
+				"Once you are done with the mini-game, just right-click with some beer mugs."
+			]
+			icon: "brewery:wooden_brewingstation"
+			id: "6B4A1226C05C5010"
+			rewards: [{
+				id: "37110733316BC80B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "217319C36B929DCA"
+					item: "farm_and_charm:silo_wood"
+					type: "item"
+				}
+				{
+					id: "090EB0723E4C7F6B"
+					item: "brewery:wooden_brewingstation"
+					type: "item"
+				}
+			]
+			title: "Let's Do Brewery"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"When placed down, you may right-click it with a hoe to turn it into farmland."
+				""
+				"The fertilized farmland cannot be trampled and has a chance to apply the bone meal effect (speed up growth) to crops planted on it."
+			]
+			id: "66A97AA78A231451"
+			rewards: [{
+				id: "33E501F366EC9CA4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D51FED374947D9C"
+				item: "farm_and_charm:fertilized_soil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"These are just helpful foods for different animals you may have."
+				""
+				"Each one is fairly self-explanitory as it tells you when you hover over it."
+				""
+				"The only one that is not so apparent is the chicken feed which increases egg laying for a time."
+			]
+			icon: "farm_and_charm:horse_fodder"
+			id: "6CEB321750E1991E"
+			rewards: [{
+				id: "1B62A2FD5EE1B4F7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C778D04033D95FF"
+					item: "farm_and_charm:cat_food"
+					type: "item"
+				}
+				{
+					id: "28CF0EDCF14A8336"
+					item: "farm_and_charm:dog_food"
+					type: "item"
+				}
+				{
+					id: "736D8B86E74A1CA3"
+					item: "farm_and_charm:horse_fodder"
+					type: "item"
+				}
+				{
+					id: "23D274F013DC8749"
+					item: "farm_and_charm:chicken_feed"
+					type: "item"
+				}
+			]
+			title: "Animal Feed"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08036597B9C0BE23"]
+			description: ["These are fairly self-explanitory, just right-click the horse or dog with it."]
+			icon: "farmersdelight:dog_food"
+			id: "6E830F90EC3F30EF"
+			rewards: [{
+				id: "22A27B49F42C4EA5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3100DF7DBEF87765"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+				{
+					id: "21F3B1A2666639FD"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"Bakery is for making all sorts of baking goods from croissansts to cakes."
+				""
+				"The small cooking pot is much like the roaster and cooking pot. Just place it on a stove and you are ready to go."
+				""
+				"The caking station is for preparing cakes, cupcakes, and cookies. To start, you need to right-click the station with cake dough and a free off-hand."
+				""
+				"Next, you may do one of 3 things:"
+				"- Use jam to make a cake."
+				"- Use a knife to cut the raw cake batter and then process it into cupcakes with jam."
+				"- Use a knife first and then a rolling pin to cut and toll the raw cake batter and then process it into cookies with jam."
+				""
+				"Afterwards, you can pick up the end product with a right-click."
+			]
+			icon: "bakery:baker_station"
+			id: "2955F906CAA9B5FB"
+			rewards: [{
+				id: "5FAFB073FEF2E881"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0967E42BB631CF9F"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+				{
+					id: "6D8BA06EAA04268F"
+					item: {
+						Count: 1
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Let's Do Bakery"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B4A1226C05C5010"]
+			description: ["The copper brewingstation is an upgrade that allows you to brew whiskey."]
+			id: "7D80102C48D6BC12"
+			rewards: [{
+				count: 2
+				id: "21847D16A209B27F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D28FCC4E6455D00"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D80102C48D6BC12"]
+			description: ["I'm not sure if it has any real advantage, but it is quite the achievement!"]
+			id: "42FCAC70CE185D71"
+			rewards: [{
+				id: "17E05CBE8D77AF9F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A1990CF3BF3A855"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"Vinery and Nether Vinery add a whole bunch of wines to the game that may be helpful to you!"
+				""
+				"The Grapevine Pot is the block required to make grapejuice. Just place it down, right-click with grapes, and then jump on the pot until it is juice. You may then collect it with wine bottles."
+				""
+				"The Grapevine Stem and Lattice is for growing grapes. The stem needs a 2 block height and the lattice is placed on a wall."
+				""
+				"The Fermentation Barrel is for making the wine. Place in the incredients, a wine bottle, and then wait for the process to complete."
+				""
+				"If you need something with apple juice, just use the Apple Press. Place apples in the far left slot and place wine bottles in the bottom right slot."
+			]
+			icon: "vinery:fermentation_barrel"
+			id: "458EFAA9B39B1899"
+			rewards: [{
+				id: "58B932F9F7C1C148"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "772003BDB5FE46A5"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "4061185FD36FFD25"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "678E112048F18014"
+					item: "vinery:apple_press"
+					type: "item"
+				}
+				{
+					id: "709D311C9EB8E3E4"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					id: "15D0D85152337070"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:lattice"
+						}
+					}
+					title: "Any #vinery:lattice"
+					type: "item"
+				}
+			]
+			title: "Let's Do Vinery"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"Meadows is a very simple mod that adds in the Meadows biome with salt, and it also adds cheese."
+				""
+				"The cheese press just needs to be placed down, place the ingredients inside, and wait about a minute for the cheese wheel."
+				""
+				"The cooking cauldron is much like the cooking pot and roaster as it needs to be placed on a stove."
+			]
+			icon: "meadow:cheese_form"
+			id: "2D6DD4EBC1B7FB78"
+			rewards: [{
+				id: "508FE39666D63243"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "CHEESE GROMET!!"
+			tasks: [
+				{
+					id: "5BE24CC9D8ECB3A1"
+					item: "meadow:cooking_cauldron"
+					type: "item"
+				}
+				{
+					id: "35E7285DF1117EC4"
+					item: "meadow:cheese_form"
+					type: "item"
+				}
+			]
+			title: "Let's Do Meadows"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"This mod is all about tea and coffee. Just place a tea kettle on a stove and you are ready to go. There is no difference between kettles."
+				""
+				"The brewing cauldron is for flasks and potions if you want to do that."
+				""
+				"To aquire &lGreen Tea&r, you need to make a Green Tea Leaf Block and place it down in the light for it to dry. Once it has sat for long enough, it will become a Dried Green Tea Leaf Block which can be broken to get Dried Green Tea Leaves."
+				""
+				"To aquire &lBlack Tea&r, you need to dry the Dried Green Tea Leaf Block further using the same process."
+				""
+				"To aquire &lOolong Tea&r, you need to make a Mixed Tea Leaf Block and do the same process as above."
+			]
+			id: "579586903D15C14D"
+			rewards: [{
+				id: "6CAAD0020BCA6D19"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "335D1BB94B080C9A"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			title: "Let's Do Herbal Brews"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C9265CC4FED2FB3"]
+			description: [
+				"Candlelight is very simple. It just adds more recipes to Farm \\& Charm."
+				""
+				"The Cooking Pan is similar to the Cooking Pot and Roaster as it needs to be on a stove."
+			]
+			id: "17A92BCA4393E6E9"
+			rewards: [{
+				id: "4353D98BB20505C6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Dinner is served!"
+			tasks: [{
+				id: "3C004610A470E3E6"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Let's Do Candlelight"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"261F69F0045B9AF2"
+				"48E3A493546125B4"
+			]
+			description: [
+				"So you went to the Nether and found some prosperity shards and inferium..."
+				""
+				"Well, this mod allows you to grow plenty of materials like diamonds, ender pearls, and porkchops."
+				""
+				"You will need LOTS of inferium essence to progress and a decent amount of prosperity shards."
+				""
+				"You may also grow inferium by crafting inferium seeds."
+			]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "2180C3E3DEA97790"
+			rewards: [
+				{
+					count: 16
+					id: "6CBF6C39C8F83AE4"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "557AD7CDA34EE146"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Magic!? On my farm!?"
+			tasks: [
+				{
+					id: "6C01C4B37C930498"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+				{
+					id: "0EB2594609D6553D"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+				{
+					id: "37512D2AC8BF27C5"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mysticalagriculture:guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2180C3E3DEA97790"]
+			description: [
+				"These are very helpful as you will very quickly find you need LOTS of inferium."
+				""
+				"If you plant it on the farmland from this mod, it has a chance of giving you an additional seed on harvest."
+				""
+				"Keep following the quests to learn more about that."
+			]
+			id: "713E2A9C0383AA12"
+			rewards: [{
+				id: "76746049FEC3E348"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76746B608BEB3428"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2180C3E3DEA97790"]
+			description: ["Used for the altar"]
+			id: "20FA894D56CC794A"
+			rewards: [{
+				id: "37A597F58339CF8D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49F9EE2006014EDF"
+				item: "mysticalagriculture:wand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20FA894D56CC794A"]
+			description: [
+				"Place the altar down in at least a 5x5 open space."
+				""
+				"You will then see ghostly outlines of where the pedestals must go."
+			]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "6F60DEA22EBCB5E7"
+			rewards: [{
+				id: "0AB931AF667E3D12"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BE38EF4BC277D9D"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "56FD6EFB96350A36"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F60DEA22EBCB5E7"]
+			description: ["Used to make higher tier essence"]
+			id: "6DD728E9D2958351"
+			rewards: [{
+				id: "384491A096B8D918"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71E05A221E27EC41"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20FA894D56CC794A"]
+			description: [
+				"The Watering Can will speed up growth of plants in an area."
+				""
+				"Upgrade it to increase area and speed."
+				""
+				"Don't forget to fill with water!"
+			]
+			id: "02AE3A0AF8633955"
+			rewards: [{
+				id: "4B3427726D423617"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B595234FC856006"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:watering_can"
+					tag: {
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02AE3A0AF8633955"]
+			id: "0C86EF7A801AC69A"
+			rewards: [{
+				id: "6597FBF0E1688BC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D4C8CBBB3FB38C3"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F60DEA22EBCB5E7"]
+			description: [
+				"Special farmland for gaining additional seeds."
+				""
+				"Higher tiers increase duplicate seed drop chance."
+			]
+			id: "7EE099DE1EB31B60"
+			rewards: [{
+				id: "799ABE7AA5481392"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09FEFDC2649DE0BB"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20FA894D56CC794A"]
+			description: [""]
+			id: "15442B605EE86790"
+			rewards: [{
+				id: "0A0ECEDA25D35509"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "763AF637F0E78760"
+					item: "mysticalagriculture:soulium_ore"
+					type: "item"
+				}
+				{
+					id: "051DE7E3F097089D"
+					item: "mysticalagriculture:soulstone"
+					type: "item"
+				}
+			]
+			title: "Soulium and Soulstone"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15442B605EE86790"]
+			description: ["Necessary for gaining mob souls for mob crops and exp for exp crops."]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:soulium_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0ECB0D4C26CEF0A7"
+			rewards: [{
+				id: "12D36B6BE87B0A69"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "17C2466A86557DB6"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:soulium_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EE8AC1FA7B210BF"
+					item: "mysticalagriculture:soul_jar"
+					type: "item"
+				}
+				{
+					id: "347FD7F33B7A272D"
+					item: "mysticalagriculture:experience_capsule"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7EE099DE1EB31B60"
+				"15442B605EE86790"
+			]
+			description: ["Too many seeds? Turn them directly into essence!"]
+			id: "0FC519EC2D205155"
+			rewards: [{
+				id: "437625D4FC0445B2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4012677E3C6C20FA"
+				item: "mysticalagriculture:seed_reprocessor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15442B605EE86790"]
+			description: ["Apply enchantments to equipment without spending the book!"]
+			id: "3D875910322BC06E"
+			rewards: [{
+				id: "79C6D3C87D39ACBE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F0B184EFE73F89"
+				item: "mysticalagriculture:enchanter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ECB0D4C26CEF0A7"]
+			id: "5689C4D49BEBC9D5"
+			rewards: [{
+				id: "443252BE8D726DE1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AEE0D97202ECE73"
+				item: "mysticalagriculture:soul_extractor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15442B605EE86790"]
+			description: ["Allows you to harvest plants automatically!"]
+			id: "639C2BE896AF7BDA"
+			rewards: [{
+				id: "582BD47081589206"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E6881AB38450827"
+				item: "mysticalagriculture:harvester"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15442B605EE86790"]
+			description: ["Allows you to spawn mobs!"]
+			id: "58D31F3CEA6906C7"
+			rewards: [{
+				id: "193DDE65E81D2131"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB9E840D5C6AE1B"
+				item: "mysticalagriculture:soulium_spawner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15442B605EE86790"]
+			id: "558D4CF9DF80FBA0"
+			tasks: [{
+				id: "2F5655CC7C3318C4"
+				item: "mysticalagriculture:tinkering_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C86EF7A801AC69A"]
+			id: "1759487F843DAF20"
+			rewards: [{
+				id: "78F305418078AEF3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D118DFA74445A95"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1759487F843DAF20"]
+			id: "16062756614A8198"
+			rewards: [{
+				id: "77516CC7CCC14A0F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD6826BFC666CA3"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16062756614A8198"]
+			id: "7C46CAA913031B4C"
+			rewards: [{
+				id: "0AFCA08A79895857"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2286DD68504AA498"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C46CAA913031B4C"]
+			id: "3A2FDADA5B4C0CB1"
+			rewards: [{
+				id: "6413249F1379DF1E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "751CF4DC6CDFDB8C"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3FEAF5A485853102"
+				"3A2FDADA5B4C0CB1"
+			]
+			id: "34DE2D80710A3D77"
+			rewards: [{
+				id: "014EB9B30A41CEF1"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1A3B4A25CA5315"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:awakened_supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02AE3A0AF8633955"]
+			description: [
+				"Growth Accelerators speed up growth of plants above them."
+				""
+				"Just place under a tilled farm block."
+				""
+				"Is stackable!"
+			]
+			id: "7069B6DA13C71466"
+			rewards: [{
+				id: "6073C577141D6AF4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "207467364CF8C8B9"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DD728E9D2958351"]
+			id: "410EE8C507150F28"
+			rewards: [{
+				id: "532B3B95A88A573E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Unlimited POWER!!!"
+			tasks: [{
+				id: "2F27D5EFF6D80102"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EE099DE1EB31B60"]
+			id: "1E8144FBF8E85131"
+			rewards: [{
+				id: "4BC49A8DB9BACA62"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C6B16A80FE6F3E"
+				item: "mysticalagriculture:prudentium_farmland"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E8144FBF8E85131"]
+			id: "35CD5931B705712E"
+			rewards: [{
+				id: "1AB85BCAFD38BA67"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "394599855B5CFB81"
+				item: "mysticalagriculture:tertium_farmland"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BAC1C028D81B6D9"]
+			id: "30CB31FE95F276D8"
+			rewards: [{
+				id: "4CADE9EF7872A4DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "585632A1315E8FA0"
+				item: "mysticalagriculture:supremium_farmland"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35CD5931B705712E"]
+			id: "7BAC1C028D81B6D9"
+			rewards: [{
+				id: "0B2A34E09909648F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6366E165E11CF552"
+				item: "mysticalagriculture:imperium_farmland"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30CB31FE95F276D8"]
+			id: "357A43D9D67C69C7"
+			rewards: [{
+				id: "769F4BE5CC8CDFD3"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A49266E9562D42D"
+				item: "mysticalagradditions:insanium_farmland"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["410EE8C507150F28"]
+			description: ["Same as the infusion altar, but used to make more powerful items."]
+			icon: "mysticalagriculture:awakening_altar"
+			id: "3FEAF5A485853102"
+			rewards: [{
+				id: "07F8C226F7A2C133"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23A50717142ADFFA"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D0919E8751FA744"
+					item: { Count: 8, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2090D342E892F0D8"
+					item: { Count: 4, id: "mysticalagriculture:essence_vessel" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7069B6DA13C71466"]
+			id: "32C86F61E00F5ECC"
+			rewards: [{
+				id: "1DAFCE6972FA0D96"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8C6CFA3E720A66"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32C86F61E00F5ECC"]
+			id: "310FB1E3D51C83AD"
+			rewards: [{
+				id: "421A7AD476B60DB6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30B9D68BF7516A9E"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["310FB1E3D51C83AD"]
+			id: "5D3B30BDC9C2018F"
+			rewards: [{
+				id: "7DD6CB73C45031E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C23407C31A37F9E"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D3B30BDC9C2018F"]
+			id: "5D8BA75EF4DDD0F2"
+			rewards: [{
+				id: "0967F217F8E3DB9F"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E0E568389FF771"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.0d
+		}
+	]
+	title: "&aFarming"
+}

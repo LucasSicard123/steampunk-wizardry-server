@@ -1,0 +1,274 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_repeatable_quest: true
+	filename: "magic_shop"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:emerald_block"
+	id: "1DA1234B19A3B035"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["399F7E91ACC3971F"]
+			icon: "antiquelegacy:tin_ingot"
+			id: "221DFB4831FF4921"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "59CF96B7582F1AC4"
+				item: "antiquelegacy:tin_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1FBF6291ABC84643"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Tin Ingot"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E6EA6BFA45BC3BD"]
+			icon: "forbidden_arcanus:arcane_crystal"
+			id: "462DAB8E9F872006"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "0E653E487490849A"
+				item: "forbidden_arcanus:arcane_crystal"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "561F6BF303ADFC94"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "4x Arcane Crystals"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2180C3E3DEA97790"]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "322EC79423CC04B9"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "7F65F1411F038C08"
+				item: "mysticalagriculture:inferium_essence"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3BF9101DBF8A469E"
+				item: { Count: 16, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "32x Inferium Essence"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2180C3E3DEA97790"]
+			icon: "mysticalagriculture:prosperity_shard"
+			id: "49056413FA697BF7"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "486289A31AFC9689"
+				item: "mysticalagriculture:prosperity_shard"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "0BF7FECF23F2A923"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "12x Prosperity Shards"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["224B4283D57B9C84"]
+			icon: "minecraft:iron_ingot"
+			id: "46348D11CDA3200E"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "03A7E2D1A6B4D513"
+				item: "minecraft:iron_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1E1F0D80D1FA0FF4"
+				item: { Count: 4, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "16x Iron Ingot"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2527E4A7EDB740D3"]
+			icon: "minecraft:diamond"
+			id: "0FA3258C77E7B884"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2FD347439D31F665"
+				item: "minecraft:diamond"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2B103417B0291E54"
+				item: { Count: 8, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "8x Diamond"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["519F07B06C9A89EF"]
+			icon: "embers:caminite_blend"
+			id: "6FD47F3892900188"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "245AF679F4E180B8"
+				item: "embers:caminite_blend"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2B02ED54D880C44E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Caminite Blend"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6B4CDFF4C11F0136"]
+			icon: "embers:ember_crystal"
+			id: "70F01ADFF0426E4A"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "03DD31980F30DEE7"
+				item: "embers:ember_crystal"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0E51A1FDB62088E7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "8x Ember Crystal"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1B22B17A4001E897"]
+			icon: "embers:dawnstone_ingot"
+			id: "1A1B92D0E36A7879"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "4198117F7044851F"
+				item: "embers:dawnstone_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "337520F2C0CB3F89"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "4x Dawnstone Ingot"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6425ABF249D9E0D0"]
+			icon: "minecraft:coal"
+			id: "3A560B810E9C0616"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "30E5642389DA446B"
+				item: "minecraft:coal"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "37AAE5BE1540C316"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "10x Coal"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58028D70E478CD64"]
+			icon: "minecraft:andesite"
+			id: "3FABDDF1091B2176"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "3F87B2F1A9226F9A"
+				item: "minecraft:andesite"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "64B164204A4D7F5B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Andesite"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "&2Magic Shop"
+}

@@ -1,0 +1,1340 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "misc"
+	group: "4E81BA778C52E150"
+	icon: {
+		Count: 1
+		id: "endrem:lost_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "16E670B8CEC29284"
+	images: [
+		{
+			height: 3.0d
+			image: "steampunkwizardry:textures/quests/alshanexsfamiliarslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/ironslogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "steampunkwizardry:textures/quests/betterarcheologylogo.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 17.5d
+			y: 1.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F69880ABBD06EFF"
+			rewards: [{
+				id: "1125AD0906EA5B58"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B7D50D5D6505A64"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "165F25C577199E62"
+			rewards: [{
+				id: "44154085B61337D5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39F0ADC77BF5289B"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "0BF6717B5A7BCF81"
+			rewards: [{
+				id: "1A609A193D0013B1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C36C4BA5F67A4DC"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "1944BEC4759C8871"
+			rewards: [{
+				id: "5C24C376E6257F8A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CCAF41EFC879EB3"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "552F98F6CD866C1E"
+			rewards: [{
+				id: "65D8933DDC5FDC02"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BE020CDB4A8C42C"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "79CBDADC04CB0951"
+			rewards: [{
+				id: "05951250B4A6CAB4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AEA37EED7CE7029"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "3171A7E2B737A1FA"
+			rewards: [{
+				id: "158B46BFAE29D40F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16DEC0F92AA4A3E5"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "4002B1AAD5B705A3"
+			rewards: [{
+				id: "29B51A569DC32661"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "153409BC6AC626D8"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "6236370642C4B2C0"
+			rewards: [{
+				id: "3860A4E4698CBE7C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "644148D48A5D0505"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "1E6095AE13B3B14B"
+			rewards: [{
+				id: "060690D301FD6D53"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BA07501F45EF8F"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "3A061726E11A1AD9"
+			rewards: [{
+				id: "3BC0DD4F5B42BDF8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71FC1A7219E4343D"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "5DD5AC06338BBADA"
+			rewards: [{
+				id: "714B898758906F67"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68AEBCE61D9E9B0A"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			id: "024F221062691B72"
+			rewards: [{
+				id: "7BE45BB709171DD2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "523F291DC4D23DD4"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "56EC5A6F0A9864C9"
+			rewards: [{
+				id: "0EFF8868754C5EF1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3173E914ABF542BF"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			id: "40E5951C69BD38F0"
+			rewards: [{
+				id: "09C9F94F6391DBBF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "264D1AE85D66A67E"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			id: "44B145AFF84B457D"
+			rewards: [{
+				id: "45BD7E0F25D59F61"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "295A6239784FD97B"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "19584254DA8B4883"
+			rewards: [{
+				id: "25F982F08B3FFEFE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7CCA6BF98C6D86"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "3B60AEC7DBEFB979"
+			rewards: [{
+				id: "2FAF2BC960516504"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009033BF420BB7A5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "2843B3DA908A92FF"
+			rewards: [{
+				id: "2C5D7F34A10D23BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B77ECE5FFDCC76F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "58F2BEC16C4C662F"
+			rewards: [{
+				id: "0585011C9B5F25EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "376FAB5B7D8CFA12"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			id: "26F9812EBD4B80EE"
+			rewards: [{
+				id: "258CB4F0074207A9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BE6353DE46CF56F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "7AB97B8A4EFA5C56"
+			rewards: [{
+				id: "1D958760B55FCF0D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43BB857041C16215"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "131879299ED591C3"
+			rewards: [{
+				id: "3BDC56A84312070E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DAA7B1667E81879"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "3C1B8F92C5DB50D7"
+			rewards: [{
+				id: "79989620490C1EBE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C410AFE54BEFE56"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			id: "1049984E16BFF572"
+			rewards: [{
+				id: "0057002F009D21D4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18970A88D97889F7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "4E6AD6515DAE6F51"
+			rewards: [{
+				id: "28DA1B16D7680A8C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E8F4F03A552C461"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hither_thither_wand"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			id: "0BF1C3213705A863"
+			rewards: [{
+				id: "1C4903612BEE8732"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0062193846E33DC1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:tarnished_helmet"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			id: "24B0074335830368"
+			rewards: [{
+				id: "10BC2EDF87B83041"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A0CB7ECE87CC06E"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			id: "2BCE9FF47994D018"
+			rewards: [{
+				id: "288BC6500FBD8CAF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D71EE5B628435EB"
+				item: "ice_and_fire_spellbooks:dragon_priest_staff"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			description: ["These necklaces correspond to each familiar. Check the Animals chapter to discover what they are."]
+			id: "3312492BC3E1C7CF"
+			rewards: [{
+				count: 2
+				id: "3E6622ED15CF6CCC"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18CA4A09A4E09B93"
+					item: "alshanex_familiars:forest_trinket"
+					type: "item"
+				}
+				{
+					id: "630E6CD30A6A30CB"
+					item: "alshanex_familiars:hunter_trinket"
+					type: "item"
+				}
+				{
+					id: "7ACBDC4D07C4F7C9"
+					item: "alshanex_familiars:necromancer_trinket"
+					type: "item"
+				}
+				{
+					id: "74CD6993EB7E0D9A"
+					item: "alshanex_familiars:summoner_trinket"
+					type: "item"
+				}
+				{
+					id: "199D7A5E31393A1A"
+					item: "alshanex_familiars:archmage_trinket"
+					type: "item"
+				}
+				{
+					id: "21E5064BC62D1E92"
+					item: "alshanex_familiars:illusionist_trinket"
+					type: "item"
+				}
+				{
+					id: "757B281163EED1BF"
+					item: "alshanex_familiars:scorcher_trinket"
+					type: "item"
+				}
+				{
+					id: "674D6612A6E80673"
+					item: "alshanex_familiars:cleric_trinket"
+					type: "item"
+				}
+				{
+					id: "3CB80680FB3BE8D8"
+					item: "alshanex_familiars:plague_trinket"
+					type: "item"
+				}
+				{
+					id: "7E02DC4FC4A282F9"
+					item: "alshanex_familiars:bard_trinket"
+					type: "item"
+				}
+				{
+					id: "6B1BEE2699CA718C"
+					item: "alshanex_familiars:mage_trinket"
+					type: "item"
+				}
+				{
+					id: "70E61CF359F3D7D6"
+					item: "alshanex_familiars:dragon_warrior_trinket"
+					type: "item"
+				}
+				{
+					id: "47D9909970A6804C"
+					item: "alshanex_familiars:frostling_trinket"
+					type: "item"
+				}
+			]
+			title: "Familiar Bindings"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "11FE909DCC4B6ED0"
+			rewards: [{
+				id: "6DA676B5AB17C000"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CC8AA36AA02597A"
+				item: "alshanex_familiars:healing_curio"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "6DE00CF7E9AA1FFC"
+			rewards: [{
+				id: "238A13E2C489B433"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DCA4DED857D491"
+				item: "alshanex_familiars:invisibility_curio"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "7E31B00C9FB84270"
+			rewards: [{
+				id: "400B037C9FB47E41"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "190F2B4090FB5D05"
+				item: "alshanex_familiars:statue_curio"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "494BB1EDF4E950C0"
+			rewards: [{
+				id: "71F257ADF824551B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0986B4A3EE64FF"
+				item: "alshanex_familiars:evasion_curio"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "42C3E5289F738352"
+			rewards: [{
+				id: "7410AAE4C623B800"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2040A8CBD0A20289"
+				item: "alshanex_familiars:bard_harp"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "1F41FD83F18DFDE5"
+			rewards: [{
+				id: "15A1E473796BF5AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7674A2B0EA3FC236"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:sound_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "1FC6647C7AE1537E"
+			rewards: [{
+				id: "6ADDF6ABC50EDEB2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B55A606A8A9202E"
+				item: {
+					Count: 1
+					id: "alshanex_familiars:familiar_spellbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "332E2CD2E683A30C"
+			rewards: [{
+				id: "7B70D9F0B740DE01"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AE2B3996EA27CFE"
+				item: {
+					Count: 1
+					id: "betterarcheology:torrent_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "0DE081B21122172A"
+			rewards: [{
+				id: "175EEF946F57B288"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5189A5B41EE29D2E"
+				item: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			id: "23C37825C5D48C76"
+			rewards: [{
+				id: "17B43DD8916589D5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EACAD63E084595E"
+				item: "betterarcheology:growth_totem"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "324067274F2E8F95"
+			rewards: [{
+				id: "133127D5EB24D5F5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56C3784949CD0B8F"
+				item: "betterarcheology:radiance_totem"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			id: "3E3CD470CAEC756B"
+			rewards: [{
+				id: "5E6F62D85465779B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66723A40E876092B"
+				item: "betterarcheology:creeper_fossil"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			id: "62BB89C8894ACB07"
+			rewards: [{
+				id: "0079B53516CA70D1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55B9A9710AF76108"
+				item: "betterarcheology:villager_fossil"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			id: "5F9568EBB355127E"
+			rewards: [{
+				id: "4C0979982194DFE5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B3D17D903ED130"
+				item: "betterarcheology:chicken_fossil"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			id: "4527339E2BF73F4A"
+			rewards: [{
+				id: "2E609CF66177D317"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "798B1F2B6D2C91B5"
+				item: "betterarcheology:ocelot_fossil"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			id: "73A01C7D8A373A40"
+			rewards: [{
+				id: "4EFECB8E6280A02F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A99A6BF908D2AA"
+				item: "betterarcheology:wolf_fossil"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			id: "50ED1D7FD6681E42"
+			rewards: [{
+				id: "75102341DBB3AF89"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "795175400543A99F"
+				item: "betterarcheology:sheep_fossil"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			id: "0610F94AFF0514A6"
+			rewards: [{
+				id: "51B0B6804C71B161"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49E3EC999BA9F475"
+				item: "betterarcheology:guardian_fossil"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			id: "012E39E4B17D4C3F"
+			rewards: [{
+				count: 5
+				id: "6DD22F8342B8C413"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Dovahkiin?"
+			tasks: [
+				{
+					id: "2E49DCA140C55060"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:toornahkriin"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 2
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06B250B8CF5F2FE5"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:fodaan"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 2
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F78208F954F051A"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:vulonqo"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 2
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7265CDCDBB7C0917"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:vulnilviir"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 2
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F7D1C61D8110743"
+					item: {
+						Count: 1
+						id: "ice_and_fire_spellbooks:vulsilah"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 2
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dragon Priest Masks"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "2F16ED5ACA837A4F"
+			rewards: [{
+				id: "3CB0FBE5C7742F9C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25BAD7B0BD67581E"
+				item: "alshanex_familiars:pandora_box"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "5FFB57DAEFE4311F"
+			rewards: [{
+				id: "6C818EB3BAD39ECB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1528E7B1E6E80A30"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:ice_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "5D75EF63BFFAB1E0"
+			rewards: [{
+				id: "1B3E21DBA287B5DC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "094EFAC03EE50DE9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:cursed_doll_spell_book"
+					tag: {
+						"irons_spellbooks:affinity_data": {
+							bonuses: {
+								"irons_spellbooks:blood_slash": 1
+								"irons_spellbooks:blood_step": 1
+							}
+						}
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "7DD62DE7B0ECC686"
+			rewards: [{
+				id: "508341A8F4EF0839"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02173E6C383C7290"
+				item: "irons_spellbooks:pyrium_staff"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "3F9AE03F8AC5DE17"
+			rewards: [{
+				id: "16AE8BAE45254452"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3486D82535A79FB2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:frost_staff"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+	]
+	subtitle: ["Acquire These Artifacts"]
+	title: "Magical Artifacts"
+}

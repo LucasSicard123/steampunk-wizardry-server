@@ -1,0 +1,46 @@
+[
+   {
+      "mob": "mythicmounts:dragon",
+      "when": "onjoin",
+      "result": "deny"
+   },
+   {
+      "dimension": "minecraft:overworld",
+      "mob":"realmrpg_demons:chort",
+      "when": "onjoin",
+      "result": "deny"
+   },
+   {
+      "hostile": true,
+      "when": "onjoin",
+      "spawntype": ["mob_summoned", "spawn_egg"],
+      "result": "default"
+   },
+   {
+      "hostile": true,
+      "area": "spawn",
+      "when": "onjoin",
+      "result": "deny"
+   },
+   {
+      "mob": ["born_in_chaos_v1:corpse_fish", 
+		"born_in_chaos_v1:krampus",
+		"born_in_chaos_v1:fallen_chaos_knight",
+		"born_in_chaos_v1:lifestealer",
+		"born_in_chaos_v1:nightmare_stalker",
+		"born_in_chaos_v1:missioner",
+		"born_in_chaos_v1:spiritof_chaos",
+		"born_in_chaos_v1:dire_hound_leader",
+		"born_in_chaos_v1:phantom_creeper",
+		"born_in_chaos_v1:skeleton_thrasher",
+		"born_in_chaos_v1:zombie_bruiser",
+		"born_in_chaos_v1:zombie_clown",
+		"born_in_chaos_v1:dark_vortex",
+		"born_in_chaos_v1:corpse_fish",
+		"born_in_chaos_v1:skeleton_demoman",
+		"born_in_chaos_v1:swarmer"],
+      "area": "dangerzone",
+      "when": "onjoin",
+      "result": "deny"
+   }
+]
