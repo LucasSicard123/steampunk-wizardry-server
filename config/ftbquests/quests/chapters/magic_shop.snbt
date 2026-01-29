@@ -31,8 +31,8 @@
 				type: "item"
 			}]
 			title: "16x Tin Ingot"
-			x: 0.0d
-			y: 0.0d
+			x: -7.5d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -55,8 +55,8 @@
 				type: "item"
 			}]
 			title: "4x Arcane Crystals"
-			x: -1.5d
-			y: 0.0d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -79,8 +79,8 @@
 				type: "item"
 			}]
 			title: "32x Inferium Essence"
-			x: -1.5d
-			y: -1.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -103,8 +103,8 @@
 				type: "item"
 			}]
 			title: "12x Prosperity Shards"
-			x: 0.0d
-			y: -1.5d
+			x: -6.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -127,8 +127,8 @@
 				type: "item"
 			}]
 			title: "16x Iron Ingot"
-			x: 1.5d
-			y: 0.0d
+			x: -4.5d
+			y: -8.0d
 		}
 		{
 			can_repeat: true
@@ -151,8 +151,8 @@
 				type: "item"
 			}]
 			title: "8x Diamond"
-			x: 1.5d
-			y: -1.5d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -174,8 +174,8 @@
 				type: "item"
 			}]
 			title: "32x Caminite Blend"
-			x: -3.0d
-			y: -1.5d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -197,8 +197,8 @@
 				type: "item"
 			}]
 			title: "8x Ember Crystal"
-			x: -3.0d
-			y: 0.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -222,7 +222,7 @@
 			}]
 			title: "4x Dawnstone Ingot"
 			x: -4.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -244,8 +244,8 @@
 				type: "item"
 			}]
 			title: "10x Coal"
-			x: 1.5d
-			y: -3.0d
+			x: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["58028D70E478CD64"]
@@ -267,7 +267,471 @@
 			}]
 			title: "32x Andesite"
 			x: 0.0d
-			y: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54E4EB34F4B2CA71"]
+			icon: "minecraft:obsidian"
+			id: "57BDF942C6D6BC2D"
+			optional: true
+			rewards: [{
+				count: 10
+				id: "23406D5EF7715715"
+				item: "minecraft:obsidian"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2B78F3C53CF40A2C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "10x Obsidian"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4DDDD624D9D848F2"]
+			icon: "minecraft:redstone"
+			id: "7A85006E46E5B22A"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "3CC09EE62A2936DB"
+				item: "minecraft:redstone"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "031B1AE850DEE97D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Redstone"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5BE4B0901A9DF1B4"]
+			icon: "minecraft:copper_ingot"
+			id: "142DDE1F9A12EA7D"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "4713115A2EB5F745"
+				item: "minecraft:copper_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "53C1D3A19D319547"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Copper Ingot"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2679A9E05D2C185C"]
+			icon: "botania:terrasteel_ingot"
+			id: "78C6EB381FAA067B"
+			optional: true
+			rewards: [{
+				id: "6E4C3B67CDAF7CEA"
+				item: "botania:terrasteel_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "348E8C535072D398"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "1x Terrasteel"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6356383C14C1D345"]
+			icon: "botania:black_lotus"
+			id: "62BFA62457F85F6D"
+			optional: true
+			rewards: [{
+				id: "18BEFB84D737BBDC"
+				item: "botania:black_lotus"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "053FFCF42CA68C6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "1x Black Lotus"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C8818608A6ADE36"]
+			icon: "minecraft:lapis_lazuli"
+			id: "351B1C0E9F7566A7"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "41C93432398FFC7D"
+				item: "minecraft:lapis_lazuli"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "32FA41CF451603C8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Lapis Lazuli"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			icon: "minecraft:gravel"
+			id: "412248000E54155D"
+			rewards: [{
+				count: 32
+				id: "0945DBD9B9FFC051"
+				item: "minecraft:gravel"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D5A188BEEE6A5A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Gravel"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			icon: "minecraft:sand"
+			id: "5FFC9C8AEEDC2F2A"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "7765080637417D8F"
+				item: "minecraft:sand"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "27CF6D14F6A38FAE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Sand"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["165477194D70B28A"]
+			icon: "minecraft:clay"
+			id: "62B8C0918D44A54F"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "1F2D73959DF08B99"
+				item: "minecraft:clay"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C38701C18392F0D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "8x Clay"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BB99D794A65ACFC"]
+			icon: "minecraft:glowstone_dust"
+			id: "56C6881943FA1D80"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "7D867896B74F0E25"
+				item: "minecraft:glowstone_dust"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "464A4B97487CE2CD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Glowstone"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["261F69F0045B9AF2"]
+			icon: "minecraft:netherrack"
+			id: "525BF8B08A5BD22D"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "75AA3D8AC59B33ED"
+				item: "minecraft:netherrack"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE6A4761D370C79"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Netherrack"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33AF26EF514EA2B2"]
+			icon: "minecraft:gunpowder"
+			id: "7FE4681B3FCB4DC6"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "4353B322403D352B"
+				item: "minecraft:gunpowder"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5915AD6E36CC23DD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Gunpowder"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["705C61A98C25CA07"]
+			icon: "minecraft:ender_pearl"
+			id: "697EB84031149F2A"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6EEDE634E4FA774B"
+				item: "minecraft:ender_pearl"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7D95EC9154BE9F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "4x Ender Pearl"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1BFF1FA419F54468"]
+			icon: "minecraft:ghast_tear"
+			id: "577AE625663F3BE4"
+			rewards: [{
+				id: "223282E8C48CDAFC"
+				item: "minecraft:ghast_tear"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "39F7BBEBE4720835"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "1x Ghast Tear"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A06CBFB40F622A0"]
+			icon: "minecraft:netherite_scrap"
+			id: "3C272A482FBA12C2"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "44E3787194F25343"
+				item: "minecraft:netherite_scrap"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "76C8E7CF8344369E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "4x Netherite Scrap"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4C7D727913CB8CF1"]
+			icon: "minecraft:gold_ingot"
+			id: "48AE85C9BCE913DD"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "00336BA11C1F493B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "39FC3342DD9A55BB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "8x Gold Ingot"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["05DDA5D4D12D2240"]
+			icon: "botania:elementium_ingot"
+			id: "0E47646458282697"
+			optional: true
+			rewards: [{
+				id: "0785B8C35705E75E"
+				item: "botania:elementium_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7454EDCFD987A5AA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "1x Elementium"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AF4D71BC4F4B707"]
+			icon: "minecraft:quartz"
+			id: "4DB65F004D2A3116"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "55B4417C81BBF26E"
+				item: "minecraft:quartz"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "27326A566A0FC978"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Nether Quartz"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7415A139F22AD17C"]
+			icon: "minecraft:cobblestone"
+			id: "62614C7AF54852F1"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "35926E566CDE901F"
+				item: "minecraft:cobblestone"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "24797EC34F7409BA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "32x Cobblestone"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24E5DF3F36C4C986"]
+			icon: "embers:silver_ingot"
+			id: "7660E70F3DA67B9E"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6D4E87F319AF2D55"
+				item: "embers:silver_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6531BC86112C83C8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Silver Ingot"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24E5DF3F36C4C986"]
+			icon: "embers:lead_ingot"
+			id: "4D58A7B62A7DE9BC"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "695EA561284ED343"
+				item: "embers:lead_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "39767C92A717F761"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "16x Lead Ingot"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E165CA1C25B1C56"]
+			icon: "occultism:iesnium_ingot"
+			id: "6A767FFBA817B2A0"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "2EC90DF4526D9A77"
+				item: "occultism:iesnium_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C3ED880D544F239"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "8x Iesnium Ingot"
+			x: -3.0d
+			y: 1.0d
 		}
 	]
 	title: "&2Magic Shop"

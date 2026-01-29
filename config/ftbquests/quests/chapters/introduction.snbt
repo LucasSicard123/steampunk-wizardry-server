@@ -68,6 +68,7 @@
 			]
 			hide_until_deps_complete: true
 			id: "5149D540F65A9819"
+			optional: true
 			rewards: [{
 				id: "1DE8B9983B1A7580"
 				item: "kubejs:emerald_nugget"
@@ -205,6 +206,7 @@
 		}
 		{
 			dependencies: ["6425ABF249D9E0D0"]
+			description: ["Don't forget a stone pickaxe!"]
 			id: "224B4283D57B9C84"
 			rewards: [{
 				id: "3031D2BC6DE929BD"
@@ -707,6 +709,7 @@
 		}
 		{
 			dependencies: ["224B4283D57B9C84"]
+			description: ["Make sure you have an iron pickaxe!"]
 			id: "2527E4A7EDB740D3"
 			rewards: [{
 				id: "01D3E264328B4DC7"
@@ -723,6 +726,11 @@
 		}
 		{
 			dependencies: ["2527E4A7EDB740D3"]
+			description: [
+				"Make sure you have a diamond pickaxe!"
+				""
+				"You may now go to the Nether with 10 obsidian blocks (to make the frame) and a flint and steel!"
+			]
 			id: "54E4EB34F4B2CA71"
 			rewards: [{
 				id: "21D5D8E18F76045E"
@@ -779,6 +787,15 @@
 		}
 		{
 			dependencies: ["224B4283D57B9C84"]
+			description: [
+				"Better Archeology expands upon the archeology system in Minecraft."
+				""
+				"First, you need a brush, iron will do."
+				""
+				"Then, you need to find suspicious sand or gravel and hold-right-click with the brush on the block."
+				""
+				"You will find these blocks at ruins and dig sites. Use the Explorer's Compass to find them!"
+			]
 			id: "7D7B61A021F6B9B4"
 			rewards: [{
 				id: "692CC5CF5255341A"
@@ -802,6 +819,7 @@
 		}
 		{
 			dependencies: ["7D7B61A021F6B9B4"]
+			description: ["This table is really just for identifying artifacts!"]
 			id: "117C8208EABF11AC"
 			rewards: [{
 				id: "7799B2C530899B31"
@@ -858,8 +876,29 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["399F7E91ACC3971F"]
+			dependencies: ["5149D540F65A9819"]
+			description: [
+				"JEI is an excellent tool to see all the ways to aquire/craft a given item or see what its uses are."
+				""
+				"On the right side of your inventory there is a list of items, this is the JEI."
+				""
+				"To view how to aquire an item left-click or press \"R\" on the item (\"R\" also works on items in your inventory)."
+				""
+				"To view the item's uses, right-click or press \"U\" on the item (\"U\" also works on items in your inventory)."
+				""
+				"To bookmark an item (or unbookmark), press \"A\". It will now be saved to the left side of your screen."
+				""
+				"This is especially helpful for learning how to make the items for the quests."
+				""
+				"A few things to note:"
+				"&l1)&r If an item is \"changing\", it is because multiple items can go there. Hover over it to see what can be used."
+				"&l2)&r There are tabs at the top as some items have multiple ways to aquire them. You don't have to do the crafting recipe with the super complicated death machine to make a given item, especially if it's a base Minecraft item."
+				"&l3)&r Some things will not show a recipe or may not show a use. This is normal."
+				""
+				"One other thing that is super useful is the JEI searchbar on the bottom-right. You may search for an item in there and even search by mod by doing @mod i.e. @minecraft or @create to see items from just that mod."
+			]
 			id: "23C7713FE11A81B7"
+			optional: true
 			rewards: [{
 				id: "26BB338E5DE352ED"
 				item: "kubejs:emerald_nugget"
@@ -871,8 +910,333 @@
 				title: "JEI"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23C7713FE11A81B7"]
+			description: [
+				"Journeymap is the minimap you have in the top-right corner of your screen."
+				""
+				"To view a larger map, press \"J\"."
+				""
+				"In there you can manage waypoints and pan around the map."
+				""
+				"To get to the waypoint manager, select the diamond type button at the bottom of the fullscreen map."
+			]
+			id: "1A69656655410D05"
+			optional: true
+			rewards: [{
+				id: "4863D1D4BADAB8EE"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "I'm the map!"
+			tasks: [{
+				id: "19999A9173C7E59B"
+				title: "Journeymap"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5149D540F65A9819"]
+			description: [
+				"First off, you may want to be in a team. Go to the teams menu which is the people icon next to the quest book icon in your inventory."
+				""
+				"This will allow you to complete quests together!"
+				""
+				"Next, there are a couple different kinds of quests:"
+				"&l1)&r These checkmark quests are usually informational, just click the checkmark to complete."
+				"&l2)&r Item quests: these make up the majority of quests. Just have the item in your inventory and it will complete. If it asks for X amount of a given item, you need to have that many in your inventory at one time."
+				"&l3)&r Structure and dimension quests: just go there :P"
+				"&l4)&r The mob quests in the Completionist's Corner are separated into animals, monsters, and bosses. You need to kill the monsters and bosses, and then look at the animals."
+				"&l5)&r Lastly, the Magic Shop is the only place that has \"quests\" where you submit items. You need to click to submit."
+			]
+			id: "40ECF8FFF1BD3E53"
+			optional: true
+			rewards: [{
+				id: "584B6A9CE93EAA32"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "QUESTS!!!"
+			tasks: [{
+				id: "7A07ED080600C9D6"
+				title: "More Info on Quests"
+				type: "checkmark"
+			}]
+			x: 1.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["23C7713FE11A81B7"]
+			description: [
+				"You may have noticed the small mic icon in the bottom-left corner."
+				""
+				"To adjust the settings for your mic, press \"Y\"."
+				""
+				"You can adjust the volume of each individual player, mute/unmute yourself, and any other mic preferences in that UI."
+			]
+			id: "350329E66516BFBA"
+			optional: true
+			rewards: [{
+				id: "51606431B5848175"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Let your voice be heard!"
+			tasks: [{
+				id: "4BEF6CCB706D4E00"
+				title: "Simple Voice Chat"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23C7713FE11A81B7"]
+			description: [
+				"In your inventory, there is a square icon on the top-left of your character's portrait."
+				""
+				"If you click this, a set of slots will appear to the left of the inventory."
+				""
+				"Here you may equip rings, necklaces, a backpack, and more!"
+			]
+			id: "4A7C499531335B97"
+			optional: true
+			rewards: [{
+				id: "483964467827D851"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Accessories!"
+			tasks: [{
+				id: "3E8D280AE03BF535"
+				title: "Curios"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23C7713FE11A81B7"]
+			description: [
+				"Sometimes a recipe makes multiple items like things that have silver or lead."
+				""
+				"To aquire the item you want, a symbol appears with circular arrows above the recipe output."
+				""
+				"Just click this symbol and it will show you the options for that recipe."
+				""
+				"Select the one you want and you are good to go!"
+			]
+			id: "0398A08474B8F3D1"
+			optional: true
+			rewards: [{
+				id: "3F78A1E893DD24F1"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Too many recipes!"
+			tasks: [{
+				id: "664033C806E0DE31"
+				title: "Polymorph"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23C7713FE11A81B7"]
+			description: [
+				"At the top of your screen, you may notice a box appears when looking at blocks and entities."
+				""
+				"This is called Jade. It tells you what it is that you see and what mod it is from."
+				""
+				"It will also tell you if what you are holding can break the block. "
+				""
+				"For example, if you are holding a stone pickaxe and looking at diamonds, you will see a pickaxe with a red X symbol in the box at the top of your screen."
+			]
+			id: "2405EBBCBBFE2EF5"
+			optional: true
+			rewards: [{
+				id: "64395CA12368325B"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "What's this?"
+			tasks: [{
+				id: "4F85E8488B9AB220"
+				title: "Jade"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["224B4283D57B9C84"]
+			id: "4DDDD624D9D848F2"
+			rewards: [{
+				id: "600D4BF5A0FEEADF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B272F41A5A6892A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["224B4283D57B9C84"]
+			id: "4C7D727913CB8CF1"
+			rewards: [{
+				id: "7DE9596B5ECCFDEE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07C48337B0D556F1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54E4EB34F4B2CA71"]
+			id: "2A06CBFB40F622A0"
+			rewards: [{
+				id: "5E400F32DDAEA720"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BD60DE9CE8BC11"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["224B4283D57B9C84"]
+			id: "1C8818608A6ADE36"
+			rewards: [{
+				id: "53696C9735A34D90"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C8EAB475BB4F885"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["24E5DF3F36C4C986"]
+			id: "5BE4B0901A9DF1B4"
+			rewards: [{
+				id: "7C9BCB28B235C99B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "748B4D161801E60B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54E4EB34F4B2CA71"]
+			id: "3BB99D794A65ACFC"
+			rewards: [{
+				id: "4EBE5D130B1F7256"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49CB69EB2E971AC7"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["54E4EB34F4B2CA71"]
+			id: "1AF4D71BC4F4B707"
+			rewards: [{
+				id: "37D88BE3E2CF5B5B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C1C43213DB1C7D"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A7C499531335B97"]
+			description: [
+				"Have any useless items?"
+				""
+				"Throw them in the trash slot at the bottom of your inventory and it will remain there until you log off or place another item there!"
+			]
+			id: "32FC891919A76A1C"
+			optional: true
+			rewards: [{
+				id: "5BC7CCC4714104BB"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "I will never use this!!!"
+			tasks: [{
+				id: "10638FCD60A7167F"
+				title: "Trashslot"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2405EBBCBBFE2EF5"]
+			description: [
+				"Another useful tool is Light Overlay."
+				""
+				"Press \"F7\" and X's will appear on the tops of any block where a hostile mob can spawn due to low light level."
+				""
+				"A &1Blue X&r signifies a spot that requires it to be night time to be dark enough."
+				""
+				"A &4Red X&r signifies a spot where mobs could spawn at any time."
+				""
+				"Press \"F7\" again to turn off."
+			]
+			id: "5AEFFD6919262F78"
+			optional: true
+			rewards: [{
+				id: "30CC14FBFACB7740"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "Where are they coming from???"
+			tasks: [{
+				id: "077F96F6D66BD19E"
+				title: "Light Overlay"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.5d
 		}
 	]
 	title: "Introduction"

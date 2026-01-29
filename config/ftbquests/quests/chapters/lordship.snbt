@@ -12,6 +12,13 @@
 	quests: [
 		{
 			dependencies: ["399F7E91ACC3971F"]
+			description: [
+				"Here you may learn about Villagers (to the right) and Minecolonies (to the left)."
+				""
+				"Either one, I recommend you find a large space to make your base and make a whole bunch of torches to stop mobs from spawning."
+				""
+				"Press \"F7\" to see where mobs spawn!"
+			]
 			hide_until_deps_complete: true
 			id: "7415A139F22AD17C"
 			rewards: [{
@@ -131,6 +138,17 @@
 		}
 		{
 			dependencies: ["3D7F58B9FF67A1DD"]
+			description: [
+				"The builder is the first job your colony needs."
+				""
+				"The builder will... build... your colony. No other worker will work without a level 1 work building."
+				""
+				"In order to build to any given level of building (1-5), the Builder's Hut needs to be that level or higher, except for their own hut."
+				""
+				"That means if you wish to upgrade a house to level 3, you need a Builder's Hut at level 3."
+				""
+				"This also means at level 0 Builder's Hut (just the hut with no building), you cannot build other buildings, only the Builder's Hut."
+			]
 			id: "5D29216518E41C6F"
 			rewards: [{
 				id: "184033CFEA614013"
@@ -148,6 +166,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "31EA4364001A5A39"
+			rewards: [{
+				id: "089E3DB740A4D458"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DDB8E733A1E20D5"
 				item: "minecolonies:blockhutlumberjack"
@@ -161,7 +184,13 @@
 				"58CCF686D78F90DF"
 				"65725BEC97B41D36"
 			]
+			description: ["Makes stone recipes!"]
 			id: "76A2DB23180CE23B"
+			rewards: [{
+				id: "5CEBA49B0E19EA26"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "086F8F20878DA324"
 				item: "minecolonies:blockhutstonemason"
@@ -175,7 +204,13 @@
 				"65725BEC97B41D36"
 				"58CCF686D78F90DF"
 			]
+			description: ["Makes tools and armor!"]
 			id: "2C81B374A70A14B8"
+			rewards: [{
+				id: "35761A6BB181D435"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3052B628535927C1"
 				item: "minecolonies:blockhutblacksmith"
@@ -187,6 +222,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "14D68BECD47559BB"
+			rewards: [{
+				id: "5959301AC0C32FEE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "565AA377E6B8E986"
 				item: "minecolonies:blockhutchickenherder"
@@ -200,7 +240,13 @@
 				"5EF41822F562524D"
 				"58CCF686D78F90DF"
 			]
+			description: ["The Composter turns things like seeds and saplings into compost!"]
 			id: "49AE4AE78566B4E3"
+			rewards: [{
+				id: "7F491DD8B7818687"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "477D99BD55A1D140"
 				item: "minecolonies:blockhutcomposter"
@@ -212,6 +258,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "1AFF3FB2DCCB473F"
+			rewards: [{
+				id: "342F6ED63CF53E8F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DF51B606BDB868C"
 				item: "minecolonies:blockhutcowboy"
@@ -222,7 +273,19 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"The courier system is the life blood of the colony."
+				""
+				"They will fulfill requests and deliver items to the warehouse."
+				""
+				"You will want quite a few of these. It is not unheard of to have 5 in a large colony."
+			]
 			id: "30013DBF6F7DB38E"
+			rewards: [{
+				id: "7EFCE2C3655DBB52"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56A1C5EB83387C0B"
 				item: "minecolonies:blockhutdeliveryman"
@@ -234,6 +297,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "251DCCCC98D0108A"
+			rewards: [{
+				id: "71ECFCF4A6DB8D4C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06A0DA9F960622B1"
 				item: "minecolonies:blockhutfisherman"
@@ -245,6 +313,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "59FAB502DA4D2DD6"
+			rewards: [{
+				id: "6AF81CB5FCCB2637"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62FBD188C4A4B702"
 				item: "minecolonies:blockhutshepherd"
@@ -256,6 +329,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "42B476B85E575A5B"
+			rewards: [{
+				id: "7850A2EAD9D8797E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3E977AE2FD5E0A2A"
 				item: "minecolonies:blockhutswineherder"
@@ -267,6 +345,11 @@
 		{
 			dependencies: ["09241FF6BD1648FB"]
 			id: "35D27E389551CEB0"
+			rewards: [{
+				id: "356930061A5D86E9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16C3F5687EF817D0"
 				item: "minecolonies:blockhutglassblower"
@@ -278,6 +361,11 @@
 		{
 			dependencies: ["49AE4AE78566B4E3"]
 			id: "28AB306EF96212F6"
+			rewards: [{
+				id: "78E776B9BDD0926C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "422B9AD6DEAAAE93"
 				item: "minecolonies:blockhutdyer"
@@ -288,7 +376,13 @@
 		}
 		{
 			dependencies: ["6A8D194BEB13994B"]
+			description: ["The Fletcher works with string, leather, and wool!"]
 			id: "537E24EE465A7A58"
+			rewards: [{
+				id: "07D04338A60B0192"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "130AF689CE843932"
 				item: "minecolonies:blockhutfletcher"
@@ -299,7 +393,13 @@
 		}
 		{
 			dependencies: ["2C81B374A70A14B8"]
+			description: ["Kind of the catch-all building..."]
 			id: "38C7009A96FC2274"
+			rewards: [{
+				id: "319AA9BA7FF7D10B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DCE251599E8621B"
 				item: "minecolonies:blockhutmechanic"
@@ -311,6 +411,11 @@
 		{
 			dependencies: ["108077EA2004A313"]
 			id: "25E2A74A9ED52BA9"
+			rewards: [{
+				id: "2B93C17D7767B2A6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4460205CE9E2D4C1"
 				item: "minecolonies:blockhutrabbithutch"
@@ -322,6 +427,11 @@
 		{
 			dependencies: ["565A7271793490A9"]
 			id: "08F8065159902D05"
+			rewards: [{
+				id: "0CB5180F997BA00D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26204AB46AF85C6A"
 				item: "minecolonies:blockhutconcretemixer"
@@ -332,7 +442,17 @@
 		}
 		{
 			dependencies: ["30013DBF6F7DB38E"]
+			description: [
+				"This is where items are stored."
+				""
+				"Upgrade it to gain more storage."
+			]
 			id: "05AA7E2110F72AED"
+			rewards: [{
+				id: "7211070FB69111C9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "048FC51D794177E8"
 				item: "minecolonies:blockhutwarehouse"
@@ -343,7 +463,21 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"A Miner can either make a quarry or a mineshaft."
+				""
+				"A mineshaft is far more dangerous as they probably need a guard assigned to the mine to protect them from mobs."
+				""
+				"A quarry has less rewards as it is just a giant hole to bedrock."
+				""
+				"Either way, just know that the Miner needs protection and is a dangerous profession!"
+			]
 			id: "65725BEC97B41D36"
+			rewards: [{
+				id: "1F0E313DA546C40E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D5A12ECDDABD5A3"
 				item: "minecolonies:blockhutminer"
@@ -354,7 +488,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["A VERY dangerous profession..."]
 			id: "3E52CB4D9883998C"
+			rewards: [{
+				id: "3228C519CCA91880"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "606ED286E6EEDB70"
 				item: "minecolonies:blockhutnetherworker"
@@ -365,7 +505,19 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"Guards are very important to a colony as it will get raided at a certain size."
+				""
+				"Guard towers also massively increase the border size of your colony."
+				""
+				"Colonists will complain if you don't have enough guards. A 2 Guard to 3 Colonist ratio is the best."
+			]
 			id: "41F096E33C1F1708"
+			rewards: [{
+				id: "7D25AFE1A72C6608"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08C9A011A4B8E6A5"
 				item: "minecolonies:blockhutguardtower"
@@ -376,7 +528,19 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"Makes enchantment books, but does not apply them."
+				""
+				"It needs Ancient Tomes, which drop from barbarians, to work."
+				""
+				"Not a recommended building in the beginning."
+			]
 			id: "730574568914FB5A"
+			rewards: [{
+				id: "672A4ED81CD73CC0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CCE8B11FBEEBAEE"
 				item: "minecolonies:blockhutenchanter"
@@ -388,6 +552,11 @@
 		{
 			dependencies: ["3E52CB4D9883998C"]
 			id: "1D57F26394E7B78C"
+			rewards: [{
+				id: "70B7888EA78AC776"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2845C25721728A60"
 				item: "minecolonies:blockhutalchemist"
@@ -398,7 +567,17 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"Farms need fields to work."
+				""
+				"Each level increases the number of fields by 1 to a max of 5 at level 5."
+			]
 			id: "5EF41822F562524D"
+			rewards: [{
+				id: "03AA4914204D37C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DF465EAB3351532"
 				item: "minecolonies:blockhutfarmer"
@@ -410,6 +589,11 @@
 		{
 			dependencies: ["5EF41822F562524D"]
 			id: "63D7352201A255A4"
+			rewards: [{
+				id: "0B22FFB4AF42A564"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26C7AFAC3F4CB3A5"
 				item: "minecolonies:blockhutfield"
@@ -420,7 +604,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["Has a chance to bring your colonists back from the dead!"]
 			id: "1ABD1B8692D022A5"
+			rewards: [{
+				id: "669BCE7D3D68A808"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13D5338A2624C550"
 				item: "minecolonies:blockhutgraveyard"
@@ -431,7 +621,21 @@
 		}
 		{
 			dependencies: ["76F8CD9DD9017DA0"]
+			description: [
+				"The University is how you complete research to advance the colony!"
+				""
+				"Each level increases the research you have access to and how many researchers you may have."
+				""
+				"More researchers does not mean faster research, but rather more concurrent researches."
+				""
+				"While offline, the researchers will accumulate research time to expedite research when online."
+			]
 			id: "58CCF686D78F90DF"
+			rewards: [{
+				id: "1C4663941C86642A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "526B0F856FFF472F"
 				item: "minecolonies:blockhutuniversity"
@@ -442,7 +646,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["This building will level up the intelligence skill of your colonists so that they level up faster!"]
 			id: "706217844BFEBC8D"
+			rewards: [{
+				id: "53BAB31B6BB4C0E5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A10048E2F689108"
 				item: "minecolonies:blockhutlibrary"
@@ -456,7 +666,13 @@
 				"58CCF686D78F90DF"
 				"41F096E33C1F1708"
 			]
+			description: ["The Barracks holds upwards of 20 guards at level 5 as it has 4 guard towers that can be upgraded within!"]
 			id: "791C7F99E9194F0D"
+			rewards: [{
+				id: "6603D6866139A234"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "67A6D334E3888CF6"
 				item: "minecolonies:blockhutbarracks"
@@ -467,7 +683,21 @@
 		}
 		{
 			dependencies: ["5D29216518E41C6F"]
+			description: [
+				"The Tavern houses 4 colonists, but only goes up to level 3."
+				""
+				"It is very helpful in the beginning to keep your colonists happy."
+				""
+				"It also spawns visitors which you can recruit if you have space in your colony."
+				""
+				"Tip: Check their shoes for how good they are! Leather is the lowest and diamond is the highest skilled."
+			]
 			id: "108077EA2004A313"
+			rewards: [{
+				id: "6A10282544896C6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4BF6B3E52117375C"
 				item: "minecolonies:blockhuttavern"
@@ -478,7 +708,19 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"Residences are the main housing unit for your colony."
+				""
+				"Each level houses one additional colonist up to 5 at level 5."
+				""
+				"It also increases the max skill level for workers meaning they can do their job better."
+			]
 			id: "76F8CD9DD9017DA0"
+			rewards: [{
+				id: "064ABDC3926401A2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "700744EA0678442D"
 				item: "minecolonies:blockhutcitizen"
@@ -489,7 +731,13 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: ["This is where a chef can make more complicated recipes to make your citizens happier!"]
 			id: "4A74BF82966C80B0"
+			rewards: [{
+				id: "58308916D5A45727"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E660D8D12DFB4F7"
 				item: "minecolonies:blockhutkitchen"
@@ -500,7 +748,13 @@
 		}
 		{
 			dependencies: ["76A2DB23180CE23B"]
+			description: ["Smelts stone, brick, and other things the smeltery won't smelt."]
 			id: "7C65962E584585E6"
+			rewards: [{
+				id: "2A6C815B3571A0AC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B5C02F68A026692"
 				item: "minecolonies:blockhutstonesmeltery"
@@ -511,7 +765,17 @@
 		}
 		{
 			dependencies: ["791C7F99E9194F0D"]
+			description: [
+				"For training archers!"
+				""
+				"Trainees do NOT protect the colony."
+			]
 			id: "0463F204C72865D8"
+			rewards: [{
+				id: "7A9E9EA51048F7F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32221BC44D065E9F"
 				item: "minecolonies:blockhutarchery"
@@ -522,7 +786,17 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: [
+				"Good for making some foods."
+				""
+				"May want to build at the same time as the Chef's Kitchen."
+			]
 			id: "3DCABA165A4AA075"
+			rewards: [{
+				id: "03133F47F49F28B2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "158CD4CBFADA0549"
 				item: "minecolonies:blockhutbaker"
@@ -533,7 +807,17 @@
 		}
 		{
 			dependencies: ["791C7F99E9194F0D"]
+			description: [
+				"For training knights!"
+				""
+				"Trainees do NOT protect the colony."
+			]
 			id: "3531A78AAB36CE8E"
+			rewards: [{
+				id: "6B8849F61987D514"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F746684A6C7AB00"
 				item: "minecolonies:blockhutcombatacademy"
@@ -544,7 +828,13 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: ["This is where colonists will go to eat when hungry!"]
 			id: "0244637007B39872"
+			rewards: [{
+				id: "2C66813E40039250"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77C58EDD476F2785"
 				item: "minecolonies:blockhutcook"
@@ -555,7 +845,13 @@
 		}
 		{
 			dependencies: ["76A2DB23180CE23B"]
+			description: ["Crushes cobblestone to gravel to sand to clay."]
 			id: "565A7271793490A9"
+			rewards: [{
+				id: "4A3B2F3A5BBC7EE4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DE25AF8613AFA1B"
 				item: "minecolonies:blockhutcrusher"
@@ -569,7 +865,13 @@
 				"31EA4364001A5A39"
 				"58CCF686D78F90DF"
 			]
+			description: ["The Carpenter makes recipes out of wood!"]
 			id: "6A8D194BEB13994B"
+			rewards: [{
+				id: "687A2FBEBB04BD0E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D00E6A8F27A0A96"
 				item: "minecolonies:blockhutsawmill"
@@ -583,7 +885,17 @@
 				"251DCCCC98D0108A"
 				"6A8D194BEB13994B"
 			]
+			description: [
+				"A Sifter will sift sand and gravel to get you mined goods."
+				""
+				"Very useful late game."
+			]
 			id: "34724C918AD7D68C"
+			rewards: [{
+				id: "491D940135D9AA4E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72A495C47A212859"
 				item: "minecolonies:blockhutsifter"
@@ -597,7 +909,13 @@
 				"65725BEC97B41D36"
 				"58CCF686D78F90DF"
 			]
+			description: ["Smelts ores to ingots and can double and even triple ores to ingot production at higher levels."]
 			id: "09241FF6BD1648FB"
+			rewards: [{
+				id: "070E84FF1CAD7C3B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "52EDC659E6C37E8B"
 				item: "minecolonies:blockhutsmeltery"
@@ -608,7 +926,13 @@
 		}
 		{
 			dependencies: ["49AE4AE78566B4E3"]
+			description: ["Useful for planting sugarcane, cactus, and more!"]
 			id: "795725B9D7C13564"
+			rewards: [{
+				id: "427B65882F4B0329"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "305A3C2D55ADBAC4"
 				item: "minecolonies:blockhutplantation"
@@ -619,7 +943,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["Cures colonists of diseases!"]
 			id: "6A19647B05E80D8B"
+			rewards: [{
+				id: "1429DFDCC087CF1F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B0CFB7E354E5FDE"
 				item: "minecolonies:blockhuthospital"
@@ -630,7 +960,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["Teaches children!"]
 			id: "2BFFA1BC093B8EFB"
+			rewards: [{
+				id: "004A82B2C8FD59CF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75A5088C8820103F"
 				item: "minecolonies:blockhutschool"
@@ -641,7 +977,13 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: ["BEES!!!"]
 			id: "451B581B3A51828D"
+			rewards: [{
+				id: "13FEBB418EFC5405"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "653E522FF9CF3703"
 				item: "minecolonies:blockhutbeekeeper"
@@ -652,7 +994,13 @@
 		}
 		{
 			dependencies: ["58CCF686D78F90DF"]
+			description: ["Makes colonists happy!"]
 			id: "5700554CB14968BA"
+			rewards: [{
+				id: "042720F780587C71"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A8FC97A3878AE10"
 				item: "minecolonies:blockhutmysticalsite"
@@ -664,6 +1012,11 @@
 		{
 			dependencies: ["49AE4AE78566B4E3"]
 			id: "39EB4425FA43E15E"
+			rewards: [{
+				id: "5258BC7D5A4FBCB8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "284D6FD95EE6E803"
 				item: "minecolonies:blockhutflorist"
@@ -674,8 +1027,14 @@
 		}
 		{
 			dependencies: ["108077EA2004A313"]
+			description: ["This building is for teleporting to other colonies that have a Gatehouse!"]
 			id: "36D5E499EDF547D8"
 			optional: true
+			rewards: [{
+				id: "08CB568DEAA5DCFB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "23B7AAEE9DC04CDB"
@@ -688,6 +1047,11 @@
 		{
 			dependencies: ["795725B9D7C13564"]
 			id: "2B97A40CDCE9F70C"
+			rewards: [{
+				id: "61236514639EB8A9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43F185D07270CA98"
 				item: "minecolonies:blockhutplantationfield"
@@ -698,7 +1062,18 @@
 		}
 		{
 			dependencies: ["7415A139F22AD17C"]
-			description: ["Villagers are a very important part of the modpack along with Emeralds as you already know."]
+			description: [
+				"Villagers are a very important part of the modpack along with Emeralds as you already know."
+				""
+				"Just to let you know:"
+				"- Each trade can be completed so many times per restock."
+				""
+				"- To level them up, you need to trade with them. There is a green bar at the top of the trade menu. Make sure to leave the menu to allow them to level up when the bar is filled."
+				""
+				"- To breed villagers, they need food (toss it near them) and beds."
+				""
+				"- Villagers have profession blocks like a Composter for a Farmer. This block is where they restock."
+			]
 			id: "268F09317152A12A"
 			rewards: [{
 				id: "5874BBE3988CAFDD"
@@ -737,7 +1112,17 @@
 		}
 		{
 			dependencies: ["05AA7E2110F72AED"]
+			description: [
+				"The Stash and Postbox are useful for requesting items and dropping off items to be handled by the couriers."
+				""
+				"This way, you don't have to live next to the warehouse :)"
+			]
 			id: "011160BFBC2D51BF"
+			rewards: [{
+				id: "1B4613A19A5ECC2B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7F6AC607FC4E2C2C"
@@ -755,6 +1140,11 @@
 		}
 		{
 			dependencies: ["5D29216518E41C6F"]
+			description: [
+				"The Resource Scroll is very useful for learning what resources a builder has and what they need."
+				""
+				"Just Shift-Right-Click the block with the scroll and it will be bound to that hut."
+			]
 			id: "0215083D732D8E18"
 			rewards: [{
 				id: "05F3DA36C09CE891"
@@ -775,6 +1165,13 @@
 		}
 		{
 			dependencies: ["268F09317152A12A"]
+			description: [
+				"Do you have too many villagers with which to trade?"
+				""
+				"Well, you are in luck!"
+				""
+				"This block will display all the trades within a 24 block range!"
+			]
 			id: "79F82D1EA97E5C51"
 			rewards: [{
 				id: "4EB7417C415F3D9E"
@@ -791,6 +1188,11 @@
 		}
 		{
 			dependencies: ["268F09317152A12A"]
+			description: [
+				"Every day when villagers restock, their trades change!"
+				""
+				"This way, if you want something from a villager, just wait a day and it might appear!"
+			]
 			id: "7B6AF7CD34BACC56"
 			rewards: [{
 				id: "13CC75A70E52EA3C"
@@ -798,6 +1200,7 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "How dynamic!"
 			tasks: [{
 				id: "3C70C4FA137874D7"
 				title: "Dynamic Villager Trades"
@@ -843,6 +1246,20 @@
 		}
 		{
 			dependencies: ["268F09317152A12A"]
+			description: [
+				"Villager Recruits allows you to build an army to defend your land or attack your foes!"
+				""
+				"First, you'll want to make a faction:"
+				"1) Make a banner using the Loom block!"
+				"2) Press APOSTRAPHE to open the faction menu!"
+				"3) Make a faction with a unique name, color, and banner. Also make sure you have enough emeralds!"
+				""
+				"Now you have a faction! Don't forget to add other people to your faction and do diplomacy with other factions!"
+				""
+				"Next, you may claim land by pressing SEMICOLON and paying the appropriate emeralds."
+				""
+				"Lastly, you can command the recruits by holding down PERIOD and Shift-Right-Clicking them to access their inventory."
+			]
 			id: "4AA31431A8A018E9"
 			rewards: [{
 				id: "60884F784E71D543"
@@ -850,6 +1267,7 @@
 				type: "item"
 			}]
 			shape: "circle"
+			subtitle: "Build me an army worthy of Mordor!"
 			tasks: [{
 				id: "03537F174AC75A67"
 				title: "Villager Recruits"
@@ -860,6 +1278,21 @@
 		}
 		{
 			dependencies: ["268F09317152A12A"]
+			description: [
+				"If you enjoy cooking, then you can create customer blocks to sell your foods."
+				""
+				"These customers to not sell anything, only buy food."
+				""
+				"There are 6:"
+				"- Bar Customer"
+				"- Cafe Customer"
+				"- Dessert Customer"
+				"- Dinner Customer"
+				"- Exotic Customer"
+				"- Seafood Customer"
+				""
+				"Press \"R\" on an emerald or emerald nugget to see what the trades are!"
+			]
 			id: "2A5B815190FE6248"
 			rewards: [{
 				id: "14662234C80C619A"

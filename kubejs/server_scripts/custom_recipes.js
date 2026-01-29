@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('kubejs:cafe_customer_table', 1),
         [
-            "bakery:croissant",
+            "farm_and_charm:strawberry_tea",
             "#minecraft:logs"
         ]
     )
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('kubejs:dessert_customer_table', 1),
         [
-            'delightful:rock_candy',
+            'rusticdelight:fruit_beignet',
             "#minecraft:logs"
         ]
     )
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('kubejs:exotic_customer_table', 1),
         [
-            "alexsdelight:bison_patty",
+            "alexsdelight:bison_burger",
             "#minecraft:logs"
         ]
     )
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
     event.shapeless(
         Item.of('kubejs:bar_customer_table', 1),
         [
-            "brewery:beer_wheat",
+            "vinery:mead",
             "#minecraft:logs"
         ]
     )

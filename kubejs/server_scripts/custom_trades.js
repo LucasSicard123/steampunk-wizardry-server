@@ -1193,7 +1193,7 @@ MoreJSEvents.villagerTrades((event) => {
         offer.setPriceMultiplier(0.035)
     })
     event.addCustomTrade('spacecatcustomprofessions:dessert_customer', 4, (offer, entity, random) => {
-        offer.setFirstInput('1x create_confectionery:hot_chocolate')
+        offer.setFirstInput('1x create_confectionery:hot_chocolate_bottle')
         offer.setOutput('2x kubejs:emerald_nugget')
         offer.setVillagerExperience(25)
         offer.setPriceMultiplier(0.035)
