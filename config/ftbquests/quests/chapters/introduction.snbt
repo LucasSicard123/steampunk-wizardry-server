@@ -1238,6 +1238,33 @@
 			x: -1.5d
 			y: -8.5d
 		}
+		{
+			dependencies: ["32FC891919A76A1C"]
+			description: [
+				"In this modpack there is a mod called Gravestone."
+				""
+				"It will create a gravestone where you last died where, once broken, it will return all your items that were on you, back to your inventory."
+				""
+				"It will even place tools and gear back in the correct slots you had them in previously!"
+				""
+				"This way the player doesn't feel like jumping off a cliff to get back home nor do they lose all their items :)"
+			]
+			id: "2916E9C56076C63C"
+			optional: true
+			rewards: [{
+				id: "4166720E4617A555"
+				item: "kubejs:emerald_nugget"
+				type: "item"
+			}]
+			subtitle: "So you have chosen death?"
+			tasks: [{
+				id: "0060DB831FCA7B0B"
+				title: "Gravestones"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
 	]
 	title: "Introduction"
 }

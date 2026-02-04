@@ -787,14 +787,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"261F69F0045B9AF2"
-				"48E3A493546125B4"
-			]
+			dependencies: ["48E3A493546125B4"]
 			description: [
-				"So you went to the Nether and found some prosperity shards and inferium..."
-				""
-				"Well, this mod allows you to grow plenty of materials like diamonds, ender pearls, and porkchops."
+				"This mod allows you to grow plenty of materials like diamonds, ender pearls, and porkchops."
 				""
 				"You will need LOTS of inferium essence to progress and a decent amount of prosperity shards."
 				""

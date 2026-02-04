@@ -5,3 +5,7 @@ Client modpack [here](https://github.com/LucasSicard123/steampunk-wizardry-clien
 
 #### Missing Large File Mod:
 - [L_Enders_Cataclysm-3.16.jar](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm/files/6906993)
+
+### Additional Info:
+- Requires Minecraft 1.20.1 & Forge 47.4.8
+- Needs the large file above added to the mods folder
