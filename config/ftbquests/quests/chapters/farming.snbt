@@ -787,13 +787,21 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["48E3A493546125B4"]
+			dependencies: [
+				"48E3A493546125B4"
+				"261F69F0045B9AF2"
+			]
 			description: [
 				"This mod allows you to grow plenty of materials like diamonds, ender pearls, and porkchops."
 				""
 				"You will need LOTS of inferium essence to progress and a decent amount of prosperity shards."
 				""
 				"You may also grow inferium by crafting inferium seeds."
+				""
+				"Just to let you know:"
+				"- It is on purpose that the inferium and prosperity ore does not spawn in the Overworld."
+				"- It is supposed to spawn in the Nether and End, but unfortunately does not due to a bug."
+				"- To remedy this, you can aquire inferium by killing mobs and prosperity from soulstone (soulstone is in the Nether)."
 			]
 			icon: "mysticalagriculture:inferium_essence"
 			id: "2180C3E3DEA97790"

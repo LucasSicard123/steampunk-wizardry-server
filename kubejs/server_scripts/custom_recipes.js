@@ -70,6 +70,13 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shapeless(
+        Item.of('mysticalagriculture:prosperity_shard', 8),
+        [
+            "mysticalagriculture:soulstone"
+        ]
+    )
+
     event.remove({output: 'mysticalagriculture:emerald_seeds'})
     event.remove({input: 'mysticalagriculture:emerald_essence'})
 })
